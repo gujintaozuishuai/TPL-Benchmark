@@ -1,0 +1,1840 @@
+19:36:39 INFO  LibraryIdentifier         : Process app: Pushjet_Pushjet-Android%app-release.apk
+19:36:39 INFO  LibraryIdentifier         : = Manifest Parser =
+19:36:39 INFO  LibraryIdentifier         :         Package name: io.Pushjet.api
+19:36:39 INFO  LibraryIdentifier         :         Version code: 3
+19:36:39 INFO  LibraryIdentifier         :        minSdkVersion: 15
+19:36:39 INFO  LibraryIdentifier         :     targetSdkVersion: 22
+19:36:39 INFO  LibraryIdentifier         :         SharedUserId:  - none -
+19:36:39 INFO  LibraryIdentifier         :     Library dependencies:  - none -
+19:36:39 INFO  LibraryIdentifier         : 
+19:36:39 INFO  LibraryIdentifier         : Found 12043 unique libraries in 12043 library profiles
+19:36:39 INFO  LibraryIdentifier         : Generated class hierarchy (in 157 ms)
+19:36:39 INFO  WalaUtils                 : 
+19:36:39 INFO  WalaUtils                 : = ClassHierarchy Stats =
+19:36:39 INFO  WalaUtils                 :     # of classes: 5202
+19:36:39 INFO  WalaUtils                 :     # thereof inner classes: 2556
+19:36:39 INFO  WalaUtils                 :     # thereof public classes: 3033
+19:36:39 INFO  WalaUtils                 :         Activity : 8
+19:36:39 INFO  WalaUtils                 :         Application : 0
+19:36:39 INFO  WalaUtils                 :         AsyncTask : 12
+19:36:39 INFO  WalaUtils                 :         BroadcastReceiver : 15
+19:36:39 INFO  WalaUtils                 :         ContentProvider : 1
+19:36:39 INFO  WalaUtils                 :         Fragment : 14
+19:36:39 INFO  WalaUtils                 :         Handler : 19
+19:36:39 INFO  WalaUtils                 :         LayoutContainer : 21
+19:36:39 INFO  WalaUtils                 :         Plain : 5091
+19:36:39 INFO  WalaUtils                 :         Runnable : 0
+19:36:39 INFO  WalaUtils                 :         Service : 8
+19:36:39 INFO  WalaUtils                 :         Thread : 7
+19:36:39 INFO  WalaUtils                 :         View : 6
+19:36:39 INFO  WalaUtils                 :     # methods: 30259
+19:36:39 INFO  WalaUtils                 :         # of publicly accessible methods: 22912
+19:36:39 INFO  WalaUtils                 :         # of non-accessible methods: 7347
+19:36:39 INFO  WalaUtils                 : 
+19:36:39 INFO  Profile                   : = PackageTree =
+19:36:39 INFO  PackageTree               : Root Package: com.google
+19:36:39 INFO  PackageTree               : ©¸©¤©¤ Root
+19:36:39 INFO  PackageTree               :     ©À©¤©¤ com
+19:36:39 INFO  PackageTree               :     ©¦   ©¸©¤©¤ google
+19:36:39 INFO  PackageTree               :     ©¦       ©À©¤©¤ android
+19:36:39 INFO  PackageTree               :     ©¦       ©¦   ©¸©¤©¤ gms
+19:36:39 INFO  PackageTree               :     ©¦       ©¦       ©À©¤©¤ internal (1272)
+19:36:39 INFO  PackageTree               :     ©¦       ©¦       ©À©¤©¤ appstate (27)
+19:36:39 INFO  PackageTree               :     ©¦       ©¦       ©À©¤©¤ maps (74)
+19:36:39 INFO  PackageTree               :     ©¦       ©¦       ©¦   ©À©¤©¤ internal (101)
+19:36:39 INFO  PackageTree               :     ©¦       ©¦       ©¦   ©¸©¤©¤ model (60)
+19:36:39 INFO  PackageTree               :     ©¦       ©¦       ©¦       ©¸©¤©¤ internal (38)
+19:36:39 INFO  PackageTree               :     ©¦       ©¦       ©À©¤©¤ wearable (44)
+19:36:39 INFO  PackageTree               :     ©¦       ©¦       ©¦   ©¸©¤©¤ internal (103)
+19:36:39 INFO  PackageTree               :     ©¦       ©¦       ©À©¤©¤ common (168)
+19:36:39 INFO  PackageTree               :     ©¦       ©¦       ©¦   ©À©¤©¤ images (15)
+19:36:39 INFO  PackageTree               :     ©¦       ©¦       ©¦   ©À©¤©¤ api (70)
+19:36:39 INFO  PackageTree               :     ©¦       ©¦       ©¦   ©À©¤©¤ internal (61)
+19:36:39 INFO  PackageTree               :     ©¦       ©¦       ©¦   ©¦   ©¸©¤©¤ safeparcel (5)
+19:36:39 INFO  PackageTree               :     ©¦       ©¦       ©¦   ©À©¤©¤ data (20)
+19:36:39 INFO  PackageTree               :     ©¦       ©¦       ©¦   ©¸©¤©¤ annotation (1)
+19:36:39 INFO  PackageTree               :     ©¦       ©¦       ©À©¤©¤ drive (49)
+19:36:39 INFO  PackageTree               :     ©¦       ©¦       ©¦   ©À©¤©¤ internal (172)
+19:36:39 INFO  PackageTree               :     ©¦       ©¦       ©¦   ©À©¤©¤ realtime
+19:36:39 INFO  PackageTree               :     ©¦       ©¦       ©¦   ©¦   ©¸©¤©¤ internal (47)
+19:36:39 INFO  PackageTree               :     ©¦       ©¦       ©¦   ©¦       ©¸©¤©¤ event (22)
+19:36:39 INFO  PackageTree               :     ©¦       ©¦       ©¦   ©À©¤©¤ query (11)
+19:36:39 INFO  PackageTree               :     ©¦       ©¦       ©¦   ©¦   ©¸©¤©¤ internal (25)
+19:36:39 INFO  PackageTree               :     ©¦       ©¦       ©¦   ©À©¤©¤ execution
+19:36:39 INFO  PackageTree               :     ©¦       ©¦       ©¦   ©¦   ©¸©¤©¤ internal (4)
+19:36:39 INFO  PackageTree               :     ©¦       ©¦       ©¦   ©À©¤©¤ events (17)
+19:36:39 INFO  PackageTree               :     ©¦       ©¦       ©¦   ©À©¤©¤ metadata (10)
+19:36:39 INFO  PackageTree               :     ©¦       ©¦       ©¦   ©¦   ©¸©¤©¤ internal (21)
+19:36:39 INFO  PackageTree               :     ©¦       ©¦       ©¦   ©¸©¤©¤ widget (1)
+19:36:39 INFO  PackageTree               :     ©¦       ©¦       ©À©¤©¤ games (44)
+19:36:39 INFO  PackageTree               :     ©¦       ©¦       ©¦   ©À©¤©¤ internal (204)
+19:36:39 INFO  PackageTree               :     ©¦       ©¦       ©¦   ©¦   ©À©¤©¤ api (215)
+19:36:39 INFO  PackageTree               :     ©¦       ©¦       ©¦   ©¦   ©À©¤©¤ constants (26)
+19:36:39 INFO  PackageTree               :     ©¦       ©¦       ©¦   ©¦   ©À©¤©¤ player (5)
+19:36:39 INFO  PackageTree               :     ©¦       ©¦       ©¦   ©¦   ©À©¤©¤ data (1)
+19:36:39 INFO  PackageTree               :     ©¦       ©¦       ©¦   ©¦   ©À©¤©¤ game (25)
+19:36:39 INFO  PackageTree               :     ©¦       ©¦       ©¦   ©¦   ©À©¤©¤ experience (3)
+19:36:39 INFO  PackageTree               :     ©¦       ©¦       ©¦   ©¦   ©À©¤©¤ multiplayer (2)
+19:36:39 INFO  PackageTree               :     ©¦       ©¦       ©¦   ©¦   ©À©¤©¤ request (4)
+19:36:39 INFO  PackageTree               :     ©¦       ©¦       ©¦   ©¦   ©À©¤©¤ events (4)
+19:36:39 INFO  PackageTree               :     ©¦       ©¦       ©¦   ©¦   ©¸©¤©¤ notification (3)
+19:36:39 INFO  PackageTree               :     ©¦       ©¦       ©¦   ©À©¤©¤ snapshot (20)
+19:36:39 INFO  PackageTree               :     ©¦       ©¦       ©¦   ©À©¤©¤ multiplayer (20)
+19:36:39 INFO  PackageTree               :     ©¦       ©¦       ©¦   ©¦   ©À©¤©¤ turnbased (17)
+19:36:39 INFO  PackageTree               :     ©¦       ©¦       ©¦   ©¦   ©¸©¤©¤ realtime (17)
+19:36:39 INFO  PackageTree               :     ©¦       ©¦       ©¦   ©À©¤©¤ appcontent (34)
+19:36:39 INFO  PackageTree               :     ©¦       ©¦       ©¦   ©À©¤©¤ achievement (8)
+19:36:39 INFO  PackageTree               :     ©¦       ©¦       ©¦   ©À©¤©¤ leaderboard (20)
+19:36:39 INFO  PackageTree               :     ©¦       ©¦       ©¦   ©À©¤©¤ event (7)
+19:36:39 INFO  PackageTree               :     ©¦       ©¦       ©¦   ©À©¤©¤ quest (15)
+19:36:39 INFO  PackageTree               :     ©¦       ©¦       ©¦   ©¸©¤©¤ request (14)
+19:36:39 INFO  PackageTree               :     ©¦       ©¦       ©À©¤©¤ fitness (12)
+19:36:39 INFO  PackageTree               :     ©¦       ©¦       ©¦   ©À©¤©¤ request (72)
+19:36:39 INFO  PackageTree               :     ©¦       ©¦       ©¦   ©À©¤©¤ data (43)
+19:36:39 INFO  PackageTree               :     ©¦       ©¦       ©¦   ©À©¤©¤ service (6)
+19:36:39 INFO  PackageTree               :     ©¦       ©¦       ©¦   ©¸©¤©¤ result (22)
+19:36:39 INFO  PackageTree               :     ©¦       ©¦       ©À©¤©¤ location (49)
+19:36:39 INFO  PackageTree               :     ©¦       ©¦       ©¦   ©¸©¤©¤ places (39)
+19:36:39 INFO  PackageTree               :     ©¦       ©¦       ©¦       ©¸©¤©¤ ui (2)
+19:36:39 INFO  PackageTree               :     ©¦       ©¦       ©À©¤©¤ analytics (87)
+19:36:39 INFO  PackageTree               :     ©¦       ©¦       ©¦   ©¸©¤©¤ ecommerce (3)
+19:36:39 INFO  PackageTree               :     ©¦       ©¦       ©À©¤©¤ identity
+19:36:39 INFO  PackageTree               :     ©¦       ©¦       ©¦   ©¸©¤©¤ intents (13)
+19:36:39 INFO  PackageTree               :     ©¦       ©¦       ©¦       ©¸©¤©¤ model (4)
+19:36:39 INFO  PackageTree               :     ©¦       ©¦       ©À©¤©¤ wallet (49)
+19:36:39 INFO  PackageTree               :     ©¦       ©¦       ©¦   ©À©¤©¤ fragment (24)
+19:36:39 INFO  PackageTree               :     ©¦       ©¦       ©¦   ©¸©¤©¤ wobs (20)
+19:36:39 INFO  PackageTree               :     ©¦       ©¦       ©À©¤©¤ safetynet (7)
+19:36:39 INFO  PackageTree               :     ©¦       ©¦       ©À©¤©¤ dynamic (22)
+19:36:39 INFO  PackageTree               :     ©¦       ©¦       ©À©¤©¤ tagmanager (189)
+19:36:39 INFO  PackageTree               :     ©¦       ©¦       ©À©¤©¤ plus (23)
+19:36:39 INFO  PackageTree               :     ©¦       ©¦       ©¦   ©À©¤©¤ internal (22)
+19:36:39 INFO  PackageTree               :     ©¦       ©¦       ©¦   ©¸©¤©¤ model
+19:36:39 INFO  PackageTree               :     ©¦       ©¦       ©¦       ©À©¤©¤ people (17)
+19:36:39 INFO  PackageTree               :     ©¦       ©¦       ©¦       ©¸©¤©¤ moments (5)
+19:36:39 INFO  PackageTree               :     ©¦       ©¦       ©À©¤©¤ cast (58)
+19:36:39 INFO  PackageTree               :     ©¦       ©¦       ©À©¤©¤ ads (8)
+19:36:39 INFO  PackageTree               :     ©¦       ©¦       ©¦   ©À©¤©¤ mediation (7)
+19:36:39 INFO  PackageTree               :     ©¦       ©¦       ©¦   ©¦   ©À©¤©¤ customevent (10)
+19:36:39 INFO  PackageTree               :     ©¦       ©¦       ©¦   ©¦   ©¸©¤©¤ admob (1)
+19:36:39 INFO  PackageTree               :     ©¦       ©¦       ©¦   ©À©¤©¤ doubleclick (7)
+19:36:39 INFO  PackageTree               :     ©¦       ©¦       ©¦   ©À©¤©¤ purchase (5)
+19:36:39 INFO  PackageTree               :     ©¦       ©¦       ©¦   ©À©¤©¤ identifier (3)
+19:36:39 INFO  PackageTree               :     ©¦       ©¦       ©¦   ©¸©¤©¤ search (3)
+19:36:39 INFO  PackageTree               :     ©¦       ©¦       ©À©¤©¤ actions (4)
+19:36:39 INFO  PackageTree               :     ©¦       ©¦       ©À©¤©¤ nearby (1)
+19:36:39 INFO  PackageTree               :     ©¦       ©¦       ©¦   ©¸©¤©¤ connection (11)
+19:36:39 INFO  PackageTree               :     ©¦       ©¦       ©À©¤©¤ gcm (2)
+19:36:39 INFO  PackageTree               :     ©¦       ©¦       ©À©¤©¤ auth (11)
+19:36:39 INFO  PackageTree               :     ©¦       ©¦       ©À©¤©¤ appindexing (9)
+19:36:39 INFO  PackageTree               :     ©¦       ©¦       ©À©¤©¤ panorama (4)
+19:36:39 INFO  PackageTree               :     ©¦       ©¦       ©¸©¤©¤ security (3)
+19:36:39 INFO  PackageTree               :     ©¦       ©À©¤©¤ zxing (23)
+19:36:39 INFO  PackageTree               :     ©¦       ©¦   ©À©¤©¤ client
+19:36:39 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©À©¤©¤ result (35)
+19:36:39 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©¸©¤©¤ android (19)
+19:36:39 INFO  PackageTree               :     ©¦       ©¦   ©¦       ©¸©¤©¤ camera (8)
+19:36:39 INFO  PackageTree               :     ©¦       ©¦   ©¦           ©¸©¤©¤ open (1)
+19:36:39 INFO  PackageTree               :     ©¦       ©¦   ©À©¤©¤ pdf417 (4)
+19:36:39 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©À©¤©¤ decoder (11)
+19:36:39 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©¦   ©¸©¤©¤ ec (3)
+19:36:39 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©À©¤©¤ encoder (7)
+19:36:39 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©¸©¤©¤ detector (2)
+19:36:39 INFO  PackageTree               :     ©¦       ©¦   ©À©¤©¤ datamatrix (2)
+19:36:39 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©À©¤©¤ decoder (8)
+19:36:39 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©À©¤©¤ detector (3)
+19:36:39 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©¸©¤©¤ encoder (14)
+19:36:39 INFO  PackageTree               :     ©¦       ©¦   ©À©¤©¤ qrcode (2)
+19:36:39 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©À©¤©¤ decoder (19)
+19:36:39 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©À©¤©¤ detector (8)
+19:36:39 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©¸©¤©¤ encoder (6)
+19:36:39 INFO  PackageTree               :     ©¦       ©¦   ©À©¤©¤ oned (26)
+19:36:39 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©¸©¤©¤ rss (6)
+19:36:39 INFO  PackageTree               :     ©¦       ©¦   ©¦       ©¸©¤©¤ expanded (4)
+19:36:39 INFO  PackageTree               :     ©¦       ©¦   ©¦           ©¸©¤©¤ decoders (20)
+19:36:39 INFO  PackageTree               :     ©¦       ©¦   ©À©¤©¤ multi (3)
+19:36:39 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©¸©¤©¤ qrcode (1)
+19:36:39 INFO  PackageTree               :     ©¦       ©¦   ©¦       ©¸©¤©¤ detector (3)
+19:36:39 INFO  PackageTree               :     ©¦       ©¦   ©À©¤©¤ common (12)
+19:36:39 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©À©¤©¤ reedsolomon (5)
+19:36:39 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©¸©¤©¤ detector (3)
+19:36:39 INFO  PackageTree               :     ©¦       ©¦   ©À©¤©¤ aztec (3)
+19:36:39 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©À©¤©¤ detector (2)
+19:36:39 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©À©¤©¤ decoder (2)
+19:36:39 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©¸©¤©¤ encoder (2)
+19:36:39 INFO  PackageTree               :     ©¦       ©¦   ©À©¤©¤ maxicode (1)
+19:36:39 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©¸©¤©¤ decoder (3)
+19:36:39 INFO  PackageTree               :     ©¦       ©¦   ©¸©¤©¤ integration
+19:36:39 INFO  PackageTree               :     ©¦       ©¦       ©¸©¤©¤ android (2)
+19:36:39 INFO  PackageTree               :     ©¦       ©¸©¤©¤ ads (4)
+19:36:39 INFO  PackageTree               :     ©¦           ©¸©¤©¤ mediation (11)
+19:36:39 INFO  PackageTree               :     ©¦               ©À©¤©¤ customevent (10)
+19:36:39 INFO  PackageTree               :     ©¦               ©¸©¤©¤ admob (3)
+19:36:39 INFO  PackageTree               :     ©À©¤©¤ android
+19:36:39 INFO  PackageTree               :     ©¦   ©¸©¤©¤ support
+19:36:39 INFO  PackageTree               :     ©¦       ©À©¤©¤ v4
+19:36:39 INFO  PackageTree               :     ©¦       ©¦   ©À©¤©¤ content (35)
+19:36:39 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©À©¤©¤ res (3)
+19:36:39 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©¸©¤©¤ pm (1)
+19:36:39 INFO  PackageTree               :     ©¦       ©¦   ©À©¤©¤ app (184)
+19:36:39 INFO  PackageTree               :     ©¦       ©¦   ©À©¤©¤ view (165)
+19:36:39 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©¸©¤©¤ accessibility (59)
+19:36:39 INFO  PackageTree               :     ©¦       ©¦   ©À©¤©¤ media (31)
+19:36:39 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©À©¤©¤ session (62)
+19:36:39 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©¸©¤©¤ routing (20)
+19:36:39 INFO  PackageTree               :     ©¦       ©¦   ©À©¤©¤ widget (119)
+19:36:39 INFO  PackageTree               :     ©¦       ©¦   ©À©¤©¤ text (17)
+19:36:39 INFO  PackageTree               :     ©¦       ©¦   ©À©¤©¤ util (23)
+19:36:39 INFO  PackageTree               :     ©¦       ©¦   ©À©¤©¤ print (13)
+19:36:39 INFO  PackageTree               :     ©¦       ©¦   ©À©¤©¤ graphics (9)
+19:36:39 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©¸©¤©¤ drawable (13)
+19:36:39 INFO  PackageTree               :     ©¦       ©¦   ©À©¤©¤ net (16)
+19:36:39 INFO  PackageTree               :     ©¦       ©¦   ©À©¤©¤ os (9)
+19:36:39 INFO  PackageTree               :     ©¦       ©¦   ©À©¤©¤ speech
+19:36:39 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©¸©¤©¤ tts (5)
+19:36:39 INFO  PackageTree               :     ©¦       ©¦   ©À©¤©¤ hardware
+19:36:39 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©¸©¤©¤ display (4)
+19:36:39 INFO  PackageTree               :     ©¦       ©¦   ©À©¤©¤ provider (6)
+19:36:39 INFO  PackageTree               :     ©¦       ©¦   ©À©¤©¤ accessibilityservice (7)
+19:36:39 INFO  PackageTree               :     ©¦       ©¦   ©À©¤©¤ internal
+19:36:39 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©¸©¤©¤ view (3)
+19:36:39 INFO  PackageTree               :     ©¦       ©¦   ©¸©¤©¤ database (1)
+19:36:39 INFO  PackageTree               :     ©¦       ©¸©¤©¤ annotation (25)
+19:36:39 INFO  PackageTree               :     ©¸©¤©¤ io
+19:36:39 INFO  PackageTree               :         ©¸©¤©¤ Pushjet
+19:36:39 INFO  PackageTree               :             ©¸©¤©¤ api (31)
+19:36:39 INFO  PackageTree               :                 ©À©¤©¤ Async (11)
+19:36:39 INFO  PackageTree               :                 ©¸©¤©¤ PushjetApi (6)
+19:36:39 INFO  Profile                   : 
+19:36:39 INFO  AppProfile                : - generated app package tree (in 33 ms)
+19:36:39 INFO  AppProfile                : 
+19:36:39 DEBUG HashTree                  : Generate hash tree..
+19:36:39 DEBUG HashTree                  :     - generated 152 package hashes.
+19:36:39 DEBUG HashTree                  :     - generated 5077 clazz hashes.
+19:36:39 DEBUG HashTree                  :     - generated 30259 method hashes.
+19:36:39 DEBUG HashTree                  :     => Library Hash: d82d597e625c9a4fc32a42232a60e060
+19:36:39 INFO  AppProfile                : - generated app hash trees (in 172 ms)
+19:36:39 INFO  AppProfile                : 
+19:36:39 INFO  LibraryIdentifier         : = Scan for library root packages (heuristic) =
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package io  (10972)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4.media  (1154)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4.media  (1155)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4.media  (1156)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4.media  (1157)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4.media  (1158)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4.media  (1159)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4.media  (1160)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4.media  (1161)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4.media  (1162)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4.media  (1163)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4.media  (1164)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4.media  (1165)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package android  (13332)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4.view  (1869)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package com.google.zxing  (2050)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4.view  (2365)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4.util  (2408)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4.widget  (2410)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2436)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4.provider  (2476)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4.widget  (2477)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2514)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4.content  (2515)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4.print  (2622)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4.widget  (2666)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package android.support.annotation  (2667)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package android.support.annotation  (2668)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package android.support.annotation  (2669)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package android.support.annotation  (2670)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package android.support.annotation  (2671)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package android.support.annotation  (2672)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package android.support.annotation  (2673)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package android.support.annotation  (2674)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package android.support.annotation  (2675)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package android.support.annotation  (2676)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package android.support.annotation  (2677)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package android.support.annotation  (2678)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package android.support.annotation  (2679)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package android.support.annotation  (2680)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package android.support.annotation  (2681)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package android.support.annotation  (2682)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package android.support.annotation  (2683)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package android.support.annotation  (2684)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package android.support.annotation  (2685)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package android.support.annotation  (2686)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package android.support.annotation  (2687)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package android.support.annotation  (2688)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package android.support.annotation  (2689)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package android.support.annotation  (2690)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package android.support.annotation  (2691)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package android.support.annotation  (2692)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package android.support.annotation  (2693)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package android.support.annotation  (2694)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package android.support.annotation  (2695)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package android.support.annotation  (2696)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package android.support.annotation  (2697)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package android.support.annotation  (2698)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package android.support.annotation  (2699)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package android.support.annotation  (2700)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package android.support.annotation  (2701)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package android.support.annotation  (2702)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package android.support.annotation  (2703)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package android.support.annotation  (2704)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2705)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2706)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2707)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2708)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2709)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2710)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2711)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2712)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2713)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2714)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2715)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2716)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2721)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2722)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2723)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2724)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2725)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2726)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2727)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2728)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2729)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2731)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2732)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2733)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2734)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2735)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2736)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2737)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2738)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2739)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2740)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2741)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4.content  (2742)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4.app  (2746)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4.app  (2747)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4.app  (2748)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4.app  (2749)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4.app  (2750)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4.app  (2751)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4.app  (2752)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4.app  (2753)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4.app  (2754)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4.app  (2755)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4.app  (2756)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4.app  (2757)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4.media  (2758)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4.media  (2759)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4.media  (2760)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4.media  (2761)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4.media  (2762)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4.media  (2763)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4.media  (2764)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4.media  (2765)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4.media  (2766)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4.media  (2767)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4.media  (2768)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2804)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2805)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2806)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2807)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2808)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2809)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2810)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2811)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2812)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2813)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2814)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2815)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2816)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2817)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2818)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2819)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2820)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2821)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2822)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2823)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2824)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2825)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2826)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2827)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2828)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2829)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4.widget  (2870)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4.view  (2880)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package com.google.zxing.client.android.camera  (3432)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package com.google.zxing.client.android.camera  (3433)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package com.google.zxing.client.android.camera  (3434)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.gms.gcm  (3811)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package com.google.zxing  (4000)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package android  (6148)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package android  (6149)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (6162)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.gms.analytics  (6360)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.gms.analytics  (6361)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.gms.analytics  (6362)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.gms.analytics  (6363)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.gms.analytics  (6364)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.gms.analytics  (6365)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.gms.analytics  (6366)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.gms.analytics  (6367)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.gms.analytics  (6368)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.gms.analytics  (6369)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.gms.analytics  (6370)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.gms.analytics  (6371)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.gms.analytics  (6372)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.gms.analytics  (6380)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.gms.analytics  (6381)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.gms.analytics  (6382)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.gms.analytics  (6383)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.gms.analytics  (6384)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.gms.analytics  (6385)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.gms.analytics  (6386)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.gms.games  (6550)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.gms.games  (6551)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.gms.games  (6559)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.gms.games  (6560)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.gms.games  (6561)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.gms.games  (6562)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.gms.games  (6563)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.gms.games  (6564)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.gms.games  (6565)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.gms.games  (6566)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.gms.games  (6567)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.gms.games  (6568)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.gms.gcm  (6570)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.gms.gcm  (6571)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.gms.gcm  (6572)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.gms.gcm  (6573)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.gms.gcm  (6574)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.gms.gcm  (6575)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.gms.gcm  (6576)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.gms.gcm  (6577)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.gms.gcm  (6578)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.gms.gcm  (6580)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.gms.gcm  (6581)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.gms.gcm  (6587)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.gms.gcm  (6588)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.gms.gcm  (6589)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.gms.gcm  (6590)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.gms.location  (6640)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.gms.location  (6641)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.gms.location  (6642)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.gms.location  (6643)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.gms.maps  (6644)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.gms.maps  (6645)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.gms.maps  (6646)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.gms.maps  (6647)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.gms.maps  (6648)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.gms.maps  (6649)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.gms.maps  (6650)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.gms.maps  (6651)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.gms.maps  (6652)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.gms.maps  (6653)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.gms.maps  (6654)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.gms.maps  (6665)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.gms.maps  (6666)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.gms.maps  (6667)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.gms.maps  (6668)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.gms.maps  (6669)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.gms.maps  (6670)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.gms.maps  (6671)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.gms.maps  (6672)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.gms.maps  (6673)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.gms.maps  (6674)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.gms.maps  (6675)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.gms.maps  (6676)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.gms.maps  (6677)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.gms.maps  (6678)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.gms.internal  (7599)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package com.google.zxing.integration.android  (7759)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package com.google.zxing.integration.android  (7760)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package com.google.zxing.integration.android  (7761)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package com.google.zxing.integration.android  (7762)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package com.google.zxing  (7763)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package com.google.zxing  (7764)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package com.google.zxing  (7765)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package com.google.zxing  (7766)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package com.google.zxing  (7767)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package com.google.zxing  (7768)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package com.google.zxing  (7769)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package com.google.zxing  (7770)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package com.google.zxing  (7771)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package com.google.zxing  (7772)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package com.google.zxing  (7773)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package com.google.zxing  (7774)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package com.google.zxing  (7775)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package com.google.zxing  (7776)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package com.google.zxing.client.android  (8168)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package com.google.zxing  (8169)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package com.google.zxing  (8170)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package com.google.zxing  (8171)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package com.google.zxing  (8172)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package com.google.zxing  (8173)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package com.google.zxing  (8174)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package com.google.zxing  (8175)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package com.google.zxing  (8176)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package com.google.zxing  (8177)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package com.google.zxing  (8178)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package com.google.zxing  (8179)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package com.google.zxing  (8180)
+19:36:39 INFO  LibraryIdentifier         :     - Found lib root package com.google.zxing.integration.android  (8181)
+19:36:39 INFO  LibraryIdentifier         : 
+19:36:39 INFO  LibraryIdentifier         : = Match profiles =
+19:36:58 INFO  LibraryIdentifier         :     >> profile matching done (18 sec, 363 ms)
+19:36:58 INFO  LibraryIdentifier         : 
+19:36:58 INFO  LibraryIdentifier         : == Report ==
+19:36:58 INFO  LibraryIdentifier         : - Full library matches:
+19:36:58 INFO  ProfileMatch              :                 name: 9821
+19:36:58 INFO  ProfileMatch              :             category: Android
+19:36:58 INFO  ProfileMatch              :              version: 9821
+19:36:58 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:36:58 INFO  ProfileMatch              :     lib root package: "com.twofortyfouram.locale.api"  (in app: "android.support.v4.content.pm")
+19:36:58 INFO  ProfileMatch              : 
+19:36:58 INFO  ProfileMatch              :                 name: 9820
+19:36:58 INFO  ProfileMatch              :             category: Android
+19:36:58 INFO  ProfileMatch              :              version: 9820
+19:36:58 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:36:58 INFO  ProfileMatch              :     lib root package: "com.twofortyfouram.locale.api"  (in app: "android.support.v4.content.pm")
+19:36:58 INFO  ProfileMatch              : 
+19:36:58 INFO  ProfileMatch              :                 name: 9819
+19:36:58 INFO  ProfileMatch              :             category: Android
+19:36:58 INFO  ProfileMatch              :              version: 9819
+19:36:58 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:36:58 INFO  ProfileMatch              :     lib root package: "com.twofortyfouram.locale.api"  (in app: "android.support.v4.content.pm")
+19:36:58 INFO  ProfileMatch              : 
+19:36:58 INFO  ProfileMatch              :                 name: 3816
+19:36:58 INFO  ProfileMatch              :             category: Android
+19:36:58 INFO  ProfileMatch              :              version: 3816
+19:36:58 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:36:58 INFO  ProfileMatch              :     lib root package: "com.firebase.ui"  (in app: "android.support.v4.content.pm")
+19:36:58 INFO  ProfileMatch              : 
+19:36:58 INFO  ProfileMatch              :                 name: 3817
+19:36:58 INFO  ProfileMatch              :             category: Android
+19:36:58 INFO  ProfileMatch              :              version: 3817
+19:36:58 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:36:58 INFO  ProfileMatch              :     lib root package: "com.firebase.ui"  (in app: "android.support.v4.content.pm")
+19:36:58 INFO  ProfileMatch              : 
+19:36:58 INFO  ProfileMatch              :                 name: 2515
+19:36:58 INFO  ProfileMatch              :             category: Android
+19:36:58 INFO  ProfileMatch              :              version: 2515
+19:36:58 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:36:58 INFO  ProfileMatch              :     lib root package: "android.support.v4.content"
+19:36:58 INFO  ProfileMatch              : 
+19:36:58 INFO  ProfileMatch              :                 name: 2519
+19:36:58 INFO  ProfileMatch              :             category: Android
+19:36:58 INFO  ProfileMatch              :              version: 2519
+19:36:58 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:36:58 INFO  ProfileMatch              :     lib root package: "android.support.v7.media"  (in app: "android.support.v4.media.routing")
+19:36:58 INFO  ProfileMatch              : 
+19:36:58 INFO  ProfileMatch              :                 name: 2518
+19:36:58 INFO  ProfileMatch              :             category: Android
+19:36:58 INFO  ProfileMatch              :              version: 2518
+19:36:58 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:36:58 INFO  ProfileMatch              :     lib root package: "android.support.v7.media"  (in app: "android.support.v4.media.routing")
+19:36:58 INFO  ProfileMatch              : 
+19:36:58 INFO  ProfileMatch              :                 name: 2517
+19:36:58 INFO  ProfileMatch              :             category: Android
+19:36:58 INFO  ProfileMatch              :              version: 2517
+19:36:58 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:36:58 INFO  ProfileMatch              :     lib root package: "android.support.v7.media"  (in app: "android.support.v4.media.routing")
+19:36:58 INFO  ProfileMatch              : 
+19:36:58 INFO  ProfileMatch              :                 name: 2516
+19:36:58 INFO  ProfileMatch              :             category: Android
+19:36:58 INFO  ProfileMatch              :              version: 2516
+19:36:58 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:36:58 INFO  ProfileMatch              :     lib root package: "android.support.v7.media"  (in app: "android.support.v4.media.routing")
+19:36:58 INFO  ProfileMatch              : 
+19:36:58 INFO  ProfileMatch              :                 name: 2520
+19:36:58 INFO  ProfileMatch              :             category: Android
+19:36:58 INFO  ProfileMatch              :              version: 2520
+19:36:58 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:36:58 INFO  ProfileMatch              :     lib root package: "android.support.v7.media"  (in app: "android.support.v4.media.routing")
+19:36:58 INFO  ProfileMatch              : 
+19:36:58 INFO  ProfileMatch              :                 name: 426
+19:36:58 INFO  ProfileMatch              :             category: Android
+19:36:58 INFO  ProfileMatch              :              version: 426
+19:36:58 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:36:58 INFO  ProfileMatch              :     lib root package: "androidx.compose.material.icons"  (in app: "com.google.android.gms.internal")
+19:36:58 INFO  ProfileMatch              : 
+19:36:58 INFO  ProfileMatch              :                 name: 427
+19:36:58 INFO  ProfileMatch              :             category: Android
+19:36:58 INFO  ProfileMatch              :              version: 427
+19:36:58 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:36:58 INFO  ProfileMatch              :     lib root package: "androidx.compose.material.icons"  (in app: "com.google.android.gms.internal")
+19:36:58 INFO  ProfileMatch              : 
+19:36:58 INFO  ProfileMatch              :                 name: 428
+19:36:58 INFO  ProfileMatch              :             category: Android
+19:36:58 INFO  ProfileMatch              :              version: 428
+19:36:58 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:36:58 INFO  ProfileMatch              :     lib root package: "androidx.compose.material.icons"  (in app: "com.google.android.gms.internal")
+19:36:58 INFO  ProfileMatch              : 
+19:36:58 INFO  ProfileMatch              :                 name: 429
+19:36:58 INFO  ProfileMatch              :             category: Android
+19:36:58 INFO  ProfileMatch              :              version: 429
+19:36:58 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:36:58 INFO  ProfileMatch              :     lib root package: "androidx.compose.material.icons"  (in app: "com.google.android.gms.internal")
+19:36:58 INFO  ProfileMatch              : 
+19:36:58 INFO  ProfileMatch              :                 name: 430
+19:36:58 INFO  ProfileMatch              :             category: Android
+19:36:58 INFO  ProfileMatch              :              version: 430
+19:36:58 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:36:58 INFO  ProfileMatch              :     lib root package: "androidx.compose.material.icons"  (in app: "com.google.android.gms.internal")
+19:36:58 INFO  ProfileMatch              : 
+19:36:58 INFO  ProfileMatch              :                 name: 431
+19:36:58 INFO  ProfileMatch              :             category: Android
+19:36:58 INFO  ProfileMatch              :              version: 431
+19:36:58 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:36:58 INFO  ProfileMatch              :     lib root package: "androidx.compose.material.icons"  (in app: "com.google.android.gms.internal")
+19:36:58 INFO  ProfileMatch              : 
+19:36:58 INFO  ProfileMatch              :                 name: 432
+19:36:58 INFO  ProfileMatch              :             category: Android
+19:36:58 INFO  ProfileMatch              :              version: 432
+19:36:58 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:36:58 INFO  ProfileMatch              :     lib root package: "androidx.compose.material.icons"  (in app: "com.google.android.gms.internal")
+19:36:58 INFO  ProfileMatch              : 
+19:36:58 INFO  ProfileMatch              :                 name: 433
+19:36:58 INFO  ProfileMatch              :             category: Android
+19:36:58 INFO  ProfileMatch              :              version: 433
+19:36:58 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:36:58 INFO  ProfileMatch              :     lib root package: "androidx.compose.material.icons"  (in app: "com.google.android.gms.internal")
+19:36:58 INFO  ProfileMatch              : 
+19:36:58 INFO  ProfileMatch              :                 name: 434
+19:36:58 INFO  ProfileMatch              :             category: Android
+19:36:58 INFO  ProfileMatch              :              version: 434
+19:36:58 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:36:58 INFO  ProfileMatch              :     lib root package: "androidx.compose.material.icons"  (in app: "com.google.android.gms.internal")
+19:36:58 INFO  ProfileMatch              : 
+19:36:58 INFO  ProfileMatch              :                 name: 435
+19:36:58 INFO  ProfileMatch              :             category: Android
+19:36:58 INFO  ProfileMatch              :              version: 435
+19:36:58 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:36:58 INFO  ProfileMatch              :     lib root package: "androidx.compose.material.icons"  (in app: "com.google.android.gms.internal")
+19:36:58 INFO  ProfileMatch              : 
+19:36:58 INFO  ProfileMatch              :                 name: 436
+19:36:58 INFO  ProfileMatch              :             category: Android
+19:36:58 INFO  ProfileMatch              :              version: 436
+19:36:58 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:36:58 INFO  ProfileMatch              :     lib root package: "androidx.compose.material.icons"  (in app: "com.google.android.gms.internal")
+19:36:58 INFO  ProfileMatch              : 
+19:36:58 INFO  ProfileMatch              :                 name: 437
+19:36:58 INFO  ProfileMatch              :             category: Android
+19:36:58 INFO  ProfileMatch              :              version: 437
+19:36:58 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:36:58 INFO  ProfileMatch              :     lib root package: "androidx.compose.material.icons"  (in app: "com.google.android.gms.internal")
+19:36:58 INFO  ProfileMatch              : 
+19:36:58 INFO  ProfileMatch              :                 name: 438
+19:36:58 INFO  ProfileMatch              :             category: Android
+19:36:58 INFO  ProfileMatch              :              version: 438
+19:36:58 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:36:58 INFO  ProfileMatch              :     lib root package: "androidx.compose.material.icons"  (in app: "com.google.android.gms.internal")
+19:36:58 INFO  ProfileMatch              : 
+19:36:58 INFO  ProfileMatch              :                 name: 439
+19:36:58 INFO  ProfileMatch              :             category: Android
+19:36:58 INFO  ProfileMatch              :              version: 439
+19:36:58 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:36:58 INFO  ProfileMatch              :     lib root package: "androidx.compose.material.icons"  (in app: "com.google.android.gms.internal")
+19:36:58 INFO  ProfileMatch              : 
+19:36:58 INFO  ProfileMatch              :                 name: 440
+19:36:58 INFO  ProfileMatch              :             category: Android
+19:36:58 INFO  ProfileMatch              :              version: 440
+19:36:58 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:36:58 INFO  ProfileMatch              :     lib root package: "androidx.compose.material.icons"  (in app: "com.google.android.gms.internal")
+19:36:58 INFO  ProfileMatch              : 
+19:36:58 INFO  ProfileMatch              :                 name: 461
+19:36:58 INFO  ProfileMatch              :             category: Android
+19:36:58 INFO  ProfileMatch              :              version: 461
+19:36:58 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:36:58 INFO  ProfileMatch              :     lib root package: "androidx.compose.material.icons"  (in app: "com.google.android.gms.internal")
+19:36:58 INFO  ProfileMatch              : 
+19:36:58 INFO  ProfileMatch              :                 name: 462
+19:36:58 INFO  ProfileMatch              :             category: Android
+19:36:58 INFO  ProfileMatch              :              version: 462
+19:36:58 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:36:58 INFO  ProfileMatch              :     lib root package: "androidx.compose.material.icons"  (in app: "com.google.android.gms.common.api")
+19:36:58 INFO  ProfileMatch              : 
+19:36:58 INFO  ProfileMatch              :                 name: 463
+19:36:58 INFO  ProfileMatch              :             category: Android
+19:36:58 INFO  ProfileMatch              :              version: 463
+19:36:58 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:36:58 INFO  ProfileMatch              :     lib root package: "androidx.compose.material.icons"  (in app: "com.google.android.gms.common.api")
+19:36:58 INFO  ProfileMatch              : 
+19:36:58 INFO  ProfileMatch              :                 name: 464
+19:36:58 INFO  ProfileMatch              :             category: Android
+19:36:58 INFO  ProfileMatch              :              version: 464
+19:36:58 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:36:58 INFO  ProfileMatch              :     lib root package: "androidx.compose.material.icons"  (in app: "com.google.android.gms.common.api")
+19:36:58 INFO  ProfileMatch              : 
+19:36:58 INFO  ProfileMatch              :                 name: 7499
+19:36:58 INFO  ProfileMatch              :             category: Android
+19:36:58 INFO  ProfileMatch              :              version: 7499
+19:36:58 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:36:58 INFO  ProfileMatch              :     lib root package: "com.google.firebase.iid.internal"  (in app: "com.google.android.gms.wearable")
+19:36:58 INFO  ProfileMatch              : 
+19:36:58 INFO  ProfileMatch              :                 name: 2672
+19:36:58 INFO  ProfileMatch              :             category: Android
+19:36:58 INFO  ProfileMatch              :              version: 2672
+19:36:58 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:36:58 INFO  ProfileMatch              :     lib root package: "android.support.annotation"
+19:36:58 INFO  ProfileMatch              : 
+19:36:58 INFO  ProfileMatch              :                 name: 2671
+19:36:58 INFO  ProfileMatch              :             category: Android
+19:36:58 INFO  ProfileMatch              :              version: 2671
+19:36:58 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:36:58 INFO  ProfileMatch              :     lib root package: "android.support.annotation"
+19:36:58 INFO  ProfileMatch              : 
+19:36:58 INFO  ProfileMatch              :                 name: 2670
+19:36:58 INFO  ProfileMatch              :             category: Android
+19:36:58 INFO  ProfileMatch              :              version: 2670
+19:36:58 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:36:58 INFO  ProfileMatch              :     lib root package: "android.support.annotation"
+19:36:58 INFO  ProfileMatch              : 
+19:36:58 INFO  ProfileMatch              :                 name: 2669
+19:36:58 INFO  ProfileMatch              :             category: Android
+19:36:58 INFO  ProfileMatch              :              version: 2669
+19:36:58 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:36:58 INFO  ProfileMatch              :     lib root package: "android.support.annotation"
+19:36:58 INFO  ProfileMatch              : 
+19:36:58 INFO  ProfileMatch              :                 name: 2668
+19:36:58 INFO  ProfileMatch              :             category: Android
+19:36:58 INFO  ProfileMatch              :              version: 2668
+19:36:58 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:36:58 INFO  ProfileMatch              :     lib root package: "android.support.annotation"
+19:36:58 INFO  ProfileMatch              : 
+19:36:58 INFO  ProfileMatch              :                 name: 2667
+19:36:58 INFO  ProfileMatch              :             category: Android
+19:36:58 INFO  ProfileMatch              :              version: 2667
+19:36:58 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:36:58 INFO  ProfileMatch              :     lib root package: "android.support.annotation"
+19:36:58 INFO  ProfileMatch              : 
+19:36:58 INFO  ProfileMatch              :                 name: 2673
+19:36:58 INFO  ProfileMatch              :             category: Android
+19:36:58 INFO  ProfileMatch              :              version: 2673
+19:36:58 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:36:58 INFO  ProfileMatch              :     lib root package: "android.support.annotation"
+19:36:58 INFO  ProfileMatch              : 
+19:36:58 INFO  ProfileMatch              :                 name: 2742
+19:36:58 INFO  ProfileMatch              :             category: Android
+19:36:58 INFO  ProfileMatch              :              version: 2742
+19:36:58 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:36:58 INFO  ProfileMatch              :     lib root package: "android.support.v4.content"
+19:36:58 INFO  ProfileMatch              : 
+19:36:58 INFO  ProfileMatch              :                 name: 6342
+19:36:58 INFO  ProfileMatch              :             category: Android
+19:36:58 INFO  ProfileMatch              :              version: 6342
+19:36:58 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:36:58 INFO  ProfileMatch              :     lib root package: "com.google"
+19:36:58 INFO  ProfileMatch              : 
+19:36:59 INFO  ProfileMatch              :                 name: 6373
+19:36:59 INFO  ProfileMatch              :             category: Android
+19:36:59 INFO  ProfileMatch              :              version: 6373
+19:36:59 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:36:59 INFO  ProfileMatch              :     lib root package: "com.google.android.gms"
+19:36:59 INFO  ProfileMatch              : 
+19:36:59 INFO  ProfileMatch              :                 name: 6389
+19:36:59 INFO  ProfileMatch              :             category: Android
+19:36:59 INFO  ProfileMatch              :              version: 6389
+19:36:59 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:36:59 INFO  ProfileMatch              :     lib root package: "com.google.android.gms"
+19:36:59 INFO  ProfileMatch              : 
+19:36:59 INFO  ProfileMatch              :                 name: 2813
+19:36:59 INFO  ProfileMatch              :             category: Android
+19:36:59 INFO  ProfileMatch              :              version: 2813
+19:36:59 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:36:59 INFO  ProfileMatch              :     lib root package: "android.support.v4"
+19:36:59 INFO  ProfileMatch              : 
+19:36:59 INFO  ProfileMatch              :                 name: 750
+19:36:59 INFO  ProfileMatch              :             category: Android
+19:36:59 INFO  ProfileMatch              :              version: 750
+19:36:59 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:36:59 INFO  ProfileMatch              :     lib root package: "androidx.core.role"  (in app: "android.support.v4.content.pm")
+19:36:59 INFO  ProfileMatch              : 
+19:36:59 INFO  ProfileMatch              :                 name: 6407
+19:36:59 INFO  ProfileMatch              :             category: Android
+19:36:59 INFO  ProfileMatch              :              version: 6407
+19:36:59 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:36:59 INFO  ProfileMatch              :     lib root package: "com.google.android.gms"
+19:36:59 INFO  ProfileMatch              : 
+19:36:59 INFO  ProfileMatch              :                 name: 7763
+19:36:59 INFO  ProfileMatch              :             category: Android
+19:36:59 INFO  ProfileMatch              :              version: 7763
+19:36:59 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:36:59 INFO  ProfileMatch              :     lib root package: "com.google.zxing"
+19:36:59 INFO  ProfileMatch              : 
+19:36:59 INFO  ProfileMatch              :                 name: 6472
+19:36:59 INFO  ProfileMatch              :             category: Android
+19:36:59 INFO  ProfileMatch              :              version: 6472
+19:36:59 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:36:59 INFO  ProfileMatch              :     lib root package: "com.google.android.gms"  (in app: "com.google.android.gms")
+19:36:59 INFO  ProfileMatch              : 
+19:36:59 INFO  ProfileMatch              :                 name: 2901
+19:36:59 INFO  ProfileMatch              :             category: Android
+19:36:59 INFO  ProfileMatch              :              version: 2901
+19:36:59 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:36:59 INFO  ProfileMatch              :     lib root package: "com.android"  (in app: "com.google.android.gms")
+19:36:59 INFO  ProfileMatch              : 
+19:36:59 INFO  ProfileMatch              :                 name: 6502
+19:36:59 INFO  ProfileMatch              :             category: Android
+19:36:59 INFO  ProfileMatch              :              version: 6502
+19:36:59 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:36:59 INFO  ProfileMatch              :     lib root package: "com.google.android.gms"
+19:36:59 INFO  ProfileMatch              : 
+19:36:59 INFO  ProfileMatch              :                 name: 6531
+19:36:59 INFO  ProfileMatch              :             category: Android
+19:36:59 INFO  ProfileMatch              :              version: 6531
+19:36:59 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:36:59 INFO  ProfileMatch              :     lib root package: "com.google.android.gms"
+19:36:59 INFO  ProfileMatch              : 
+19:36:59 INFO  ProfileMatch              :                 name: 6540
+19:36:59 INFO  ProfileMatch              :             category: Android
+19:36:59 INFO  ProfileMatch              :              version: 6540
+19:36:59 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:36:59 INFO  ProfileMatch              :     lib root package: "com.google.android.gms"
+19:36:59 INFO  ProfileMatch              : 
+19:36:59 INFO  ProfileMatch              :                 name: 6559
+19:36:59 INFO  ProfileMatch              :             category: Android
+19:36:59 INFO  ProfileMatch              :              version: 6559
+19:36:59 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:36:59 INFO  ProfileMatch              :     lib root package: "com.google.android.gms.games"
+19:36:59 INFO  ProfileMatch              : 
+19:36:59 INFO  ProfileMatch              :                 name: 6581
+19:36:59 INFO  ProfileMatch              :             category: Android
+19:36:59 INFO  ProfileMatch              :              version: 6581
+19:36:59 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:36:59 INFO  ProfileMatch              :     lib root package: "com.google.android.gms.gcm"
+19:36:59 INFO  ProfileMatch              : 
+19:36:59 INFO  ProfileMatch              :                 name: 6580
+19:36:59 INFO  ProfileMatch              :             category: Android
+19:36:59 INFO  ProfileMatch              :              version: 6580
+19:36:59 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:36:59 INFO  ProfileMatch              :     lib root package: "com.google.android.gms.gcm"
+19:36:59 INFO  ProfileMatch              : 
+19:36:59 INFO  ProfileMatch              :                 name: 6597
+19:36:59 INFO  ProfileMatch              :             category: Android
+19:36:59 INFO  ProfileMatch              :              version: 6597
+19:36:59 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:36:59 INFO  ProfileMatch              :     lib root package: "com.google.android.gms"
+19:36:59 INFO  ProfileMatch              : 
+19:36:59 INFO  ProfileMatch              :                 name: 6598
+19:36:59 INFO  ProfileMatch              :             category: Android
+19:36:59 INFO  ProfileMatch              :              version: 6598
+19:36:59 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:36:59 INFO  ProfileMatch              :     lib root package: "com.google.android.gms"
+19:36:59 INFO  ProfileMatch              : 
+19:36:59 INFO  ProfileMatch              :                 name: 1734
+19:36:59 INFO  ProfileMatch              :             category: Android
+19:36:59 INFO  ProfileMatch              :              version: 1734
+19:36:59 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:36:59 INFO  ProfileMatch              :     lib root package: "androidx.wear.tooling.preview.devices"  (in app: "com.google.android.gms")
+19:36:59 INFO  ProfileMatch              : 
+19:36:59 INFO  ProfileMatch              :                 name: 902
+19:36:59 INFO  ProfileMatch              :             category: Android
+19:36:59 INFO  ProfileMatch              :              version: 902
+19:36:59 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:36:59 INFO  ProfileMatch              :     lib root package: "dagger.hilt.processor.internal.generatesrootinput.codegen"  (in app: "android.support.v4.content.pm")
+19:36:59 INFO  ProfileMatch              : 
+19:36:59 INFO  ProfileMatch              :                 name: 903
+19:36:59 INFO  ProfileMatch              :             category: Android
+19:36:59 INFO  ProfileMatch              :              version: 903
+19:36:59 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:36:59 INFO  ProfileMatch              :     lib root package: "dagger.hilt.processor.internal.generatesrootinput.codegen"  (in app: "android.support.v4.content.pm")
+19:36:59 INFO  ProfileMatch              : 
+19:36:59 INFO  ProfileMatch              :                 name: 904
+19:36:59 INFO  ProfileMatch              :             category: Android
+19:36:59 INFO  ProfileMatch              :              version: 904
+19:36:59 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:36:59 INFO  ProfileMatch              :     lib root package: "dagger.hilt.processor.internal.generatesrootinput.codegen"  (in app: "android.support.v4.content.pm")
+19:36:59 INFO  ProfileMatch              : 
+19:36:59 INFO  ProfileMatch              :                 name: 6630
+19:36:59 INFO  ProfileMatch              :             category: Android
+19:36:59 INFO  ProfileMatch              :              version: 6630
+19:36:59 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:36:59 INFO  ProfileMatch              :     lib root package: "com.google.android.gms"
+19:36:59 INFO  ProfileMatch              : 
+19:36:59 INFO  ProfileMatch              :                 name: 6665
+19:36:59 INFO  ProfileMatch              :             category: Android
+19:36:59 INFO  ProfileMatch              :              version: 6665
+19:36:59 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:36:59 INFO  ProfileMatch              :     lib root package: "com.google.android.gms.maps"
+19:36:59 INFO  ProfileMatch              : 
+19:36:59 INFO  ProfileMatch              :                 name: 6666
+19:36:59 INFO  ProfileMatch              :             category: Android
+19:36:59 INFO  ProfileMatch              :              version: 6666
+19:36:59 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:36:59 INFO  ProfileMatch              :     lib root package: "com.google.android.gms.maps"
+19:36:59 INFO  ProfileMatch              : 
+19:36:59 INFO  ProfileMatch              :                 name: 4015
+19:36:59 INFO  ProfileMatch              :             category: Android
+19:36:59 INFO  ProfileMatch              :              version: 4015
+19:36:59 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:36:59 INFO  ProfileMatch              :     lib root package: "com.anysoftkeyboard.api"  (in app: "android.support.v4.content.pm")
+19:36:59 INFO  ProfileMatch              : 
+19:36:59 INFO  ProfileMatch              :                 name: 4016
+19:36:59 INFO  ProfileMatch              :             category: Android
+19:36:59 INFO  ProfileMatch              :              version: 4016
+19:36:59 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:36:59 INFO  ProfileMatch              :     lib root package: "com.anysoftkeyboard.api"  (in app: "android.support.v4.content.pm")
+19:36:59 INFO  ProfileMatch              : 
+19:36:59 INFO  ProfileMatch              :                 name: 4017
+19:36:59 INFO  ProfileMatch              :             category: Android
+19:36:59 INFO  ProfileMatch              :              version: 4017
+19:36:59 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:36:59 INFO  ProfileMatch              :     lib root package: "com.anysoftkeyboard.api"  (in app: "android.support.v4.content.pm")
+19:36:59 INFO  ProfileMatch              : 
+19:36:59 INFO  ProfileMatch              :                 name: 4018
+19:36:59 INFO  ProfileMatch              :             category: Android
+19:36:59 INFO  ProfileMatch              :              version: 4018
+19:36:59 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:36:59 INFO  ProfileMatch              :     lib root package: "com.anysoftkeyboard.api"  (in app: "android.support.v4.content.pm")
+19:36:59 INFO  ProfileMatch              : 
+19:36:59 INFO  ProfileMatch              :                 name: 6694
+19:36:59 INFO  ProfileMatch              :             category: Android
+19:36:59 INFO  ProfileMatch              :              version: 6694
+19:36:59 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:36:59 INFO  ProfileMatch              :     lib root package: "com.google.android.gms"
+19:36:59 INFO  ProfileMatch              : 
+19:36:59 INFO  ProfileMatch              :                 name: 4099
+19:36:59 INFO  ProfileMatch              :             category: Android
+19:36:59 INFO  ProfileMatch              :              version: 4099
+19:36:59 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:36:59 INFO  ProfileMatch              :     lib root package: "com.github.bassaer.library"  (in app: "com.google.android.gms")
+19:36:59 INFO  ProfileMatch              : 
+19:36:59 INFO  ProfileMatch              :                 name: 6711
+19:36:59 INFO  ProfileMatch              :             category: Android
+19:36:59 INFO  ProfileMatch              :              version: 6711
+19:36:59 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:36:59 INFO  ProfileMatch              :     lib root package: "com.google.android.gms"
+19:36:59 INFO  ProfileMatch              : 
+19:36:59 INFO  ProfileMatch              :                 name: 6710
+19:36:59 INFO  ProfileMatch              :             category: Android
+19:36:59 INFO  ProfileMatch              :              version: 6710
+19:36:59 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:36:59 INFO  ProfileMatch              :     lib root package: "com.google.android.gms"
+19:36:59 INFO  ProfileMatch              : 
+19:36:59 INFO  ProfileMatch              :                 name: 6712
+19:36:59 INFO  ProfileMatch              :             category: Android
+19:36:59 INFO  ProfileMatch              :              version: 6712
+19:36:59 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:36:59 INFO  ProfileMatch              :     lib root package: "com.google.android.gms"
+19:36:59 INFO  ProfileMatch              : 
+19:36:59 INFO  ProfileMatch              :                 name: 6733
+19:36:59 INFO  ProfileMatch              :             category: Android
+19:36:59 INFO  ProfileMatch              :              version: 6733
+19:36:59 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:36:59 INFO  ProfileMatch              :     lib root package: "com.google.android.gms"
+19:36:59 INFO  ProfileMatch              : 
+19:36:59 INFO  ProfileMatch              :                 name: 6750
+19:36:59 INFO  ProfileMatch              :             category: Android
+19:36:59 INFO  ProfileMatch              :              version: 6750
+19:36:59 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:36:59 INFO  ProfileMatch              :     lib root package: "com.google.android.gms"
+19:36:59 INFO  ProfileMatch              : 
+19:36:59 INFO  ProfileMatch              :                 name: 6748
+19:36:59 INFO  ProfileMatch              :             category: Android
+19:36:59 INFO  ProfileMatch              :              version: 6748
+19:36:59 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:36:59 INFO  ProfileMatch              :     lib root package: "com.google.android.gms"
+19:36:59 INFO  ProfileMatch              : 
+19:36:59 INFO  ProfileMatch              :                 name: 6749
+19:36:59 INFO  ProfileMatch              :             category: Android
+19:36:59 INFO  ProfileMatch              :              version: 6749
+19:36:59 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:36:59 INFO  ProfileMatch              :     lib root package: "com.google.android.gms"
+19:36:59 INFO  ProfileMatch              : 
+19:36:59 INFO  ProfileMatch              :                 name: 6770
+19:36:59 INFO  ProfileMatch              :             category: Android
+19:36:59 INFO  ProfileMatch              :              version: 6770
+19:36:59 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:36:59 INFO  ProfileMatch              :     lib root package: "com.google.android.gms.tflite.support"  (in app: "android.support.v4.content.pm")
+19:36:59 INFO  ProfileMatch              : 
+19:36:59 INFO  ProfileMatch              :                 name: 6791
+19:36:59 INFO  ProfileMatch              :             category: Android
+19:36:59 INFO  ProfileMatch              :              version: 6791
+19:36:59 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:36:59 INFO  ProfileMatch              :     lib root package: "com.google.android.gms"
+19:36:59 INFO  ProfileMatch              : 
+19:36:59 INFO  ProfileMatch              :                 name: 9082
+19:36:59 INFO  ProfileMatch              :             category: Android
+19:36:59 INFO  ProfileMatch              :              version: 9082
+19:36:59 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:36:59 INFO  ProfileMatch              :     lib root package: "com.ryanharter.auto.value.moshi"  (in app: "com.google.android.gms.analytics")
+19:36:59 INFO  ProfileMatch              : 
+19:36:59 INFO  ProfileMatch              :                 name: 6817
+19:36:59 INFO  ProfileMatch              :             category: Android
+19:36:59 INFO  ProfileMatch              :              version: 6817
+19:36:59 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:36:59 INFO  ProfileMatch              :     lib root package: "com.google.android.gms"
+19:36:59 INFO  ProfileMatch              : 
+19:36:59 INFO  ProfileMatch              :                 name: 4249
+19:36:59 INFO  ProfileMatch              :             category: Android
+19:36:59 INFO  ProfileMatch              :              version: 4249
+19:36:59 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:36:59 INFO  ProfileMatch              :     lib root package: "fr.castorflex.android.verticalviewpager"  (in app: "android.support.v4.view")
+19:36:59 INFO  ProfileMatch              : 
+19:36:59 INFO  ProfileMatch              :                 name: 4341
+19:36:59 INFO  ProfileMatch              :             category: Android
+19:36:59 INFO  ProfileMatch              :              version: 4341
+19:36:59 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:36:59 INFO  ProfileMatch              :     lib root package: "tv.cjump.ndkbitmap_armv5"  (in app: "android.support.v4.content.pm")
+19:36:59 INFO  ProfileMatch              : 
+19:36:59 INFO  ProfileMatch              :                 name: 4342
+19:36:59 INFO  ProfileMatch              :             category: Android
+19:36:59 INFO  ProfileMatch              :              version: 4342
+19:36:59 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:36:59 INFO  ProfileMatch              :     lib root package: "tv.cjump.ndkbitmap_armv7a"  (in app: "android.support.v4.content.pm")
+19:36:59 INFO  ProfileMatch              : 
+19:36:59 INFO  ProfileMatch              :                 name: 4343
+19:36:59 INFO  ProfileMatch              :             category: Android
+19:36:59 INFO  ProfileMatch              :              version: 4343
+19:36:59 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:36:59 INFO  ProfileMatch              :     lib root package: "tv.cjump.ndkbitmap_x86"  (in app: "android.support.v4.content.pm")
+19:36:59 INFO  ProfileMatch              : 
+19:36:59 INFO  ProfileMatch              :                 name: 13198
+19:36:59 INFO  ProfileMatch              :             category: Android
+19:36:59 INFO  ProfileMatch              :              version: 13198
+19:36:59 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:36:59 INFO  ProfileMatch              :     lib root package: "mozilla.components.support.rusthttp"  (in app: "android.support.v4.view")
+19:36:59 INFO  ProfileMatch              : 
+19:36:59 INFO  ProfileMatch              :                 name: 5822
+19:36:59 INFO  ProfileMatch              :             category: Android
+19:36:59 INFO  ProfileMatch              :              version: 5822
+19:36:59 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:36:59 INFO  ProfileMatch              :     lib root package: "com.twofortyfouram.locale.api"  (in app: "android.support.v4.content.pm")
+19:36:59 INFO  ProfileMatch              : 
+19:36:59 INFO  ProfileMatch              :                 name: 8168
+19:36:59 INFO  ProfileMatch              :             category: Android
+19:36:59 INFO  ProfileMatch              :              version: 8168
+19:36:59 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:36:59 INFO  ProfileMatch              :     lib root package: "com.google.zxing.client.android"
+19:36:59 INFO  ProfileMatch              : 
+19:36:59 INFO  ProfileMatch              :                 name: 8181
+19:36:59 INFO  ProfileMatch              :             category: Android
+19:36:59 INFO  ProfileMatch              :              version: 8181
+19:36:59 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:36:59 INFO  ProfileMatch              :     lib root package: "com.google.zxing.integration.android"
+19:36:59 INFO  ProfileMatch              : 
+19:37:00 INFO  ProfileMatch              :                 name: 12176
+19:37:00 INFO  ProfileMatch              :             category: Android
+19:37:00 INFO  ProfileMatch              :              version: 12176
+19:37:00 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:37:00 INFO  ProfileMatch              :     lib root package: "org.dashj.bls"  (in app: "android.support.v4.content.pm")
+19:37:00 INFO  ProfileMatch              : 
+19:37:00 INFO  ProfileMatch              :                 name: 3547
+19:37:00 INFO  ProfileMatch              :             category: Android
+19:37:00 INFO  ProfileMatch              :              version: 3547
+19:37:00 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:37:00 INFO  ProfileMatch              :     lib root package: "com.facebook.all"  (in app: "android.support.v4.content.pm")
+19:37:00 INFO  ProfileMatch              : 
+19:37:00 INFO  ProfileMatch              :                 name: 12288
+19:37:00 INFO  ProfileMatch              :             category: Android
+19:37:00 INFO  ProfileMatch              :              version: 12288
+19:37:00 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:37:00 INFO  ProfileMatch              :     lib root package: "org.hamcrest.library.deprecated"  (in app: "android.support.v4.content.pm")
+19:37:00 INFO  ProfileMatch              : 
+19:37:02 INFO  LibraryIdentifier         : 
+19:37:02 INFO  LibraryIdentifier         : - Partial library matches:
+19:37:02 INFO  LibraryIdentifier         :                 name: 12408
+19:37:02 INFO  LibraryIdentifier         :             category: Android
+19:37:02 INFO  LibraryIdentifier         :              version: 12408
+19:37:02 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+19:37:02 INFO  LibraryIdentifier         :     lib root package: "org.jetbrains.anko.sdk21.listeners"
+19:37:02 INFO  LibraryIdentifier         :         Partial matching results:
+19:37:02 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.7735849
+19:37:02 INFO  LibraryIdentifier         : 
+19:37:03 INFO  LibraryIdentifier         :                 name: 2507
+19:37:03 INFO  LibraryIdentifier         :             category: Android
+19:37:03 INFO  LibraryIdentifier         :              version: 2507
+19:37:03 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+19:37:03 INFO  LibraryIdentifier         :     lib root package: "android.support.v4.view.animation"
+19:37:03 INFO  LibraryIdentifier         :         Partial matching results:
+19:37:03 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.75
+19:37:03 INFO  LibraryIdentifier         : 
+19:37:03 INFO  LibraryIdentifier         :                 name: 8767
+19:37:03 INFO  LibraryIdentifier         :             category: Android
+19:37:03 INFO  LibraryIdentifier         :              version: 8767
+19:37:03 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+19:37:03 INFO  LibraryIdentifier         :     lib root package: "net.sf.junidecode"
+19:37:03 INFO  LibraryIdentifier         :         Partial matching results:
+19:37:03 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.989011
+19:37:03 INFO  LibraryIdentifier         : 
+19:37:03 INFO  LibraryIdentifier         :                 name: 6162
+19:37:03 INFO  LibraryIdentifier         :             category: Android
+19:37:03 INFO  LibraryIdentifier         :              version: 6162
+19:37:03 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+19:37:03 INFO  LibraryIdentifier         :     lib root package: "android.support.v4"
+19:37:03 INFO  LibraryIdentifier         :         Partial matching results:
+19:37:03 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.7708779
+19:37:03 INFO  LibraryIdentifier         : 
+19:37:03 INFO  LibraryIdentifier         :                 name: 6341
+19:37:03 INFO  LibraryIdentifier         :             category: Android
+19:37:03 INFO  LibraryIdentifier         :              version: 6341
+19:37:03 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+19:37:03 INFO  LibraryIdentifier         :     lib root package: "com.google"
+19:37:03 INFO  LibraryIdentifier         :         Partial matching results:
+19:37:03 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.81789094
+19:37:03 INFO  LibraryIdentifier         : 
+19:37:03 INFO  LibraryIdentifier         :                 name: 6391
+19:37:03 INFO  LibraryIdentifier         :             category: Android
+19:37:03 INFO  LibraryIdentifier         :              version: 6391
+19:37:03 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+19:37:03 INFO  LibraryIdentifier         :     lib root package: "com.google.android.gms"
+19:37:03 INFO  LibraryIdentifier         :         Partial matching results:
+19:37:03 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.701806
+19:37:03 INFO  LibraryIdentifier         : 
+19:37:03 INFO  LibraryIdentifier         :                 name: 6390
+19:37:03 INFO  LibraryIdentifier         :             category: Android
+19:37:03 INFO  LibraryIdentifier         :              version: 6390
+19:37:03 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+19:37:03 INFO  LibraryIdentifier         :     lib root package: "com.google.android.gms"
+19:37:03 INFO  LibraryIdentifier         :         Partial matching results:
+19:37:03 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.701806
+19:37:03 INFO  LibraryIdentifier         : 
+19:37:03 INFO  LibraryIdentifier         :                 name: 2809
+19:37:03 INFO  LibraryIdentifier         :             category: Android
+19:37:03 INFO  LibraryIdentifier         :              version: 2809
+19:37:03 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+19:37:03 INFO  LibraryIdentifier         :     lib root package: "android.support.v4"
+19:37:03 INFO  LibraryIdentifier         :         Partial matching results:
+19:37:03 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.9341697
+19:37:03 INFO  LibraryIdentifier         : 
+19:37:03 INFO  LibraryIdentifier         :                 name: 2808
+19:37:03 INFO  LibraryIdentifier         :             category: Android
+19:37:03 INFO  LibraryIdentifier         :              version: 2808
+19:37:03 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+19:37:03 INFO  LibraryIdentifier         :     lib root package: "android.support.v4"
+19:37:03 INFO  LibraryIdentifier         :         Partial matching results:
+19:37:03 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.8791594
+19:37:03 INFO  LibraryIdentifier         : 
+19:37:03 INFO  LibraryIdentifier         :                 name: 2807
+19:37:03 INFO  LibraryIdentifier         :             category: Android
+19:37:03 INFO  LibraryIdentifier         :              version: 2807
+19:37:03 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+19:37:03 INFO  LibraryIdentifier         :     lib root package: "android.support.v4"
+19:37:03 INFO  LibraryIdentifier         :         Partial matching results:
+19:37:03 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.8796923
+19:37:03 INFO  LibraryIdentifier         : 
+19:37:03 INFO  LibraryIdentifier         :                 name: 2806
+19:37:03 INFO  LibraryIdentifier         :             category: Android
+19:37:03 INFO  LibraryIdentifier         :              version: 2806
+19:37:03 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+19:37:03 INFO  LibraryIdentifier         :     lib root package: "android.support.v4"
+19:37:03 INFO  LibraryIdentifier         :         Partial matching results:
+19:37:03 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.8796923
+19:37:03 INFO  LibraryIdentifier         : 
+19:37:03 INFO  LibraryIdentifier         :                 name: 2805
+19:37:03 INFO  LibraryIdentifier         :             category: Android
+19:37:03 INFO  LibraryIdentifier         :              version: 2805
+19:37:03 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+19:37:03 INFO  LibraryIdentifier         :     lib root package: "android.support.v4"
+19:37:03 INFO  LibraryIdentifier         :         Partial matching results:
+19:37:03 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.9119077
+19:37:03 INFO  LibraryIdentifier         : 
+19:37:03 INFO  LibraryIdentifier         :                 name: 2804
+19:37:03 INFO  LibraryIdentifier         :             category: Android
+19:37:03 INFO  LibraryIdentifier         :              version: 2804
+19:37:03 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+19:37:03 INFO  LibraryIdentifier         :     lib root package: "android.support.v4"
+19:37:03 INFO  LibraryIdentifier         :         Partial matching results:
+19:37:03 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.8452421
+19:37:03 INFO  LibraryIdentifier         : 
+19:37:03 INFO  LibraryIdentifier         :                 name: 2812
+19:37:03 INFO  LibraryIdentifier         :             category: Android
+19:37:03 INFO  LibraryIdentifier         :              version: 2812
+19:37:03 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+19:37:03 INFO  LibraryIdentifier         :     lib root package: "android.support.v4"
+19:37:03 INFO  LibraryIdentifier         :         Partial matching results:
+19:37:03 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.9164507
+19:37:03 INFO  LibraryIdentifier         : 
+19:37:03 INFO  LibraryIdentifier         :                 name: 2811
+19:37:03 INFO  LibraryIdentifier         :             category: Android
+19:37:03 INFO  LibraryIdentifier         :              version: 2811
+19:37:03 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+19:37:03 INFO  LibraryIdentifier         :     lib root package: "android.support.v4"
+19:37:03 INFO  LibraryIdentifier         :         Partial matching results:
+19:37:03 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.9164507
+19:37:03 INFO  LibraryIdentifier         : 
+19:37:03 INFO  LibraryIdentifier         :                 name: 2810
+19:37:03 INFO  LibraryIdentifier         :             category: Android
+19:37:03 INFO  LibraryIdentifier         :              version: 2810
+19:37:03 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+19:37:03 INFO  LibraryIdentifier         :     lib root package: "android.support.v4"
+19:37:03 INFO  LibraryIdentifier         :         Partial matching results:
+19:37:03 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.9152395
+19:37:03 INFO  LibraryIdentifier         : 
+19:37:03 INFO  LibraryIdentifier         :                 name: 2817
+19:37:03 INFO  LibraryIdentifier         :             category: Android
+19:37:03 INFO  LibraryIdentifier         :              version: 2817
+19:37:03 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+19:37:03 INFO  LibraryIdentifier         :     lib root package: "android.support.v4"
+19:37:03 INFO  LibraryIdentifier         :         Partial matching results:
+19:37:03 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.80287796
+19:37:03 INFO  LibraryIdentifier         : 
+19:37:03 INFO  LibraryIdentifier         :                 name: 2816
+19:37:03 INFO  LibraryIdentifier         :             category: Android
+19:37:03 INFO  LibraryIdentifier         :              version: 2816
+19:37:03 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+19:37:03 INFO  LibraryIdentifier         :     lib root package: "android.support.v4"
+19:37:03 INFO  LibraryIdentifier         :         Partial matching results:
+19:37:03 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.80287796
+19:37:03 INFO  LibraryIdentifier         : 
+19:37:03 INFO  LibraryIdentifier         :                 name: 2815
+19:37:03 INFO  LibraryIdentifier         :             category: Android
+19:37:03 INFO  LibraryIdentifier         :              version: 2815
+19:37:03 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+19:37:03 INFO  LibraryIdentifier         :     lib root package: "android.support.v4"
+19:37:03 INFO  LibraryIdentifier         :         Partial matching results:
+19:37:03 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.85200405
+19:37:03 INFO  LibraryIdentifier         : 
+19:37:03 INFO  LibraryIdentifier         :                 name: 2814
+19:37:03 INFO  LibraryIdentifier         :             category: Android
+19:37:03 INFO  LibraryIdentifier         :              version: 2814
+19:37:03 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+19:37:03 INFO  LibraryIdentifier         :     lib root package: "android.support.v4"
+19:37:03 INFO  LibraryIdentifier         :         Partial matching results:
+19:37:03 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.85200405
+19:37:03 INFO  LibraryIdentifier         : 
+19:37:03 INFO  LibraryIdentifier         :                 name: 2880
+19:37:03 INFO  LibraryIdentifier         :             category: Android
+19:37:03 INFO  LibraryIdentifier         :              version: 2880
+19:37:03 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+19:37:03 INFO  LibraryIdentifier         :     lib root package: "android.support.v4.view"
+19:37:03 INFO  LibraryIdentifier         :         Partial matching results:
+19:37:03 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.73913044
+19:37:03 INFO  LibraryIdentifier         : 
+19:37:03 INFO  LibraryIdentifier         :                 name: 12943
+19:37:03 INFO  LibraryIdentifier         :             category: Android
+19:37:03 INFO  LibraryIdentifier         :              version: 12943
+19:37:03 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+19:37:03 INFO  LibraryIdentifier         :     lib root package: "org.kodein.di.generic"
+19:37:03 INFO  LibraryIdentifier         :         Partial matching results:
+19:37:03 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.83113456
+19:37:03 INFO  LibraryIdentifier         : 
+19:37:03 INFO  LibraryIdentifier         :                 name: 6410
+19:37:03 INFO  LibraryIdentifier         :             category: Android
+19:37:03 INFO  LibraryIdentifier         :              version: 6410
+19:37:03 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+19:37:03 INFO  LibraryIdentifier         :     lib root package: "com.google.android.gms"
+19:37:03 INFO  LibraryIdentifier         :         Partial matching results:
+19:37:03 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.94814813
+19:37:03 INFO  LibraryIdentifier         : 
+19:37:03 INFO  LibraryIdentifier         :                 name: 6409
+19:37:03 INFO  LibraryIdentifier         :             category: Android
+19:37:03 INFO  LibraryIdentifier         :              version: 6409
+19:37:03 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+19:37:03 INFO  LibraryIdentifier         :     lib root package: "com.google.android.gms"
+19:37:03 INFO  LibraryIdentifier         :         Partial matching results:
+19:37:03 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.9666667
+19:37:03 INFO  LibraryIdentifier         : 
+19:37:03 INFO  LibraryIdentifier         :                 name: 6408
+19:37:03 INFO  LibraryIdentifier         :             category: Android
+19:37:03 INFO  LibraryIdentifier         :              version: 6408
+19:37:03 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+19:37:03 INFO  LibraryIdentifier         :     lib root package: "com.google.android.gms"
+19:37:03 INFO  LibraryIdentifier         :         Partial matching results:
+19:37:03 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.9666667
+19:37:03 INFO  LibraryIdentifier         : 
+19:37:03 INFO  LibraryIdentifier         :                 name: 7765
+19:37:03 INFO  LibraryIdentifier         :             category: Android
+19:37:03 INFO  LibraryIdentifier         :              version: 7765
+19:37:03 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+19:37:03 INFO  LibraryIdentifier         :     lib root package: "com.google.zxing"
+19:37:03 INFO  LibraryIdentifier         :         Partial matching results:
+19:37:03 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.74720687
+19:37:03 INFO  LibraryIdentifier         : 
+19:37:03 INFO  LibraryIdentifier         :                 name: 7764
+19:37:03 INFO  LibraryIdentifier         :             category: Android
+19:37:03 INFO  LibraryIdentifier         :              version: 7764
+19:37:03 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+19:37:03 INFO  LibraryIdentifier         :     lib root package: "com.google.zxing"
+19:37:03 INFO  LibraryIdentifier         :         Partial matching results:
+19:37:03 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.7629638
+19:37:03 INFO  LibraryIdentifier         : 
+19:37:03 INFO  LibraryIdentifier         :                 name: 7767
+19:37:03 INFO  LibraryIdentifier         :             category: Android
+19:37:03 INFO  LibraryIdentifier         :              version: 7767
+19:37:03 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+19:37:03 INFO  LibraryIdentifier         :     lib root package: "com.google.zxing"
+19:37:03 INFO  LibraryIdentifier         :         Partial matching results:
+19:37:03 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.7284423
+19:37:03 INFO  LibraryIdentifier         : 
+19:37:03 INFO  LibraryIdentifier         :                 name: 7766
+19:37:03 INFO  LibraryIdentifier         :             category: Android
+19:37:03 INFO  LibraryIdentifier         :              version: 7766
+19:37:03 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+19:37:03 INFO  LibraryIdentifier         :     lib root package: "com.google.zxing"
+19:37:03 INFO  LibraryIdentifier         :         Partial matching results:
+19:37:03 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.7284423
+19:37:03 INFO  LibraryIdentifier         : 
+19:37:03 INFO  LibraryIdentifier         :                 name: 6471
+19:37:03 INFO  LibraryIdentifier         :             category: Android
+19:37:03 INFO  LibraryIdentifier         :              version: 6471
+19:37:03 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+19:37:03 INFO  LibraryIdentifier         :     lib root package: "com.google.android.gms"
+19:37:03 INFO  LibraryIdentifier         :         Partial matching results:
+19:37:03 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.8345145
+19:37:03 INFO  LibraryIdentifier         : 
+19:37:03 INFO  LibraryIdentifier         :                 name: 6473
+19:37:03 INFO  LibraryIdentifier         :             category: Android
+19:37:03 INFO  LibraryIdentifier         :              version: 6473
+19:37:03 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+19:37:03 INFO  LibraryIdentifier         :     lib root package: "com.google.android.gms"
+19:37:03 INFO  LibraryIdentifier         :         Partial matching results:
+19:37:03 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.80844325
+19:37:03 INFO  LibraryIdentifier         : 
+19:37:03 INFO  LibraryIdentifier         :                 name: 6476
+19:37:03 INFO  LibraryIdentifier         :             category: Android
+19:37:03 INFO  LibraryIdentifier         :              version: 6476
+19:37:03 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+19:37:03 INFO  LibraryIdentifier         :     lib root package: "com.google.android.gms"
+19:37:03 INFO  LibraryIdentifier         :         Partial matching results:
+19:37:03 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.9511364
+19:37:03 INFO  LibraryIdentifier         : 
+19:37:03 INFO  LibraryIdentifier         :                 name: 6533
+19:37:03 INFO  LibraryIdentifier         :             category: Android
+19:37:03 INFO  LibraryIdentifier         :              version: 6533
+19:37:03 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+19:37:03 INFO  LibraryIdentifier         :     lib root package: "com.google.android.gms"
+19:37:03 INFO  LibraryIdentifier         :         Partial matching results:
+19:37:03 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.904402
+19:37:03 INFO  LibraryIdentifier         : 
+19:37:03 INFO  LibraryIdentifier         :                 name: 6532
+19:37:03 INFO  LibraryIdentifier         :             category: Android
+19:37:03 INFO  LibraryIdentifier         :              version: 6532
+19:37:03 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+19:37:03 INFO  LibraryIdentifier         :     lib root package: "com.google.android.gms"
+19:37:03 INFO  LibraryIdentifier         :         Partial matching results:
+19:37:03 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.91499305
+19:37:03 INFO  LibraryIdentifier         : 
+19:37:03 INFO  LibraryIdentifier         :                 name: 6535
+19:37:03 INFO  LibraryIdentifier         :             category: Android
+19:37:03 INFO  LibraryIdentifier         :              version: 6535
+19:37:03 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+19:37:03 INFO  LibraryIdentifier         :     lib root package: "com.google.android.gms"
+19:37:03 INFO  LibraryIdentifier         :         Partial matching results:
+19:37:03 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.84047604
+19:37:03 INFO  LibraryIdentifier         : 
+19:37:03 INFO  LibraryIdentifier         :                 name: 6534
+19:37:03 INFO  LibraryIdentifier         :             category: Android
+19:37:03 INFO  LibraryIdentifier         :              version: 6534
+19:37:03 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+19:37:03 INFO  LibraryIdentifier         :     lib root package: "com.google.android.gms"
+19:37:03 INFO  LibraryIdentifier         :         Partial matching results:
+19:37:03 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.89067245
+19:37:03 INFO  LibraryIdentifier         : 
+19:37:03 INFO  LibraryIdentifier         :                 name: 6537
+19:37:03 INFO  LibraryIdentifier         :             category: Android
+19:37:03 INFO  LibraryIdentifier         :              version: 6537
+19:37:03 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+19:37:03 INFO  LibraryIdentifier         :     lib root package: "com.google.android.gms"
+19:37:03 INFO  LibraryIdentifier         :         Partial matching results:
+19:37:03 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.7455569
+19:37:03 INFO  LibraryIdentifier         : 
+19:37:03 INFO  LibraryIdentifier         :                 name: 6536
+19:37:03 INFO  LibraryIdentifier         :             category: Android
+19:37:03 INFO  LibraryIdentifier         :              version: 6536
+19:37:03 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+19:37:03 INFO  LibraryIdentifier         :     lib root package: "com.google.android.gms"
+19:37:03 INFO  LibraryIdentifier         :         Partial matching results:
+19:37:03 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.8329003
+19:37:03 INFO  LibraryIdentifier         : 
+19:37:03 INFO  LibraryIdentifier         :                 name: 6539
+19:37:03 INFO  LibraryIdentifier         :             category: Android
+19:37:03 INFO  LibraryIdentifier         :              version: 6539
+19:37:03 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+19:37:03 INFO  LibraryIdentifier         :     lib root package: "com.google.android.gms"
+19:37:03 INFO  LibraryIdentifier         :         Partial matching results:
+19:37:03 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.7803016
+19:37:03 INFO  LibraryIdentifier         : 
+19:37:04 INFO  LibraryIdentifier         :                 name: 6560
+19:37:04 INFO  LibraryIdentifier         :             category: Android
+19:37:04 INFO  LibraryIdentifier         :              version: 6560
+19:37:04 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+19:37:04 INFO  LibraryIdentifier         :     lib root package: "com.google.android.gms.games"
+19:37:04 INFO  LibraryIdentifier         :         Partial matching results:
+19:37:04 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.997901
+19:37:04 INFO  LibraryIdentifier         : 
+19:37:04 INFO  LibraryIdentifier         :                 name: 6561
+19:37:04 INFO  LibraryIdentifier         :             category: Android
+19:37:04 INFO  LibraryIdentifier         :              version: 6561
+19:37:04 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+19:37:04 INFO  LibraryIdentifier         :     lib root package: "com.google.android.gms.games"
+19:37:04 INFO  LibraryIdentifier         :         Partial matching results:
+19:37:04 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.996516
+19:37:04 INFO  LibraryIdentifier         : 
+19:37:04 INFO  LibraryIdentifier         :                 name: 6599
+19:37:04 INFO  LibraryIdentifier         :             category: Android
+19:37:04 INFO  LibraryIdentifier         :              version: 6599
+19:37:04 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+19:37:04 INFO  LibraryIdentifier         :     lib root package: "com.google.android.gms"
+19:37:04 INFO  LibraryIdentifier         :         Partial matching results:
+19:37:04 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.9583333
+19:37:04 INFO  LibraryIdentifier         : 
+19:37:04 INFO  LibraryIdentifier         :                 name: 6601
+19:37:04 INFO  LibraryIdentifier         :             category: Android
+19:37:04 INFO  LibraryIdentifier         :              version: 6601
+19:37:04 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+19:37:04 INFO  LibraryIdentifier         :     lib root package: "com.google.android.gms"
+19:37:04 INFO  LibraryIdentifier         :         Partial matching results:
+19:37:04 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.9166667
+19:37:04 INFO  LibraryIdentifier         : 
+19:37:04 INFO  LibraryIdentifier         :                 name: 6600
+19:37:04 INFO  LibraryIdentifier         :             category: Android
+19:37:04 INFO  LibraryIdentifier         :              version: 6600
+19:37:04 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+19:37:04 INFO  LibraryIdentifier         :     lib root package: "com.google.android.gms"
+19:37:04 INFO  LibraryIdentifier         :         Partial matching results:
+19:37:04 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.9166667
+19:37:04 INFO  LibraryIdentifier         : 
+19:37:04 INFO  LibraryIdentifier         :                 name: 6603
+19:37:04 INFO  LibraryIdentifier         :             category: Android
+19:37:04 INFO  LibraryIdentifier         :              version: 6603
+19:37:04 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+19:37:04 INFO  LibraryIdentifier         :     lib root package: "com.google.android.gms"
+19:37:04 INFO  LibraryIdentifier         :         Partial matching results:
+19:37:04 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.9166667
+19:37:04 INFO  LibraryIdentifier         : 
+19:37:04 INFO  LibraryIdentifier         :                 name: 6602
+19:37:04 INFO  LibraryIdentifier         :             category: Android
+19:37:04 INFO  LibraryIdentifier         :              version: 6602
+19:37:04 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+19:37:04 INFO  LibraryIdentifier         :     lib root package: "com.google.android.gms"
+19:37:04 INFO  LibraryIdentifier         :         Partial matching results:
+19:37:04 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.9166667
+19:37:04 INFO  LibraryIdentifier         : 
+19:37:04 INFO  LibraryIdentifier         :                 name: 6604
+19:37:04 INFO  LibraryIdentifier         :             category: Android
+19:37:04 INFO  LibraryIdentifier         :              version: 6604
+19:37:04 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+19:37:04 INFO  LibraryIdentifier         :     lib root package: "com.google.android.gms"
+19:37:04 INFO  LibraryIdentifier         :         Partial matching results:
+19:37:04 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.7083333
+19:37:04 INFO  LibraryIdentifier         : 
+19:37:04 INFO  LibraryIdentifier         :                 name: 6629
+19:37:04 INFO  LibraryIdentifier         :             category: Android
+19:37:04 INFO  LibraryIdentifier         :              version: 6629
+19:37:04 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+19:37:04 INFO  LibraryIdentifier         :     lib root package: "com.google.android.gms"
+19:37:04 INFO  LibraryIdentifier         :         Partial matching results:
+19:37:04 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.8712121
+19:37:04 INFO  LibraryIdentifier         : 
+19:37:04 INFO  LibraryIdentifier         :                 name: 6644
+19:37:04 INFO  LibraryIdentifier         :             category: Android
+19:37:04 INFO  LibraryIdentifier         :              version: 6644
+19:37:04 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+19:37:04 INFO  LibraryIdentifier         :     lib root package: "com.google.android.gms.maps"
+19:37:04 INFO  LibraryIdentifier         :         Partial matching results:
+19:37:04 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.7099992
+19:37:04 INFO  LibraryIdentifier         : 
+19:37:04 INFO  LibraryIdentifier         :                 name: 6670
+19:37:04 INFO  LibraryIdentifier         :             category: Android
+19:37:04 INFO  LibraryIdentifier         :              version: 6670
+19:37:04 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+19:37:04 INFO  LibraryIdentifier         :     lib root package: "com.google.android.gms.maps"
+19:37:04 INFO  LibraryIdentifier         :         Partial matching results:
+19:37:04 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.8945369
+19:37:04 INFO  LibraryIdentifier         : 
+19:37:04 INFO  LibraryIdentifier         :                 name: 6672
+19:37:04 INFO  LibraryIdentifier         :             category: Android
+19:37:04 INFO  LibraryIdentifier         :              version: 6672
+19:37:04 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+19:37:04 INFO  LibraryIdentifier         :     lib root package: "com.google.android.gms.maps"
+19:37:04 INFO  LibraryIdentifier         :         Partial matching results:
+19:37:04 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.83707744
+19:37:04 INFO  LibraryIdentifier         : 
+19:37:04 INFO  LibraryIdentifier         :                 name: 6671
+19:37:04 INFO  LibraryIdentifier         :             category: Android
+19:37:04 INFO  LibraryIdentifier         :              version: 6671
+19:37:04 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+19:37:04 INFO  LibraryIdentifier         :     lib root package: "com.google.android.gms.maps"
+19:37:04 INFO  LibraryIdentifier         :         Partial matching results:
+19:37:04 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.8945369
+19:37:04 INFO  LibraryIdentifier         : 
+19:37:04 INFO  LibraryIdentifier         :                 name: 6674
+19:37:04 INFO  LibraryIdentifier         :             category: Android
+19:37:04 INFO  LibraryIdentifier         :              version: 6674
+19:37:04 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+19:37:04 INFO  LibraryIdentifier         :     lib root package: "com.google.android.gms.maps"
+19:37:04 INFO  LibraryIdentifier         :         Partial matching results:
+19:37:04 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.8343306
+19:37:04 INFO  LibraryIdentifier         : 
+19:37:04 INFO  LibraryIdentifier         :                 name: 6673
+19:37:04 INFO  LibraryIdentifier         :             category: Android
+19:37:04 INFO  LibraryIdentifier         :              version: 6673
+19:37:04 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+19:37:04 INFO  LibraryIdentifier         :     lib root package: "com.google.android.gms.maps"
+19:37:04 INFO  LibraryIdentifier         :         Partial matching results:
+19:37:04 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.8343306
+19:37:04 INFO  LibraryIdentifier         : 
+19:37:04 INFO  LibraryIdentifier         :                 name: 6676
+19:37:04 INFO  LibraryIdentifier         :             category: Android
+19:37:04 INFO  LibraryIdentifier         :              version: 6676
+19:37:04 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+19:37:04 INFO  LibraryIdentifier         :     lib root package: "com.google.android.gms.maps"
+19:37:04 INFO  LibraryIdentifier         :         Partial matching results:
+19:37:04 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.7273716
+19:37:04 INFO  LibraryIdentifier         : 
+19:37:04 INFO  LibraryIdentifier         :                 name: 6675
+19:37:04 INFO  LibraryIdentifier         :             category: Android
+19:37:04 INFO  LibraryIdentifier         :              version: 6675
+19:37:04 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+19:37:04 INFO  LibraryIdentifier         :     lib root package: "com.google.android.gms.maps"
+19:37:04 INFO  LibraryIdentifier         :         Partial matching results:
+19:37:04 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.7271508
+19:37:04 INFO  LibraryIdentifier         : 
+19:37:04 INFO  LibraryIdentifier         :                 name: 6667
+19:37:04 INFO  LibraryIdentifier         :             category: Android
+19:37:04 INFO  LibraryIdentifier         :              version: 6667
+19:37:04 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+19:37:04 INFO  LibraryIdentifier         :     lib root package: "com.google.android.gms.maps"
+19:37:04 INFO  LibraryIdentifier         :         Partial matching results:
+19:37:04 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.98847896
+19:37:04 INFO  LibraryIdentifier         : 
+19:37:04 INFO  LibraryIdentifier         :                 name: 6669
+19:37:04 INFO  LibraryIdentifier         :             category: Android
+19:37:04 INFO  LibraryIdentifier         :              version: 6669
+19:37:04 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+19:37:04 INFO  LibraryIdentifier         :     lib root package: "com.google.android.gms.maps"
+19:37:04 INFO  LibraryIdentifier         :         Partial matching results:
+19:37:04 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.934438
+19:37:04 INFO  LibraryIdentifier         : 
+19:37:04 INFO  LibraryIdentifier         :                 name: 6668
+19:37:04 INFO  LibraryIdentifier         :             category: Android
+19:37:04 INFO  LibraryIdentifier         :              version: 6668
+19:37:04 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+19:37:04 INFO  LibraryIdentifier         :     lib root package: "com.google.android.gms.maps"
+19:37:04 INFO  LibraryIdentifier         :         Partial matching results:
+19:37:04 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.98847896
+19:37:04 INFO  LibraryIdentifier         : 
+19:37:04 INFO  LibraryIdentifier         :                 name: 6678
+19:37:04 INFO  LibraryIdentifier         :             category: Android
+19:37:04 INFO  LibraryIdentifier         :              version: 6678
+19:37:04 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+19:37:04 INFO  LibraryIdentifier         :     lib root package: "com.google.android.gms.maps"
+19:37:04 INFO  LibraryIdentifier         :         Partial matching results:
+19:37:04 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.7099992
+19:37:04 INFO  LibraryIdentifier         : 
+19:37:04 INFO  LibraryIdentifier         :                 name: 6677
+19:37:04 INFO  LibraryIdentifier         :             category: Android
+19:37:04 INFO  LibraryIdentifier         :              version: 6677
+19:37:04 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+19:37:04 INFO  LibraryIdentifier         :     lib root package: "com.google.android.gms.maps"
+19:37:04 INFO  LibraryIdentifier         :         Partial matching results:
+19:37:04 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.7273716
+19:37:04 INFO  LibraryIdentifier         : 
+19:37:04 INFO  LibraryIdentifier         :                 name: 6713
+19:37:04 INFO  LibraryIdentifier         :             category: Android
+19:37:04 INFO  LibraryIdentifier         :              version: 6713
+19:37:04 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+19:37:04 INFO  LibraryIdentifier         :     lib root package: "com.google.android.gms"
+19:37:04 INFO  LibraryIdentifier         :         Partial matching results:
+19:37:04 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.8416667
+19:37:04 INFO  LibraryIdentifier         : 
+19:37:04 INFO  LibraryIdentifier         :                 name: 6715
+19:37:04 INFO  LibraryIdentifier         :             category: Android
+19:37:04 INFO  LibraryIdentifier         :              version: 6715
+19:37:04 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+19:37:04 INFO  LibraryIdentifier         :     lib root package: "com.google.android.gms"
+19:37:04 INFO  LibraryIdentifier         :         Partial matching results:
+19:37:04 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.8416667
+19:37:04 INFO  LibraryIdentifier         : 
+19:37:04 INFO  LibraryIdentifier         :                 name: 6714
+19:37:04 INFO  LibraryIdentifier         :             category: Android
+19:37:04 INFO  LibraryIdentifier         :              version: 6714
+19:37:04 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+19:37:04 INFO  LibraryIdentifier         :     lib root package: "com.google.android.gms"
+19:37:04 INFO  LibraryIdentifier         :         Partial matching results:
+19:37:04 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.8416667
+19:37:04 INFO  LibraryIdentifier         : 
+19:37:04 INFO  LibraryIdentifier         :                 name: 6717
+19:37:04 INFO  LibraryIdentifier         :             category: Android
+19:37:04 INFO  LibraryIdentifier         :              version: 6717
+19:37:04 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+19:37:04 INFO  LibraryIdentifier         :     lib root package: "com.google.android.gms"
+19:37:04 INFO  LibraryIdentifier         :         Partial matching results:
+19:37:04 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.8416667
+19:37:04 INFO  LibraryIdentifier         : 
+19:37:04 INFO  LibraryIdentifier         :                 name: 6716
+19:37:04 INFO  LibraryIdentifier         :             category: Android
+19:37:04 INFO  LibraryIdentifier         :              version: 6716
+19:37:04 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+19:37:04 INFO  LibraryIdentifier         :     lib root package: "com.google.android.gms"
+19:37:04 INFO  LibraryIdentifier         :         Partial matching results:
+19:37:04 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.8416667
+19:37:04 INFO  LibraryIdentifier         : 
+19:37:04 INFO  LibraryIdentifier         :                 name: 6726
+19:37:04 INFO  LibraryIdentifier         :             category: Android
+19:37:04 INFO  LibraryIdentifier         :              version: 6726
+19:37:04 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+19:37:04 INFO  LibraryIdentifier         :     lib root package: "com.google.android.gms"
+19:37:04 INFO  LibraryIdentifier         :         Partial matching results:
+19:37:04 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.86806595
+19:37:04 INFO  LibraryIdentifier         : 
+19:37:04 INFO  LibraryIdentifier         :                 name: 6725
+19:37:04 INFO  LibraryIdentifier         :             category: Android
+19:37:04 INFO  LibraryIdentifier         :              version: 6725
+19:37:04 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+19:37:04 INFO  LibraryIdentifier         :     lib root package: "com.google.android.gms"
+19:37:04 INFO  LibraryIdentifier         :         Partial matching results:
+19:37:04 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.86806595
+19:37:04 INFO  LibraryIdentifier         : 
+19:37:04 INFO  LibraryIdentifier         :                 name: 6727
+19:37:04 INFO  LibraryIdentifier         :             category: Android
+19:37:04 INFO  LibraryIdentifier         :              version: 6727
+19:37:04 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+19:37:04 INFO  LibraryIdentifier         :     lib root package: "com.google.android.gms"
+19:37:04 INFO  LibraryIdentifier         :         Partial matching results:
+19:37:04 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.86806595
+19:37:04 INFO  LibraryIdentifier         : 
+19:37:04 INFO  LibraryIdentifier         :                 name: 6735
+19:37:04 INFO  LibraryIdentifier         :             category: Android
+19:37:04 INFO  LibraryIdentifier         :              version: 6735
+19:37:04 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+19:37:04 INFO  LibraryIdentifier         :     lib root package: "com.google.android.gms"
+19:37:04 INFO  LibraryIdentifier         :         Partial matching results:
+19:37:04 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.8718182
+19:37:04 INFO  LibraryIdentifier         : 
+19:37:04 INFO  LibraryIdentifier         :                 name: 6737
+19:37:04 INFO  LibraryIdentifier         :             category: Android
+19:37:04 INFO  LibraryIdentifier         :              version: 6737
+19:37:04 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+19:37:04 INFO  LibraryIdentifier         :     lib root package: "com.google.android.gms"
+19:37:04 INFO  LibraryIdentifier         :         Partial matching results:
+19:37:04 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.8718182
+19:37:04 INFO  LibraryIdentifier         : 
+19:37:04 INFO  LibraryIdentifier         :                 name: 6736
+19:37:04 INFO  LibraryIdentifier         :             category: Android
+19:37:04 INFO  LibraryIdentifier         :              version: 6736
+19:37:04 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+19:37:04 INFO  LibraryIdentifier         :     lib root package: "com.google.android.gms"
+19:37:04 INFO  LibraryIdentifier         :         Partial matching results:
+19:37:04 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.8718182
+19:37:04 INFO  LibraryIdentifier         : 
+19:37:04 INFO  LibraryIdentifier         :                 name: 6739
+19:37:04 INFO  LibraryIdentifier         :             category: Android
+19:37:04 INFO  LibraryIdentifier         :              version: 6739
+19:37:04 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+19:37:04 INFO  LibraryIdentifier         :     lib root package: "com.google.android.gms"
+19:37:04 INFO  LibraryIdentifier         :         Partial matching results:
+19:37:04 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.8718182
+19:37:04 INFO  LibraryIdentifier         : 
+19:37:04 INFO  LibraryIdentifier         :                 name: 6738
+19:37:04 INFO  LibraryIdentifier         :             category: Android
+19:37:04 INFO  LibraryIdentifier         :              version: 6738
+19:37:04 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+19:37:04 INFO  LibraryIdentifier         :     lib root package: "com.google.android.gms"
+19:37:04 INFO  LibraryIdentifier         :         Partial matching results:
+19:37:04 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.8718182
+19:37:04 INFO  LibraryIdentifier         : 
+19:37:04 INFO  LibraryIdentifier         :                 name: 6760
+19:37:04 INFO  LibraryIdentifier         :             category: Android
+19:37:04 INFO  LibraryIdentifier         :              version: 6760
+19:37:04 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+19:37:04 INFO  LibraryIdentifier         :     lib root package: "com.google.android.gms"
+19:37:04 INFO  LibraryIdentifier         :         Partial matching results:
+19:37:04 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.87125504
+19:37:04 INFO  LibraryIdentifier         : 
+19:37:04 INFO  LibraryIdentifier         :                 name: 10690
+19:37:04 INFO  LibraryIdentifier         :             category: Android
+19:37:04 INFO  LibraryIdentifier         :              version: 10690
+19:37:04 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+19:37:04 INFO  LibraryIdentifier         :     lib root package: "org.koin.androidx.workmanager"
+19:37:04 INFO  LibraryIdentifier         :         Partial matching results:
+19:37:04 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.8194444
+19:37:04 INFO  LibraryIdentifier         : 
+19:37:04 INFO  LibraryIdentifier         :                 name: 6799
+19:37:04 INFO  LibraryIdentifier         :             category: Android
+19:37:04 INFO  LibraryIdentifier         :              version: 6799
+19:37:04 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+19:37:04 INFO  LibraryIdentifier         :     lib root package: "com.google.android.gms"
+19:37:04 INFO  LibraryIdentifier         :         Partial matching results:
+19:37:04 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.70689654
+19:37:04 INFO  LibraryIdentifier         : 
+19:37:04 INFO  LibraryIdentifier         :                 name: 10689
+19:37:04 INFO  LibraryIdentifier         :             category: Android
+19:37:04 INFO  LibraryIdentifier         :              version: 10689
+19:37:04 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+19:37:04 INFO  LibraryIdentifier         :     lib root package: "org.koin.androidx.workmanager"
+19:37:04 INFO  LibraryIdentifier         :         Partial matching results:
+19:37:04 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.8194444
+19:37:04 INFO  LibraryIdentifier         : 
+19:37:04 INFO  LibraryIdentifier         :                 name: 10686
+19:37:04 INFO  LibraryIdentifier         :             category: Android
+19:37:04 INFO  LibraryIdentifier         :              version: 10686
+19:37:04 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+19:37:04 INFO  LibraryIdentifier         :     lib root package: "org.koin.androidx.workmanager"
+19:37:04 INFO  LibraryIdentifier         :         Partial matching results:
+19:37:04 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.8194444
+19:37:04 INFO  LibraryIdentifier         : 
+19:37:04 INFO  LibraryIdentifier         :                 name: 10685
+19:37:04 INFO  LibraryIdentifier         :             category: Android
+19:37:04 INFO  LibraryIdentifier         :              version: 10685
+19:37:04 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+19:37:04 INFO  LibraryIdentifier         :     lib root package: "org.koin.androidx.workmanager"
+19:37:04 INFO  LibraryIdentifier         :         Partial matching results:
+19:37:04 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.75
+19:37:04 INFO  LibraryIdentifier         : 
+19:37:04 INFO  LibraryIdentifier         :                 name: 10688
+19:37:04 INFO  LibraryIdentifier         :             category: Android
+19:37:04 INFO  LibraryIdentifier         :              version: 10688
+19:37:04 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+19:37:04 INFO  LibraryIdentifier         :     lib root package: "org.koin.androidx.workmanager"
+19:37:04 INFO  LibraryIdentifier         :         Partial matching results:
+19:37:04 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.8194444
+19:37:04 INFO  LibraryIdentifier         : 
+19:37:04 INFO  LibraryIdentifier         :                 name: 10687
+19:37:04 INFO  LibraryIdentifier         :             category: Android
+19:37:04 INFO  LibraryIdentifier         :              version: 10687
+19:37:04 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+19:37:04 INFO  LibraryIdentifier         :     lib root package: "org.koin.androidx.workmanager"
+19:37:04 INFO  LibraryIdentifier         :         Partial matching results:
+19:37:04 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.8194444
+19:37:04 INFO  LibraryIdentifier         : 
+19:37:04 INFO  LibraryIdentifier         :                 name: 6801
+19:37:04 INFO  LibraryIdentifier         :             category: Android
+19:37:04 INFO  LibraryIdentifier         :              version: 6801
+19:37:04 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+19:37:04 INFO  LibraryIdentifier         :     lib root package: "com.google.android.gms"
+19:37:04 INFO  LibraryIdentifier         :         Partial matching results:
+19:37:04 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.7060418
+19:37:04 INFO  LibraryIdentifier         : 
+19:37:04 INFO  LibraryIdentifier         :                 name: 6800
+19:37:04 INFO  LibraryIdentifier         :             category: Android
+19:37:04 INFO  LibraryIdentifier         :              version: 6800
+19:37:04 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+19:37:04 INFO  LibraryIdentifier         :     lib root package: "com.google.android.gms"
+19:37:04 INFO  LibraryIdentifier         :         Partial matching results:
+19:37:04 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.7060418
+19:37:04 INFO  LibraryIdentifier         : 
+19:37:04 INFO  LibraryIdentifier         :                 name: 6818
+19:37:04 INFO  LibraryIdentifier         :             category: Android
+19:37:04 INFO  LibraryIdentifier         :              version: 6818
+19:37:04 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+19:37:04 INFO  LibraryIdentifier         :     lib root package: "com.google.android.gms"
+19:37:04 INFO  LibraryIdentifier         :         Partial matching results:
+19:37:04 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.7916828
+19:37:04 INFO  LibraryIdentifier         : 
+19:37:04 INFO  LibraryIdentifier         :                 name: 6819
+19:37:04 INFO  LibraryIdentifier         :             category: Android
+19:37:04 INFO  LibraryIdentifier         :              version: 6819
+19:37:04 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+19:37:04 INFO  LibraryIdentifier         :     lib root package: "com.google.android.gms"
+19:37:04 INFO  LibraryIdentifier         :         Partial matching results:
+19:37:04 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.78606486
+19:37:04 INFO  LibraryIdentifier         : 
+19:37:04 INFO  LibraryIdentifier         :                 name: 6816
+19:37:04 INFO  LibraryIdentifier         :             category: Android
+19:37:04 INFO  LibraryIdentifier         :              version: 6816
+19:37:04 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+19:37:04 INFO  LibraryIdentifier         :     lib root package: "com.google.android.gms"
+19:37:04 INFO  LibraryIdentifier         :         Partial matching results:
+19:37:04 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.9539508
+19:37:04 INFO  LibraryIdentifier         : 
+19:37:04 INFO  LibraryIdentifier         :                 name: 6821
+19:37:04 INFO  LibraryIdentifier         :             category: Android
+19:37:04 INFO  LibraryIdentifier         :              version: 6821
+19:37:04 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+19:37:04 INFO  LibraryIdentifier         :     lib root package: "com.google.android.gms"
+19:37:04 INFO  LibraryIdentifier         :         Partial matching results:
+19:37:04 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.7491583
+19:37:04 INFO  LibraryIdentifier         : 
+19:37:04 INFO  LibraryIdentifier         :                 name: 6820
+19:37:04 INFO  LibraryIdentifier         :             category: Android
+19:37:04 INFO  LibraryIdentifier         :              version: 6820
+19:37:04 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+19:37:04 INFO  LibraryIdentifier         :     lib root package: "com.google.android.gms"
+19:37:04 INFO  LibraryIdentifier         :         Partial matching results:
+19:37:04 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.77777785
+19:37:04 INFO  LibraryIdentifier         : 
+19:37:04 INFO  LibraryIdentifier         :                 name: 6823
+19:37:04 INFO  LibraryIdentifier         :             category: Android
+19:37:04 INFO  LibraryIdentifier         :              version: 6823
+19:37:04 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+19:37:04 INFO  LibraryIdentifier         :     lib root package: "com.google.android.gms"
+19:37:04 INFO  LibraryIdentifier         :         Partial matching results:
+19:37:04 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.7462775
+19:37:04 INFO  LibraryIdentifier         : 
+19:37:04 INFO  LibraryIdentifier         :                 name: 6822
+19:37:04 INFO  LibraryIdentifier         :             category: Android
+19:37:04 INFO  LibraryIdentifier         :              version: 6822
+19:37:04 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+19:37:04 INFO  LibraryIdentifier         :     lib root package: "com.google.android.gms"
+19:37:04 INFO  LibraryIdentifier         :         Partial matching results:
+19:37:04 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.73839545
+19:37:04 INFO  LibraryIdentifier         : 
+19:37:04 INFO  LibraryIdentifier         :                 name: 6825
+19:37:04 INFO  LibraryIdentifier         :             category: Android
+19:37:04 INFO  LibraryIdentifier         :              version: 6825
+19:37:04 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+19:37:04 INFO  LibraryIdentifier         :     lib root package: "com.google.android.gms"
+19:37:04 INFO  LibraryIdentifier         :         Partial matching results:
+19:37:04 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.70689654
+19:37:04 INFO  LibraryIdentifier         : 
+19:37:04 INFO  LibraryIdentifier         :                 name: 6824
+19:37:04 INFO  LibraryIdentifier         :             category: Android
+19:37:04 INFO  LibraryIdentifier         :              version: 6824
+19:37:04 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+19:37:04 INFO  LibraryIdentifier         :     lib root package: "com.google.android.gms"
+19:37:04 INFO  LibraryIdentifier         :         Partial matching results:
+19:37:04 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.7142857
+19:37:04 INFO  LibraryIdentifier         : 
+19:37:04 INFO  LibraryIdentifier         :                 name: 4422
+19:37:04 INFO  LibraryIdentifier         :             category: Android
+19:37:04 INFO  LibraryIdentifier         :              version: 4422
+19:37:04 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+19:37:04 INFO  LibraryIdentifier         :     lib root package: "org.dmfs.android.view"
+19:37:04 INFO  LibraryIdentifier         :         Partial matching results:
+19:37:04 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.8
+19:37:04 INFO  LibraryIdentifier         : 
+19:37:04 INFO  LibraryIdentifier         :                 name: 4613
+19:37:04 INFO  LibraryIdentifier         :             category: Android
+19:37:04 INFO  LibraryIdentifier         :              version: 4613
+19:37:04 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+19:37:04 INFO  LibraryIdentifier         :     lib root package: "com.gigamole.slideimageview.lib"
+19:37:04 INFO  LibraryIdentifier         :         Partial matching results:
+19:37:04 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.75
+19:37:04 INFO  LibraryIdentifier         : 
+19:37:04 INFO  LibraryIdentifier         :                 name: 2050
+19:37:04 INFO  LibraryIdentifier         :             category: Android
+19:37:04 INFO  LibraryIdentifier         :              version: 2050
+19:37:04 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+19:37:04 INFO  LibraryIdentifier         :     lib root package: "com.google.zxing"
+19:37:04 INFO  LibraryIdentifier         :         Partial matching results:
+19:37:04 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.7629638
+19:37:04 INFO  LibraryIdentifier         : 
+19:37:05 INFO  LibraryIdentifier         :                 name: 4857
+19:37:05 INFO  LibraryIdentifier         :             category: Android
+19:37:05 INFO  LibraryIdentifier         :              version: 4857
+19:37:05 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+19:37:05 INFO  LibraryIdentifier         :     lib root package: "com.github.kittinunf.fuel.jackson"
+19:37:05 INFO  LibraryIdentifier         :         Partial matching results:
+19:37:05 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.7567568
+19:37:05 INFO  LibraryIdentifier         : 
+19:37:05 INFO  LibraryIdentifier         :                 name: 12301
+19:37:05 INFO  LibraryIdentifier         :             category: Android
+19:37:05 INFO  LibraryIdentifier         :              version: 12301
+19:37:05 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+19:37:05 INFO  LibraryIdentifier         :     lib root package: "org.jivesoftware.smackx.ping.android"
+19:37:05 INFO  LibraryIdentifier         :         Partial matching results:
+19:37:05 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.75
+19:37:05 INFO  LibraryIdentifier         : 
+19:37:05 INFO  LibraryIdentifier         :                 name: 12302
+19:37:05 INFO  LibraryIdentifier         :             category: Android
+19:37:05 INFO  LibraryIdentifier         :              version: 12302
+19:37:05 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+19:37:05 INFO  LibraryIdentifier         :     lib root package: "org.jivesoftware.smackx.ping.android"
+19:37:05 INFO  LibraryIdentifier         :         Partial matching results:
+19:37:05 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.75
+19:37:05 INFO  LibraryIdentifier         : 
+19:37:05 INFO  LibraryIdentifier         :                 name: 9706
+19:37:05 INFO  LibraryIdentifier         :             category: Android
+19:37:05 INFO  LibraryIdentifier         :              version: 9706
+19:37:05 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+19:37:05 INFO  LibraryIdentifier         :     lib root package: "com.tasomaniac.android.widget"
+19:37:05 INFO  LibraryIdentifier         :         Partial matching results:
+19:37:05 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.75
+19:37:05 INFO  LibraryIdentifier         : 
+19:37:05 INFO  LibraryIdentifier         : 
+19:37:05 INFO  LibraryIdentifier         : Write app stats to JSON (dir: json)
+19:37:05 INFO  LibraryIdentifier         : App processing time: 25 sec, 936 ms

@@ -1,0 +1,1102 @@
+19:46:24 INFO  LibraryIdentifier         : Process app: ri144_tod%teleop-debug.apk
+19:46:24 INFO  LibraryIdentifier         : = Manifest Parser =
+19:46:24 INFO  LibraryIdentifier         :         Package name: com.github.rosjava.android_apps.teleop
+19:46:24 INFO  LibraryIdentifier         :         Version code: 2
+19:46:24 INFO  LibraryIdentifier         :        minSdkVersion: 13
+19:46:24 INFO  LibraryIdentifier         :     targetSdkVersion: 13
+19:46:24 INFO  LibraryIdentifier         :         SharedUserId:  - none -
+19:46:24 INFO  LibraryIdentifier         :     Library dependencies:  - none -
+19:46:24 INFO  LibraryIdentifier         : 
+19:46:24 INFO  LibraryIdentifier         : Found 12043 unique libraries in 12043 library profiles
+19:46:24 INFO  LibraryIdentifier         : Generated class hierarchy (in 286 ms)
+19:46:26 INFO  WalaUtils                 : 
+19:46:26 INFO  WalaUtils                 : = ClassHierarchy Stats =
+19:46:26 INFO  WalaUtils                 :     # of classes: 3964
+19:46:26 INFO  WalaUtils                 :     # thereof inner classes: 1646
+19:46:26 INFO  WalaUtils                 :     # thereof public classes: 2219
+19:46:26 INFO  WalaUtils                 :         Activity : 10
+19:46:26 INFO  WalaUtils                 :         Application : 0
+19:46:26 INFO  WalaUtils                 :         AsyncTask : 3
+19:46:26 INFO  WalaUtils                 :         BroadcastReceiver : 0
+19:46:26 INFO  WalaUtils                 :         ContentProvider : 1
+19:46:26 INFO  WalaUtils                 :         Fragment : 0
+19:46:26 INFO  WalaUtils                 :         Handler : 0
+19:46:26 INFO  WalaUtils                 :         LayoutContainer : 7
+19:46:26 INFO  WalaUtils                 :         Plain : 3921
+19:46:26 INFO  WalaUtils                 :         Runnable : 0
+19:46:26 INFO  WalaUtils                 :         Service : 1
+19:46:26 INFO  WalaUtils                 :         Thread : 11
+19:46:26 INFO  WalaUtils                 :         View : 10
+19:46:26 INFO  WalaUtils                 :     # methods: 29576
+19:46:26 INFO  WalaUtils                 :         # of publicly accessible methods: 21950
+19:46:26 INFO  WalaUtils                 :         # of non-accessible methods: 7626
+19:46:26 INFO  WalaUtils                 : 
+19:46:26 INFO  Profile                   : = PackageTree =
+19:46:26 INFO  PackageTree               : Root Package:  - none -
+19:46:26 INFO  PackageTree               : ©¸©¤©¤ Root (7)
+19:46:26 INFO  PackageTree               :     ©À©¤©¤ org
+19:46:26 INFO  PackageTree               :     ©¦   ©À©¤©¤ jboss
+19:46:26 INFO  PackageTree               :     ©¦   ©¦   ©¸©¤©¤ netty
+19:46:26 INFO  PackageTree               :     ©¦   ©¦       ©À©¤©¤ channel (74)
+19:46:26 INFO  PackageTree               :     ©¦   ©¦       ©¦   ©À©¤©¤ socket (15)
+19:46:26 INFO  PackageTree               :     ©¦   ©¦       ©¦   ©¦   ©À©¤©¤ oio (17)
+19:46:26 INFO  PackageTree               :     ©¦   ©¦       ©¦   ©¦   ©À©¤©¤ http (18)
+19:46:26 INFO  PackageTree               :     ©¦   ©¦       ©¦   ©¦   ©¸©¤©¤ nio (48)
+19:46:26 INFO  PackageTree               :     ©¦   ©¦       ©¦   ©À©¤©¤ local (13)
+19:46:26 INFO  PackageTree               :     ©¦   ©¦       ©¦   ©¸©¤©¤ group (8)
+19:46:26 INFO  PackageTree               :     ©¦   ©¦       ©À©¤©¤ handler
+19:46:26 INFO  PackageTree               :     ©¦   ©¦       ©¦   ©À©¤©¤ codec (1)
+19:46:26 INFO  PackageTree               :     ©¦   ©¦       ©¦   ©¦   ©À©¤©¤ serialization (17)
+19:46:26 INFO  PackageTree               :     ©¦   ©¦       ©¦   ©¦   ©À©¤©¤ http (46)
+19:46:26 INFO  PackageTree               :     ©¦   ©¦       ©¦   ©¦   ©¦   ©À©¤©¤ multipart (29)
+19:46:26 INFO  PackageTree               :     ©¦   ©¦       ©¦   ©¦   ©¦   ©À©¤©¤ websocketx (31)
+19:46:26 INFO  PackageTree               :     ©¦   ©¦       ©¦   ©¦   ©¦   ©¸©¤©¤ websocket (4)
+19:46:26 INFO  PackageTree               :     ©¦   ©¦       ©¦   ©¦   ©À©¤©¤ marshalling (15)
+19:46:26 INFO  PackageTree               :     ©¦   ©¦       ©¦   ©¦   ©À©¤©¤ spdy (55)
+19:46:26 INFO  PackageTree               :     ©¦   ©¦       ©¦   ©¦   ©À©¤©¤ rtsp (12)
+19:46:26 INFO  PackageTree               :     ©¦   ©¦       ©¦   ©¦   ©À©¤©¤ embedder (10)
+19:46:26 INFO  PackageTree               :     ©¦   ©¦       ©¦   ©¦   ©À©¤©¤ compression (8)
+19:46:26 INFO  PackageTree               :     ©¦   ©¦       ©¦   ©¦   ©À©¤©¤ frame (8)
+19:46:26 INFO  PackageTree               :     ©¦   ©¦       ©¦   ©¦   ©À©¤©¤ base64 (4)
+19:46:26 INFO  PackageTree               :     ©¦   ©¦       ©¦   ©¦   ©À©¤©¤ protobuf (4)
+19:46:26 INFO  PackageTree               :     ©¦   ©¦       ©¦   ©¦   ©À©¤©¤ replay (6)
+19:46:26 INFO  PackageTree               :     ©¦   ©¦       ©¦   ©¦   ©À©¤©¤ string (2)
+19:46:26 INFO  PackageTree               :     ©¦   ©¦       ©¦   ©¦   ©¸©¤©¤ oneone (2)
+19:46:26 INFO  PackageTree               :     ©¦   ©¦       ©¦   ©À©¤©¤ ipfilter (16)
+19:46:26 INFO  PackageTree               :     ©¦   ©¦       ©¦   ©À©¤©¤ stream (8)
+19:46:26 INFO  PackageTree               :     ©¦   ©¦       ©¦   ©À©¤©¤ ssl (10)
+19:46:26 INFO  PackageTree               :     ©¦   ©¦       ©¦   ©À©¤©¤ execution (17)
+19:46:26 INFO  PackageTree               :     ©¦   ©¦       ©¦   ©À©¤©¤ timeout (19)
+19:46:26 INFO  PackageTree               :     ©¦   ©¦       ©¦   ©À©¤©¤ queue (4)
+19:46:26 INFO  PackageTree               :     ©¦   ©¦       ©¦   ©À©¤©¤ traffic (6)
+19:46:26 INFO  PackageTree               :     ©¦   ©¦       ©¦   ©¸©¤©¤ logging (1)
+19:46:26 INFO  PackageTree               :     ©¦   ©¦       ©À©¤©¤ logging (18)
+19:46:26 INFO  PackageTree               :     ©¦   ©¦       ©À©¤©¤ bootstrap (5)
+19:46:26 INFO  PackageTree               :     ©¦   ©¦       ©À©¤©¤ buffer (31)
+19:46:26 INFO  PackageTree               :     ©¦   ©¦       ©À©¤©¤ util (23)
+19:46:26 INFO  PackageTree               :     ©¦   ©¦       ©¦   ©¸©¤©¤ internal (77)
+19:46:26 INFO  PackageTree               :     ©¦   ©¦       ©¦       ©¸©¤©¤ jzlib (13)
+19:46:26 INFO  PackageTree               :     ©¦   ©¦       ©¸©¤©¤ container
+19:46:26 INFO  PackageTree               :     ©¦   ©¦           ©À©¤©¤ microcontainer (1)
+19:46:26 INFO  PackageTree               :     ©¦   ©¦           ©À©¤©¤ spring (1)
+19:46:26 INFO  PackageTree               :     ©¦   ©¦           ©¸©¤©¤ osgi (1)
+19:46:26 INFO  PackageTree               :     ©¦   ©À©¤©¤ xbill
+19:46:26 INFO  PackageTree               :     ©¦   ©¦   ©¸©¤©¤ DNS (232)
+19:46:26 INFO  PackageTree               :     ©¦   ©¦       ©À©¤©¤ spi (2)
+19:46:26 INFO  PackageTree               :     ©¦   ©¦       ©À©¤©¤ tests (2)
+19:46:26 INFO  PackageTree               :     ©¦   ©¦       ©¸©¤©¤ utils (11)
+19:46:26 INFO  PackageTree               :     ©¦   ©À©¤©¤ ros (6)
+19:46:26 INFO  PackageTree               :     ©¦   ©¦   ©À©¤©¤ internal
+19:46:26 INFO  PackageTree               :     ©¦   ©¦   ©¦   ©À©¤©¤ transport (10)
+19:46:26 INFO  PackageTree               :     ©¦   ©¦   ©¦   ©¦   ©À©¤©¤ tcp (12)
+19:46:26 INFO  PackageTree               :     ©¦   ©¦   ©¦   ©¦   ©¸©¤©¤ queue (8)
+19:46:26 INFO  PackageTree               :     ©¦   ©¦   ©¦   ©À©¤©¤ node (13)
+19:46:26 INFO  PackageTree               :     ©¦   ©¦   ©¦   ©¦   ©À©¤©¤ service (26)
+19:46:26 INFO  PackageTree               :     ©¦   ©¦   ©¦   ©¦   ©À©¤©¤ topic (35)
+19:46:26 INFO  PackageTree               :     ©¦   ©¦   ©¦   ©¦   ©À©¤©¤ xmlrpc (9)
+19:46:26 INFO  PackageTree               :     ©¦   ©¦   ©¦   ©¦   ©À©¤©¤ server (15)
+19:46:26 INFO  PackageTree               :     ©¦   ©¦   ©¦   ©¦   ©¦   ©¸©¤©¤ master (6)
+19:46:26 INFO  PackageTree               :     ©¦   ©¦   ©¦   ©¦   ©À©¤©¤ client (23)
+19:46:26 INFO  PackageTree               :     ©¦   ©¦   ©¦   ©¦   ©À©¤©¤ response (15)
+19:46:26 INFO  PackageTree               :     ©¦   ©¦   ©¦   ©¦   ©¸©¤©¤ parameter (3)
+19:46:26 INFO  PackageTree               :     ©¦   ©¦   ©¦   ©À©¤©¤ message (23)
+19:46:26 INFO  PackageTree               :     ©¦   ©¦   ©¦   ©¦   ©À©¤©¤ topic (6)
+19:46:26 INFO  PackageTree               :     ©¦   ©¦   ©¦   ©¦   ©À©¤©¤ context (6)
+19:46:26 INFO  PackageTree               :     ©¦   ©¦   ©¦   ©¦   ©À©¤©¤ field (32)
+19:46:26 INFO  PackageTree               :     ©¦   ©¦   ©¦   ©¦   ©À©¤©¤ definition (6)
+19:46:26 INFO  PackageTree               :     ©¦   ©¦   ©¦   ©¦   ©¸©¤©¤ service (9)
+19:46:26 INFO  PackageTree               :     ©¦   ©¦   ©¦   ©À©¤©¤ loader (1)
+19:46:26 INFO  PackageTree               :     ©¦   ©¦   ©¦   ©¸©¤©¤ system (1)
+19:46:26 INFO  PackageTree               :     ©¦   ©¦   ©À©¤©¤ message (11)
+19:46:26 INFO  PackageTree               :     ©¦   ©¦   ©À©¤©¤ android (16)
+19:46:26 INFO  PackageTree               :     ©¦   ©¦   ©¦   ©¸©¤©¤ view (20)
+19:46:26 INFO  PackageTree               :     ©¦   ©¦   ©¦       ©À©¤©¤ camera (6)
+19:46:26 INFO  PackageTree               :     ©¦   ©¦   ©¦       ©¸©¤©¤ visualization (13)
+19:46:26 INFO  PackageTree               :     ©¦   ©¦   ©¦           ©À©¤©¤ layer (29)
+19:46:26 INFO  PackageTree               :     ©¦   ©¦   ©¦           ©¸©¤©¤ shape (6)
+19:46:26 INFO  PackageTree               :     ©¦   ©¦   ©À©¤©¤ gradle_plugins (35)
+19:46:26 INFO  PackageTree               :     ©¦   ©¦   ©À©¤©¤ node (15)
+19:46:26 INFO  PackageTree               :     ©¦   ©¦   ©¦   ©À©¤©¤ topic (8)
+19:46:26 INFO  PackageTree               :     ©¦   ©¦   ©¦   ©À©¤©¤ parameter (2)
+19:46:26 INFO  PackageTree               :     ©¦   ©¦   ©¦   ©¸©¤©¤ service (7)
+19:46:26 INFO  PackageTree               :     ©¦   ©¦   ©À©¤©¤ exception (9)
+19:46:26 INFO  PackageTree               :     ©¦   ©¦   ©À©¤©¤ concurrent (18)
+19:46:26 INFO  PackageTree               :     ©¦   ©¦   ©À©¤©¤ rosjava_geometry (7)
+19:46:26 INFO  PackageTree               :     ©¦   ©¦   ©À©¤©¤ master
+19:46:26 INFO  PackageTree               :     ©¦   ©¦   ©¦   ©À©¤©¤ client (4)
+19:46:26 INFO  PackageTree               :     ©¦   ©¦   ©¦   ©¸©¤©¤ uri (5)
+19:46:26 INFO  PackageTree               :     ©¦   ©¦   ©À©¤©¤ time (11)
+19:46:26 INFO  PackageTree               :     ©¦   ©¦   ©À©¤©¤ address (8)
+19:46:26 INFO  PackageTree               :     ©¦   ©¦   ©À©¤©¤ math (3)
+19:46:26 INFO  PackageTree               :     ©¦   ©¦   ©¸©¤©¤ namespace (3)
+19:46:26 INFO  PackageTree               :     ©¦   ©¸©¤©¤ apache
+19:46:26 INFO  PackageTree               :     ©¦       ©À©¤©¤ commons
+19:46:26 INFO  PackageTree               :     ©¦       ©¦   ©À©¤©¤ net (10)
+19:46:26 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©À©¤©¤ nntp (13)
+19:46:26 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©À©¤©¤ whois (1)
+19:46:26 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©À©¤©¤ ftp (15)
+19:46:26 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©¦   ©¸©¤©¤ parser (18)
+19:46:26 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©À©¤©¤ pop3 (5)
+19:46:26 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©À©¤©¤ tftp (10)
+19:46:26 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©À©¤©¤ ntp (6)
+19:46:26 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©À©¤©¤ telnet (14)
+19:46:26 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©À©¤©¤ discard (2)
+19:46:26 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©À©¤©¤ finger (1)
+19:46:26 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©À©¤©¤ time (2)
+19:46:26 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©À©¤©¤ daytime (2)
+19:46:26 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©À©¤©¤ io (13)
+19:46:26 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©À©¤©¤ smtp (7)
+19:46:26 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©À©¤©¤ util (3)
+19:46:26 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©À©¤©¤ bsd (3)
+19:46:26 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©À©¤©¤ echo (2)
+19:46:26 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©¸©¤©¤ chargen (2)
+19:46:26 INFO  PackageTree               :     ©¦       ©¦   ©À©¤©¤ codec (9)
+19:46:26 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©À©¤©¤ binary (3)
+19:46:26 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©À©¤©¤ language (6)
+19:46:26 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©À©¤©¤ net (6)
+19:46:26 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©¸©¤©¤ digest (1)
+19:46:26 INFO  PackageTree               :     ©¦       ©¦   ©À©¤©¤ io (18)
+19:46:26 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©À©¤©¤ filefilter (24)
+19:46:26 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©À©¤©¤ input (13)
+19:46:26 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©À©¤©¤ comparator (7)
+19:46:26 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©¸©¤©¤ output (14)
+19:46:26 INFO  PackageTree               :     ©¦       ©¦   ©À©¤©¤ httpclient (66)
+19:46:26 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©À©¤©¤ util (15)
+19:46:26 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©À©¤©¤ auth (20)
+19:46:26 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©À©¤©¤ protocol (9)
+19:46:26 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©À©¤©¤ methods (15)
+19:46:26 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©¦   ©¸©¤©¤ multipart (8)
+19:46:26 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©À©¤©¤ cookie (22)
+19:46:26 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©¸©¤©¤ params (9)
+19:46:26 INFO  PackageTree               :     ©¦       ©¦   ©À©¤©¤ lang (38)
+19:46:26 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©À©¤©¤ time (24)
+19:46:26 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©À©¤©¤ math (11)
+19:46:26 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©À©¤©¤ exception (6)
+19:46:26 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©À©¤©¤ mutable (9)
+19:46:26 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©À©¤©¤ builder (14)
+19:46:26 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©À©¤©¤ enums (4)
+19:46:26 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©À©¤©¤ text (17)
+19:46:26 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©¸©¤©¤ enum (4)
+19:46:26 INFO  PackageTree               :     ©¦       ©¦   ©À©¤©¤ pool (27)
+19:46:26 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©¸©¤©¤ impl (25)
+19:46:26 INFO  PackageTree               :     ©¦       ©¦   ©¸©¤©¤ logging (10)
+19:46:26 INFO  PackageTree               :     ©¦       ©¦       ©¸©¤©¤ impl (18)
+19:46:26 INFO  PackageTree               :     ©¦       ©À©¤©¤ xmlrpc (6)
+19:46:26 INFO  PackageTree               :     ©¦       ©¦   ©À©¤©¤ client (46)
+19:46:26 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©¸©¤©¤ util (2)
+19:46:26 INFO  PackageTree               :     ©¦       ©¦   ©À©¤©¤ server (25)
+19:46:26 INFO  PackageTree               :     ©¦       ©¦   ©À©¤©¤ serializer (27)
+19:46:26 INFO  PackageTree               :     ©¦       ©¦   ©À©¤©¤ metadata (7)
+19:46:26 INFO  PackageTree               :     ©¦       ©¦   ©À©¤©¤ parser (27)
+19:46:26 INFO  PackageTree               :     ©¦       ©¦   ©À©¤©¤ util (12)
+19:46:26 INFO  PackageTree               :     ©¦       ©¦   ©À©¤©¤ common (33)
+19:46:26 INFO  PackageTree               :     ©¦       ©¦   ©À©¤©¤ webserver (9)
+19:46:26 INFO  PackageTree               :     ©¦       ©¦   ©¸©¤©¤ jaxb (4)
+19:46:26 INFO  PackageTree               :     ©¦       ©¸©¤©¤ ws
+19:46:26 INFO  PackageTree               :     ©¦           ©¸©¤©¤ commons
+19:46:26 INFO  PackageTree               :     ©¦               ©À©¤©¤ util (15)
+19:46:26 INFO  PackageTree               :     ©¦               ©¸©¤©¤ serialize (8)
+19:46:26 INFO  PackageTree               :     ©À©¤©¤ com
+19:46:26 INFO  PackageTree               :     ©¦   ©À©¤©¤ google
+19:46:26 INFO  PackageTree               :     ©¦   ©¦   ©¸©¤©¤ common
+19:46:26 INFO  PackageTree               :     ©¦   ©¦       ©À©¤©¤ collect (795)
+19:46:26 INFO  PackageTree               :     ©¦   ©¦       ©À©¤©¤ util
+19:46:26 INFO  PackageTree               :     ©¦   ©¦       ©¦   ©¸©¤©¤ concurrent (91)
+19:46:26 INFO  PackageTree               :     ©¦   ©¦       ©À©¤©¤ cache (104)
+19:46:26 INFO  PackageTree               :     ©¦   ©¦       ©À©¤©¤ io (44)
+19:46:26 INFO  PackageTree               :     ©¦   ©¦       ©À©¤©¤ net (11)
+19:46:26 INFO  PackageTree               :     ©¦   ©¦       ©À©¤©¤ base (114)
+19:46:26 INFO  PackageTree               :     ©¦   ©¦       ©¦   ©¸©¤©¤ internal (2)
+19:46:26 INFO  PackageTree               :     ©¦   ©¦       ©À©¤©¤ hash (34)
+19:46:26 INFO  PackageTree               :     ©¦   ©¦       ©À©¤©¤ reflect (33)
+19:46:26 INFO  PackageTree               :     ©¦   ©¦       ©À©¤©¤ annotations (4)
+19:46:26 INFO  PackageTree               :     ©¦   ©¦       ©À©¤©¤ eventbus (15)
+19:46:26 INFO  PackageTree               :     ©¦   ©¦       ©À©¤©¤ primitives (38)
+19:46:26 INFO  PackageTree               :     ©¦   ©¦       ©¸©¤©¤ math (6)
+19:46:26 INFO  PackageTree               :     ©¦   ©¸©¤©¤ github
+19:46:26 INFO  PackageTree               :     ©¦       ©¸©¤©¤ rosjava
+19:46:26 INFO  PackageTree               :     ©¦           ©À©¤©¤ android_apps
+19:46:26 INFO  PackageTree               :     ©¦           ©¦   ©À©¤©¤ teleop (35)
+19:46:26 INFO  PackageTree               :     ©¦           ©¦   ©¸©¤©¤ application_management (37)
+19:46:26 INFO  PackageTree               :     ©¦           ©¦       ©À©¤©¤ rapp_manager (9)
+19:46:26 INFO  PackageTree               :     ©¦           ©¦       ©¸©¤©¤ dashboards (3)
+19:46:26 INFO  PackageTree               :     ©¦           ©¸©¤©¤ android_extras
+19:46:26 INFO  PackageTree               :     ©¦               ©¸©¤©¤ gingerbread
+19:46:26 INFO  PackageTree               :     ©¦                   ©¸©¤©¤ view (1)
+19:46:26 INFO  PackageTree               :     ©À©¤©¤ javax
+19:46:26 INFO  PackageTree               :     ©¦   ©¸©¤©¤ annotation (24)
+19:46:26 INFO  PackageTree               :     ©¦       ©À©¤©¤ concurrent (4)
+19:46:26 INFO  PackageTree               :     ©¦       ©¸©¤©¤ meta (7)
+19:46:26 INFO  PackageTree               :     ©À©¤©¤ junit
+19:46:26 INFO  PackageTree               :     ©¦   ©À©¤©¤ swingui (50)
+19:46:26 INFO  PackageTree               :     ©¦   ©À©¤©¤ extensions (7)
+19:46:26 INFO  PackageTree               :     ©¦   ©À©¤©¤ awtui (16)
+19:46:26 INFO  PackageTree               :     ©¦   ©À©¤©¤ framework (3)
+19:46:26 INFO  PackageTree               :     ©¦   ©À©¤©¤ runner (11)
+19:46:26 INFO  PackageTree               :     ©¦   ©¸©¤©¤ textui (2)
+19:46:26 INFO  PackageTree               :     ©À©¤©¤ gateway_msgs (27)
+19:46:26 INFO  PackageTree               :     ©À©¤©¤ diagnostic_msgs (6)
+19:46:26 INFO  PackageTree               :     ©À©¤©¤ rocon_app_manager_msgs (33)
+19:46:26 INFO  PackageTree               :     ©À©¤©¤ actionlib_msgs (3)
+19:46:26 INFO  PackageTree               :     ©À©¤©¤ sensor_msgs (29)
+19:46:26 INFO  PackageTree               :     ©À©¤©¤ std_msgs (32)
+19:46:26 INFO  PackageTree               :     ©À©¤©¤ nav_msgs (18)
+19:46:26 INFO  PackageTree               :     ©À©¤©¤ rosjava_test_msgs (10)
+19:46:26 INFO  PackageTree               :     ©À©¤©¤ geometry_msgs (23)
+19:46:26 INFO  PackageTree               :     ©À©¤©¤ tf2_msgs (5)
+19:46:26 INFO  PackageTree               :     ©¸©¤©¤ rosgraph_msgs (3)
+19:46:26 INFO  Profile                   : 
+19:46:26 INFO  AppProfile                : - generated app package tree (in 0 ms)
+19:46:26 INFO  AppProfile                : 
+19:46:26 DEBUG HashTree                  : Generate hash tree..
+19:46:26 DEBUG HashTree                  :     - generated 189 package hashes.
+19:46:26 DEBUG HashTree                  :     - generated 3887 clazz hashes.
+19:46:26 DEBUG HashTree                  :     - generated 29576 method hashes.
+19:46:26 DEBUG HashTree                  :     => Library Hash: 70869f6b9a4b2b5b96178c9bbe30f8f0
+19:46:26 INFO  AppProfile                : - generated app hash trees (in 176 ms)
+19:46:26 INFO  AppProfile                : 
+19:46:26 INFO  LibraryIdentifier         : = Scan for library root packages (heuristic) =
+19:46:26 INFO  LibraryIdentifier         :     - Found lib root package org.apache.commons  (10026)
+19:46:26 INFO  LibraryIdentifier         :     - Found lib root package org.apache.commons.codec  (10029)
+19:46:26 INFO  LibraryIdentifier         :     - Found lib root package org.apache.commons.codec  (10030)
+19:46:26 INFO  LibraryIdentifier         :     - Found lib root package org.apache.commons.codec  (10031)
+19:46:26 INFO  LibraryIdentifier         :     - Found lib root package org.apache.commons.codec  (10032)
+19:46:26 INFO  LibraryIdentifier         :     - Found lib root package org.apache.commons.codec  (10033)
+19:46:26 INFO  LibraryIdentifier         :     - Found lib root package org.apache.commons.codec  (10034)
+19:46:26 INFO  LibraryIdentifier         :     - Found lib root package org.apache.commons.codec  (10035)
+19:46:26 INFO  LibraryIdentifier         :     - Found lib root package org.apache.commons.codec  (10036)
+19:46:26 INFO  LibraryIdentifier         :     - Found lib root package org.apache.commons.codec  (10037)
+19:46:26 INFO  LibraryIdentifier         :     - Found lib root package org.apache.commons.codec  (10038)
+19:46:26 INFO  LibraryIdentifier         :     - Found lib root package org.apache.commons.codec  (10039)
+19:46:26 INFO  LibraryIdentifier         :     - Found lib root package org.apache.commons.codec  (10040)
+19:46:26 INFO  LibraryIdentifier         :     - Found lib root package org.apache.commons.codec  (10041)
+19:46:26 INFO  LibraryIdentifier         :     - Found lib root package org.apache.commons.httpclient  (10045)
+19:46:26 INFO  LibraryIdentifier         :     - Found lib root package org.apache.commons.io  (10046)
+19:46:26 INFO  LibraryIdentifier         :     - Found lib root package org.apache.commons.io  (10047)
+19:46:26 INFO  LibraryIdentifier         :     - Found lib root package org.apache.commons.io  (10048)
+19:46:26 INFO  LibraryIdentifier         :     - Found lib root package org.apache.commons.io  (10049)
+19:46:26 INFO  LibraryIdentifier         :     - Found lib root package org.apache.commons.io  (10050)
+19:46:26 INFO  LibraryIdentifier         :     - Found lib root package org.apache.commons.io  (10051)
+19:46:26 INFO  LibraryIdentifier         :     - Found lib root package org.apache.commons.io  (10052)
+19:46:26 INFO  LibraryIdentifier         :     - Found lib root package org.apache.commons.io  (10053)
+19:46:26 INFO  LibraryIdentifier         :     - Found lib root package org.apache.commons.io  (10054)
+19:46:26 INFO  LibraryIdentifier         :     - Found lib root package org.apache.commons.io  (10055)
+19:46:26 INFO  LibraryIdentifier         :     - Found lib root package org.apache.commons.io  (10056)
+19:46:26 INFO  LibraryIdentifier         :     - Found lib root package org.apache.commons.io  (10057)
+19:46:26 INFO  LibraryIdentifier         :     - Found lib root package org.apache.commons.io  (10058)
+19:46:26 INFO  LibraryIdentifier         :     - Found lib root package org.apache.commons.io  (10059)
+19:46:26 INFO  LibraryIdentifier         :     - Found lib root package org.apache.commons.io  (10060)
+19:46:26 INFO  LibraryIdentifier         :     - Found lib root package org.apache.commons.lang  (10061)
+19:46:26 INFO  LibraryIdentifier         :     - Found lib root package org.apache.commons.lang  (10062)
+19:46:26 INFO  LibraryIdentifier         :     - Found lib root package org.apache.commons.lang  (10063)
+19:46:26 INFO  LibraryIdentifier         :     - Found lib root package org.apache.commons.logging  (10064)
+19:46:26 INFO  LibraryIdentifier         :     - Found lib root package org.apache.commons.logging  (10065)
+19:46:26 INFO  LibraryIdentifier         :     - Found lib root package org.apache.commons.logging  (10066)
+19:46:26 INFO  LibraryIdentifier         :     - Found lib root package org.apache.commons.net  (10067)
+19:46:26 INFO  LibraryIdentifier         :     - Found lib root package org.apache.commons.net  (10068)
+19:46:26 INFO  LibraryIdentifier         :     - Found lib root package org.apache.commons.net  (10069)
+19:46:26 INFO  LibraryIdentifier         :     - Found lib root package org.apache.commons.net  (10070)
+19:46:26 INFO  LibraryIdentifier         :     - Found lib root package org.apache.commons.net  (10071)
+19:46:26 INFO  LibraryIdentifier         :     - Found lib root package org.apache.commons.net  (10072)
+19:46:26 INFO  LibraryIdentifier         :     - Found lib root package org.apache.commons.net  (10073)
+19:46:26 INFO  LibraryIdentifier         :     - Found lib root package org.apache.commons.net  (10074)
+19:46:26 INFO  LibraryIdentifier         :     - Found lib root package org.apache.commons.net  (10075)
+19:46:26 INFO  LibraryIdentifier         :     - Found lib root package org.apache.commons.pool  (10076)
+19:46:26 INFO  LibraryIdentifier         :     - Found lib root package org.xbill.DNS  (10256)
+19:46:26 INFO  LibraryIdentifier         :     - Found lib root package org.xbill.DNS  (10257)
+19:46:26 INFO  LibraryIdentifier         :     - Found lib root package org.xbill.DNS  (10258)
+19:46:26 INFO  LibraryIdentifier         :     - Found lib root package org.xbill.DNS  (10259)
+19:46:26 INFO  LibraryIdentifier         :     - Found lib root package org.xbill.DNS  (10260)
+19:46:26 INFO  LibraryIdentifier         :     - Found lib root package org.xbill.DNS  (10261)
+19:46:26 INFO  LibraryIdentifier         :     - Found lib root package org.xbill.DNS  (10262)
+19:46:26 INFO  LibraryIdentifier         :     - Found lib root package org.xbill.DNS  (10263)
+19:46:26 INFO  LibraryIdentifier         :     - Found lib root package org.xbill.DNS  (10264)
+19:46:26 INFO  LibraryIdentifier         :     - Found lib root package org.jboss.netty  (10928)
+19:46:26 INFO  LibraryIdentifier         :     - Found lib root package javax.annotation  (11207)
+19:46:26 INFO  LibraryIdentifier         :     - Found lib root package javax.annotation  (11208)
+19:46:26 INFO  LibraryIdentifier         :     - Found lib root package javax.annotation  (11209)
+19:46:26 INFO  LibraryIdentifier         :     - Found lib root package javax.annotation  (11694)
+19:46:26 INFO  LibraryIdentifier         :     - Found lib root package org.apache.commons.codec  (11846)
+19:46:26 INFO  LibraryIdentifier         :     - Found lib root package org.apache.commons.httpclient  (11847)
+19:46:26 INFO  LibraryIdentifier         :     - Found lib root package org.apache.commons.io  (11848)
+19:46:26 INFO  LibraryIdentifier         :     - Found lib root package org.apache.commons.lang  (11849)
+19:46:26 INFO  LibraryIdentifier         :     - Found lib root package org.apache.commons.logging  (11850)
+19:46:26 INFO  LibraryIdentifier         :     - Found lib root package org.apache.commons.net  (11851)
+19:46:26 INFO  LibraryIdentifier         :     - Found lib root package org.apache.commons.io  (11882)
+19:46:26 INFO  LibraryIdentifier         :     - Found lib root package org.apache.commons.io  (11917)
+19:46:26 INFO  LibraryIdentifier         :     - Found lib root package org.apache.ws.commons  (12016)
+19:46:26 INFO  LibraryIdentifier         :     - Found lib root package org.apache.xmlrpc.client  (12018)
+19:46:26 INFO  LibraryIdentifier         :     - Found lib root package org.apache.commons.codec  (12198)
+19:46:26 INFO  LibraryIdentifier         :     - Found lib root package javax.annotation  (12271)
+19:46:26 INFO  LibraryIdentifier         :     - Found lib root package org.apache.commons.lang  (13093)
+19:46:26 INFO  LibraryIdentifier         :     - Found lib root package org.ros  (13333)
+19:46:26 INFO  LibraryIdentifier         :     - Found lib root package org.ros  (13334)
+19:46:26 INFO  LibraryIdentifier         :     - Found lib root package org.apache.xmlrpc.client  (13335)
+19:46:26 INFO  LibraryIdentifier         :     - Found lib root package org.apache.xmlrpc  (13336)
+19:46:26 INFO  LibraryIdentifier         :     - Found lib root package org.apache.xmlrpc  (13337)
+19:46:26 INFO  LibraryIdentifier         :     - Found lib root package org.ros  (13338)
+19:46:26 INFO  LibraryIdentifier         :     - Found lib root package org.ros.rosjava_geometry  (13339)
+19:46:26 INFO  LibraryIdentifier         :     - Found lib root package actionlib_msgs  (13340)
+19:46:26 INFO  LibraryIdentifier         :     - Found lib root package diagnostic_msgs  (13341)
+19:46:26 INFO  LibraryIdentifier         :     - Found lib root package gateway_msgs  (13342)
+19:46:26 INFO  LibraryIdentifier         :     - Found lib root package geometry_msgs  (13343)
+19:46:26 INFO  LibraryIdentifier         :     - Found lib root package geometry_msgs  (13344)
+19:46:26 INFO  LibraryIdentifier         :     - Found lib root package nav_msgs  (13345)
+19:46:26 INFO  LibraryIdentifier         :     - Found lib root package nav_msgs  (13346)
+19:46:26 INFO  LibraryIdentifier         :     - Found lib root package rocon_app_manager_msgs  (13347)
+19:46:26 INFO  LibraryIdentifier         :     - Found lib root package rosgraph_msgs  (13348)
+19:46:26 INFO  LibraryIdentifier         :     - Found lib root package sensor_msgs  (13349)
+19:46:26 INFO  LibraryIdentifier         :     - Found lib root package std_msgs  (13350)
+19:46:26 INFO  LibraryIdentifier         :     - Found lib root package std_msgs  (13351)
+19:46:26 INFO  LibraryIdentifier         :     - Found lib root package tf2_msgs  (13353)
+19:46:26 INFO  LibraryIdentifier         :     - Found lib root package org.apache.commons.logging  (13389)
+19:46:26 INFO  LibraryIdentifier         :     - Found lib root package org.apache.commons.logging  (13390)
+19:46:26 INFO  LibraryIdentifier         :     - Found lib root package org.apache.commons.logging  (13391)
+19:46:26 INFO  LibraryIdentifier         :     - Found lib root package org.apache  (13704)
+19:46:26 INFO  LibraryIdentifier         :     - Found lib root package org.apache  (13705)
+19:46:26 INFO  LibraryIdentifier         :     - Found lib root package org.apache  (2037)
+19:46:26 INFO  LibraryIdentifier         :     - Found lib root package org.apache  (3991)
+19:46:26 INFO  LibraryIdentifier         :     - Found lib root package com.google.common.io  (4957)
+19:46:26 INFO  LibraryIdentifier         :     - Found lib root package org.apache.commons.io  (5448)
+19:46:26 INFO  LibraryIdentifier         :     - Found lib root package com.github.rosjava.android_extras.gingerbread.view  (5479)
+19:46:26 INFO  LibraryIdentifier         :     - Found lib root package javax  (6994)
+19:46:26 INFO  LibraryIdentifier         :     - Found lib root package javax.annotation  (7011)
+19:46:26 INFO  LibraryIdentifier         :     - Found lib root package javax.annotation  (7012)
+19:46:26 INFO  LibraryIdentifier         :     - Found lib root package javax.annotation  (7013)
+19:46:26 INFO  LibraryIdentifier         :     - Found lib root package javax.annotation  (7014)
+19:46:26 INFO  LibraryIdentifier         :     - Found lib root package javax.annotation  (7015)
+19:46:26 INFO  LibraryIdentifier         :     - Found lib root package javax.annotation  (7016)
+19:46:26 INFO  LibraryIdentifier         :     - Found lib root package javax.annotation  (7017)
+19:46:26 INFO  LibraryIdentifier         :     - Found lib root package com.google.common  (7602)
+19:46:26 INFO  LibraryIdentifier         :     - Found lib root package com.google.common  (7603)
+19:46:26 INFO  LibraryIdentifier         :     - Found lib root package com.google.common  (7604)
+19:46:26 INFO  LibraryIdentifier         :     - Found lib root package com.google.common  (7653)
+19:46:26 INFO  LibraryIdentifier         :     - Found lib root package com.google.common.collect  (7654)
+19:46:26 INFO  LibraryIdentifier         :     - Found lib root package com.google.common.util.concurrent  (7655)
+19:46:26 INFO  LibraryIdentifier         :     - Found lib root package org.apache.commons.io  (8440)
+19:46:26 INFO  LibraryIdentifier         :     - Found lib root package org.apache.commons.io  (8441)
+19:46:26 INFO  LibraryIdentifier         : 
+19:46:26 INFO  LibraryIdentifier         : = Match profiles =
+19:46:40 INFO  LibraryIdentifier         :     >> profile matching done (13 sec, 732 ms)
+19:46:40 INFO  LibraryIdentifier         : 
+19:46:40 INFO  LibraryIdentifier         : == Report ==
+19:46:40 INFO  LibraryIdentifier         : - Full library matches:
+19:46:40 INFO  ProfileMatch              :                 name: 9821
+19:46:40 INFO  ProfileMatch              :             category: Android
+19:46:40 INFO  ProfileMatch              :              version: 9821
+19:46:40 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:46:40 INFO  ProfileMatch              :     lib root package: "com.twofortyfouram.locale.api"  (in app: "org.jboss.netty.container")
+19:46:40 INFO  ProfileMatch              : 
+19:46:40 INFO  ProfileMatch              :                 name: 9820
+19:46:40 INFO  ProfileMatch              :             category: Android
+19:46:40 INFO  ProfileMatch              :              version: 9820
+19:46:40 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:46:40 INFO  ProfileMatch              :     lib root package: "com.twofortyfouram.locale.api"  (in app: "org.jboss.netty.container")
+19:46:40 INFO  ProfileMatch              : 
+19:46:40 INFO  ProfileMatch              :                 name: 9819
+19:46:40 INFO  ProfileMatch              :             category: Android
+19:46:40 INFO  ProfileMatch              :              version: 9819
+19:46:40 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:46:40 INFO  ProfileMatch              :     lib root package: "com.twofortyfouram.locale.api"  (in app: "org.jboss.netty.container")
+19:46:40 INFO  ProfileMatch              : 
+19:46:40 INFO  ProfileMatch              :                 name: 3816
+19:46:40 INFO  ProfileMatch              :             category: Android
+19:46:40 INFO  ProfileMatch              :              version: 3816
+19:46:40 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:46:40 INFO  ProfileMatch              :     lib root package: "com.firebase.ui"  (in app: "org.jboss.netty.container")
+19:46:40 INFO  ProfileMatch              : 
+19:46:40 INFO  ProfileMatch              :                 name: 3817
+19:46:40 INFO  ProfileMatch              :             category: Android
+19:46:40 INFO  ProfileMatch              :              version: 3817
+19:46:40 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:46:40 INFO  ProfileMatch              :     lib root package: "com.firebase.ui"  (in app: "org.jboss.netty.container")
+19:46:40 INFO  ProfileMatch              : 
+19:46:40 INFO  ProfileMatch              :                 name: 462
+19:46:40 INFO  ProfileMatch              :             category: Android
+19:46:40 INFO  ProfileMatch              :              version: 462
+19:46:40 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:46:40 INFO  ProfileMatch              :     lib root package: "androidx.compose.material.icons"  (in app: "org.jboss.netty.channel.socket.nio")
+19:46:40 INFO  ProfileMatch              : 
+19:46:40 INFO  ProfileMatch              :                 name: 463
+19:46:40 INFO  ProfileMatch              :             category: Android
+19:46:40 INFO  ProfileMatch              :              version: 463
+19:46:40 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:46:40 INFO  ProfileMatch              :     lib root package: "androidx.compose.material.icons"  (in app: "org.jboss.netty.channel.socket.nio")
+19:46:40 INFO  ProfileMatch              : 
+19:46:40 INFO  ProfileMatch              :                 name: 464
+19:46:40 INFO  ProfileMatch              :             category: Android
+19:46:40 INFO  ProfileMatch              :              version: 464
+19:46:40 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:46:40 INFO  ProfileMatch              :     lib root package: "androidx.compose.material.icons"  (in app: "org.jboss.netty.channel.socket.nio")
+19:46:40 INFO  ProfileMatch              : 
+19:46:40 INFO  ProfileMatch              :                 name: 10076
+19:46:40 INFO  ProfileMatch              :             category: Android
+19:46:40 INFO  ProfileMatch              :              version: 10076
+19:46:40 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:46:40 INFO  ProfileMatch              :     lib root package: "org.apache.commons.pool"
+19:46:40 INFO  ProfileMatch              : 
+19:46:40 INFO  ProfileMatch              :                 name: 10062
+19:46:40 INFO  ProfileMatch              :             category: Android
+19:46:40 INFO  ProfileMatch              :              version: 10062
+19:46:40 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:46:40 INFO  ProfileMatch              :     lib root package: "org.apache.commons.lang"
+19:46:40 INFO  ProfileMatch              : 
+19:46:40 INFO  ProfileMatch              :                 name: 10037
+19:46:40 INFO  ProfileMatch              :             category: Android
+19:46:40 INFO  ProfileMatch              :              version: 10037
+19:46:40 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:46:40 INFO  ProfileMatch              :     lib root package: "org.apache.commons.codec"
+19:46:40 INFO  ProfileMatch              : 
+19:46:40 INFO  ProfileMatch              :                 name: 10045
+19:46:40 INFO  ProfileMatch              :             category: Android
+19:46:40 INFO  ProfileMatch              :              version: 10045
+19:46:40 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:46:40 INFO  ProfileMatch              :     lib root package: "org.apache.commons.httpclient"
+19:46:40 INFO  ProfileMatch              : 
+19:46:40 INFO  ProfileMatch              :                 name: 10256
+19:46:40 INFO  ProfileMatch              :             category: Android
+19:46:40 INFO  ProfileMatch              :              version: 10256
+19:46:40 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:46:40 INFO  ProfileMatch              :     lib root package: "org.xbill.DNS"
+19:46:40 INFO  ProfileMatch              : 
+19:46:40 INFO  ProfileMatch              :                 name: 7602
+19:46:40 INFO  ProfileMatch              :             category: Android
+19:46:40 INFO  ProfileMatch              :              version: 7602
+19:46:40 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:46:40 INFO  ProfileMatch              :     lib root package: "com.google.common"
+19:46:40 INFO  ProfileMatch              : 
+19:46:40 INFO  ProfileMatch              :                 name: 7672
+19:46:40 INFO  ProfileMatch              :             category: Android
+19:46:40 INFO  ProfileMatch              :              version: 7672
+19:46:40 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:46:40 INFO  ProfileMatch              :     lib root package: "com.google.j2objc.annotations"  (in app: "org.jboss.netty.channel")
+19:46:40 INFO  ProfileMatch              : 
+19:46:40 INFO  ProfileMatch              :                 name: 11636
+19:46:40 INFO  ProfileMatch              :             category: Android
+19:46:40 INFO  ProfileMatch              :              version: 11636
+19:46:40 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:46:40 INFO  ProfileMatch              :     lib root package: "net.jcip.annotations"  (in app: "javax.annotation.concurrent")
+19:46:40 INFO  ProfileMatch              : 
+19:46:40 INFO  ProfileMatch              :                 name: 750
+19:46:40 INFO  ProfileMatch              :             category: Android
+19:46:40 INFO  ProfileMatch              :              version: 750
+19:46:40 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:46:40 INFO  ProfileMatch              :     lib root package: "androidx.core.role"  (in app: "org.jboss.netty.container")
+19:46:40 INFO  ProfileMatch              : 
+19:46:41 INFO  ProfileMatch              :                 name: 11694
+19:46:41 INFO  ProfileMatch              :             category: Android
+19:46:41 INFO  ProfileMatch              :              version: 11694
+19:46:41 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:46:41 INFO  ProfileMatch              :     lib root package: "javax.annotation"
+19:46:41 INFO  ProfileMatch              : 
+19:46:41 INFO  ProfileMatch              :                 name: 2962
+19:46:41 INFO  ProfileMatch              :             category: Android
+19:46:41 INFO  ProfileMatch              :              version: 2962
+19:46:41 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:46:41 INFO  ProfileMatch              :     lib root package: "com.anthonycr.mezzanine"  (in app: "javax.annotation.concurrent")
+19:46:41 INFO  ProfileMatch              : 
+19:46:41 INFO  ProfileMatch              :                 name: 902
+19:46:41 INFO  ProfileMatch              :             category: Android
+19:46:41 INFO  ProfileMatch              :              version: 902
+19:46:41 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:46:41 INFO  ProfileMatch              :     lib root package: "dagger.hilt.processor.internal.generatesrootinput.codegen"  (in app: "org.jboss.netty.container")
+19:46:41 INFO  ProfileMatch              : 
+19:46:41 INFO  ProfileMatch              :                 name: 903
+19:46:41 INFO  ProfileMatch              :             category: Android
+19:46:41 INFO  ProfileMatch              :              version: 903
+19:46:41 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:46:41 INFO  ProfileMatch              :     lib root package: "dagger.hilt.processor.internal.generatesrootinput.codegen"  (in app: "org.jboss.netty.container")
+19:46:41 INFO  ProfileMatch              : 
+19:46:41 INFO  ProfileMatch              :                 name: 904
+19:46:41 INFO  ProfileMatch              :             category: Android
+19:46:41 INFO  ProfileMatch              :              version: 904
+19:46:41 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:46:41 INFO  ProfileMatch              :     lib root package: "dagger.hilt.processor.internal.generatesrootinput.codegen"  (in app: "org.jboss.netty.container")
+19:46:41 INFO  ProfileMatch              : 
+19:46:41 INFO  ProfileMatch              :                 name: 11847
+19:46:41 INFO  ProfileMatch              :             category: Android
+19:46:41 INFO  ProfileMatch              :              version: 11847
+19:46:41 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:46:41 INFO  ProfileMatch              :     lib root package: "org.apache.commons.httpclient"
+19:46:41 INFO  ProfileMatch              : 
+19:46:41 INFO  ProfileMatch              :                 name: 11846
+19:46:41 INFO  ProfileMatch              :             category: Android
+19:46:41 INFO  ProfileMatch              :              version: 11846
+19:46:41 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:46:41 INFO  ProfileMatch              :     lib root package: "org.apache.commons.codec"
+19:46:41 INFO  ProfileMatch              : 
+19:46:41 INFO  ProfileMatch              :                 name: 11849
+19:46:41 INFO  ProfileMatch              :             category: Android
+19:46:41 INFO  ProfileMatch              :              version: 11849
+19:46:41 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:46:41 INFO  ProfileMatch              :     lib root package: "org.apache.commons.lang"
+19:46:41 INFO  ProfileMatch              : 
+19:46:41 INFO  ProfileMatch              :                 name: 11848
+19:46:41 INFO  ProfileMatch              :             category: Android
+19:46:41 INFO  ProfileMatch              :              version: 11848
+19:46:41 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:46:41 INFO  ProfileMatch              :     lib root package: "org.apache.commons.io"
+19:46:41 INFO  ProfileMatch              : 
+19:46:41 INFO  ProfileMatch              :                 name: 11850
+19:46:41 INFO  ProfileMatch              :             category: Android
+19:46:41 INFO  ProfileMatch              :              version: 11850
+19:46:41 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:46:41 INFO  ProfileMatch              :     lib root package: "org.apache.commons.logging"
+19:46:41 INFO  ProfileMatch              : 
+19:46:41 INFO  ProfileMatch              :                 name: 11851
+19:46:41 INFO  ProfileMatch              :             category: Android
+19:46:41 INFO  ProfileMatch              :              version: 11851
+19:46:41 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:46:41 INFO  ProfileMatch              :     lib root package: "org.apache.commons.net"
+19:46:41 INFO  ProfileMatch              : 
+19:46:41 INFO  ProfileMatch              :                 name: 11837
+19:46:41 INFO  ProfileMatch              :             category: Android
+19:46:41 INFO  ProfileMatch              :              version: 11837
+19:46:41 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:46:41 INFO  ProfileMatch              :     lib root package: "org.androidannotations.ormlite.annotations"  (in app: "com.google.common.base")
+19:46:41 INFO  ProfileMatch              : 
+19:46:41 INFO  ProfileMatch              :                 name: 4015
+19:46:41 INFO  ProfileMatch              :             category: Android
+19:46:41 INFO  ProfileMatch              :              version: 4015
+19:46:41 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:46:41 INFO  ProfileMatch              :     lib root package: "com.anysoftkeyboard.api"  (in app: "org.jboss.netty.container")
+19:46:41 INFO  ProfileMatch              : 
+19:46:41 INFO  ProfileMatch              :                 name: 4016
+19:46:41 INFO  ProfileMatch              :             category: Android
+19:46:41 INFO  ProfileMatch              :              version: 4016
+19:46:41 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:46:41 INFO  ProfileMatch              :     lib root package: "com.anysoftkeyboard.api"  (in app: "org.jboss.netty.container")
+19:46:41 INFO  ProfileMatch              : 
+19:46:41 INFO  ProfileMatch              :                 name: 4017
+19:46:41 INFO  ProfileMatch              :             category: Android
+19:46:41 INFO  ProfileMatch              :              version: 4017
+19:46:41 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:46:41 INFO  ProfileMatch              :     lib root package: "com.anysoftkeyboard.api"  (in app: "org.jboss.netty.container")
+19:46:41 INFO  ProfileMatch              : 
+19:46:41 INFO  ProfileMatch              :                 name: 4018
+19:46:41 INFO  ProfileMatch              :             category: Android
+19:46:41 INFO  ProfileMatch              :              version: 4018
+19:46:41 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:46:41 INFO  ProfileMatch              :     lib root package: "com.anysoftkeyboard.api"  (in app: "org.jboss.netty.container")
+19:46:41 INFO  ProfileMatch              : 
+19:46:41 INFO  ProfileMatch              :                 name: 4099
+19:46:41 INFO  ProfileMatch              :             category: Android
+19:46:41 INFO  ProfileMatch              :              version: 4099
+19:46:41 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:46:41 INFO  ProfileMatch              :     lib root package: "com.github.bassaer.library"  (in app: "com.google.common.base")
+19:46:41 INFO  ProfileMatch              : 
+19:46:41 INFO  ProfileMatch              :                 name: 6770
+19:46:41 INFO  ProfileMatch              :             category: Android
+19:46:41 INFO  ProfileMatch              :              version: 6770
+19:46:41 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:46:41 INFO  ProfileMatch              :     lib root package: "com.google.android.gms.tflite.support"  (in app: "org.jboss.netty.container")
+19:46:41 INFO  ProfileMatch              : 
+19:46:41 INFO  ProfileMatch              :                 name: 5479
+19:46:41 INFO  ProfileMatch              :             category: Android
+19:46:41 INFO  ProfileMatch              :              version: 5479
+19:46:41 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:46:41 INFO  ProfileMatch              :     lib root package: "com.github.rosjava.android_extras.gingerbread.view"
+19:46:41 INFO  ProfileMatch              : 
+19:46:41 INFO  ProfileMatch              :                 name: 5628
+19:46:41 INFO  ProfileMatch              :             category: Android
+19:46:41 INFO  ProfileMatch              :              version: 5628
+19:46:41 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:46:41 INFO  ProfileMatch              :     lib root package: "im.status.ethereum.function"  (in app: "org.apache.commons.codec")
+19:46:41 INFO  ProfileMatch              : 
+19:46:41 INFO  ProfileMatch              :                 name: 4341
+19:46:41 INFO  ProfileMatch              :             category: Android
+19:46:41 INFO  ProfileMatch              :              version: 4341
+19:46:41 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:46:41 INFO  ProfileMatch              :     lib root package: "tv.cjump.ndkbitmap_armv5"  (in app: "org.jboss.netty.container")
+19:46:41 INFO  ProfileMatch              : 
+19:46:41 INFO  ProfileMatch              :                 name: 4342
+19:46:41 INFO  ProfileMatch              :             category: Android
+19:46:41 INFO  ProfileMatch              :              version: 4342
+19:46:41 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:46:41 INFO  ProfileMatch              :     lib root package: "tv.cjump.ndkbitmap_armv7a"  (in app: "org.jboss.netty.container")
+19:46:41 INFO  ProfileMatch              : 
+19:46:41 INFO  ProfileMatch              :                 name: 4343
+19:46:41 INFO  ProfileMatch              :             category: Android
+19:46:41 INFO  ProfileMatch              :              version: 4343
+19:46:41 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:46:41 INFO  ProfileMatch              :     lib root package: "tv.cjump.ndkbitmap_x86"  (in app: "org.jboss.netty.container")
+19:46:41 INFO  ProfileMatch              : 
+19:46:41 INFO  ProfileMatch              :                 name: 10928
+19:46:41 INFO  ProfileMatch              :             category: Android
+19:46:41 INFO  ProfileMatch              :              version: 10928
+19:46:41 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:46:41 INFO  ProfileMatch              :     lib root package: "org.jboss.netty"
+19:46:41 INFO  ProfileMatch              : 
+19:46:41 INFO  ProfileMatch              :                 name: 5822
+19:46:41 INFO  ProfileMatch              :             category: Android
+19:46:41 INFO  ProfileMatch              :              version: 5822
+19:46:41 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:46:41 INFO  ProfileMatch              :     lib root package: "com.twofortyfouram.locale.api"  (in app: "org.jboss.netty.container")
+19:46:41 INFO  ProfileMatch              : 
+19:46:41 INFO  ProfileMatch              :                 name: 13341
+19:46:41 INFO  ProfileMatch              :             category: Android
+19:46:41 INFO  ProfileMatch              :              version: 13341
+19:46:41 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:46:41 INFO  ProfileMatch              :     lib root package: "diagnostic_msgs"
+19:46:41 INFO  ProfileMatch              : 
+19:46:41 INFO  ProfileMatch              :                 name: 13342
+19:46:41 INFO  ProfileMatch              :             category: Android
+19:46:41 INFO  ProfileMatch              :              version: 13342
+19:46:41 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:46:41 INFO  ProfileMatch              :     lib root package: "gateway_msgs"
+19:46:41 INFO  ProfileMatch              : 
+19:46:41 INFO  ProfileMatch              :                 name: 13340
+19:46:41 INFO  ProfileMatch              :             category: Android
+19:46:41 INFO  ProfileMatch              :              version: 13340
+19:46:41 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:46:41 INFO  ProfileMatch              :     lib root package: "actionlib_msgs"
+19:46:41 INFO  ProfileMatch              : 
+19:46:41 INFO  ProfileMatch              :                 name: 13345
+19:46:41 INFO  ProfileMatch              :             category: Android
+19:46:41 INFO  ProfileMatch              :              version: 13345
+19:46:41 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:46:41 INFO  ProfileMatch              :     lib root package: "nav_msgs"
+19:46:41 INFO  ProfileMatch              : 
+19:46:41 INFO  ProfileMatch              :                 name: 13343
+19:46:41 INFO  ProfileMatch              :             category: Android
+19:46:41 INFO  ProfileMatch              :              version: 13343
+19:46:41 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:46:41 INFO  ProfileMatch              :     lib root package: "geometry_msgs"
+19:46:41 INFO  ProfileMatch              : 
+19:46:41 INFO  ProfileMatch              :                 name: 13349
+19:46:41 INFO  ProfileMatch              :             category: Android
+19:46:41 INFO  ProfileMatch              :              version: 13349
+19:46:41 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:46:41 INFO  ProfileMatch              :     lib root package: "sensor_msgs"
+19:46:41 INFO  ProfileMatch              : 
+19:46:41 INFO  ProfileMatch              :                 name: 12016
+19:46:41 INFO  ProfileMatch              :             category: Android
+19:46:41 INFO  ProfileMatch              :              version: 12016
+19:46:41 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:46:41 INFO  ProfileMatch              :     lib root package: "org.apache.ws.commons"
+19:46:41 INFO  ProfileMatch              : 
+19:46:41 INFO  ProfileMatch              :                 name: 13347
+19:46:41 INFO  ProfileMatch              :             category: Android
+19:46:41 INFO  ProfileMatch              :              version: 13347
+19:46:41 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:46:41 INFO  ProfileMatch              :     lib root package: "rocon_app_manager_msgs"
+19:46:41 INFO  ProfileMatch              : 
+19:46:41 INFO  ProfileMatch              :                 name: 13350
+19:46:41 INFO  ProfileMatch              :             category: Android
+19:46:41 INFO  ProfileMatch              :              version: 13350
+19:46:41 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:46:41 INFO  ProfileMatch              :     lib root package: "std_msgs"
+19:46:41 INFO  ProfileMatch              : 
+19:46:41 INFO  ProfileMatch              :                 name: 13351
+19:46:41 INFO  ProfileMatch              :             category: Android
+19:46:41 INFO  ProfileMatch              :              version: 13351
+19:46:41 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:46:41 INFO  ProfileMatch              :     lib root package: "std_msgs"
+19:46:41 INFO  ProfileMatch              : 
+19:46:41 INFO  ProfileMatch              :                 name: 13335
+19:46:41 INFO  ProfileMatch              :             category: Android
+19:46:41 INFO  ProfileMatch              :              version: 13335
+19:46:41 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:46:41 INFO  ProfileMatch              :     lib root package: "org.apache.xmlrpc.client"
+19:46:41 INFO  ProfileMatch              : 
+19:46:41 INFO  ProfileMatch              :                 name: 13333
+19:46:41 INFO  ProfileMatch              :             category: Android
+19:46:41 INFO  ProfileMatch              :              version: 13333
+19:46:41 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:46:41 INFO  ProfileMatch              :     lib root package: "org.ros"
+19:46:41 INFO  ProfileMatch              : 
+19:46:41 INFO  ProfileMatch              :                 name: 13338
+19:46:41 INFO  ProfileMatch              :             category: Android
+19:46:41 INFO  ProfileMatch              :              version: 13338
+19:46:41 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:46:41 INFO  ProfileMatch              :     lib root package: "org.ros"
+19:46:41 INFO  ProfileMatch              : 
+19:46:41 INFO  ProfileMatch              :                 name: 13339
+19:46:41 INFO  ProfileMatch              :             category: Android
+19:46:41 INFO  ProfileMatch              :              version: 13339
+19:46:41 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:46:41 INFO  ProfileMatch              :     lib root package: "org.ros.rosjava_geometry"
+19:46:41 INFO  ProfileMatch              : 
+19:46:41 INFO  ProfileMatch              :                 name: 13336
+19:46:41 INFO  ProfileMatch              :             category: Android
+19:46:41 INFO  ProfileMatch              :              version: 13336
+19:46:41 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:46:41 INFO  ProfileMatch              :     lib root package: "org.apache.xmlrpc"
+19:46:41 INFO  ProfileMatch              : 
+19:46:41 INFO  ProfileMatch              :                 name: 13337
+19:46:41 INFO  ProfileMatch              :             category: Android
+19:46:41 INFO  ProfileMatch              :              version: 13337
+19:46:41 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:46:41 INFO  ProfileMatch              :     lib root package: "org.apache.xmlrpc"
+19:46:41 INFO  ProfileMatch              : 
+19:46:42 INFO  ProfileMatch              :                 name: 7011
+19:46:42 INFO  ProfileMatch              :             category: Android
+19:46:42 INFO  ProfileMatch              :              version: 7011
+19:46:42 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:46:42 INFO  ProfileMatch              :     lib root package: "javax.annotation"
+19:46:42 INFO  ProfileMatch              : 
+19:46:42 INFO  ProfileMatch              :                 name: 7013
+19:46:42 INFO  ProfileMatch              :             category: Android
+19:46:42 INFO  ProfileMatch              :              version: 7013
+19:46:42 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:46:42 INFO  ProfileMatch              :     lib root package: "javax.annotation"
+19:46:42 INFO  ProfileMatch              : 
+19:46:42 INFO  ProfileMatch              :                 name: 7012
+19:46:42 INFO  ProfileMatch              :             category: Android
+19:46:42 INFO  ProfileMatch              :              version: 7012
+19:46:42 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:46:42 INFO  ProfileMatch              :     lib root package: "javax.annotation"
+19:46:42 INFO  ProfileMatch              : 
+19:46:42 INFO  ProfileMatch              :                 name: 7015
+19:46:42 INFO  ProfileMatch              :             category: Android
+19:46:42 INFO  ProfileMatch              :              version: 7015
+19:46:42 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:46:42 INFO  ProfileMatch              :     lib root package: "javax.annotation"
+19:46:42 INFO  ProfileMatch              : 
+19:46:42 INFO  ProfileMatch              :                 name: 7014
+19:46:42 INFO  ProfileMatch              :             category: Android
+19:46:42 INFO  ProfileMatch              :              version: 7014
+19:46:42 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:46:42 INFO  ProfileMatch              :     lib root package: "javax.annotation"
+19:46:42 INFO  ProfileMatch              : 
+19:46:42 INFO  ProfileMatch              :                 name: 7017
+19:46:42 INFO  ProfileMatch              :             category: Android
+19:46:42 INFO  ProfileMatch              :              version: 7017
+19:46:42 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:46:42 INFO  ProfileMatch              :     lib root package: "javax.annotation"
+19:46:42 INFO  ProfileMatch              : 
+19:46:42 INFO  ProfileMatch              :                 name: 7016
+19:46:42 INFO  ProfileMatch              :             category: Android
+19:46:42 INFO  ProfileMatch              :              version: 7016
+19:46:42 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:46:42 INFO  ProfileMatch              :     lib root package: "javax.annotation"
+19:46:42 INFO  ProfileMatch              : 
+19:46:42 INFO  ProfileMatch              :                 name: 8350
+19:46:42 INFO  ProfileMatch              :             category: Android
+19:46:42 INFO  ProfileMatch              :              version: 8350
+19:46:42 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:46:42 INFO  ProfileMatch              :     lib root package: "com.maltaisn.iconpack.defaultpack"  (in app: "org.jboss.netty.channel")
+19:46:42 INFO  ProfileMatch              : 
+19:46:42 INFO  ProfileMatch              :                 name: 8349
+19:46:42 INFO  ProfileMatch              :             category: Android
+19:46:42 INFO  ProfileMatch              :              version: 8349
+19:46:42 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:46:42 INFO  ProfileMatch              :     lib root package: "com.maltaisn.iconpack.mdi"  (in app: "org.jboss.netty.channel")
+19:46:42 INFO  ProfileMatch              : 
+19:46:42 INFO  ProfileMatch              :                 name: 12198
+19:46:42 INFO  ProfileMatch              :             category: Android
+19:46:42 INFO  ProfileMatch              :              version: 12198
+19:46:42 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:46:42 INFO  ProfileMatch              :     lib root package: "org.apache.commons.codec"
+19:46:42 INFO  ProfileMatch              : 
+19:46:42 INFO  ProfileMatch              :                 name: 12176
+19:46:42 INFO  ProfileMatch              :             category: Android
+19:46:42 INFO  ProfileMatch              :              version: 12176
+19:46:42 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:46:42 INFO  ProfileMatch              :     lib root package: "org.dashj.bls"  (in app: "org.jboss.netty.container")
+19:46:42 INFO  ProfileMatch              : 
+19:46:42 INFO  ProfileMatch              :                 name: 3547
+19:46:42 INFO  ProfileMatch              :             category: Android
+19:46:42 INFO  ProfileMatch              :              version: 3547
+19:46:42 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:46:42 INFO  ProfileMatch              :     lib root package: "com.facebook.all"  (in app: "org.jboss.netty.container")
+19:46:42 INFO  ProfileMatch              : 
+19:46:42 INFO  ProfileMatch              :                 name: 12288
+19:46:42 INFO  ProfileMatch              :             category: Android
+19:46:42 INFO  ProfileMatch              :              version: 12288
+19:46:42 INFO  ProfileMatch              :         release-date: 21.05.2017
+19:46:42 INFO  ProfileMatch              :     lib root package: "org.hamcrest.library.deprecated"  (in app: "org.jboss.netty.container")
+19:46:42 INFO  ProfileMatch              : 
+19:46:44 INFO  LibraryIdentifier         : 
+19:46:44 INFO  LibraryIdentifier         : - Partial library matches:
+19:46:44 INFO  LibraryIdentifier         :                 name: 9808
+19:46:44 INFO  LibraryIdentifier         :             category: Android
+19:46:44 INFO  LibraryIdentifier         :              version: 9808
+19:46:44 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+19:46:44 INFO  LibraryIdentifier         :     lib root package: "com.turkialkhateeb.materialcolorpicker"
+19:46:44 INFO  LibraryIdentifier         :         Partial matching results:
+19:46:44 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.75
+19:46:44 INFO  LibraryIdentifier         : 
+19:46:44 INFO  LibraryIdentifier         :                 name: 12408
+19:46:44 INFO  LibraryIdentifier         :             category: Android
+19:46:44 INFO  LibraryIdentifier         :              version: 12408
+19:46:44 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+19:46:44 INFO  LibraryIdentifier         :     lib root package: "org.jetbrains.anko.sdk21.listeners"
+19:46:44 INFO  LibraryIdentifier         :         Partial matching results:
+19:46:44 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.7735849
+19:46:44 INFO  LibraryIdentifier         : 
+19:46:44 INFO  LibraryIdentifier         :                 name: 8767
+19:46:44 INFO  LibraryIdentifier         :             category: Android
+19:46:44 INFO  LibraryIdentifier         :              version: 8767
+19:46:44 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+19:46:44 INFO  LibraryIdentifier         :     lib root package: "net.sf.junidecode"
+19:46:44 INFO  LibraryIdentifier         :         Partial matching results:
+19:46:44 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.989011
+19:46:44 INFO  LibraryIdentifier         : 
+19:46:45 INFO  LibraryIdentifier         :                 name: 10061
+19:46:45 INFO  LibraryIdentifier         :             category: Android
+19:46:45 INFO  LibraryIdentifier         :              version: 10061
+19:46:45 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+19:46:45 INFO  LibraryIdentifier         :     lib root package: "org.apache.commons.lang"
+19:46:45 INFO  LibraryIdentifier         :         Partial matching results:
+19:46:45 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.9389376
+19:46:45 INFO  LibraryIdentifier         : 
+19:46:45 INFO  LibraryIdentifier         :                 name: 10064
+19:46:45 INFO  LibraryIdentifier         :             category: Android
+19:46:45 INFO  LibraryIdentifier         :              version: 10064
+19:46:45 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+19:46:45 INFO  LibraryIdentifier         :     lib root package: "org.apache.commons.logging"
+19:46:45 INFO  LibraryIdentifier         :         Partial matching results:
+19:46:45 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.9222222
+19:46:45 INFO  LibraryIdentifier         : 
+19:46:45 INFO  LibraryIdentifier         :                 name: 10065
+19:46:45 INFO  LibraryIdentifier         :             category: Android
+19:46:45 INFO  LibraryIdentifier         :              version: 10065
+19:46:45 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+19:46:45 INFO  LibraryIdentifier         :     lib root package: "org.apache.commons.logging"
+19:46:45 INFO  LibraryIdentifier         :         Partial matching results:
+19:46:45 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.9222222
+19:46:45 INFO  LibraryIdentifier         : 
+19:46:45 INFO  LibraryIdentifier         :                 name: 10046
+19:46:45 INFO  LibraryIdentifier         :             category: Android
+19:46:45 INFO  LibraryIdentifier         :              version: 10046
+19:46:45 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+19:46:45 INFO  LibraryIdentifier         :     lib root package: "org.apache.commons.io"
+19:46:45 INFO  LibraryIdentifier         :         Partial matching results:
+19:46:45 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.74441993
+19:46:45 INFO  LibraryIdentifier         : 
+19:46:45 INFO  LibraryIdentifier         :                 name: 10259
+19:46:45 INFO  LibraryIdentifier         :             category: Android
+19:46:45 INFO  LibraryIdentifier         :              version: 10259
+19:46:45 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+19:46:45 INFO  LibraryIdentifier         :     lib root package: "org.xbill.DNS"
+19:46:45 INFO  LibraryIdentifier         :         Partial matching results:
+19:46:45 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.70689654
+19:46:45 INFO  LibraryIdentifier         : 
+19:46:45 INFO  LibraryIdentifier         :                 name: 10258
+19:46:45 INFO  LibraryIdentifier         :             category: Android
+19:46:45 INFO  LibraryIdentifier         :              version: 10258
+19:46:45 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+19:46:45 INFO  LibraryIdentifier         :     lib root package: "org.xbill.DNS"
+19:46:45 INFO  LibraryIdentifier         :         Partial matching results:
+19:46:45 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.7122093
+19:46:45 INFO  LibraryIdentifier         : 
+19:46:45 INFO  LibraryIdentifier         :                 name: 7603
+19:46:45 INFO  LibraryIdentifier         :             category: Android
+19:46:45 INFO  LibraryIdentifier         :              version: 7603
+19:46:45 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+19:46:45 INFO  LibraryIdentifier         :     lib root package: "com.google.common"
+19:46:45 INFO  LibraryIdentifier         :         Partial matching results:
+19:46:45 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.85610324
+19:46:45 INFO  LibraryIdentifier         : 
+19:46:45 INFO  LibraryIdentifier         :                 name: 7653
+19:46:45 INFO  LibraryIdentifier         :             category: Android
+19:46:45 INFO  LibraryIdentifier         :              version: 7653
+19:46:45 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+19:46:45 INFO  LibraryIdentifier         :     lib root package: "com.google.common"
+19:46:45 INFO  LibraryIdentifier         :         Partial matching results:
+19:46:45 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.8292958
+19:46:45 INFO  LibraryIdentifier         : 
+19:46:45 INFO  LibraryIdentifier         :                 name: 12943
+19:46:45 INFO  LibraryIdentifier         :             category: Android
+19:46:45 INFO  LibraryIdentifier         :              version: 12943
+19:46:45 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+19:46:45 INFO  LibraryIdentifier         :     lib root package: "org.kodein.di.generic"
+19:46:45 INFO  LibraryIdentifier         :         Partial matching results:
+19:46:45 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.87862796
+19:46:45 INFO  LibraryIdentifier         : 
+19:46:45 INFO  LibraryIdentifier         :                 name: 12997
+19:46:45 INFO  LibraryIdentifier         :             category: Android
+19:46:45 INFO  LibraryIdentifier         :              version: 12997
+19:46:45 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+19:46:45 INFO  LibraryIdentifier         :     lib root package: "org.lsposed.hiddenapibypass"
+19:46:45 INFO  LibraryIdentifier         :         Partial matching results:
+19:46:45 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.7777778
+19:46:45 INFO  LibraryIdentifier         : 
+19:46:45 INFO  LibraryIdentifier         :                 name: 12998
+19:46:45 INFO  LibraryIdentifier         :             category: Android
+19:46:45 INFO  LibraryIdentifier         :              version: 12998
+19:46:45 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+19:46:45 INFO  LibraryIdentifier         :     lib root package: "org.lsposed.hiddenapibypass"
+19:46:45 INFO  LibraryIdentifier         :         Partial matching results:
+19:46:45 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.7777778
+19:46:45 INFO  LibraryIdentifier         : 
+19:46:45 INFO  LibraryIdentifier         :                 name: 12995
+19:46:45 INFO  LibraryIdentifier         :             category: Android
+19:46:45 INFO  LibraryIdentifier         :              version: 12995
+19:46:45 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+19:46:45 INFO  LibraryIdentifier         :     lib root package: "org.lsposed.hiddenapibypass"
+19:46:45 INFO  LibraryIdentifier         :         Partial matching results:
+19:46:45 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.8333333
+19:46:45 INFO  LibraryIdentifier         : 
+19:46:45 INFO  LibraryIdentifier         :                 name: 12996
+19:46:45 INFO  LibraryIdentifier         :             category: Android
+19:46:45 INFO  LibraryIdentifier         :              version: 12996
+19:46:45 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+19:46:45 INFO  LibraryIdentifier         :     lib root package: "org.lsposed.hiddenapibypass"
+19:46:45 INFO  LibraryIdentifier         :         Partial matching results:
+19:46:45 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.7777778
+19:46:45 INFO  LibraryIdentifier         : 
+19:46:45 INFO  LibraryIdentifier         :                 name: 920
+19:46:45 INFO  LibraryIdentifier         :             category: Android
+19:46:45 INFO  LibraryIdentifier         :              version: 920
+19:46:45 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+19:46:45 INFO  LibraryIdentifier         :     lib root package: "androidx.interpolator.view.animation"
+19:46:45 INFO  LibraryIdentifier         :         Partial matching results:
+19:46:45 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.75
+19:46:45 INFO  LibraryIdentifier         : 
+19:46:45 INFO  LibraryIdentifier         :                 name: 6682
+19:46:45 INFO  LibraryIdentifier         :             category: Android
+19:46:45 INFO  LibraryIdentifier         :              version: 6682
+19:46:45 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+19:46:45 INFO  LibraryIdentifier         :     lib root package: "com.google.firebase.analytics"
+19:46:45 INFO  LibraryIdentifier         :         Partial matching results:
+19:46:45 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.8
+19:46:45 INFO  LibraryIdentifier         : 
+19:46:45 INFO  LibraryIdentifier         :                 name: 11882
+19:46:45 INFO  LibraryIdentifier         :             category: Android
+19:46:45 INFO  LibraryIdentifier         :              version: 11882
+19:46:45 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+19:46:45 INFO  LibraryIdentifier         :     lib root package: "org.apache.commons.io"
+19:46:45 INFO  LibraryIdentifier         :         Partial matching results:
+19:46:45 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.74441993
+19:46:45 INFO  LibraryIdentifier         : 
+19:46:45 INFO  LibraryIdentifier         :                 name: 5427
+19:46:45 INFO  LibraryIdentifier         :             category: Android
+19:46:45 INFO  LibraryIdentifier         :              version: 5427
+19:46:45 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+19:46:45 INFO  LibraryIdentifier         :     lib root package: "com.ray3k.tenpatch"
+19:46:45 INFO  LibraryIdentifier         :         Partial matching results:
+19:46:45 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.75
+19:46:45 INFO  LibraryIdentifier         : 
+19:46:45 INFO  LibraryIdentifier         :                 name: 4112
+19:46:45 INFO  LibraryIdentifier         :             category: Android
+19:46:45 INFO  LibraryIdentifier         :              version: 4112
+19:46:45 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+19:46:45 INFO  LibraryIdentifier         :     lib root package: "org.billthefarmer.mididriver"
+19:46:45 INFO  LibraryIdentifier         :         Partial matching results:
+19:46:45 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.8
+19:46:45 INFO  LibraryIdentifier         : 
+19:46:45 INFO  LibraryIdentifier         :                 name: 4113
+19:46:45 INFO  LibraryIdentifier         :             category: Android
+19:46:45 INFO  LibraryIdentifier         :              version: 4113
+19:46:45 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+19:46:45 INFO  LibraryIdentifier         :     lib root package: "org.billthefarmer.mididriver"
+19:46:45 INFO  LibraryIdentifier         :         Partial matching results:
+19:46:45 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.8
+19:46:45 INFO  LibraryIdentifier         : 
+19:46:45 INFO  LibraryIdentifier         :                 name: 5493
+19:46:45 INFO  LibraryIdentifier         :             category: Android
+19:46:45 INFO  LibraryIdentifier         :              version: 5493
+19:46:45 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+19:46:45 INFO  LibraryIdentifier         :     lib root package: "com.github.salomonbrys.kodein"
+19:46:45 INFO  LibraryIdentifier         :         Partial matching results:
+19:46:45 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.7643312
+19:46:45 INFO  LibraryIdentifier         : 
+19:46:45 INFO  LibraryIdentifier         :                 name: 10685
+19:46:45 INFO  LibraryIdentifier         :             category: Android
+19:46:45 INFO  LibraryIdentifier         :              version: 10685
+19:46:45 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+19:46:45 INFO  LibraryIdentifier         :     lib root package: "org.koin.androidx.workmanager"
+19:46:45 INFO  LibraryIdentifier         :         Partial matching results:
+19:46:45 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.75
+19:46:45 INFO  LibraryIdentifier         : 
+19:46:45 INFO  LibraryIdentifier         :                 name: 6994
+19:46:45 INFO  LibraryIdentifier         :             category: Android
+19:46:45 INFO  LibraryIdentifier         :              version: 6994
+19:46:45 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+19:46:45 INFO  LibraryIdentifier         :     lib root package: "javax"
+19:46:45 INFO  LibraryIdentifier         :         Partial matching results:
+19:46:45 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.75
+19:46:45 INFO  LibraryIdentifier         : 
+19:46:46 INFO  LibraryIdentifier         :                 name: 4554
+19:46:46 INFO  LibraryIdentifier         :             category: Android
+19:46:46 INFO  LibraryIdentifier         :              version: 4554
+19:46:46 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+19:46:46 INFO  LibraryIdentifier         :     lib root package: "com.crazylegend.glide"
+19:46:46 INFO  LibraryIdentifier         :         Partial matching results:
+19:46:46 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.75
+19:46:46 INFO  LibraryIdentifier         : 
+19:46:46 INFO  LibraryIdentifier         :                 name: 4556
+19:46:46 INFO  LibraryIdentifier         :             category: Android
+19:46:46 INFO  LibraryIdentifier         :              version: 4556
+19:46:46 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+19:46:46 INFO  LibraryIdentifier         :     lib root package: "com.crazylegend.intent"
+19:46:46 INFO  LibraryIdentifier         :         Partial matching results:
+19:46:46 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.8148148
+19:46:46 INFO  LibraryIdentifier         : 
+19:46:46 INFO  LibraryIdentifier         :                 name: 4557
+19:46:46 INFO  LibraryIdentifier         :             category: Android
+19:46:46 INFO  LibraryIdentifier         :              version: 4557
+19:46:46 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+19:46:46 INFO  LibraryIdentifier         :     lib root package: "com.crazylegend.intent"
+19:46:46 INFO  LibraryIdentifier         :         Partial matching results:
+19:46:46 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.8148148
+19:46:46 INFO  LibraryIdentifier         : 
+19:46:46 INFO  LibraryIdentifier         :                 name: 4613
+19:46:46 INFO  LibraryIdentifier         :             category: Android
+19:46:46 INFO  LibraryIdentifier         :              version: 4613
+19:46:46 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+19:46:46 INFO  LibraryIdentifier         :     lib root package: "com.gigamole.slideimageview.lib"
+19:46:46 INFO  LibraryIdentifier         :         Partial matching results:
+19:46:46 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.75
+19:46:46 INFO  LibraryIdentifier         : 
+19:46:46 INFO  LibraryIdentifier         :                 name: 12018
+19:46:46 INFO  LibraryIdentifier         :             category: Android
+19:46:46 INFO  LibraryIdentifier         :              version: 12018
+19:46:46 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+19:46:46 INFO  LibraryIdentifier         :     lib root package: "org.apache.xmlrpc.client"
+19:46:46 INFO  LibraryIdentifier         :         Partial matching results:
+19:46:46 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.7045455
+19:46:46 INFO  LibraryIdentifier         : 
+19:46:46 INFO  LibraryIdentifier         :                 name: 13334
+19:46:46 INFO  LibraryIdentifier         :             category: Android
+19:46:46 INFO  LibraryIdentifier         :              version: 13334
+19:46:46 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+19:46:46 INFO  LibraryIdentifier         :     lib root package: "org.ros"
+19:46:46 INFO  LibraryIdentifier         :         Partial matching results:
+19:46:46 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.8703704
+19:46:46 INFO  LibraryIdentifier         : 
+19:46:46 INFO  LibraryIdentifier         :                 name: 2144
+19:46:46 INFO  LibraryIdentifier         :             category: Android
+19:46:46 INFO  LibraryIdentifier         :              version: 2144
+19:46:46 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+19:46:46 INFO  LibraryIdentifier         :     lib root package: "com.afollestad.rxkprefs.rxjava"
+19:46:46 INFO  LibraryIdentifier         :         Partial matching results:
+19:46:46 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.8333333
+19:46:46 INFO  LibraryIdentifier         : 
+19:46:46 INFO  LibraryIdentifier         :                 name: 4857
+19:46:46 INFO  LibraryIdentifier         :             category: Android
+19:46:46 INFO  LibraryIdentifier         :              version: 4857
+19:46:46 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+19:46:46 INFO  LibraryIdentifier         :     lib root package: "com.github.kittinunf.fuel.jackson"
+19:46:46 INFO  LibraryIdentifier         :         Partial matching results:
+19:46:46 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.7837838
+19:46:46 INFO  LibraryIdentifier         : 
+19:46:46 INFO  LibraryIdentifier         :                 name: 9706
+19:46:46 INFO  LibraryIdentifier         :             category: Android
+19:46:46 INFO  LibraryIdentifier         :              version: 9706
+19:46:46 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+19:46:46 INFO  LibraryIdentifier         :     lib root package: "com.tasomaniac.android.widget"
+19:46:46 INFO  LibraryIdentifier         :         Partial matching results:
+19:46:46 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.75
+19:46:46 INFO  LibraryIdentifier         : 
+19:46:46 INFO  LibraryIdentifier         :                 name: 9786
+19:46:46 INFO  LibraryIdentifier         :             category: Android
+19:46:46 INFO  LibraryIdentifier         :              version: 9786
+19:46:46 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+19:46:46 INFO  LibraryIdentifier         :     lib root package: "com.trello.rxlifecycle.android"
+19:46:46 INFO  LibraryIdentifier         :         Partial matching results:
+19:46:46 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.8
+19:46:46 INFO  LibraryIdentifier         : 
+19:46:46 INFO  LibraryIdentifier         :                 name: 9787
+19:46:46 INFO  LibraryIdentifier         :             category: Android
+19:46:46 INFO  LibraryIdentifier         :              version: 9787
+19:46:46 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+19:46:46 INFO  LibraryIdentifier         :     lib root package: "com.trello.rxlifecycle.android"
+19:46:46 INFO  LibraryIdentifier         :         Partial matching results:
+19:46:46 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.8
+19:46:46 INFO  LibraryIdentifier         : 
+19:46:46 INFO  LibraryIdentifier         : 
+19:46:46 INFO  LibraryIdentifier         : Write app stats to JSON (dir: json)
+19:46:46 INFO  LibraryIdentifier         : App processing time: 22 sec, 124 ms

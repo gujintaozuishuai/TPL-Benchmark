@@ -1,0 +1,9 @@
+Exception in thread "main" org.jf.dexlib2.util.DexUtil$UnsupportedFile: Dex version 038 is not supported
+	at org.jf.dexlib2.util.DexUtil.verifyDexHeader(DexUtil.java:94)
+	at org.jf.dexlib2.util.DexUtil.verifyDexHeader(DexUtil.java:71)
+	at org.jf.dexlib2.dexbacked.DexBackedDexFile.fromInputStream(DexBackedDexFile.java:110)
+	at org.jf.dexlib2.DexFileFactory.loadDexFile(DexFileFactory.java:94)
+	at org.jf.dexlib2.DexFileFactory.loadDexFile(DexFileFactory.java:59)
+	at cn.fudan.common.Lib.loadFromFile(Lib.java:37)
+	at cn.fudan.libpecker.main.ProfileBasedLibPecker.singleMain(ProfileBasedLibPecker.java:186)
+	at cn.fudan.libpecker.main.ProfileBasedLibPecker.main(ProfileBasedLibPecker.java:218)

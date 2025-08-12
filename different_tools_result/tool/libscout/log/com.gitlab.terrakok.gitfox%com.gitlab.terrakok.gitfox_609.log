@@ -1,0 +1,1901 @@
+12:51:28 INFO  LibraryIdentifier         : Process app: com.gitlab.terrakok.gitfox%com.gitlab.terrakok.gitfox_609.apk
+12:51:28 INFO  LibraryIdentifier         : = Manifest Parser =
+12:51:28 INFO  LibraryIdentifier         :         Package name: com.gitlab.terrakok.gitfox
+12:51:28 INFO  LibraryIdentifier         :         Version code: 609
+12:51:28 INFO  LibraryIdentifier         :        minSdkVersion: 19
+12:51:28 INFO  LibraryIdentifier         :     targetSdkVersion: 29
+12:51:28 INFO  LibraryIdentifier         :         SharedUserId:  - none -
+12:51:28 INFO  LibraryIdentifier         :     Library dependencies:  - none -
+12:51:28 INFO  LibraryIdentifier         : 
+12:51:28 INFO  LibraryIdentifier         : Found 12043 unique libraries in 12043 library profiles
+12:51:28 INFO  LibraryIdentifier         : Generated class hierarchy (in 182 ms)
+12:51:28 INFO  WalaUtils                 : 
+12:51:28 INFO  WalaUtils                 : = ClassHierarchy Stats =
+12:51:28 INFO  WalaUtils                 :     # of classes: 4883
+12:51:28 INFO  WalaUtils                 :     # thereof inner classes: 2451
+12:51:28 INFO  WalaUtils                 :     # thereof public classes: 4883
+12:51:28 INFO  WalaUtils                 :         Activity : 6
+12:51:28 INFO  WalaUtils                 :         Application : 1
+12:51:28 INFO  WalaUtils                 :         AsyncTask : 0
+12:51:28 INFO  WalaUtils                 :         BroadcastReceiver : 2
+12:51:28 INFO  WalaUtils                 :         ContentProvider : 0
+12:51:28 INFO  WalaUtils                 :         Fragment : 2
+12:51:28 INFO  WalaUtils                 :         Handler : 2
+12:51:28 INFO  WalaUtils                 :         LayoutContainer : 62
+12:51:28 INFO  WalaUtils                 :         Plain : 4767
+12:51:28 INFO  WalaUtils                 :         Runnable : 0
+12:51:28 INFO  WalaUtils                 :         Service : 0
+12:51:28 INFO  WalaUtils                 :         Thread : 3
+12:51:28 INFO  WalaUtils                 :         View : 38
+12:51:28 INFO  WalaUtils                 :     # methods: 23924
+12:51:28 INFO  WalaUtils                 :         # of publicly accessible methods: 23565
+12:51:28 INFO  WalaUtils                 :         # of non-accessible methods: 359
+12:51:28 INFO  WalaUtils                 : 
+12:51:28 INFO  Profile                   : = PackageTree =
+12:51:28 INFO  PackageTree               : Root Package: ru.terrakok
+12:51:28 INFO  PackageTree               : ©¸©¤©¤ Root
+12:51:28 INFO  PackageTree               :     ©À©¤©¤ moxy (18)
+12:51:28 INFO  PackageTree               :     ©¦   ©À©¤©¤ viewstate (3)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦   ©¸©¤©¤ strategy (8)
+12:51:28 INFO  PackageTree               :     ©¦   ©À©¤©¤ locators (3)
+12:51:28 INFO  PackageTree               :     ©¦   ©¸©¤©¤ presenter (4)
+12:51:28 INFO  PackageTree               :     ©À©¤©¤ ru
+12:51:28 INFO  PackageTree               :     ©¦   ©¸©¤©¤ terrakok
+12:51:28 INFO  PackageTree               :     ©¦       ©À©¤©¤ gitlabclient (48)
+12:51:28 INFO  PackageTree               :     ©¦       ©¦   ©À©¤©¤ presentation (2)
+12:51:28 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©À©¤©¤ my
+12:51:28 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©¦   ©À©¤©¤ issues (17)
+12:51:28 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©¦   ©À©¤©¤ mergerequests (17)
+12:51:28 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©¦   ©À©¤©¤ events (15)
+12:51:28 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©¦   ©¸©¤©¤ todos (16)
+12:51:28 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©À©¤©¤ project (13)
+12:51:28 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©¦   ©À©¤©¤ files (33)
+12:51:28 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©¦   ©À©¤©¤ milestones (13)
+12:51:28 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©¦   ©À©¤©¤ members (13)
+12:51:28 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©¦   ©À©¤©¤ issues (16)
+12:51:28 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©¦   ©À©¤©¤ mergerequest (16)
+12:51:28 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©¦   ©À©¤©¤ events (15)
+12:51:28 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©¦   ©À©¤©¤ labels (13)
+12:51:28 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©¦   ©¸©¤©¤ info (16)
+12:51:28 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©À©¤©¤ mergerequest (15)
+12:51:28 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©¦   ©À©¤©¤ changes (26)
+12:51:28 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©¦   ©À©¤©¤ details (15)
+12:51:28 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©¦   ©À©¤©¤ info (13)
+12:51:28 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©¦   ©À©¤©¤ commits (12)
+12:51:28 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©¦   ©¸©¤©¤ notes (27)
+12:51:28 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©À©¤©¤ issue (19)
+12:51:28 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©¦   ©À©¤©¤ notes (29)
+12:51:28 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©¦   ©À©¤©¤ info (15)
+12:51:28 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©¦   ©¸©¤©¤ details (17)
+12:51:28 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©À©¤©¤ global (32)
+12:51:28 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©À©¤©¤ auth (16)
+12:51:28 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©À©¤©¤ commit (23)
+12:51:28 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©À©¤©¤ main (8)
+12:51:28 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©À©¤©¤ drawer (8)
+12:51:28 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©À©¤©¤ projects (14)
+12:51:28 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©À©¤©¤ user
+12:51:28 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©¦   ©¸©¤©¤ info (13)
+12:51:28 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©À©¤©¤ libraries (8)
+12:51:28 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©À©¤©¤ about (8)
+12:51:28 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©À©¤©¤ file (11)
+12:51:28 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©¸©¤©¤ launch (1)
+12:51:28 INFO  PackageTree               :     ©¦       ©¦   ©À©¤©¤ ui (6)
+12:51:28 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©À©¤©¤ drawer (17)
+12:51:28 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©À©¤©¤ project (10)
+12:51:28 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©¦   ©À©¤©¤ members (8)
+12:51:28 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©¦   ©À©¤©¤ info (16)
+12:51:28 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©¦   ©À©¤©¤ milestones (8)
+12:51:28 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©¦   ©À©¤©¤ labels (10)
+12:51:28 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©¦   ©À©¤©¤ mergerequest (13)
+12:51:28 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©¦   ©À©¤©¤ files (12)
+12:51:28 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©¦   ©¸©¤©¤ issues (13)
+12:51:28 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©À©¤©¤ mergerequest (51)
+12:51:28 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©À©¤©¤ about (8)
+12:51:28 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©À©¤©¤ my
+12:51:28 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©¦   ©À©¤©¤ mergerequests (19)
+12:51:28 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©¦   ©À©¤©¤ todos (16)
+12:51:28 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©¦   ©À©¤©¤ activity (9)
+12:51:28 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©¦   ©¸©¤©¤ issues (18)
+12:51:28 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©À©¤©¤ issue (32)
+12:51:28 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©À©¤©¤ user (4)
+12:51:28 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©¦   ©¸©¤©¤ info (11)
+12:51:28 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©À©¤©¤ global (24)
+12:51:28 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©¦   ©À©¤©¤ view
+12:51:28 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©¦   ©¦   ©¸©¤©¤ custom (24)
+12:51:28 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©¦   ©¦       ©¸©¤©¤ codehighlight (6)
+12:51:28 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©¦   ©¸©¤©¤ list (49)
+12:51:28 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©À©¤©¤ commit (17)
+12:51:28 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©À©¤©¤ projects (16)
+12:51:28 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©À©¤©¤ auth (14)
+12:51:28 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©À©¤©¤ privacypolicy (5)
+12:51:28 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©À©¤©¤ file (11)
+12:51:28 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©À©¤©¤ main (5)
+12:51:28 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©¸©¤©¤ libraries (7)
+12:51:28 INFO  PackageTree               :     ©¦       ©¦   ©À©¤©¤ di (15)
+12:51:28 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©À©¤©¤ provider (6)
+12:51:28 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©¸©¤©¤ module (4)
+12:51:28 INFO  PackageTree               :     ©¦       ©¦   ©À©¤©¤ entity (30)
+12:51:28 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©À©¤©¤ app (3)
+12:51:28 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©¦   ©À©¤©¤ develop (4)
+12:51:28 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©¦   ©À©¤©¤ session (3)
+12:51:28 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©¦   ©¸©¤©¤ target (18)
+12:51:28 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©À©¤©¤ target (4)
+12:51:28 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©¦   ©À©¤©¤ issue (1)
+12:51:28 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©¦   ©¸©¤©¤ mergerequest (2)
+12:51:28 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©À©¤©¤ issue (4)
+12:51:28 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©À©¤©¤ todo (3)
+12:51:28 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©À©¤©¤ event (5)
+12:51:28 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©À©¤©¤ mergerequest (5)
+12:51:28 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©¸©¤©¤ milestone (2)
+12:51:28 INFO  PackageTree               :     ©¦       ©¦   ©À©¤©¤ model
+12:51:28 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©À©¤©¤ interactor (96)
+12:51:28 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©À©¤©¤ data
+12:51:28 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©¦   ©À©¤©¤ server (30)
+12:51:28 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©¦   ©¦   ©À©¤©¤ interceptor (4)
+12:51:28 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©¦   ©¦   ©À©¤©¤ client (6)
+12:51:28 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©¦   ©¦   ©¸©¤©¤ deserializer (4)
+12:51:28 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©¦   ©À©¤©¤ storage (11)
+12:51:28 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©¦   ©À©¤©¤ cache (4)
+12:51:28 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©¦   ©¸©¤©¤ state (2)
+12:51:28 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©¸©¤©¤ system (4)
+12:51:28 INFO  PackageTree               :     ©¦       ©¦   ©¦       ©À©¤©¤ message (3)
+12:51:28 INFO  PackageTree               :     ©¦       ©¦   ©¦       ©¸©¤©¤ flow (1)
+12:51:28 INFO  PackageTree               :     ©¦       ©¦   ©À©¤©¤ util (12)
+12:51:28 INFO  PackageTree               :     ©¦       ©¦   ©¸©¤©¤ glide (7)
+12:51:28 INFO  PackageTree               :     ©¦       ©¸©¤©¤ cicerone (7)
+12:51:28 INFO  PackageTree               :     ©¦           ©À©¤©¤ android
+12:51:28 INFO  PackageTree               :     ©¦           ©¦   ©À©¤©¤ support (3)
+12:51:28 INFO  PackageTree               :     ©¦           ©¦   ©¸©¤©¤ pure (2)
+12:51:28 INFO  PackageTree               :     ©¦           ©¸©¤©¤ commands (5)
+12:51:28 INFO  PackageTree               :     ©À©¤©¤ d
+12:51:28 INFO  PackageTree               :     ©¦   ©À©¤©¤ d
+12:51:28 INFO  PackageTree               :     ©¦   ©¦   ©¸©¤©¤ a (21)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦       ©À©¤©¤ o (22)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦       ©¦   ©À©¤©¤ w (73)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦       ©¦   ©¦   ©¸©¤©¤ y (15)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦       ©¦   ©À©¤©¤ x (4)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦       ©¦   ©¦   ©À©¤©¤ c (56)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦       ©¦   ©¦   ©À©¤©¤ g (16)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦       ©¦   ©¦   ©À©¤©¤ h (8)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦       ©¦   ©¦   ©À©¤©¤ d (3)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦       ©¦   ©¦   ©À©¤©¤ e (5)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦       ©¦   ©¦   ©¸©¤©¤ f (2)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦       ©¦   ©À©¤©¤ u (24)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦       ©¦   ©¦   ©¸©¤©¤ p (6)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦       ©¦   ©¸©¤©¤ v (58)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦       ©¦       ©À©¤©¤ d0 (22)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦       ©¦       ©À©¤©¤ e0 (5)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦       ©¦       ©¸©¤©¤ c0 (20)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦       ©À©¤©¤ r (9)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦       ©À©¤©¤ u (14)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦       ©¦   ©¸©¤©¤ k (10)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦       ©À©¤©¤ l (9)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦       ©À©¤©¤ s (14)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦       ©¦   ©À©¤©¤ l (16)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦       ©¦   ©¸©¤©¤ m (4)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦       ©À©¤©¤ p (22)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦       ©À©¤©¤ t (4)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦       ©À©¤©¤ m (6)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦       ©À©¤©¤ q (6)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦       ©¸©¤©¤ n
+12:51:28 INFO  PackageTree               :     ©¦   ©¦           ©¸©¤©¤ a (4)
+12:51:28 INFO  PackageTree               :     ©¦   ©À©¤©¤ e
+12:51:28 INFO  PackageTree               :     ©¦   ©¦   ©¸©¤©¤ a (95)
+12:51:28 INFO  PackageTree               :     ©¦   ©À©¤©¤ f
+12:51:28 INFO  PackageTree               :     ©¦   ©¦   ©À©¤©¤ a
+12:51:28 INFO  PackageTree               :     ©¦   ©¦   ©¦   ©À©¤©¤ b (12)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦   ©¦   ©¦   ©À©¤©¤ j0 (30)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦   ©¦   ©¦   ©À©¤©¤ f0 (24)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦   ©¦   ©¦   ©À©¤©¤ q (8)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦   ©¦   ©¦   ©À©¤©¤ k0 (5)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦   ©¦   ©¦   ©À©¤©¤ a0 (14)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦   ©¦   ©¦   ©À©¤©¤ p (7)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦   ©¦   ©¦   ©À©¤©¤ g0 (18)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦   ©¦   ©¦   ©À©¤©¤ z (19)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦   ©¦   ©¦   ©À©¤©¤ w (35)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦   ©¦   ©¦   ©À©¤©¤ x (1)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦   ©¦   ©¦   ©À©¤©¤ o (4)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦   ©¦   ©¦   ©À©¤©¤ u (3)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦   ©¦   ©¦   ©À©¤©¤ m (10)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦   ©¦   ©¦   ©À©¤©¤ c0 (6)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦   ©¦   ©¦   ©À©¤©¤ e0 (2)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦   ©¦   ©¦   ©À©¤©¤ s (2)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦   ©¦   ©¦   ©À©¤©¤ n (7)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦   ©¦   ©¦   ©À©¤©¤ v (8)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦   ©¦   ©¦   ©¦   ©¸©¤©¤ e (1)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦   ©¦   ©¦   ©À©¤©¤ d0 (3)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦   ©¦   ©¦   ©À©¤©¤ y (2)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦   ©¦   ©¦   ©À©¤©¤ b0 (1)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦   ©¦   ©¦   ©À©¤©¤ i0 (2)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦   ©¦   ©¦   ©À©¤©¤ r (1)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦   ©¦   ©¦   ©À©¤©¤ h0 (2)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦   ©¦   ©¦   ©¸©¤©¤ t (1)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦   ©¦   ©¸©¤©¤ a (7)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦   ©¸©¤©¤ b (38)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦       ©À©¤©¤ e0 (38)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦       ©¦   ©À©¤©¤ z (66)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦       ©¦   ©¦   ©¸©¤©¤ s (1)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦       ©¦   ©¸©¤©¤ a0 (3)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦       ©À©¤©¤ d0 (2)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦       ©À©¤©¤ g0 (5)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦       ©¸©¤©¤ f0 (1)
+12:51:28 INFO  PackageTree               :     ©¦   ©À©¤©¤ a
+12:51:28 INFO  PackageTree               :     ©¦   ©¦   ©¸©¤©¤ a (43)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦       ©À©¤©¤ x (10)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦       ©¦   ©À©¤©¤ l (13)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦       ©¦   ©À©¤©¤ k (23)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦       ©¦   ©¸©¤©¤ j (14)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦       ©À©¤©¤ v (1)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦       ©¦   ©À©¤©¤ b (20)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦       ©¦   ©¸©¤©¤ c (21)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦       ©À©¤©¤ z (33)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦       ©¦   ©¸©¤©¤ h0 (6)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦       ©À©¤©¤ a0 (7)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦       ©À©¤©¤ b0 (4)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦       ©À©¤©¤ y (3)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦       ©¸©¤©¤ w (2)
+12:51:28 INFO  PackageTree               :     ©¦   ©À©¤©¤ c
+12:51:28 INFO  PackageTree               :     ©¦   ©¦   ©¸©¤©¤ a (18)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦       ©¸©¤©¤ s (2)
+12:51:28 INFO  PackageTree               :     ©¦   ©À©¤©¤ g
+12:51:28 INFO  PackageTree               :     ©¦   ©¦   ©¸©¤©¤ a (5)
+12:51:28 INFO  PackageTree               :     ©¦   ©À©¤©¤ b
+12:51:28 INFO  PackageTree               :     ©¦   ©¦   ©¸©¤©¤ a
+12:51:28 INFO  PackageTree               :     ©¦   ©¦       ©¸©¤©¤ a (1)
+12:51:28 INFO  PackageTree               :     ©¦   ©¸©¤©¤ h
+12:51:28 INFO  PackageTree               :     ©¦       ©À©¤©¤ a (3)
+12:51:28 INFO  PackageTree               :     ©¦       ©¸©¤©¤ b (2)
+12:51:28 INFO  PackageTree               :     ©À©¤©¤ j (34)
+12:51:28 INFO  PackageTree               :     ©¦   ©¸©¤©¤ b0 (2)
+12:51:28 INFO  PackageTree               :     ©À©¤©¤ androidx
+12:51:28 INFO  PackageTree               :     ©¦   ©À©¤©¤ appcompat
+12:51:28 INFO  PackageTree               :     ©¦   ©¦   ©À©¤©¤ widget (54)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦   ©À©¤©¤ app (8)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦   ©¸©¤©¤ view
+12:51:28 INFO  PackageTree               :     ©¦   ©¦       ©¸©¤©¤ menu (5)
+12:51:28 INFO  PackageTree               :     ©¦   ©À©¤©¤ swiperefreshlayout
+12:51:28 INFO  PackageTree               :     ©¦   ©¦   ©¸©¤©¤ widget (9)
+12:51:28 INFO  PackageTree               :     ©¦   ©À©¤©¤ coordinatorlayout
+12:51:28 INFO  PackageTree               :     ©¦   ©¦   ©¸©¤©¤ widget (11)
+12:51:28 INFO  PackageTree               :     ©¦   ©À©¤©¤ recyclerview
+12:51:28 INFO  PackageTree               :     ©¦   ©¦   ©¸©¤©¤ widget (62)
+12:51:28 INFO  PackageTree               :     ©¦   ©À©¤©¤ viewpager
+12:51:28 INFO  PackageTree               :     ©¦   ©¦   ©¸©¤©¤ widget (14)
+12:51:28 INFO  PackageTree               :     ©¦   ©À©¤©¤ drawerlayout
+12:51:28 INFO  PackageTree               :     ©¦   ©¦   ©¸©¤©¤ widget (9)
+12:51:28 INFO  PackageTree               :     ©¦   ©À©¤©¤ annotation (1)
+12:51:28 INFO  PackageTree               :     ©¦   ©À©¤©¤ fragment
+12:51:28 INFO  PackageTree               :     ©¦   ©¦   ©¸©¤©¤ app (10)
+12:51:28 INFO  PackageTree               :     ©¦   ©À©¤©¤ activity (9)
+12:51:28 INFO  PackageTree               :     ©¦   ©À©¤©¤ lifecycle (8)
+12:51:28 INFO  PackageTree               :     ©¦   ©À©¤©¤ core
+12:51:28 INFO  PackageTree               :     ©¦   ©¦   ©À©¤©¤ app (4)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦   ©À©¤©¤ graphics
+12:51:28 INFO  PackageTree               :     ©¦   ©¦   ©¦   ©¸©¤©¤ drawable (2)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦   ©¸©¤©¤ widget (5)
+12:51:28 INFO  PackageTree               :     ©¦   ©À©¤©¤ constraintlayout
+12:51:28 INFO  PackageTree               :     ©¦   ©¦   ©¸©¤©¤ widget (6)
+12:51:28 INFO  PackageTree               :     ©¦   ©À©¤©¤ cardview
+12:51:28 INFO  PackageTree               :     ©¦   ©¦   ©¸©¤©¤ widget (2)
+12:51:28 INFO  PackageTree               :     ©¦   ©À©¤©¤ versionedparcelable (3)
+12:51:28 INFO  PackageTree               :     ©¦   ©À©¤©¤ viewpager2
+12:51:28 INFO  PackageTree               :     ©¦   ©¦   ©¸©¤©¤ adapter (3)
+12:51:28 INFO  PackageTree               :     ©¦   ©¸©¤©¤ savedstate (2)
+12:51:28 INFO  PackageTree               :     ©À©¤©¤ e
+12:51:28 INFO  PackageTree               :     ©¦   ©¸©¤©¤ a (16)
+12:51:28 INFO  PackageTree               :     ©¦       ©À©¤©¤ s
+12:51:28 INFO  PackageTree               :     ©¦       ©¦   ©À©¤©¤ f (1)
+12:51:28 INFO  PackageTree               :     ©¦       ©¦   ©À©¤©¤ e
+12:51:28 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©À©¤©¤ e (65)
+12:51:28 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©À©¤©¤ a (10)
+12:51:28 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©À©¤©¤ f (29)
+12:51:28 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©À©¤©¤ d (6)
+12:51:28 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©À©¤©¤ b (3)
+12:51:28 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©¸©¤©¤ c (8)
+12:51:28 INFO  PackageTree               :     ©¦       ©¦   ©À©¤©¤ g (23)
+12:51:28 INFO  PackageTree               :     ©¦       ©¦   ©À©¤©¤ d (7)
+12:51:28 INFO  PackageTree               :     ©¦       ©¦   ©À©¤©¤ b (14)
+12:51:28 INFO  PackageTree               :     ©¦       ©¦   ©À©¤©¤ a (6)
+12:51:28 INFO  PackageTree               :     ©¦       ©¦   ©À©¤©¤ h (10)
+12:51:28 INFO  PackageTree               :     ©¦       ©¦   ©¸©¤©¤ c (5)
+12:51:28 INFO  PackageTree               :     ©¦       ©À©¤©¤ p (3)
+12:51:28 INFO  PackageTree               :     ©¦       ©À©¤©¤ q (8)
+12:51:28 INFO  PackageTree               :     ©¦       ©À©¤©¤ o
+12:51:28 INFO  PackageTree               :     ©¦       ©¦   ©À©¤©¤ b (5)
+12:51:28 INFO  PackageTree               :     ©¦       ©¦   ©¸©¤©¤ a (1)
+12:51:28 INFO  PackageTree               :     ©¦       ©À©¤©¤ v (9)
+12:51:28 INFO  PackageTree               :     ©¦       ©À©¤©¤ t (1)
+12:51:28 INFO  PackageTree               :     ©¦       ©À©¤©¤ r (7)
+12:51:28 INFO  PackageTree               :     ©¦       ©¸©¤©¤ u (1)
+12:51:28 INFO  PackageTree               :     ©À©¤©¤ c
+12:51:28 INFO  PackageTree               :     ©¦   ©À©¤©¤ f
+12:51:28 INFO  PackageTree               :     ©¦   ©¦   ©À©¤©¤ b (8)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦   ©¸©¤©¤ a (10)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦       ©¸©¤©¤ i (18)
+12:51:28 INFO  PackageTree               :     ©¦   ©À©¤©¤ b (10)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦   ©À©¤©¤ k (54)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦   ©À©¤©¤ p (106)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦   ©À©¤©¤ o (13)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦   ©¦   ©¸©¤©¤ i (38)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦   ©À©¤©¤ m
+12:51:28 INFO  PackageTree               :     ©¦   ©¦   ©¦   ©¸©¤©¤ a (14)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦   ©À©¤©¤ n (2)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦   ©¸©¤©¤ l
+12:51:28 INFO  PackageTree               :     ©¦   ©¦       ©¸©¤©¤ a (2)
+12:51:28 INFO  PackageTree               :     ©¦   ©À©¤©¤ m
+12:51:28 INFO  PackageTree               :     ©¦   ©¦   ©¸©¤©¤ a (54)
+12:51:28 INFO  PackageTree               :     ©¦   ©À©¤©¤ h (3)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦   ©À©¤©¤ k (31)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦   ©¦   ©À©¤©¤ w (10)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦   ©¦   ©¸©¤©¤ x (1)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦   ©À©¤©¤ e (1)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦   ©¦   ©¸©¤©¤ b (9)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦   ©À©¤©¤ i (11)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦   ©À©¤©¤ d (15)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦   ©À©¤©¤ j (5)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦   ©À©¤©¤ l (9)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦   ©À©¤©¤ h (15)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦   ©À©¤©¤ f (11)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦   ©¦   ©¸©¤©¤ j (5)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦   ©¸©¤©¤ g
+12:51:28 INFO  PackageTree               :     ©¦   ©¦       ©¸©¤©¤ a (3)
+12:51:28 INFO  PackageTree               :     ©¦   ©À©¤©¤ r (3)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦   ©¸©¤©¤ d (65)
+12:51:28 INFO  PackageTree               :     ©¦   ©À©¤©¤ o (26)
+12:51:28 INFO  PackageTree               :     ©¦   ©À©¤©¤ e (15)
+12:51:28 INFO  PackageTree               :     ©¦   ©À©¤©¤ k
+12:51:28 INFO  PackageTree               :     ©¦   ©¦   ©¸©¤©¤ a (1)
+12:51:28 INFO  PackageTree               :     ©¦   ©À©¤©¤ u (58)
+12:51:28 INFO  PackageTree               :     ©¦   ©À©¤©¤ j
+12:51:28 INFO  PackageTree               :     ©¦   ©¦   ©À©¤©¤ b (11)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦   ©¸©¤©¤ a (3)
+12:51:28 INFO  PackageTree               :     ©¦   ©À©¤©¤ d (5)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦   ©¸©¤©¤ f (9)
+12:51:28 INFO  PackageTree               :     ©¦   ©À©¤©¤ v
+12:51:28 INFO  PackageTree               :     ©¦   ©¦   ©¸©¤©¤ a
+12:51:28 INFO  PackageTree               :     ©¦   ©¦       ©¸©¤©¤ a (18)
+12:51:28 INFO  PackageTree               :     ©¦   ©À©¤©¤ p
+12:51:28 INFO  PackageTree               :     ©¦   ©¦   ©¸©¤©¤ a (6)
+12:51:28 INFO  PackageTree               :     ©¦   ©À©¤©¤ c
+12:51:28 INFO  PackageTree               :     ©¦   ©¦   ©¸©¤©¤ a
+12:51:28 INFO  PackageTree               :     ©¦   ©¦       ©À©¤©¤ a (4)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦       ©¸©¤©¤ b (8)
+12:51:28 INFO  PackageTree               :     ©¦   ©À©¤©¤ s (5)
+12:51:28 INFO  PackageTree               :     ©¦   ©À©¤©¤ g (3)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦   ©¸©¤©¤ d (2)
+12:51:28 INFO  PackageTree               :     ©¦   ©À©¤©¤ n
+12:51:28 INFO  PackageTree               :     ©¦   ©¦   ©¸©¤©¤ a
+12:51:28 INFO  PackageTree               :     ©¦   ©¦       ©¸©¤©¤ a (4)
+12:51:28 INFO  PackageTree               :     ©¦   ©À©¤©¤ q (6)
+12:51:28 INFO  PackageTree               :     ©¦   ©À©¤©¤ l
+12:51:28 INFO  PackageTree               :     ©¦   ©¦   ©¸©¤©¤ a (5)
+12:51:28 INFO  PackageTree               :     ©¦   ©À©¤©¤ i
+12:51:28 INFO  PackageTree               :     ©¦   ©¦   ©¸©¤©¤ a (6)
+12:51:28 INFO  PackageTree               :     ©¦   ©À©¤©¤ t
+12:51:28 INFO  PackageTree               :     ©¦   ©¦   ©¸©¤©¤ a (7)
+12:51:28 INFO  PackageTree               :     ©¦   ©À©¤©¤ w (3)
+12:51:28 INFO  PackageTree               :     ©¦   ©À©¤©¤ a (3)
+12:51:28 INFO  PackageTree               :     ©¦   ©¸©¤©¤ x
+12:51:28 INFO  PackageTree               :     ©¦       ©¸©¤©¤ a (2)
+12:51:28 INFO  PackageTree               :     ©À©¤©¤ k
+12:51:28 INFO  PackageTree               :     ©¦   ©À©¤©¤ a (1)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦   ©À©¤©¤ e (8)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦   ©¦   ©À©¤©¤ g (1)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦   ©¦   ©¸©¤©¤ f (6)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦   ©À©¤©¤ d (26)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦   ©À©¤©¤ c (29)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦   ©¦   ©À©¤©¤ t (3)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦   ©¦   ©¸©¤©¤ u (6)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦   ©¸©¤©¤ b
+12:51:28 INFO  PackageTree               :     ©¦   ©¦       ©¸©¤©¤ a
+12:51:28 INFO  PackageTree               :     ©¦   ©¦           ©À©¤©¤ a (2)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦           ©¦   ©¸©¤©¤ c (1)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦           ©¸©¤©¤ b (7)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦               ©¸©¤©¤ g (2)
+12:51:28 INFO  PackageTree               :     ©¦   ©¸©¤©¤ b
+12:51:28 INFO  PackageTree               :     ©¦       ©¸©¤©¤ a (21)
+12:51:28 INFO  PackageTree               :     ©¦           ©À©¤©¤ w (29)
+12:51:28 INFO  PackageTree               :     ©¦           ©À©¤©¤ u (38)
+12:51:28 INFO  PackageTree               :     ©¦           ©À©¤©¤ t (24)
+12:51:28 INFO  PackageTree               :     ©¦           ©À©¤©¤ x (13)
+12:51:28 INFO  PackageTree               :     ©¦           ©¸©¤©¤ v (3)
+12:51:28 INFO  PackageTree               :     ©À©¤©¤ com
+12:51:28 INFO  PackageTree               :     ©¦   ©À©¤©¤ google
+12:51:28 INFO  PackageTree               :     ©¦   ©¦   ©¸©¤©¤ android
+12:51:28 INFO  PackageTree               :     ©¦   ©¦       ©À©¤©¤ material
+12:51:28 INFO  PackageTree               :     ©¦   ©¦       ©¦   ©À©¤©¤ transformation (10)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦       ©¦   ©À©¤©¤ bottomsheet (8)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦       ©¦   ©À©¤©¤ tabs (13)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦       ©¦   ©À©¤©¤ snackbar (15)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦       ©¦   ©À©¤©¤ behavior (6)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦       ©¦   ©À©¤©¤ textfield (11)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦       ©¦   ©À©¤©¤ appbar (8)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦       ©¦   ©À©¤©¤ bottomappbar (5)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦       ©¦   ©À©¤©¤ button (3)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦       ©¦   ©À©¤©¤ internal (7)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦       ©¦   ©À©¤©¤ chip (8)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦       ©¦   ©À©¤©¤ theme (1)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦       ©¦   ©À©¤©¤ floatingactionbutton (10)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦       ©¦   ©À©¤©¤ datepicker (1)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦       ©¦   ©¸©¤©¤ textview (1)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦       ©¸©¤©¤ flexbox (10)
+12:51:28 INFO  PackageTree               :     ©¦   ©À©¤©¤ aurelhubert
+12:51:28 INFO  PackageTree               :     ©¦   ©¦   ©¸©¤©¤ ahbottomnavigation (10)
+12:51:28 INFO  PackageTree               :     ©¦   ©À©¤©¤ bumptech
+12:51:28 INFO  PackageTree               :     ©¦   ©¦   ©¸©¤©¤ glide (2)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦       ©À©¤©¤ load (2)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦       ©¸©¤©¤ integration
+12:51:28 INFO  PackageTree               :     ©¦   ©¦           ©¸©¤©¤ okhttp3 (1)
+12:51:28 INFO  PackageTree               :     ©¦   ©¸©¤©¤ airbnb
+12:51:28 INFO  PackageTree               :     ©¦       ©¸©¤©¤ lottie (6)
+12:51:28 INFO  PackageTree               :     ©À©¤©¤ i (74)
+12:51:28 INFO  PackageTree               :     ©¦   ©À©¤©¤ m0 (3)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦   ©À©¤©¤ i (40)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦   ©À©¤©¤ d (13)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦   ©À©¤©¤ e (7)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦   ©À©¤©¤ k (15)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦   ©¦   ©¸©¤©¤ i (10)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦   ©À©¤©¤ g (11)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦   ©À©¤©¤ f (20)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦   ©À©¤©¤ m (5)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦   ©À©¤©¤ h (7)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦   ©À©¤©¤ j (2)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦   ©¸©¤©¤ l (1)
+12:51:28 INFO  PackageTree               :     ©¦   ©¸©¤©¤ n0 (4)
+12:51:28 INFO  PackageTree               :     ©À©¤©¤ g (10)
+12:51:28 INFO  PackageTree               :     ©¦   ©À©¤©¤ k (15)
+12:51:28 INFO  PackageTree               :     ©¦   ©À©¤©¤ o (1)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦   ©À©¤©¤ b (23)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦   ©¸©¤©¤ c (18)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦       ©¸©¤©¤ r (1)
+12:51:28 INFO  PackageTree               :     ©¦   ©À©¤©¤ m (6)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦   ©À©¤©¤ e
+12:51:28 INFO  PackageTree               :     ©¦   ©¦   ©¦   ©¸©¤©¤ a (6)
+12:51:28 INFO  PackageTree               :     ©¦   ©¦   ©¸©¤©¤ d (1)
+12:51:28 INFO  PackageTree               :     ©¦   ©À©¤©¤ r (10)
+12:51:28 INFO  PackageTree               :     ©¦   ©À©¤©¤ t (13)
+12:51:28 INFO  PackageTree               :     ©¦   ©À©¤©¤ s (9)
+12:51:28 INFO  PackageTree               :     ©¦   ©À©¤©¤ p (1)
+12:51:28 INFO  PackageTree               :     ©¦   ©À©¤©¤ q (4)
+12:51:28 INFO  PackageTree               :     ©¦   ©À©¤©¤ l (2)
+12:51:28 INFO  PackageTree               :     ©¦   ©¸©¤©¤ n (3)
+12:51:28 INFO  PackageTree               :     ©À©¤©¤ p (10)
+12:51:28 INFO  PackageTree               :     ©¦   ©À©¤©¤ k (7)
+12:51:28 INFO  PackageTree               :     ©¦   ©À©¤©¤ j (6)
+12:51:28 INFO  PackageTree               :     ©¦   ©¸©¤©¤ l (1)
+12:51:28 INFO  PackageTree               :     ©À©¤©¤ m (78)
+12:51:28 INFO  PackageTree               :     ©¦   ©À©¤©¤ l0
+12:51:28 INFO  PackageTree               :     ©¦   ©¦   ©¸©¤©¤ a (10)
+12:51:28 INFO  PackageTree               :     ©¦   ©À©¤©¤ n0 (25)
+12:51:28 INFO  PackageTree               :     ©¦   ©¸©¤©¤ m0
+12:51:28 INFO  PackageTree               :     ©¦       ©¸©¤©¤ a (3)
+12:51:28 INFO  PackageTree               :     ©À©¤©¤ l
+12:51:28 INFO  PackageTree               :     ©¦   ©¸©¤©¤ a
+12:51:28 INFO  PackageTree               :     ©¦       ©¸©¤©¤ a (12)
+12:51:28 INFO  PackageTree               :     ©À©¤©¤ n
+12:51:28 INFO  PackageTree               :     ©¦   ©¸©¤©¤ a
+12:51:28 INFO  PackageTree               :     ©¦       ©¸©¤©¤ a (19)
+12:51:28 INFO  PackageTree               :     ©¦           ©À©¤©¤ s (6)
+12:51:28 INFO  PackageTree               :     ©¦           ©¦   ©¸©¤©¤ f (9)
+12:51:28 INFO  PackageTree               :     ©¦           ©¦       ©¸©¤©¤ g (15)
+12:51:28 INFO  PackageTree               :     ©¦           ©À©¤©¤ t (24)
+12:51:28 INFO  PackageTree               :     ©¦           ©À©¤©¤ q
+12:51:28 INFO  PackageTree               :     ©¦           ©¦   ©À©¤©¤ a (6)
+12:51:28 INFO  PackageTree               :     ©¦           ©¦   ©¸©¤©¤ b (7)
+12:51:28 INFO  PackageTree               :     ©¦           ©¦       ©¸©¤©¤ e (1)
+12:51:28 INFO  PackageTree               :     ©¦           ©¦           ©À©¤©¤ c (82)
+12:51:28 INFO  PackageTree               :     ©¦           ©¦           ©¸©¤©¤ b (4)
+12:51:28 INFO  PackageTree               :     ©¦           ©À©¤©¤ u (6)
+12:51:28 INFO  PackageTree               :     ©¦           ©¸©¤©¤ r (18)
+12:51:28 INFO  PackageTree               :     ©À©¤©¤ f
+12:51:28 INFO  PackageTree               :     ©¦   ©¸©¤©¤ a (4)
+12:51:28 INFO  PackageTree               :     ©À©¤©¤ o
+12:51:28 INFO  PackageTree               :     ©¦   ©¸©¤©¤ a (3)
+12:51:28 INFO  PackageTree               :     ©À©¤©¤ pl
+12:51:28 INFO  PackageTree               :     ©¦   ©¸©¤©¤ droidsonroids
+12:51:28 INFO  PackageTree               :     ©¦       ©¸©¤©¤ gif (2)
+12:51:28 INFO  PackageTree               :     ©À©¤©¤ okhttp3
+12:51:28 INFO  PackageTree               :     ©¦   ©¸©¤©¤ internal
+12:51:28 INFO  PackageTree               :     ©¦       ©¸©¤©¤ publicsuffix (2)
+12:51:28 INFO  PackageTree               :     ©¸©¤©¤ android
+12:51:28 INFO  PackageTree               :         ©¸©¤©¤ support
+12:51:28 INFO  PackageTree               :             ©¸©¤©¤ v4
+12:51:28 INFO  PackageTree               :                 ©À©¤©¤ graphics
+12:51:28 INFO  PackageTree               :                 ©¦   ©¸©¤©¤ drawable (1)
+12:51:28 INFO  PackageTree               :                 ©¸©¤©¤ app (1)
+12:51:28 INFO  Profile                   : 
+12:51:28 INFO  AppProfile                : - generated app package tree (in 17 ms)
+12:51:28 INFO  AppProfile                : 
+12:51:28 DEBUG HashTree                  : Generate hash tree..
+12:51:29 DEBUG HashTree                  :     - generated 378 package hashes.
+12:51:29 DEBUG HashTree                  :     - generated 4680 clazz hashes.
+12:51:29 DEBUG HashTree                  :     - generated 23924 method hashes.
+12:51:29 DEBUG HashTree                  :     => Library Hash:  954434b7f80453eacaca0eb15ed0966
+12:51:29 INFO  AppProfile                : - generated app hash trees (in 128 ms)
+12:51:29 INFO  AppProfile                : 
+12:51:29 INFO  LibraryIdentifier         : = Scan for library root packages (heuristic) =
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.activity  (100)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (1000)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (1001)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (1002)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (1003)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (1004)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (1005)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (1006)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (1007)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (1008)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (1009)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.activity  (101)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (1010)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (1013)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (1014)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (1015)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (1016)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (1017)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (1018)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (1019)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.activity  (102)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (1020)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (1021)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.appcompat  (10218)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (1022)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (1023)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (1024)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (1025)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (1026)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (1027)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (1028)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (1029)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.activity  (103)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (1030)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (1031)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (1032)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (1033)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (1034)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (1037)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (1038)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (1039)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.activity  (104)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (1040)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (1041)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (1042)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (1043)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (1044)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (1045)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.activity  (105)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (1052)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (1053)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (1054)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (1055)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (1056)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (1057)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (1058)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (1059)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.activity  (106)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.activity  (107)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (1073)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (1074)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (1075)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (1076)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (1077)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (1078)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (1079)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.activity  (108)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (1080)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (1081)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (1082)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (1083)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (1084)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (1085)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (1086)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (1087)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (1088)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (1089)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.activity  (109)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (1090)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (1091)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (1092)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (1093)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (1094)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (1095)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (1096)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.activity  (110)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (1108)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (1109)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.activity  (111)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (1110)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (1111)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (1112)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (1113)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (1114)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (1115)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (1116)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (1117)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (1118)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (1119)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.activity  (112)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (1120)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (1121)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (1122)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (1123)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (1124)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (1125)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (1126)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (1127)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (1128)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (1129)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.activity  (113)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (1130)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (1131)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.recyclerview.widget  (11338)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.swiperefreshlayout.widget  (11339)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.viewpager.widget  (11340)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.viewpager2  (11341)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (1136)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (1137)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (1138)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (1139)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.activity  (114)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (1140)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (1141)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (1142)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (1143)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (1144)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (1145)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (1146)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (1147)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (1148)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.activity  (115)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.activity  (116)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.activity  (117)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.activity  (118)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.activity  (119)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.annotation  (122)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.annotation  (123)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.annotation  (124)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.annotation  (125)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.annotation  (126)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.annotation  (127)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.annotation  (128)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.annotation  (129)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.annotation  (130)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.annotation  (131)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.annotation  (132)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package android  (13332)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package pl.droidsonroids.gif  (13570)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package pl.droidsonroids.gif  (13571)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package pl.droidsonroids.gif  (13572)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package pl.droidsonroids.gif  (13573)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package pl.droidsonroids.gif  (13574)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package pl.droidsonroids.gif  (13575)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package pl.droidsonroids.gif  (13576)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package pl.droidsonroids.gif  (13577)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package pl.droidsonroids.gif  (13578)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package pl.droidsonroids.gif  (13579)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package pl.droidsonroids.gif  (13580)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package pl.droidsonroids.gif  (13581)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package pl.droidsonroids.gif  (13582)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package pl.droidsonroids.gif  (13583)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package pl.droidsonroids.gif  (13584)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package pl.droidsonroids.gif  (13585)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package pl.droidsonroids.gif  (13586)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package pl.droidsonroids.gif  (13587)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package pl.droidsonroids.gif  (13588)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package pl.droidsonroids.gif  (13589)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package ru.terrakok.cicerone  (13628)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.annotation  (141)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.annotation  (142)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.annotation  (143)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.appcompat  (144)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.appcompat  (145)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.appcompat  (146)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.appcompat  (147)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.recyclerview.widget  (1475)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.recyclerview.widget  (1476)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.recyclerview.widget  (1477)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.recyclerview.widget  (1478)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.recyclerview.widget  (1479)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.appcompat  (148)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.recyclerview.widget  (1480)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.recyclerview.widget  (1481)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.recyclerview.widget  (1482)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.recyclerview.widget  (1483)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.recyclerview.widget  (1484)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.recyclerview.widget  (1485)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.recyclerview.widget  (1486)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.recyclerview.widget  (1487)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.recyclerview.widget  (1488)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.recyclerview.widget  (1489)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.appcompat  (149)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.recyclerview.widget  (1490)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.recyclerview.widget  (1491)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.appcompat  (150)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.appcompat  (151)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.appcompat  (152)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.appcompat  (153)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.appcompat  (154)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.appcompat  (155)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.appcompat  (156)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.appcompat  (157)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.appcompat  (158)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.appcompat  (159)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.appcompat  (160)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.appcompat  (161)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.appcompat  (162)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.savedstate  (1624)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.appcompat  (163)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.appcompat  (164)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.appcompat  (165)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.appcompat  (166)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.swiperefreshlayout.widget  (1668)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.swiperefreshlayout.widget  (1669)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.swiperefreshlayout.widget  (1670)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.swiperefreshlayout.widget  (1671)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.appcompat  (169)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.appcompat  (170)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.versionedparcelable  (1719)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.viewpager.widget  (1720)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.viewpager.widget  (1721)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.viewpager2  (1722)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.viewpager2  (1723)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.viewpager2  (1724)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.viewpager2  (1725)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.viewpager2  (1726)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.viewpager2  (1727)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.appcompat  (178)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.appcompat  (179)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.appcompat  (180)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.appcompat  (181)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.appcompat  (182)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.appcompat  (183)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.appcompat  (184)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.appcompat  (185)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.appcompat  (186)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.appcompat  (187)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.airbnb.lottie  (2162)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.airbnb.lottie  (2163)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.airbnb.lottie  (2164)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.airbnb.lottie  (2165)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.airbnb.lottie  (2166)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.airbnb.lottie  (2167)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.airbnb.lottie  (2168)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.airbnb.lottie  (2169)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.airbnb.lottie  (2170)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.airbnb.lottie  (2171)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.airbnb.lottie  (2172)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.airbnb.lottie  (2173)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.airbnb.lottie  (2174)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.airbnb.lottie  (2175)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.airbnb.lottie  (2176)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.airbnb.lottie  (2177)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.airbnb.lottie  (2178)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.airbnb.lottie  (2179)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.airbnb.lottie  (2180)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.airbnb.lottie  (2181)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.airbnb.lottie  (2182)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.airbnb.lottie  (2183)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.airbnb.lottie  (2184)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.airbnb.lottie  (2185)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2436)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2514)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2705)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2706)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2707)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2708)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2709)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2710)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2711)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2712)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2713)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2714)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2715)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2716)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2721)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2722)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2723)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2724)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2725)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2726)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2727)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2728)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2729)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2731)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2732)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2733)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2734)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2735)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2736)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2737)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2738)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2739)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2740)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2741)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4.app  (2746)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4.app  (2747)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4.app  (2748)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4.app  (2749)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4.app  (2750)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4.app  (2751)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4.app  (2752)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4.app  (2753)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4.app  (2754)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4.app  (2755)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4.app  (2756)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4.app  (2757)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2804)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2805)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2806)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2807)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2808)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2809)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2810)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2811)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2812)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2813)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2814)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2815)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2816)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2817)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2818)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2819)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2820)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2821)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2822)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2823)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2824)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2825)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2826)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2827)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2828)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2829)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.versionedparcelable  (2879)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.aurelhubert.ahbottomnavigation  (3063)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.aurelhubert.ahbottomnavigation  (3064)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.aurelhubert.ahbottomnavigation  (3065)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.aurelhubert.ahbottomnavigation  (3066)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.cardview.widget  (326)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.bumptech.glide  (4156)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.bumptech.glide  (4157)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.bumptech.glide  (4158)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.bumptech.glide  (4161)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.bumptech.glide  (4162)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.bumptech.glide  (4165)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.bumptech.glide  (4166)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.bumptech.glide  (4167)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.bumptech.glide  (4168)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.bumptech.glide  (4169)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.bumptech.glide  (4170)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.bumptech.glide  (4171)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.bumptech.glide  (4172)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.bumptech.glide  (4173)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.bumptech.glide  (4174)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.bumptech.glide  (4175)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.bumptech.glide  (4176)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.bumptech.glide  (4177)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.bumptech.glide  (4178)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.bumptech.glide  (4179)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.bumptech.glide  (4180)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.bumptech.glide  (4181)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.bumptech.glide  (4182)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.bumptech.glide  (4183)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.bumptech.glide  (4184)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.bumptech.glide  (4185)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.bumptech.glide  (4186)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.bumptech.glide  (4187)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.bumptech.glide  (4188)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.bumptech.glide  (4189)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.bumptech.glide  (4190)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.bumptech.glide  (4191)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.bumptech.glide  (4192)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.bumptech.glide  (4193)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.bumptech.glide  (4194)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.bumptech.glide  (4198)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.bumptech.glide  (4199)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.bumptech.glide.integration.okhttp3  (4200)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.bumptech.glide.integration.okhttp3  (4201)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.bumptech.glide  (4202)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.bumptech.glide  (4203)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.bumptech.glide  (4204)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.bumptech.glide  (4205)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.bumptech.glide  (4206)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.bumptech.glide  (4207)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.bumptech.glide  (4208)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.bumptech.glide  (4209)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.bumptech.glide  (4210)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.bumptech.glide  (4211)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.bumptech.glide  (4212)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.bumptech.glide  (4213)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.flexbox  (4618)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package moxy  (5186)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package moxy  (5187)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.viewpager.widget  (5702)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.activity  (58)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.aurelhubert.ahbottomnavigation  (5871)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.activity  (59)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.bumptech.glide  (5972)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.bumptech.glide  (5973)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.bumptech.glide  (5974)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.activity  (60)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.activity  (61)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package android  (6148)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package android  (6149)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.flexbox  (6150)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.flexbox  (6151)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.flexbox  (6152)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.flexbox  (6153)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.flexbox  (6154)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.flexbox  (6155)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.flexbox  (6156)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.flexbox  (6157)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.flexbox  (6158)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.flexbox  (6159)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.flexbox  (6160)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.flexbox  (6161)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (6162)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.activity  (62)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.activity  (63)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.flexbox  (6304)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.constraintlayout.widget  (654)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.constraintlayout.widget  (655)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.constraintlayout  (656)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.constraintlayout  (657)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.constraintlayout  (658)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.constraintlayout  (659)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.constraintlayout  (660)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.constraintlayout  (661)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.constraintlayout  (662)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.constraintlayout  (663)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.constraintlayout  (664)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.constraintlayout  (665)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.constraintlayout  (666)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.constraintlayout  (667)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.constraintlayout  (668)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.constraintlayout  (669)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.constraintlayout  (670)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.constraintlayout  (671)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.constraintlayout  (672)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.constraintlayout  (673)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.constraintlayout  (674)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.constraintlayout  (675)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.constraintlayout  (676)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.constraintlayout  (677)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.constraintlayout  (678)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.coordinatorlayout.widget  (682)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.coordinatorlayout.widget  (683)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.material  (6839)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.coordinatorlayout.widget  (684)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.material  (6840)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.material  (6841)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.material  (6842)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.material  (6843)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.material  (6844)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.material  (6845)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.material  (6846)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.material  (6847)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.material  (6848)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.material  (6849)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.coordinatorlayout.widget  (685)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.material  (6850)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.material  (6851)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.material  (6852)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.material  (6853)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.material  (6854)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.material  (6855)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.material  (6856)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.material  (6857)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.material  (6858)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.material  (6859)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.core  (686)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.material  (6860)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.material  (6861)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.material  (6862)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.material  (6863)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.material  (6864)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.material  (6865)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.material  (6866)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.material  (6867)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.material  (6868)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.material  (6869)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.core  (687)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.material  (6870)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.material  (6871)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.material  (6872)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.material  (6873)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.material  (6874)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.material  (6875)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.material  (6876)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.material  (6877)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.material  (6878)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.material  (6879)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.core  (688)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.material  (6880)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.material  (6881)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.material  (6882)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.material  (6883)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.material  (6884)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.material  (6885)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.material  (6886)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.material  (6887)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.material  (6888)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.material  (6889)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.core  (689)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.material  (6890)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.material  (6891)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.material  (6892)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.material  (6893)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.material  (6894)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.material  (6895)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.material  (6896)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.material  (6897)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.material  (6898)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.material  (6899)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.core  (690)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.material  (6900)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.material  (6901)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.material  (6902)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.material  (6903)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.material  (6904)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.material  (6905)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.material  (6906)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.material  (6907)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.material  (6908)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.material  (6909)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.core  (691)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.material  (6910)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.material  (6911)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.core  (692)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.core  (693)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.core  (694)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.core  (695)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.core  (696)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.core  (697)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.core  (698)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.core  (699)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.core  (700)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.core  (701)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.core  (702)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.core  (703)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.core  (704)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.core  (705)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.core  (706)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.core  (707)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.core  (708)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.core  (709)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.core  (710)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.core  (712)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.core  (713)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.core  (714)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.core  (715)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.core  (716)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.core  (717)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.core  (718)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.core  (719)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.core  (720)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.core  (721)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.core  (722)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.core  (723)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.core  (724)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.core  (725)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.core  (726)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.core  (727)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.core  (728)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.core  (729)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.core  (730)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.core  (731)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.core  (732)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.core  (733)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.core  (734)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.core  (735)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.core  (736)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.core  (737)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.core  (738)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.core  (739)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.core  (740)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.core  (741)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.core  (742)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.core  (743)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.core  (744)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.core  (745)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.core  (746)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.core  (747)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.core  (748)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.core.widget  (749)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.drawerlayout.widget  (786)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.drawerlayout.widget  (787)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.drawerlayout.widget  (788)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.drawerlayout.widget  (789)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.fragment.app  (826)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.fragment.app  (827)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.fragment.app  (828)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.fragment.app  (829)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.fragment.app  (830)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.fragment.app  (831)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.fragment.app  (832)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.fragment.app  (833)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.fragment.app  (834)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.fragment.app  (835)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.fragment.app  (836)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.fragment.app  (837)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.fragment.app  (838)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.fragment.app  (839)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.fragment.app  (840)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.fragment.app  (841)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.fragment.app  (842)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.fragment.app  (860)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.fragment.app  (861)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.fragment.app  (862)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.fragment.app  (863)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.fragment.app  (864)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.fragment.app  (865)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.fragment.app  (866)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.fragment.app  (867)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.fragment.app  (868)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.fragment.app  (869)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.fragment.app  (870)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.fragment.app  (871)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.fragment.app  (872)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.fragment.app  (873)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.fragment.app  (874)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.fragment.app  (875)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.fragment.app  (876)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.fragment.app  (877)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.fragment.app  (878)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.fragment.app  (879)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.fragment.app  (880)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.fragment.app  (881)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.fragment.app  (882)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.fragment.app  (883)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.fragment.app  (884)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.fragment.app  (885)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.fragment.app  (886)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.fragment.app  (887)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.fragment.app  (888)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.fragment.app  (889)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.fragment.app  (890)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.fragment.app  (891)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.fragment.app  (892)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.fragment.app  (893)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.fragment.app  (894)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9337)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9338)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9339)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9340)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9341)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9342)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9343)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9344)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9345)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9346)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9347)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9348)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9349)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9350)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9351)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9352)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9353)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9354)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9355)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9356)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9357)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9358)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9359)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9360)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9361)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9362)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9363)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9364)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9365)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9366)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9367)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9368)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9369)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9370)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9371)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9372)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9373)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9374)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9375)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9376)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9377)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9378)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9379)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9380)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9381)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9382)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9383)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9384)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9385)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9386)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9387)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9388)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9389)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9390)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9391)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9395)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9396)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9397)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9403)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9404)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9409)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (941)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9415)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9416)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9417)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (942)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9425)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9426)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9427)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9428)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9429)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (943)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9430)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9431)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9432)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9433)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9434)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9435)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9436)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9437)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9438)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9439)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (944)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9440)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9441)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9442)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9443)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9444)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9445)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9446)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9447)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9448)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9449)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (945)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9450)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9451)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (946)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (947)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (948)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (949)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (950)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (951)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (952)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (953)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (954)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (955)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (956)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (965)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (966)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (967)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (968)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (969)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (970)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (971)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (972)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (973)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (974)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (975)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (976)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (977)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (978)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (979)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.activity  (98)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (980)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (981)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (982)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (983)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (984)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (985)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (986)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (987)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (988)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (989)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.activity  (99)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (990)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (991)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (993)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (997)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (998)
+12:51:29 INFO  LibraryIdentifier         :     - Found lib root package androidx.lifecycle  (999)
+12:51:29 INFO  LibraryIdentifier         : 
+12:51:29 INFO  LibraryIdentifier         : = Match profiles =
+12:51:47 INFO  LibraryIdentifier         :     >> profile matching done (18 sec, 298 ms)
+12:51:47 INFO  LibraryIdentifier         : 
+12:51:47 INFO  LibraryIdentifier         : == Report ==
+12:51:47 INFO  LibraryIdentifier         : - Full library matches:
+12:51:47 INFO  ProfileMatch              :                 name: 9821
+12:51:47 INFO  ProfileMatch              :             category: Android
+12:51:47 INFO  ProfileMatch              :              version: 9821
+12:51:47 INFO  ProfileMatch              :         release-date: 21.05.2017
+12:51:47 INFO  ProfileMatch              :     lib root package: "com.twofortyfouram.locale.api"  (in app: "c")
+12:51:47 INFO  ProfileMatch              : 
+12:51:47 INFO  ProfileMatch              :                 name: 9820
+12:51:47 INFO  ProfileMatch              :             category: Android
+12:51:47 INFO  ProfileMatch              :              version: 9820
+12:51:47 INFO  ProfileMatch              :         release-date: 21.05.2017
+12:51:47 INFO  ProfileMatch              :     lib root package: "com.twofortyfouram.locale.api"  (in app: "c")
+12:51:47 INFO  ProfileMatch              : 
+12:51:47 INFO  ProfileMatch              :                 name: 9819
+12:51:47 INFO  ProfileMatch              :             category: Android
+12:51:47 INFO  ProfileMatch              :              version: 9819
+12:51:47 INFO  ProfileMatch              :         release-date: 21.05.2017
+12:51:47 INFO  ProfileMatch              :     lib root package: "com.twofortyfouram.locale.api"  (in app: "c")
+12:51:47 INFO  ProfileMatch              : 
+12:51:47 INFO  ProfileMatch              :                 name: 7257
+12:51:47 INFO  ProfileMatch              :             category: Android
+12:51:47 INFO  ProfileMatch              :              version: 7257
+12:51:47 INFO  ProfileMatch              :         release-date: 21.05.2017
+12:51:47 INFO  ProfileMatch              :     lib root package: "com.google.firebase.analytics.ktx"  (in app: "ru.terrakok.gitlabclient.ui.project")
+12:51:47 INFO  ProfileMatch              : 
+12:51:47 INFO  ProfileMatch              :                 name: 7256
+12:51:47 INFO  ProfileMatch              :             category: Android
+12:51:47 INFO  ProfileMatch              :              version: 7256
+12:51:47 INFO  ProfileMatch              :         release-date: 21.05.2017
+12:51:47 INFO  ProfileMatch              :     lib root package: "com.google.firebase.analytics.ktx"  (in app: "ru.terrakok.gitlabclient.ui.project")
+12:51:47 INFO  ProfileMatch              : 
+12:51:47 INFO  ProfileMatch              :                 name: 7258
+12:51:47 INFO  ProfileMatch              :             category: Android
+12:51:47 INFO  ProfileMatch              :              version: 7258
+12:51:47 INFO  ProfileMatch              :         release-date: 21.05.2017
+12:51:47 INFO  ProfileMatch              :     lib root package: "com.google.firebase.analytics.ktx"  (in app: "ru.terrakok.gitlabclient.ui.project")
+12:51:47 INFO  ProfileMatch              : 
+12:51:47 INFO  ProfileMatch              :                 name: 1108
+12:51:47 INFO  ProfileMatch              :             category: Android
+12:51:47 INFO  ProfileMatch              :              version: 1108
+12:51:47 INFO  ProfileMatch              :         release-date: 21.05.2017
+12:51:47 INFO  ProfileMatch              :     lib root package: "androidx.lifecycle"  (in app: "g.m")
+12:51:47 INFO  ProfileMatch              : 
+12:51:47 INFO  ProfileMatch              :                 name: 7342
+12:51:47 INFO  ProfileMatch              :             category: Android
+12:51:47 INFO  ProfileMatch              :              version: 7342
+12:51:47 INFO  ProfileMatch              :         release-date: 21.05.2017
+12:51:47 INFO  ProfileMatch              :     lib root package: "com.google.firebase.remoteconfig.ktx"  (in app: "ru.terrakok.gitlabclient.ui.project")
+12:51:47 INFO  ProfileMatch              : 
+12:51:47 INFO  ProfileMatch              :                 name: 3816
+12:51:47 INFO  ProfileMatch              :             category: Android
+12:51:47 INFO  ProfileMatch              :              version: 3816
+12:51:47 INFO  ProfileMatch              :         release-date: 21.05.2017
+12:51:47 INFO  ProfileMatch              :     lib root package: "com.firebase.ui"  (in app: "c")
+12:51:47 INFO  ProfileMatch              : 
+12:51:47 INFO  ProfileMatch              :                 name: 3817
+12:51:47 INFO  ProfileMatch              :             category: Android
+12:51:47 INFO  ProfileMatch              :              version: 3817
+12:51:47 INFO  ProfileMatch              :         release-date: 21.05.2017
+12:51:47 INFO  ProfileMatch              :     lib root package: "com.firebase.ui"  (in app: "c")
+12:51:47 INFO  ProfileMatch              : 
+12:51:47 INFO  ProfileMatch              :                 name: 2507
+12:51:47 INFO  ProfileMatch              :             category: Android
+12:51:47 INFO  ProfileMatch              :              version: 2507
+12:51:47 INFO  ProfileMatch              :         release-date: 21.05.2017
+12:51:47 INFO  ProfileMatch              :     lib root package: "android.support.v4.view.animation"  (in app: "c.n.a.a")
+12:51:47 INFO  ProfileMatch              : 
+12:51:47 INFO  ProfileMatch              :                 name: 426
+12:51:47 INFO  ProfileMatch              :             category: Android
+12:51:47 INFO  ProfileMatch              :              version: 426
+12:51:47 INFO  ProfileMatch              :         release-date: 21.05.2017
+12:51:47 INFO  ProfileMatch              :     lib root package: "androidx.compose.material.icons"  (in app: "d.d.a.o.w")
+12:51:47 INFO  ProfileMatch              : 
+12:51:47 INFO  ProfileMatch              :                 name: 427
+12:51:47 INFO  ProfileMatch              :             category: Android
+12:51:47 INFO  ProfileMatch              :              version: 427
+12:51:47 INFO  ProfileMatch              :         release-date: 21.05.2017
+12:51:47 INFO  ProfileMatch              :     lib root package: "androidx.compose.material.icons"  (in app: "d.d.a.o.w")
+12:51:47 INFO  ProfileMatch              : 
+12:51:47 INFO  ProfileMatch              :                 name: 428
+12:51:47 INFO  ProfileMatch              :             category: Android
+12:51:47 INFO  ProfileMatch              :              version: 428
+12:51:47 INFO  ProfileMatch              :         release-date: 21.05.2017
+12:51:47 INFO  ProfileMatch              :     lib root package: "androidx.compose.material.icons"  (in app: "d.d.a.o.w")
+12:51:47 INFO  ProfileMatch              : 
+12:51:47 INFO  ProfileMatch              :                 name: 429
+12:51:47 INFO  ProfileMatch              :             category: Android
+12:51:47 INFO  ProfileMatch              :              version: 429
+12:51:47 INFO  ProfileMatch              :         release-date: 21.05.2017
+12:51:47 INFO  ProfileMatch              :     lib root package: "androidx.compose.material.icons"  (in app: "d.d.a.o.w")
+12:51:47 INFO  ProfileMatch              : 
+12:51:47 INFO  ProfileMatch              :                 name: 430
+12:51:47 INFO  ProfileMatch              :             category: Android
+12:51:47 INFO  ProfileMatch              :              version: 430
+12:51:47 INFO  ProfileMatch              :         release-date: 21.05.2017
+12:51:47 INFO  ProfileMatch              :     lib root package: "androidx.compose.material.icons"  (in app: "d.d.a.o.w")
+12:51:47 INFO  ProfileMatch              : 
+12:51:47 INFO  ProfileMatch              :                 name: 431
+12:51:47 INFO  ProfileMatch              :             category: Android
+12:51:47 INFO  ProfileMatch              :              version: 431
+12:51:47 INFO  ProfileMatch              :         release-date: 21.05.2017
+12:51:47 INFO  ProfileMatch              :     lib root package: "androidx.compose.material.icons"  (in app: "d.d.a.o.w")
+12:51:47 INFO  ProfileMatch              : 
+12:51:47 INFO  ProfileMatch              :                 name: 432
+12:51:47 INFO  ProfileMatch              :             category: Android
+12:51:47 INFO  ProfileMatch              :              version: 432
+12:51:47 INFO  ProfileMatch              :         release-date: 21.05.2017
+12:51:47 INFO  ProfileMatch              :     lib root package: "androidx.compose.material.icons"  (in app: "d.d.a.o.w")
+12:51:47 INFO  ProfileMatch              : 
+12:51:47 INFO  ProfileMatch              :                 name: 433
+12:51:47 INFO  ProfileMatch              :             category: Android
+12:51:47 INFO  ProfileMatch              :              version: 433
+12:51:47 INFO  ProfileMatch              :         release-date: 21.05.2017
+12:51:47 INFO  ProfileMatch              :     lib root package: "androidx.compose.material.icons"  (in app: "d.d.a.o.w")
+12:51:47 INFO  ProfileMatch              : 
+12:51:47 INFO  ProfileMatch              :                 name: 434
+12:51:47 INFO  ProfileMatch              :             category: Android
+12:51:47 INFO  ProfileMatch              :              version: 434
+12:51:47 INFO  ProfileMatch              :         release-date: 21.05.2017
+12:51:47 INFO  ProfileMatch              :     lib root package: "androidx.compose.material.icons"  (in app: "d.d.a.o.w")
+12:51:47 INFO  ProfileMatch              : 
+12:51:47 INFO  ProfileMatch              :                 name: 435
+12:51:47 INFO  ProfileMatch              :             category: Android
+12:51:47 INFO  ProfileMatch              :              version: 435
+12:51:47 INFO  ProfileMatch              :         release-date: 21.05.2017
+12:51:47 INFO  ProfileMatch              :     lib root package: "androidx.compose.material.icons"  (in app: "d.d.a.o.w")
+12:51:47 INFO  ProfileMatch              : 
+12:51:47 INFO  ProfileMatch              :                 name: 436
+12:51:47 INFO  ProfileMatch              :             category: Android
+12:51:47 INFO  ProfileMatch              :              version: 436
+12:51:47 INFO  ProfileMatch              :         release-date: 21.05.2017
+12:51:47 INFO  ProfileMatch              :     lib root package: "androidx.compose.material.icons"  (in app: "d.d.a.o.w")
+12:51:47 INFO  ProfileMatch              : 
+12:51:47 INFO  ProfileMatch              :                 name: 437
+12:51:47 INFO  ProfileMatch              :             category: Android
+12:51:47 INFO  ProfileMatch              :              version: 437
+12:51:47 INFO  ProfileMatch              :         release-date: 21.05.2017
+12:51:47 INFO  ProfileMatch              :     lib root package: "androidx.compose.material.icons"  (in app: "d.d.a.o.w")
+12:51:47 INFO  ProfileMatch              : 
+12:51:47 INFO  ProfileMatch              :                 name: 438
+12:51:47 INFO  ProfileMatch              :             category: Android
+12:51:47 INFO  ProfileMatch              :              version: 438
+12:51:47 INFO  ProfileMatch              :         release-date: 21.05.2017
+12:51:47 INFO  ProfileMatch              :     lib root package: "androidx.compose.material.icons"  (in app: "d.d.a.o.w")
+12:51:47 INFO  ProfileMatch              : 
+12:51:47 INFO  ProfileMatch              :                 name: 439
+12:51:47 INFO  ProfileMatch              :             category: Android
+12:51:47 INFO  ProfileMatch              :              version: 439
+12:51:47 INFO  ProfileMatch              :         release-date: 21.05.2017
+12:51:47 INFO  ProfileMatch              :     lib root package: "androidx.compose.material.icons"  (in app: "d.d.a.o.w")
+12:51:47 INFO  ProfileMatch              : 
+12:51:47 INFO  ProfileMatch              :                 name: 440
+12:51:47 INFO  ProfileMatch              :             category: Android
+12:51:47 INFO  ProfileMatch              :              version: 440
+12:51:47 INFO  ProfileMatch              :         release-date: 21.05.2017
+12:51:47 INFO  ProfileMatch              :     lib root package: "androidx.compose.material.icons"  (in app: "d.d.a.o.w")
+12:51:47 INFO  ProfileMatch              : 
+12:51:47 INFO  ProfileMatch              :                 name: 461
+12:51:47 INFO  ProfileMatch              :             category: Android
+12:51:47 INFO  ProfileMatch              :              version: 461
+12:51:47 INFO  ProfileMatch              :         release-date: 21.05.2017
+12:51:47 INFO  ProfileMatch              :     lib root package: "androidx.compose.material.icons"  (in app: "d.d.a.o.w")
+12:51:47 INFO  ProfileMatch              : 
+12:51:47 INFO  ProfileMatch              :                 name: 462
+12:51:47 INFO  ProfileMatch              :             category: Android
+12:51:47 INFO  ProfileMatch              :              version: 462
+12:51:47 INFO  ProfileMatch              :         release-date: 21.05.2017
+12:51:47 INFO  ProfileMatch              :     lib root package: "androidx.compose.material.icons"  (in app: "ru.terrakok.gitlabclient.ui.project.mergerequest")
+12:51:47 INFO  ProfileMatch              : 
+12:51:47 INFO  ProfileMatch              :                 name: 463
+12:51:47 INFO  ProfileMatch              :             category: Android
+12:51:47 INFO  ProfileMatch              :              version: 463
+12:51:47 INFO  ProfileMatch              :         release-date: 21.05.2017
+12:51:47 INFO  ProfileMatch              :     lib root package: "androidx.compose.material.icons"  (in app: "ru.terrakok.gitlabclient.ui.project.mergerequest")
+12:51:47 INFO  ProfileMatch              : 
+12:51:47 INFO  ProfileMatch              :                 name: 464
+12:51:47 INFO  ProfileMatch              :             category: Android
+12:51:47 INFO  ProfileMatch              :              version: 464
+12:51:47 INFO  ProfileMatch              :         release-date: 21.05.2017
+12:51:47 INFO  ProfileMatch              :     lib root package: "androidx.compose.material.icons"  (in app: "ru.terrakok.gitlabclient.ui.project.mergerequest")
+12:51:47 INFO  ProfileMatch              : 
+12:51:47 INFO  ProfileMatch              :                 name: 7426
+12:51:47 INFO  ProfileMatch              :             category: Android
+12:51:47 INFO  ProfileMatch              :              version: 7426
+12:51:47 INFO  ProfileMatch              :         release-date: 21.05.2017
+12:51:47 INFO  ProfileMatch              :     lib root package: "com.google.firebase.crashlytics.ktx"  (in app: "ru.terrakok.gitlabclient.ui.project")
+12:51:47 INFO  ProfileMatch              : 
+12:51:47 INFO  ProfileMatch              :                 name: 7428
+12:51:47 INFO  ProfileMatch              :             category: Android
+12:51:47 INFO  ProfileMatch              :              version: 7428
+12:51:47 INFO  ProfileMatch              :         release-date: 21.05.2017
+12:51:47 INFO  ProfileMatch              :     lib root package: "com.google.firebase.crashlytics.ktx"  (in app: "ru.terrakok.gitlabclient.ui.project")
+12:51:47 INFO  ProfileMatch              : 
+12:51:47 INFO  ProfileMatch              :                 name: 7427
+12:51:47 INFO  ProfileMatch              :             category: Android
+12:51:47 INFO  ProfileMatch              :              version: 7427
+12:51:47 INFO  ProfileMatch              :         release-date: 21.05.2017
+12:51:47 INFO  ProfileMatch              :     lib root package: "com.google.firebase.crashlytics.ktx"  (in app: "ru.terrakok.gitlabclient.ui.project")
+12:51:47 INFO  ProfileMatch              : 
+12:51:47 INFO  ProfileMatch              :                 name: 7558
+12:51:47 INFO  ProfileMatch              :             category: Android
+12:51:47 INFO  ProfileMatch              :              version: 7558
+12:51:47 INFO  ProfileMatch              :         release-date: 21.05.2017
+12:51:47 INFO  ProfileMatch              :     lib root package: "com.google.firebase.messaging.ktx"  (in app: "ru.terrakok.gitlabclient.ui.project")
+12:51:47 INFO  ProfileMatch              : 
+12:51:47 INFO  ProfileMatch              :                 name: 7557
+12:51:47 INFO  ProfileMatch              :             category: Android
+12:51:47 INFO  ProfileMatch              :              version: 7557
+12:51:47 INFO  ProfileMatch              :         release-date: 21.05.2017
+12:51:47 INFO  ProfileMatch              :     lib root package: "com.google.firebase.messaging.ktx"  (in app: "ru.terrakok.gitlabclient.ui.project")
+12:51:47 INFO  ProfileMatch              : 
+12:51:47 INFO  ProfileMatch              :                 name: 1452
+12:51:47 INFO  ProfileMatch              :             category: Android
+12:51:47 INFO  ProfileMatch              :              version: 1452
+12:51:47 INFO  ProfileMatch              :         release-date: 21.05.2017
+12:51:47 INFO  ProfileMatch              :     lib root package: "androidx.palette.graphics"  (in app: "d.f.b")
+12:51:47 INFO  ProfileMatch              : 
+12:51:47 INFO  ProfileMatch              :                 name: 8917
+12:51:47 INFO  ProfileMatch              :             category: Android
+12:51:47 INFO  ProfileMatch              :              version: 8917
+12:51:47 INFO  ProfileMatch              :         release-date: 21.05.2017
+12:51:47 INFO  ProfileMatch              :     lib root package: "com.parrot.arsdk"  (in app: "c.h.k")
+12:51:47 INFO  ProfileMatch              : 
+12:51:48 INFO  ProfileMatch              :                 name: 750
+12:51:48 INFO  ProfileMatch              :             category: Android
+12:51:48 INFO  ProfileMatch              :              version: 750
+12:51:48 INFO  ProfileMatch              :         release-date: 21.05.2017
+12:51:48 INFO  ProfileMatch              :     lib root package: "androidx.core.role"  (in app: "c")
+12:51:48 INFO  ProfileMatch              : 
+12:51:48 INFO  ProfileMatch              :                 name: 5186
+12:51:48 INFO  ProfileMatch              :             category: Android
+12:51:48 INFO  ProfileMatch              :              version: 5186
+12:51:48 INFO  ProfileMatch              :         release-date: 21.05.2017
+12:51:48 INFO  ProfileMatch              :     lib root package: "moxy"
+12:51:48 INFO  ProfileMatch              : 
+12:51:48 INFO  ProfileMatch              :                 name: 5187
+12:51:48 INFO  ProfileMatch              :             category: Android
+12:51:48 INFO  ProfileMatch              :              version: 5187
+12:51:48 INFO  ProfileMatch              :         release-date: 21.05.2017
+12:51:48 INFO  ProfileMatch              :     lib root package: "moxy"
+12:51:48 INFO  ProfileMatch              : 
+12:51:48 INFO  ProfileMatch              :                 name: 2901
+12:51:48 INFO  ProfileMatch              :             category: Android
+12:51:48 INFO  ProfileMatch              :              version: 2901
+12:51:48 INFO  ProfileMatch              :         release-date: 21.05.2017
+12:51:48 INFO  ProfileMatch              :     lib root package: "com.android"  (in app: "g.m")
+12:51:48 INFO  ProfileMatch              : 
+12:51:48 INFO  ProfileMatch              :                 name: 1734
+12:51:48 INFO  ProfileMatch              :             category: Android
+12:51:48 INFO  ProfileMatch              :              version: 1734
+12:51:48 INFO  ProfileMatch              :         release-date: 21.05.2017
+12:51:48 INFO  ProfileMatch              :     lib root package: "androidx.wear.tooling.preview.devices"  (in app: "d.d.a.o.u")
+12:51:48 INFO  ProfileMatch              : 
+12:51:48 INFO  ProfileMatch              :                 name: 902
+12:51:48 INFO  ProfileMatch              :             category: Android
+12:51:48 INFO  ProfileMatch              :              version: 902
+12:51:48 INFO  ProfileMatch              :         release-date: 21.05.2017
+12:51:48 INFO  ProfileMatch              :     lib root package: "dagger.hilt.processor.internal.generatesrootinput.codegen"  (in app: "c")
+12:51:48 INFO  ProfileMatch              : 
+12:51:48 INFO  ProfileMatch              :                 name: 903
+12:51:48 INFO  ProfileMatch              :             category: Android
+12:51:48 INFO  ProfileMatch              :              version: 903
+12:51:48 INFO  ProfileMatch              :         release-date: 21.05.2017
+12:51:48 INFO  ProfileMatch              :     lib root package: "dagger.hilt.processor.internal.generatesrootinput.codegen"  (in app: "c")
+12:51:48 INFO  ProfileMatch              : 
+12:51:48 INFO  ProfileMatch              :                 name: 904
+12:51:48 INFO  ProfileMatch              :             category: Android
+12:51:48 INFO  ProfileMatch              :              version: 904
+12:51:48 INFO  ProfileMatch              :         release-date: 21.05.2017
+12:51:48 INFO  ProfileMatch              :     lib root package: "dagger.hilt.processor.internal.generatesrootinput.codegen"  (in app: "c")
+12:51:48 INFO  ProfileMatch              : 
+12:51:48 INFO  ProfileMatch              :                 name: 920
+12:51:48 INFO  ProfileMatch              :             category: Android
+12:51:48 INFO  ProfileMatch              :              version: 920
+12:51:48 INFO  ProfileMatch              :         release-date: 21.05.2017
+12:51:48 INFO  ProfileMatch              :     lib root package: "androidx.interpolator.view.animation"  (in app: "c.n.a.a")
+12:51:48 INFO  ProfileMatch              : 
+12:51:48 INFO  ProfileMatch              :                 name: 4015
+12:51:48 INFO  ProfileMatch              :             category: Android
+12:51:48 INFO  ProfileMatch              :              version: 4015
+12:51:48 INFO  ProfileMatch              :         release-date: 21.05.2017
+12:51:48 INFO  ProfileMatch              :     lib root package: "com.anysoftkeyboard.api"  (in app: "c")
+12:51:48 INFO  ProfileMatch              : 
+12:51:48 INFO  ProfileMatch              :                 name: 4016
+12:51:48 INFO  ProfileMatch              :             category: Android
+12:51:48 INFO  ProfileMatch              :              version: 4016
+12:51:48 INFO  ProfileMatch              :         release-date: 21.05.2017
+12:51:48 INFO  ProfileMatch              :     lib root package: "com.anysoftkeyboard.api"  (in app: "c")
+12:51:48 INFO  ProfileMatch              : 
+12:51:48 INFO  ProfileMatch              :                 name: 4017
+12:51:48 INFO  ProfileMatch              :             category: Android
+12:51:48 INFO  ProfileMatch              :              version: 4017
+12:51:48 INFO  ProfileMatch              :         release-date: 21.05.2017
+12:51:48 INFO  ProfileMatch              :     lib root package: "com.anysoftkeyboard.api"  (in app: "c")
+12:51:48 INFO  ProfileMatch              : 
+12:51:48 INFO  ProfileMatch              :                 name: 4018
+12:51:48 INFO  ProfileMatch              :             category: Android
+12:51:48 INFO  ProfileMatch              :              version: 4018
+12:51:48 INFO  ProfileMatch              :         release-date: 21.05.2017
+12:51:48 INFO  ProfileMatch              :     lib root package: "com.anysoftkeyboard.api"  (in app: "c")
+12:51:48 INFO  ProfileMatch              : 
+12:51:48 INFO  ProfileMatch              :                 name: 4099
+12:51:48 INFO  ProfileMatch              :             category: Android
+12:51:48 INFO  ProfileMatch              :              version: 4099
+12:51:48 INFO  ProfileMatch              :         release-date: 21.05.2017
+12:51:48 INFO  ProfileMatch              :     lib root package: "com.github.bassaer.library"  (in app: "ru.terrakok.gitlabclient.di")
+12:51:48 INFO  ProfileMatch              : 
+12:51:48 INFO  ProfileMatch              :                 name: 6770
+12:51:48 INFO  ProfileMatch              :             category: Android
+12:51:48 INFO  ProfileMatch              :              version: 6770
+12:51:48 INFO  ProfileMatch              :         release-date: 21.05.2017
+12:51:48 INFO  ProfileMatch              :     lib root package: "com.google.android.gms.tflite.support"  (in app: "c")
+12:51:48 INFO  ProfileMatch              : 
+12:51:48 INFO  ProfileMatch              :                 name: 5644
+12:51:48 INFO  ProfileMatch              :             category: Android
+12:51:48 INFO  ProfileMatch              :              version: 5644
+12:51:48 INFO  ProfileMatch              :         release-date: 21.05.2017
+12:51:48 INFO  ProfileMatch              :     lib root package: "toothpick.smoothie.lifecycle"  (in app: "d.f.b")
+12:51:48 INFO  ProfileMatch              : 
+12:51:48 INFO  ProfileMatch              :                 name: 4341
+12:51:48 INFO  ProfileMatch              :             category: Android
+12:51:48 INFO  ProfileMatch              :              version: 4341
+12:51:48 INFO  ProfileMatch              :         release-date: 21.05.2017
+12:51:48 INFO  ProfileMatch              :     lib root package: "tv.cjump.ndkbitmap_armv5"  (in app: "c")
+12:51:48 INFO  ProfileMatch              : 
+12:51:48 INFO  ProfileMatch              :                 name: 4342
+12:51:48 INFO  ProfileMatch              :             category: Android
+12:51:48 INFO  ProfileMatch              :              version: 4342
+12:51:48 INFO  ProfileMatch              :         release-date: 21.05.2017
+12:51:48 INFO  ProfileMatch              :     lib root package: "tv.cjump.ndkbitmap_armv7a"  (in app: "c")
+12:51:48 INFO  ProfileMatch              : 
+12:51:48 INFO  ProfileMatch              :                 name: 4343
+12:51:48 INFO  ProfileMatch              :             category: Android
+12:51:48 INFO  ProfileMatch              :              version: 4343
+12:51:48 INFO  ProfileMatch              :         release-date: 21.05.2017
+12:51:48 INFO  ProfileMatch              :     lib root package: "tv.cjump.ndkbitmap_x86"  (in app: "c")
+12:51:48 INFO  ProfileMatch              : 
+12:51:48 INFO  ProfileMatch              :                 name: 5822
+12:51:48 INFO  ProfileMatch              :             category: Android
+12:51:48 INFO  ProfileMatch              :              version: 5822
+12:51:48 INFO  ProfileMatch              :         release-date: 21.05.2017
+12:51:48 INFO  ProfileMatch              :     lib root package: "com.twofortyfouram.locale.api"  (in app: "c")
+12:51:48 INFO  ProfileMatch              : 
+12:51:48 INFO  ProfileMatch              :                 name: 5918
+12:51:48 INFO  ProfileMatch              :             category: Android
+12:51:48 INFO  ProfileMatch              :              version: 5918
+12:51:48 INFO  ProfileMatch              :         release-date: 21.05.2017
+12:51:48 INFO  ProfileMatch              :     lib root package: "glass.yasan.para"  (in app: "ru.terrakok.gitlabclient.ui.issue")
+12:51:48 INFO  ProfileMatch              : 
+12:51:49 INFO  ProfileMatch              :                 name: 8350
+12:51:49 INFO  ProfileMatch              :             category: Android
+12:51:49 INFO  ProfileMatch              :              version: 8350
+12:51:49 INFO  ProfileMatch              :         release-date: 21.05.2017
+12:51:49 INFO  ProfileMatch              :     lib root package: "com.maltaisn.iconpack.defaultpack"  (in app: "d.d.a.o")
+12:51:49 INFO  ProfileMatch              : 
+12:51:49 INFO  ProfileMatch              :                 name: 8349
+12:51:49 INFO  ProfileMatch              :             category: Android
+12:51:49 INFO  ProfileMatch              :              version: 8349
+12:51:49 INFO  ProfileMatch              :         release-date: 21.05.2017
+12:51:49 INFO  ProfileMatch              :     lib root package: "com.maltaisn.iconpack.mdi"  (in app: "d.d.a.o")
+12:51:49 INFO  ProfileMatch              : 
+12:51:49 INFO  ProfileMatch              :                 name: 12176
+12:51:49 INFO  ProfileMatch              :             category: Android
+12:51:49 INFO  ProfileMatch              :              version: 12176
+12:51:49 INFO  ProfileMatch              :         release-date: 21.05.2017
+12:51:49 INFO  ProfileMatch              :     lib root package: "org.dashj.bls"  (in app: "c")
+12:51:49 INFO  ProfileMatch              : 
+12:51:49 INFO  ProfileMatch              :                 name: 3547
+12:51:49 INFO  ProfileMatch              :             category: Android
+12:51:49 INFO  ProfileMatch              :              version: 3547
+12:51:49 INFO  ProfileMatch              :         release-date: 21.05.2017
+12:51:49 INFO  ProfileMatch              :     lib root package: "com.facebook.all"  (in app: "c")
+12:51:49 INFO  ProfileMatch              : 
+12:51:49 INFO  ProfileMatch              :                 name: 13628
+12:51:49 INFO  ProfileMatch              :             category: Android
+12:51:49 INFO  ProfileMatch              :              version: 13628
+12:51:49 INFO  ProfileMatch              :         release-date: 21.05.2017
+12:51:49 INFO  ProfileMatch              :     lib root package: "ru.terrakok.cicerone"
+12:51:49 INFO  ProfileMatch              : 
+12:51:49 INFO  ProfileMatch              :                 name: 12288
+12:51:49 INFO  ProfileMatch              :             category: Android
+12:51:49 INFO  ProfileMatch              :              version: 12288
+12:51:49 INFO  ProfileMatch              :         release-date: 21.05.2017
+12:51:49 INFO  ProfileMatch              :     lib root package: "org.hamcrest.library.deprecated"  (in app: "c")
+12:51:49 INFO  ProfileMatch              : 
+12:51:51 INFO  LibraryIdentifier         : 
+12:51:51 INFO  LibraryIdentifier         : - Partial library matches:
+12:51:51 INFO  LibraryIdentifier         :                 name: 9808
+12:51:51 INFO  LibraryIdentifier         :             category: Android
+12:51:51 INFO  LibraryIdentifier         :              version: 9808
+12:51:51 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+12:51:51 INFO  LibraryIdentifier         :     lib root package: "com.turkialkhateeb.materialcolorpicker"
+12:51:51 INFO  LibraryIdentifier         :         Partial matching results:
+12:51:51 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.75
+12:51:51 INFO  LibraryIdentifier         : 
+12:51:51 INFO  LibraryIdentifier         :                 name: 12408
+12:51:51 INFO  LibraryIdentifier         :             category: Android
+12:51:51 INFO  LibraryIdentifier         :              version: 12408
+12:51:51 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+12:51:51 INFO  LibraryIdentifier         :     lib root package: "org.jetbrains.anko.sdk21.listeners"
+12:51:51 INFO  LibraryIdentifier         :         Partial matching results:
+12:51:51 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.7735849
+12:51:51 INFO  LibraryIdentifier         : 
+12:51:51 INFO  LibraryIdentifier         :                 name: 8767
+12:51:51 INFO  LibraryIdentifier         :             category: Android
+12:51:51 INFO  LibraryIdentifier         :              version: 8767
+12:51:51 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+12:51:51 INFO  LibraryIdentifier         :     lib root package: "net.sf.junidecode"
+12:51:51 INFO  LibraryIdentifier         :         Partial matching results:
+12:51:51 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.989011
+12:51:51 INFO  LibraryIdentifier         : 
+12:51:51 INFO  LibraryIdentifier         :                 name: 12943
+12:51:51 INFO  LibraryIdentifier         :             category: Android
+12:51:51 INFO  LibraryIdentifier         :              version: 12943
+12:51:51 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+12:51:51 INFO  LibraryIdentifier         :     lib root package: "org.kodein.di.generic"
+12:51:51 INFO  LibraryIdentifier         :         Partial matching results:
+12:51:51 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.83113456
+12:51:51 INFO  LibraryIdentifier         : 
+12:51:51 INFO  LibraryIdentifier         :                 name: 2993
+12:51:51 INFO  LibraryIdentifier         :             category: Android
+12:51:51 INFO  LibraryIdentifier         :              version: 2993
+12:51:51 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+12:51:51 INFO  LibraryIdentifier         :     lib root package: "com.arasthel.asyncjob"
+12:51:51 INFO  LibraryIdentifier         :         Partial matching results:
+12:51:51 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.72727275
+12:51:51 INFO  LibraryIdentifier         : 
+12:51:52 INFO  LibraryIdentifier         :                 name: 5427
+12:51:52 INFO  LibraryIdentifier         :             category: Android
+12:51:52 INFO  LibraryIdentifier         :              version: 5427
+12:51:52 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+12:51:52 INFO  LibraryIdentifier         :     lib root package: "com.ray3k.tenpatch"
+12:51:52 INFO  LibraryIdentifier         :         Partial matching results:
+12:51:52 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.75
+12:51:52 INFO  LibraryIdentifier         : 
+12:51:52 INFO  LibraryIdentifier         :                 name: 4112
+12:51:52 INFO  LibraryIdentifier         :             category: Android
+12:51:52 INFO  LibraryIdentifier         :              version: 4112
+12:51:52 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+12:51:52 INFO  LibraryIdentifier         :     lib root package: "org.billthefarmer.mididriver"
+12:51:52 INFO  LibraryIdentifier         :         Partial matching results:
+12:51:52 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.8
+12:51:52 INFO  LibraryIdentifier         : 
+12:51:52 INFO  LibraryIdentifier         :                 name: 4113
+12:51:52 INFO  LibraryIdentifier         :             category: Android
+12:51:52 INFO  LibraryIdentifier         :              version: 4113
+12:51:52 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+12:51:52 INFO  LibraryIdentifier         :     lib root package: "org.billthefarmer.mididriver"
+12:51:52 INFO  LibraryIdentifier         :         Partial matching results:
+12:51:52 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.8
+12:51:52 INFO  LibraryIdentifier         : 
+12:51:52 INFO  LibraryIdentifier         :                 name: 5478
+12:51:52 INFO  LibraryIdentifier         :             category: Android
+12:51:52 INFO  LibraryIdentifier         :              version: 5478
+12:51:52 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+12:51:52 INFO  LibraryIdentifier         :     lib root package: "com.michaldrabik.tapbarmenulib"
+12:51:52 INFO  LibraryIdentifier         :         Partial matching results:
+12:51:52 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.8
+12:51:52 INFO  LibraryIdentifier         : 
+12:51:52 INFO  LibraryIdentifier         :                 name: 10685
+12:51:52 INFO  LibraryIdentifier         :             category: Android
+12:51:52 INFO  LibraryIdentifier         :              version: 10685
+12:51:52 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+12:51:52 INFO  LibraryIdentifier         :     lib root package: "org.koin.androidx.workmanager"
+12:51:52 INFO  LibraryIdentifier         :         Partial matching results:
+12:51:52 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.75
+12:51:52 INFO  LibraryIdentifier         : 
+12:51:52 INFO  LibraryIdentifier         :                 name: 4556
+12:51:52 INFO  LibraryIdentifier         :             category: Android
+12:51:52 INFO  LibraryIdentifier         :              version: 4556
+12:51:52 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+12:51:52 INFO  LibraryIdentifier         :     lib root package: "com.crazylegend.intent"
+12:51:52 INFO  LibraryIdentifier         :         Partial matching results:
+12:51:52 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.8148148
+12:51:52 INFO  LibraryIdentifier         : 
+12:51:52 INFO  LibraryIdentifier         :                 name: 4557
+12:51:52 INFO  LibraryIdentifier         :             category: Android
+12:51:52 INFO  LibraryIdentifier         :              version: 4557
+12:51:52 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+12:51:52 INFO  LibraryIdentifier         :     lib root package: "com.crazylegend.intent"
+12:51:52 INFO  LibraryIdentifier         :         Partial matching results:
+12:51:52 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.8148148
+12:51:52 INFO  LibraryIdentifier         : 
+12:51:52 INFO  LibraryIdentifier         :                 name: 4600
+12:51:52 INFO  LibraryIdentifier         :             category: Android
+12:51:52 INFO  LibraryIdentifier         :              version: 4600
+12:51:52 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+12:51:52 INFO  LibraryIdentifier         :     lib root package: "gcardone.junidecode"
+12:51:52 INFO  LibraryIdentifier         :         Partial matching results:
+12:51:52 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.989011
+12:51:52 INFO  LibraryIdentifier         : 
+12:51:52 INFO  LibraryIdentifier         :                 name: 4613
+12:51:52 INFO  LibraryIdentifier         :             category: Android
+12:51:52 INFO  LibraryIdentifier         :              version: 4613
+12:51:52 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+12:51:52 INFO  LibraryIdentifier         :     lib root package: "com.gigamole.slideimageview.lib"
+12:51:52 INFO  LibraryIdentifier         :         Partial matching results:
+12:51:52 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.75
+12:51:52 INFO  LibraryIdentifier         : 
+12:51:52 INFO  LibraryIdentifier         :                 name: 9620
+12:51:52 INFO  LibraryIdentifier         :             category: Android
+12:51:52 INFO  LibraryIdentifier         :              version: 9620
+12:51:52 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+12:51:52 INFO  LibraryIdentifier         :     lib root package: "retrofit2"
+12:51:52 INFO  LibraryIdentifier         :         Partial matching results:
+12:51:52 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.72619045
+12:51:52 INFO  LibraryIdentifier         : 
+12:51:52 INFO  LibraryIdentifier         :                 name: 9623
+12:51:52 INFO  LibraryIdentifier         :             category: Android
+12:51:52 INFO  LibraryIdentifier         :              version: 9623
+12:51:52 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+12:51:52 INFO  LibraryIdentifier         :     lib root package: "retrofit2"
+12:51:52 INFO  LibraryIdentifier         :         Partial matching results:
+12:51:52 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.7407408
+12:51:52 INFO  LibraryIdentifier         : 
+12:51:52 INFO  LibraryIdentifier         :                 name: 9624
+12:51:52 INFO  LibraryIdentifier         :             category: Android
+12:51:52 INFO  LibraryIdentifier         :              version: 9624
+12:51:52 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+12:51:52 INFO  LibraryIdentifier         :     lib root package: "retrofit2"
+12:51:52 INFO  LibraryIdentifier         :         Partial matching results:
+12:51:52 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.725
+12:51:52 INFO  LibraryIdentifier         : 
+12:51:52 INFO  LibraryIdentifier         :                 name: 9621
+12:51:52 INFO  LibraryIdentifier         :             category: Android
+12:51:52 INFO  LibraryIdentifier         :              version: 9621
+12:51:52 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+12:51:52 INFO  LibraryIdentifier         :     lib root package: "retrofit2"
+12:51:52 INFO  LibraryIdentifier         :         Partial matching results:
+12:51:52 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.7407408
+12:51:52 INFO  LibraryIdentifier         : 
+12:51:52 INFO  LibraryIdentifier         :                 name: 9622
+12:51:52 INFO  LibraryIdentifier         :             category: Android
+12:51:52 INFO  LibraryIdentifier         :              version: 9622
+12:51:52 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+12:51:52 INFO  LibraryIdentifier         :     lib root package: "retrofit2"
+12:51:52 INFO  LibraryIdentifier         :         Partial matching results:
+12:51:52 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.7407408
+12:51:52 INFO  LibraryIdentifier         : 
+12:51:52 INFO  LibraryIdentifier         :                 name: 9616
+12:51:52 INFO  LibraryIdentifier         :             category: Android
+12:51:52 INFO  LibraryIdentifier         :              version: 9616
+12:51:52 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+12:51:52 INFO  LibraryIdentifier         :     lib root package: "retrofit2"
+12:51:52 INFO  LibraryIdentifier         :         Partial matching results:
+12:51:52 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.7195122
+12:51:52 INFO  LibraryIdentifier         : 
+12:51:52 INFO  LibraryIdentifier         :                 name: 9617
+12:51:52 INFO  LibraryIdentifier         :             category: Android
+12:51:52 INFO  LibraryIdentifier         :              version: 9617
+12:51:52 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+12:51:52 INFO  LibraryIdentifier         :     lib root package: "retrofit2"
+12:51:52 INFO  LibraryIdentifier         :         Partial matching results:
+12:51:52 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.72289157
+12:51:52 INFO  LibraryIdentifier         : 
+12:51:52 INFO  LibraryIdentifier         :                 name: 9615
+12:51:52 INFO  LibraryIdentifier         :             category: Android
+12:51:52 INFO  LibraryIdentifier         :              version: 9615
+12:51:52 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+12:51:52 INFO  LibraryIdentifier         :     lib root package: "retrofit2"
+12:51:52 INFO  LibraryIdentifier         :         Partial matching results:
+12:51:52 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.7013889
+12:51:52 INFO  LibraryIdentifier         : 
+12:51:52 INFO  LibraryIdentifier         :                 name: 9618
+12:51:52 INFO  LibraryIdentifier         :             category: Android
+12:51:52 INFO  LibraryIdentifier         :              version: 9618
+12:51:52 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+12:51:52 INFO  LibraryIdentifier         :     lib root package: "retrofit2"
+12:51:52 INFO  LibraryIdentifier         :         Partial matching results:
+12:51:52 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.72289157
+12:51:52 INFO  LibraryIdentifier         : 
+12:51:52 INFO  LibraryIdentifier         :                 name: 9619
+12:51:52 INFO  LibraryIdentifier         :             category: Android
+12:51:52 INFO  LibraryIdentifier         :              version: 9619
+12:51:52 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+12:51:52 INFO  LibraryIdentifier         :     lib root package: "retrofit2"
+12:51:52 INFO  LibraryIdentifier         :         Partial matching results:
+12:51:52 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.72619045
+12:51:52 INFO  LibraryIdentifier         : 
+12:51:52 INFO  LibraryIdentifier         :                 name: 9625
+12:51:52 INFO  LibraryIdentifier         :             category: Android
+12:51:52 INFO  LibraryIdentifier         :              version: 9625
+12:51:52 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+12:51:52 INFO  LibraryIdentifier         :     lib root package: "retrofit2"
+12:51:52 INFO  LibraryIdentifier         :         Partial matching results:
+12:51:52 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.725
+12:51:52 INFO  LibraryIdentifier         : 
+12:51:52 INFO  LibraryIdentifier         :                 name: 4857
+12:51:52 INFO  LibraryIdentifier         :             category: Android
+12:51:52 INFO  LibraryIdentifier         :              version: 4857
+12:51:52 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+12:51:52 INFO  LibraryIdentifier         :     lib root package: "com.github.kittinunf.fuel.jackson"
+12:51:52 INFO  LibraryIdentifier         :         Partial matching results:
+12:51:52 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.7837838
+12:51:52 INFO  LibraryIdentifier         : 
+12:51:53 INFO  LibraryIdentifier         : 
+12:51:53 INFO  LibraryIdentifier         : Write app stats to JSON (dir: json)
+12:51:53 INFO  LibraryIdentifier         : App processing time: 24 sec, 510 ms

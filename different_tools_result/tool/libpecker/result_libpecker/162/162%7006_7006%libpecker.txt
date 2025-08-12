@@ -1,0 +1,12 @@
+Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
+	at java.util.HashMap.newNode(HashMap.java:1774)
+	at java.util.HashMap.putVal(HashMap.java:632)
+	at java.util.HashMap.put(HashMap.java:613)
+	at java.util.HashSet.add(HashSet.java:220)
+	at java.util.AbstractCollection.addAll(AbstractCollection.java:344)
+	at cn.fudan.libpecker.core.LibApkMapper.deepClone(LibApkMapper.java:180)
+	at cn.fudan.libpecker.core.PackageMapEnumerator.enumerateAllPartitions(PackageMapEnumerator.java:82)
+	at cn.fudan.libpecker.core.PackageMapEnumerator.exhaustiveEnumerate(PackageMapEnumerator.java:48)
+	at cn.fudan.libpecker.main.ProfileBasedLibPecker.calculateMaxProbability(ProfileBasedLibPecker.java:139)
+	at cn.fudan.libpecker.main.ProfileBasedLibPecker.singleMain(ProfileBasedLibPecker.java:200)
+	at cn.fudan.libpecker.main.ProfileBasedLibPecker.main(ProfileBasedLibPecker.java:218)

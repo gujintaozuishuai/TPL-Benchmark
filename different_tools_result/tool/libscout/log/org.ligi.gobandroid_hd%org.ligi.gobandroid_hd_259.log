@@ -1,0 +1,2312 @@
+18:44:18 INFO  LibraryIdentifier         : Process app: org.ligi.gobandroid_hd%org.ligi.gobandroid_hd_259.apk
+18:44:18 INFO  LibraryIdentifier         : = Manifest Parser =
+18:44:18 INFO  LibraryIdentifier         :         Package name: org.ligi.gobandroid_hd
+18:44:18 INFO  LibraryIdentifier         :         Version code: 259
+18:44:18 INFO  LibraryIdentifier         :        minSdkVersion: 9
+18:44:18 INFO  LibraryIdentifier         :     targetSdkVersion: 25
+18:44:18 INFO  LibraryIdentifier         :         SharedUserId:  - none -
+18:44:18 INFO  LibraryIdentifier         :     Library dependencies:
+18:44:18 INFO  LibraryIdentifier         : 
+18:44:18 INFO  LibraryIdentifier         : Found 12043 unique libraries in 12043 library profiles
+18:44:18 INFO  LibraryIdentifier         : Generated class hierarchy (in 153 ms)
+18:44:18 INFO  WalaUtils                 : 
+18:44:18 INFO  WalaUtils                 : = ClassHierarchy Stats =
+18:44:18 INFO  WalaUtils                 :     # of classes: 2350
+18:44:18 INFO  WalaUtils                 :     # thereof inner classes: 1329
+18:44:18 INFO  WalaUtils                 :     # thereof public classes: 1069
+18:44:18 INFO  WalaUtils                 :         Activity : 27
+18:44:18 INFO  WalaUtils                 :         Application : 1
+18:44:18 INFO  WalaUtils                 :         AsyncTask : 2
+18:44:18 INFO  WalaUtils                 :         BroadcastReceiver : 1
+18:44:18 INFO  WalaUtils                 :         ContentProvider : 1
+18:44:18 INFO  WalaUtils                 :         Fragment : 26
+18:44:18 INFO  WalaUtils                 :         Handler : 6
+18:44:18 INFO  WalaUtils                 :         LayoutContainer : 55
+18:44:18 INFO  WalaUtils                 :         Plain : 2199
+18:44:18 INFO  WalaUtils                 :         Runnable : 0
+18:44:18 INFO  WalaUtils                 :         Service : 0
+18:44:18 INFO  WalaUtils                 :         Thread : 1
+18:44:18 INFO  WalaUtils                 :         View : 31
+18:44:18 INFO  WalaUtils                 :     # methods: 15865
+18:44:18 INFO  WalaUtils                 :         # of publicly accessible methods: 11211
+18:44:18 INFO  WalaUtils                 :         # of non-accessible methods: 4654
+18:44:18 INFO  WalaUtils                 : 
+18:44:18 INFO  Profile                   : = PackageTree =
+18:44:18 INFO  PackageTree               : Root Package:  - none -
+18:44:18 INFO  PackageTree               : ©¸©¤©¤ Root
+18:44:18 INFO  PackageTree               :     ©À©¤©¤ org
+18:44:18 INFO  PackageTree               :     ©¦   ©À©¤©¤ ligi
+18:44:18 INFO  PackageTree               :     ©¦   ©¦   ©À©¤©¤ gobandroid_hd (21)
+18:44:18 INFO  PackageTree               :     ©¦   ©¦   ©¦   ©À©¤©¤ logic (26)
+18:44:18 INFO  PackageTree               :     ©¦   ©¦   ©¦   ©¦   ©À©¤©¤ cell_gatherer (4)
+18:44:18 INFO  PackageTree               :     ©¦   ©¦   ©¦   ©¦   ©À©¤©¤ sgf (7)
+18:44:18 INFO  PackageTree               :     ©¦   ©¦   ©¦   ©¦   ©¸©¤©¤ markers (7)
+18:44:18 INFO  PackageTree               :     ©¦   ©¦   ©¦   ©¦       ©¸©¤©¤ functions (1)
+18:44:18 INFO  PackageTree               :     ©¦   ©¦   ©¦   ©À©¤©¤ util (4)
+18:44:18 INFO  PackageTree               :     ©¦   ©¦   ©¦   ©À©¤©¤ ui (93)
+18:44:18 INFO  PackageTree               :     ©¦   ©¦   ©¦   ©¦   ©À©¤©¤ sgf_listing (17)
+18:44:18 INFO  PackageTree               :     ©¦   ©¦   ©¦   ©¦   ©¦   ©¸©¤©¤ item_view_holder (4)
+18:44:18 INFO  PackageTree               :     ©¦   ©¦   ©¦   ©¦   ©À©¤©¤ fragments (21)
+18:44:18 INFO  PackageTree               :     ©¦   ©¦   ©¦   ©¦   ©À©¤©¤ tsumego (17)
+18:44:18 INFO  PackageTree               :     ©¦   ©¦   ©¦   ©¦   ©¦   ©¸©¤©¤ fetch (7)
+18:44:18 INFO  PackageTree               :     ©¦   ©¦   ©¦   ©¦   ©À©¤©¤ go_terminology (6)
+18:44:18 INFO  PackageTree               :     ©¦   ©¦   ©¦   ©¦   ©À©¤©¤ editing (16)
+18:44:18 INFO  PackageTree               :     ©¦   ©¦   ©¦   ©¦   ©¦   ©¸©¤©¤ model (4)
+18:44:18 INFO  PackageTree               :     ©¦   ©¦   ©¦   ©¦   ©À©¤©¤ links (16)
+18:44:18 INFO  PackageTree               :     ©¦   ©¦   ©¦   ©¦   ©À©¤©¤ review (15)
+18:44:18 INFO  PackageTree               :     ©¦   ©¦   ©¦   ©¦   ©À©¤©¤ scoring (6)
+18:44:18 INFO  PackageTree               :     ©¦   ©¦   ©¦   ©¦   ©À©¤©¤ game_setup (7)
+18:44:18 INFO  PackageTree               :     ©¦   ©¦   ©¦   ©¦   ©À©¤©¤ application (29)
+18:44:18 INFO  PackageTree               :     ©¦   ©¦   ©¦   ©¦   ©À©¤©¤ recording (11)
+18:44:18 INFO  PackageTree               :     ©¦   ©¦   ©¦   ©¦   ©À©¤©¤ alerts (16)
+18:44:18 INFO  PackageTree               :     ©¦   ©¦   ©¦   ©¦   ©À©¤©¤ gnugo (11)
+18:44:18 INFO  PackageTree               :     ©¦   ©¦   ©¦   ©¦   ©À©¤©¤ ingame_common (1)
+18:44:18 INFO  PackageTree               :     ©¦   ©¦   ©¦   ©¦   ©¸©¤©¤ share (3)
+18:44:18 INFO  PackageTree               :     ©¦   ©¦   ©¦   ©À©¤©¤ events (3)
+18:44:18 INFO  PackageTree               :     ©¦   ©¦   ©¦   ©À©¤©¤ model (1)
+18:44:18 INFO  PackageTree               :     ©¦   ©¦   ©¦   ©À©¤©¤ helper (1)
+18:44:18 INFO  PackageTree               :     ©¦   ©¦   ©¦   ©À©¤©¤ backend (1)
+18:44:18 INFO  PackageTree               :     ©¦   ©¦   ©¦   ©¸©¤©¤ print (1)
+18:44:18 INFO  PackageTree               :     ©¦   ©¦   ©À©¤©¤ snackengage (3)
+18:44:18 INFO  PackageTree               :     ©¦   ©¦   ©¦   ©À©¤©¤ snacks (7)
+18:44:18 INFO  PackageTree               :     ©¦   ©¦   ©¦   ©À©¤©¤ conditions (3)
+18:44:18 INFO  PackageTree               :     ©¦   ©¦   ©¦   ©¦   ©¸©¤©¤ locale (1)
+18:44:18 INFO  PackageTree               :     ©¦   ©¦   ©¦   ©¸©¤©¤ stats (1)
+18:44:18 INFO  PackageTree               :     ©¦   ©¦   ©À©¤©¤ tracedroid (2)
+18:44:18 INFO  PackageTree               :     ©¦   ©¦   ©¦   ©À©¤©¤ logging (1)
+18:44:18 INFO  PackageTree               :     ©¦   ©¦   ©¦   ©À©¤©¤ sending (4)
+18:44:18 INFO  PackageTree               :     ©¦   ©¦   ©¦   ©¸©¤©¤ collecting (2)
+18:44:18 INFO  PackageTree               :     ©¦   ©¦   ©À©¤©¤ kaxt (8)
+18:44:18 INFO  PackageTree               :     ©¦   ©¦   ©À©¤©¤ gobandroidhd
+18:44:18 INFO  PackageTree               :     ©¦   ©¦   ©¦   ©¸©¤©¤ ai
+18:44:18 INFO  PackageTree               :     ©¦   ©¦   ©¦       ©¸©¤©¤ gnugo (3)
+18:44:18 INFO  PackageTree               :     ©¦   ©¦   ©¸©¤©¤ compat (1)
+18:44:18 INFO  PackageTree               :     ©¦   ©À©¤©¤ mozilla
+18:44:18 INFO  PackageTree               :     ©¦   ©¦   ©¸©¤©¤ intl
+18:44:18 INFO  PackageTree               :     ©¦   ©¦       ©¸©¤©¤ chardet (28)
+18:44:18 INFO  PackageTree               :     ©¦   ©¸©¤©¤ greenrobot
+18:44:18 INFO  PackageTree               :     ©¦       ©¸©¤©¤ eventbus (18)
+18:44:18 INFO  PackageTree               :     ©¦           ©¸©¤©¤ meta (2)
+18:44:18 INFO  PackageTree               :     ©À©¤©¤ android
+18:44:18 INFO  PackageTree               :     ©¦   ©¸©¤©¤ support
+18:44:18 INFO  PackageTree               :     ©¦       ©À©¤©¤ design
+18:44:18 INFO  PackageTree               :     ©¦       ©¦   ©À©¤©¤ widget (150)
+18:44:18 INFO  PackageTree               :     ©¦       ©¦   ©¸©¤©¤ internal (30)
+18:44:18 INFO  PackageTree               :     ©¦       ©À©¤©¤ v4
+18:44:18 INFO  PackageTree               :     ©¦       ©¦   ©À©¤©¤ view (171)
+18:44:18 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©À©¤©¤ accessibility (53)
+18:44:18 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©¸©¤©¤ animation (4)
+18:44:18 INFO  PackageTree               :     ©¦       ©¦   ©À©¤©¤ content (23)
+18:44:18 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©¸©¤©¤ res (11)
+18:44:18 INFO  PackageTree               :     ©¦       ©¦   ©À©¤©¤ media (19)
+18:44:18 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©¸©¤©¤ session (46)
+18:44:18 INFO  PackageTree               :     ©¦       ©¦   ©À©¤©¤ widget (87)
+18:44:18 INFO  PackageTree               :     ©¦       ©¦   ©À©¤©¤ text (22)
+18:44:18 INFO  PackageTree               :     ©¦       ©¦   ©À©¤©¤ app (156)
+18:44:18 INFO  PackageTree               :     ©¦       ©¦   ©À©¤©¤ os (17)
+18:44:18 INFO  PackageTree               :     ©¦       ©¦   ©À©¤©¤ util (22)
+18:44:18 INFO  PackageTree               :     ©¦       ©¦   ©À©¤©¤ graphics (1)
+18:44:18 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©¸©¤©¤ drawable (25)
+18:44:18 INFO  PackageTree               :     ©¦       ©¦   ©À©¤©¤ internal
+18:44:18 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©¸©¤©¤ view (3)
+18:44:18 INFO  PackageTree               :     ©¦       ©¦   ©¸©¤©¤ animation (12)
+18:44:18 INFO  PackageTree               :     ©¦       ©À©¤©¤ v7
+18:44:18 INFO  PackageTree               :     ©¦       ©¦   ©À©¤©¤ widget (307)
+18:44:18 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©À©¤©¤ helper (19)
+18:44:18 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©¸©¤©¤ util (1)
+18:44:18 INFO  PackageTree               :     ©¦       ©¦   ©À©¤©¤ app (105)
+18:44:18 INFO  PackageTree               :     ©¦       ©¦   ©À©¤©¤ content
+18:44:18 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©¸©¤©¤ res (4)
+18:44:18 INFO  PackageTree               :     ©¦       ©¦   ©À©¤©¤ util (30)
+18:44:18 INFO  PackageTree               :     ©¦       ©¦   ©À©¤©¤ view (14)
+18:44:18 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©¸©¤©¤ menu (46)
+18:44:18 INFO  PackageTree               :     ©¦       ©¦   ©À©¤©¤ preference (65)
+18:44:18 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©¸©¤©¤ internal (1)
+18:44:18 INFO  PackageTree               :     ©¦       ©¦   ©À©¤©¤ graphics
+18:44:18 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©¸©¤©¤ drawable (3)
+18:44:18 INFO  PackageTree               :     ©¦       ©¦   ©À©¤©¤ text (1)
+18:44:18 INFO  PackageTree               :     ©¦       ©¦   ©À©¤©¤ internal
+18:44:18 INFO  PackageTree               :     ©¦       ©¦   ©¦   ©¸©¤©¤ widget (1)
+18:44:18 INFO  PackageTree               :     ©¦       ©¦   ©¸©¤©¤ transition (1)
+18:44:18 INFO  PackageTree               :     ©¦       ©À©¤©¤ graphics
+18:44:18 INFO  PackageTree               :     ©¦       ©¦   ©¸©¤©¤ drawable (19)
+18:44:18 INFO  PackageTree               :     ©¦       ©¸©¤©¤ annotation (1)
+18:44:18 INFO  PackageTree               :     ©À©¤©¤ com
+18:44:18 INFO  PackageTree               :     ©¦   ©À©¤©¤ github
+18:44:18 INFO  PackageTree               :     ©¦   ©¦   ©¸©¤©¤ salomonbrys
+18:44:18 INFO  PackageTree               :     ©¦   ©¦       ©¸©¤©¤ kodein (51)
+18:44:18 INFO  PackageTree               :     ©¦   ©¦           ©¸©¤©¤ internal (10)
+18:44:18 INFO  PackageTree               :     ©¦   ©À©¤©¤ chibatching
+18:44:18 INFO  PackageTree               :     ©¦   ©¦   ©¸©¤©¤ kotpref (8)
+18:44:18 INFO  PackageTree               :     ©¦   ©¦       ©À©¤©¤ pref (7)
+18:44:18 INFO  PackageTree               :     ©¦   ©¦       ©¸©¤©¤ initializer (1)
+18:44:18 INFO  PackageTree               :     ©¦   ©À©¤©¤ google
+18:44:18 INFO  PackageTree               :     ©¦   ©¦   ©¸©¤©¤ android
+18:44:18 INFO  PackageTree               :     ©¦   ©¦       ©¸©¤©¤ flexbox (4)
+18:44:18 INFO  PackageTree               :     ©¦   ©¸©¤©¤ davekoelle
+18:44:18 INFO  PackageTree               :     ©¦       ©¸©¤©¤ alphanum (1)
+18:44:18 INFO  PackageTree               :     ©À©¤©¤ okhttp3 (53)
+18:44:18 INFO  PackageTree               :     ©¦   ©¸©¤©¤ internal (6)
+18:44:18 INFO  PackageTree               :     ©¦       ©À©¤©¤ tls (5)
+18:44:18 INFO  PackageTree               :     ©¦       ©À©¤©¤ http2 (38)
+18:44:18 INFO  PackageTree               :     ©¦       ©À©¤©¤ http (14)
+18:44:18 INFO  PackageTree               :     ©¦       ©À©¤©¤ http1 (7)
+18:44:18 INFO  PackageTree               :     ©¦       ©À©¤©¤ connection (9)
+18:44:18 INFO  PackageTree               :     ©¦       ©À©¤©¤ publicsuffix (1)
+18:44:18 INFO  PackageTree               :     ©¦       ©À©¤©¤ cache (9)
+18:44:18 INFO  PackageTree               :     ©¦       ©À©¤©¤ platform (10)
+18:44:18 INFO  PackageTree               :     ©¦       ©¸©¤©¤ io (2)
+18:44:18 INFO  PackageTree               :     ©À©¤©¤ kotlin (14)
+18:44:18 INFO  PackageTree               :     ©¦   ©À©¤©¤ text (19)
+18:44:18 INFO  PackageTree               :     ©¦   ©À©¤©¤ internal (3)
+18:44:18 INFO  PackageTree               :     ©¦   ©À©¤©¤ jvm (2)
+18:44:18 INFO  PackageTree               :     ©¦   ©¦   ©À©¤©¤ internal (29)
+18:44:18 INFO  PackageTree               :     ©¦   ©¦   ©¦   ©¸©¤©¤ markers (5)
+18:44:18 INFO  PackageTree               :     ©¦   ©¦   ©¸©¤©¤ functions (3)
+18:44:18 INFO  PackageTree               :     ©¦   ©À©¤©¤ collections (29)
+18:44:18 INFO  PackageTree               :     ©¦   ©À©¤©¤ ranges (8)
+18:44:18 INFO  PackageTree               :     ©¦   ©À©¤©¤ io (19)
+18:44:18 INFO  PackageTree               :     ©¦   ©À©¤©¤ sequences (9)
+18:44:18 INFO  PackageTree               :     ©¦   ©À©¤©¤ reflect (12)
+18:44:18 INFO  PackageTree               :     ©¦   ©¸©¤©¤ properties (1)
+18:44:18 INFO  PackageTree               :     ©À©¤©¤ permissions
+18:44:18 INFO  PackageTree               :     ©¦   ©¸©¤©¤ dispatcher (2)
+18:44:18 INFO  PackageTree               :     ©¸©¤©¤ okio (28)
+18:44:18 INFO  Profile                   : 
+18:44:18 INFO  AppProfile                : - generated app package tree (in 11 ms)
+18:44:18 INFO  AppProfile                : 
+18:44:18 DEBUG HashTree                  : Generate hash tree..
+18:44:18 DEBUG HashTree                  :     - generated 111 package hashes.
+18:44:18 DEBUG HashTree                  :     - generated 2272 clazz hashes.
+18:44:18 DEBUG HashTree                  :     - generated 15865 method hashes.
+18:44:18 DEBUG HashTree                  :     => Library Hash: a49f285f084814996c3b48557bbfb758
+18:44:18 INFO  AppProfile                : - generated app hash trees (in 96 ms)
+18:44:18 INFO  AppProfile                : 
+18:44:18 INFO  LibraryIdentifier         : = Scan for library root packages (heuristic) =
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4.media  (1154)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4.media  (1155)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4.media  (1156)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4.media  (1157)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4.media  (1158)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4.media  (1159)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4.media  (1160)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4.media  (1161)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4.media  (1162)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4.media  (1163)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4.media  (1164)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4.media  (1165)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package org.mozilla.intl.chardet  (11702)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package org.greenrobot.eventbus  (12277)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package org.greenrobot.eventbus  (12278)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package org.greenrobot.eventbus  (12279)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package org.greenrobot.eventbus  (12280)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin.reflect  (12429)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin.reflect  (12430)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin.reflect  (12431)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin.reflect  (12432)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin.reflect  (12433)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin.reflect  (12434)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin.reflect  (12435)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin.reflect  (12436)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin.reflect  (12437)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin.reflect  (12438)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin.reflect  (12439)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin.reflect  (12440)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin.reflect  (12441)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin.reflect  (12442)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin.reflect  (12443)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin.reflect  (12444)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin.reflect  (12445)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin.reflect  (12446)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin.reflect  (12447)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin.reflect  (12448)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin.reflect  (12449)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin.reflect  (12450)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin.reflect  (12451)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin.reflect  (12452)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin.reflect  (12453)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin.reflect  (12454)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin.reflect  (12455)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin.reflect  (12456)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin.reflect  (12457)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin.reflect  (12458)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin.reflect  (12459)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12460)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12461)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12462)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12463)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12464)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12465)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12466)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12467)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12468)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12469)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12470)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12471)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12472)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12473)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12474)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12475)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12476)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12477)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12478)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12479)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12480)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12481)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12482)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12483)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12484)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12485)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12486)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12487)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12488)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12489)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12490)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12491)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12492)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12493)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12494)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12495)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12496)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12497)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12498)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12499)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12500)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12501)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12502)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12503)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12504)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12505)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12506)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12507)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12508)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12509)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12510)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12511)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12512)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12513)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12514)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12515)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12516)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12517)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12518)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12519)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12520)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12521)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12522)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12523)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12524)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12525)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12526)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12527)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12528)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12529)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12535)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12536)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12537)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12538)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12539)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12540)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12541)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12542)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12543)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12544)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12545)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12546)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12547)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12548)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12549)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12550)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12551)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12552)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12553)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12554)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12555)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12556)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12557)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12558)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12559)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12560)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12561)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12562)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12563)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12564)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12565)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12566)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12567)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12568)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12569)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12570)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12571)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12572)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12573)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12574)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12575)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12576)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12577)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12578)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12579)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12580)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12581)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12596)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12597)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12598)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12599)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12600)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12601)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12602)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12603)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12604)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12605)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12606)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12607)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12608)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12609)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12610)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12611)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12612)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12613)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12614)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12615)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12616)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12617)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12618)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12619)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12620)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12621)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12622)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12635)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12636)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12637)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12638)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12639)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12640)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12641)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12642)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12643)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12644)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12645)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12646)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12647)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12648)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12649)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12650)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12651)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12652)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12653)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12654)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package kotlin  (12655)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package org.ligi.tracedroid  (12983)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package org.mozilla  (13096)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package org.mozilla  (13097)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package org.mozilla  (13098)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package permissions.dispatcher  (13309)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package permissions.dispatcher  (13310)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package permissions.dispatcher  (13311)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android  (13332)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4.view  (1869)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.graphics.drawable  (2296)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.graphics.drawable  (2297)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.graphics.drawable  (2298)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.graphics.drawable  (2299)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.graphics.drawable  (2300)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.graphics.drawable  (2301)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.graphics.drawable  (2302)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.graphics.drawable  (2303)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.graphics.drawable  (2304)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.graphics.drawable  (2305)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.graphics.drawable  (2306)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.graphics.drawable  (2307)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.graphics.drawable  (2308)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.graphics.drawable  (2309)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.graphics.drawable  (2310)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7  (2311)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7  (2312)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7  (2313)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7  (2314)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7  (2315)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7  (2316)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7  (2317)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7  (2318)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7  (2319)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7  (2320)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7  (2321)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7  (2322)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7  (2323)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7  (2324)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7  (2325)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7  (2326)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7  (2327)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7  (2328)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7  (2329)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7  (2330)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7  (2331)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7  (2332)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7  (2333)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7  (2334)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7  (2335)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7  (2336)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7  (2337)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7  (2338)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7  (2339)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7  (2340)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7  (2341)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7  (2342)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7  (2343)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7  (2344)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7  (2345)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7  (2346)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7  (2347)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7  (2348)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7  (2349)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7  (2350)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7  (2351)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7  (2352)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7  (2353)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7  (2354)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7  (2355)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7  (2356)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7  (2357)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7  (2358)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7  (2359)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7  (2360)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7  (2361)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7  (2362)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7  (2363)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7  (2364)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4.view  (2365)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7.widget  (2366)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7.widget  (2367)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7.widget  (2368)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7.widget  (2369)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7.widget  (2370)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7.widget  (2371)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7.widget  (2372)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7.widget  (2373)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7.widget  (2374)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7.widget  (2375)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7.widget  (2376)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7.widget  (2377)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7.widget  (2378)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7.widget  (2379)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7.widget  (2380)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7.widget  (2381)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7.widget  (2382)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7.widget  (2383)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7.widget  (2384)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7.widget  (2385)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7.widget  (2386)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7.widget  (2387)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7.widget  (2388)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7.widget  (2389)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7.widget  (2390)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7.widget  (2391)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7.widget  (2392)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7.widget  (2393)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7.widget  (2394)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7.widget  (2395)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7.widget  (2396)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7.widget  (2397)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7.widget  (2398)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7.widget  (2399)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7.widget  (2400)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7.widget  (2401)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7.widget  (2402)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7.widget  (2403)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7.widget  (2404)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7.widget  (2405)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7.widget  (2406)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7.widget  (2407)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4.util  (2408)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4.widget  (2410)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2436)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.design  (2437)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.design  (2438)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.design  (2439)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.design  (2440)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.design  (2441)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.design  (2442)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.design  (2443)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.design  (2444)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.design  (2445)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.design  (2446)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.design  (2447)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.design  (2448)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.design  (2449)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.design  (2450)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.design  (2451)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.design  (2452)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.design  (2453)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.design  (2454)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.design  (2455)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.design  (2456)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.design  (2457)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.design  (2458)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.design  (2459)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.design  (2460)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.design  (2461)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.design  (2462)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.design  (2463)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.design  (2464)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.design  (2465)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.design  (2466)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.design  (2467)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.design  (2468)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.design  (2469)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.design  (2470)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.design  (2471)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.design  (2472)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.design  (2473)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.design  (2474)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.design  (2475)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4.widget  (2477)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7.widget  (2483)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7.widget  (2484)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7.widget  (2485)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7.widget  (2486)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7.widget  (2487)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7.widget  (2488)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7.widget  (2489)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7.widget  (2490)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7.widget  (2491)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7.widget  (2492)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7.widget  (2493)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7.widget  (2494)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7.widget  (2495)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7.widget  (2496)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7.widget  (2497)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7.widget  (2498)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7.widget  (2499)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7.widget  (2500)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7.widget  (2501)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7.widget  (2502)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7.widget  (2503)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7.widget  (2504)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7.widget  (2505)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7.widget  (2506)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4.view.animation  (2507)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2514)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4.content  (2515)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7  (2521)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7  (2522)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7  (2523)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7  (2524)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7  (2525)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7.graphics  (2530)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7.graphics  (2531)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7.graphics  (2532)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7.graphics  (2533)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7.graphics  (2534)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7.graphics  (2535)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7.graphics  (2536)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7.graphics  (2537)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7.graphics  (2538)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7.graphics  (2539)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7.graphics  (2540)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7.graphics  (2541)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7.graphics  (2542)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7.graphics  (2543)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7.graphics  (2544)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7.graphics  (2545)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7.graphics  (2546)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7.graphics  (2547)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7.graphics  (2548)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7.graphics  (2549)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7.graphics  (2550)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7.graphics  (2551)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7.graphics  (2552)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7.graphics  (2553)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7.graphics  (2554)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7.graphics  (2555)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7.graphics  (2556)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7.graphics  (2557)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7  (2600)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7  (2601)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7  (2602)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7  (2603)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7  (2604)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7  (2605)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7  (2606)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7  (2607)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7  (2608)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7  (2609)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7  (2610)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7  (2611)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7  (2612)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7  (2613)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7  (2614)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7  (2615)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7  (2616)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7  (2617)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7.widget  (2624)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7.widget  (2625)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7.widget  (2626)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7.widget  (2627)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7  (2628)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7  (2629)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7  (2630)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7  (2631)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7  (2632)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7  (2633)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7  (2634)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7  (2635)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7  (2636)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7  (2637)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7  (2638)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7  (2639)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7  (2640)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7  (2641)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7  (2642)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7  (2643)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7  (2644)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7  (2645)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7  (2646)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7  (2647)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7  (2648)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7  (2649)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7  (2650)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7  (2651)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7  (2652)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7  (2653)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7  (2654)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7  (2655)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7  (2656)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7  (2657)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7  (2658)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7  (2659)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7  (2660)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7  (2661)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7  (2662)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7  (2663)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7  (2664)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7  (2665)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4.widget  (2666)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.annotation  (2667)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.annotation  (2668)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.annotation  (2669)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.annotation  (2670)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.annotation  (2671)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.annotation  (2672)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.annotation  (2673)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.annotation  (2674)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.annotation  (2675)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.annotation  (2676)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.annotation  (2677)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.annotation  (2678)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.annotation  (2679)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.annotation  (2680)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.annotation  (2681)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.annotation  (2682)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.annotation  (2683)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.annotation  (2684)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.annotation  (2685)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.annotation  (2686)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.annotation  (2687)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.annotation  (2688)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.annotation  (2689)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.annotation  (2690)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.annotation  (2691)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.annotation  (2692)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.annotation  (2693)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.annotation  (2694)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.annotation  (2695)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.annotation  (2696)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.annotation  (2697)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.annotation  (2698)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.annotation  (2699)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.annotation  (2700)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.annotation  (2701)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.annotation  (2702)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.annotation  (2703)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.annotation  (2704)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2705)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2706)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2707)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2708)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2709)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2710)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2711)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2712)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2713)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2714)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2715)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2716)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2721)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2722)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2723)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2724)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2725)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2726)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2727)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2728)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2729)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2731)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2732)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2733)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2734)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2735)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2736)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2737)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2738)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2739)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2740)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2741)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4.content  (2742)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4.app  (2746)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4.app  (2747)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4.app  (2748)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4.app  (2749)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4.app  (2750)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4.app  (2751)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4.app  (2752)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4.app  (2753)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4.app  (2754)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4.app  (2755)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4.app  (2756)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4.app  (2757)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4.media  (2758)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4.media  (2759)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4.media  (2760)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4.media  (2761)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4.media  (2762)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4.media  (2763)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4.media  (2764)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4.media  (2765)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4.media  (2766)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4.media  (2767)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4.media  (2768)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2804)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2805)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2806)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2807)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2808)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2809)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2810)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2811)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2812)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2813)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2814)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2815)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2816)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2817)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2818)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2819)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2820)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2821)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2822)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2823)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2824)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2825)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2826)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2827)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2828)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (2829)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.graphics.drawable  (2851)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.graphics.drawable  (2852)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.graphics.drawable  (2853)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.graphics.drawable  (2854)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.graphics.drawable  (2855)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.graphics.drawable  (2856)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.graphics.drawable  (2857)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.graphics.drawable  (2858)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.graphics.drawable  (2859)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.graphics.drawable  (2860)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.graphics.drawable  (2861)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.graphics.drawable  (2862)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.graphics.drawable  (2863)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.graphics.drawable  (2864)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.graphics.drawable  (2865)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.graphics.drawable  (2866)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.graphics.drawable  (2867)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.graphics.drawable  (2868)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.graphics.drawable  (2869)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4.widget  (2870)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4.view  (2880)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v7.widget  (3235)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package com.chibatching.kotpref.initializer  (3300)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package com.chibatching.kotpref.initializer  (3301)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package com.chibatching.kotpref.initializer  (3302)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package com.chibatching.kotpref.initializer  (3303)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package com.chibatching.kotpref.initializer  (3304)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package com.chibatching.kotpref  (3305)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package com.chibatching.kotpref  (3306)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package com.chibatching.kotpref  (3307)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package com.chibatching.kotpref  (3308)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package com.chibatching.kotpref  (3309)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package com.chibatching.kotpref  (3310)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package com.chibatching.kotpref  (3311)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.flexbox  (4618)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package permissions.dispatcher  (4671)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package permissions.dispatcher  (4672)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package permissions.dispatcher  (4673)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package permissions.dispatcher  (4674)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package permissions.dispatcher  (4675)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package permissions.dispatcher  (4676)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package permissions.dispatcher  (4677)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package org.ligi.compat  (4973)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package org.ligi.compat  (4974)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package org.ligi.kaxt  (4977)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package org.ligi.kaxt  (4978)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package org.ligi.snackengage  (4983)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package org.ligi.tracedroid  (4986)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package org.ligi.snackengage  (4991)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package org.ligi.snackengage.snacks  (4992)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package org.ligi.snackengage.snacks  (4993)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package org.ligi.snackengage.snacks  (4994)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package org.ligi.snackengage.snacks  (4995)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package org.ligi.tracedroid  (4996)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package org.ligi.tracedroid  (4997)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package org.ligi.tracedroid.sending  (4998)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package org.ligi.tracedroid.sending  (4999)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package permissions.dispatcher  (5356)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package com.github.salomonbrys.kodein  (5493)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package permissions.dispatcher  (5977)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android  (6148)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android  (6149)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.flexbox  (6150)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.flexbox  (6151)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.flexbox  (6152)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.flexbox  (6153)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.flexbox  (6154)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.flexbox  (6155)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.flexbox  (6156)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.flexbox  (6157)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.flexbox  (6158)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.flexbox  (6159)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.flexbox  (6160)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.flexbox  (6161)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package android.support.v4  (6162)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package com.google.android.flexbox  (6304)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package com.davekoelle.alphanum  (8774)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9337)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9338)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9339)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9340)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9341)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9342)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9343)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9344)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9345)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9346)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9347)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9348)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9349)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9350)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9351)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9352)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9353)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9354)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9355)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9356)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9357)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9358)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9359)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9360)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9361)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9362)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9363)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9364)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9365)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9366)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9367)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9368)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9369)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9370)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9371)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9372)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9373)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9374)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9375)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9376)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9377)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9378)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9379)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9380)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9381)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9382)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9383)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9384)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9385)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9386)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9387)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9388)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9389)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9390)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9391)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9395)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9396)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9397)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9403)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9404)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9409)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9415)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9416)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9417)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9425)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9426)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9427)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9428)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9429)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9430)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9431)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9432)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9433)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9434)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9435)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9436)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9437)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9438)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9439)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9440)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9441)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9442)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9443)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9444)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9445)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9446)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9447)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9448)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9449)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9450)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package okhttp3  (9451)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package okio  (9452)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package okio  (9453)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package okio  (9454)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package okio  (9455)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package okio  (9456)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package okio  (9457)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package okio  (9458)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package okio  (9459)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package okio  (9460)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package okio  (9461)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package okio  (9462)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package okio  (9463)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package okio  (9464)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package okio  (9465)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package okio  (9466)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package okio  (9467)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package okio  (9468)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package okio  (9469)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package okio  (9470)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package okio  (9471)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package okio  (9481)
+18:44:18 INFO  LibraryIdentifier         :     - Found lib root package okio  (9482)
+18:44:18 INFO  LibraryIdentifier         : 
+18:44:18 INFO  LibraryIdentifier         : = Match profiles =
+18:44:25 INFO  LibraryIdentifier         :     >> profile matching done (6 sec, 867 ms)
+18:44:25 INFO  LibraryIdentifier         : 
+18:44:25 INFO  LibraryIdentifier         : == Report ==
+18:44:25 INFO  LibraryIdentifier         : - Full library matches:
+18:44:25 INFO  ProfileMatch              :                 name: 2345
+18:44:25 INFO  ProfileMatch              :             category: Android
+18:44:25 INFO  ProfileMatch              :              version: 2345
+18:44:25 INFO  ProfileMatch              :         release-date: 21.05.2017
+18:44:25 INFO  ProfileMatch              :     lib root package: "android.support.v7"
+18:44:25 INFO  ProfileMatch              : 
+18:44:25 INFO  ProfileMatch              :                 name: 2386
+18:44:25 INFO  ProfileMatch              :             category: Android
+18:44:25 INFO  ProfileMatch              :              version: 2386
+18:44:25 INFO  ProfileMatch              :         release-date: 21.05.2017
+18:44:25 INFO  ProfileMatch              :     lib root package: "android.support.v7.widget"
+18:44:25 INFO  ProfileMatch              : 
+18:44:25 INFO  ProfileMatch              :                 name: 2385
+18:44:25 INFO  ProfileMatch              :             category: Android
+18:44:25 INFO  ProfileMatch              :              version: 2385
+18:44:25 INFO  ProfileMatch              :         release-date: 21.05.2017
+18:44:25 INFO  ProfileMatch              :     lib root package: "android.support.v7.widget"
+18:44:25 INFO  ProfileMatch              : 
+18:44:25 INFO  ProfileMatch              :                 name: 2384
+18:44:25 INFO  ProfileMatch              :             category: Android
+18:44:25 INFO  ProfileMatch              :              version: 2384
+18:44:25 INFO  ProfileMatch              :         release-date: 21.05.2017
+18:44:25 INFO  ProfileMatch              :     lib root package: "android.support.v7.widget"
+18:44:25 INFO  ProfileMatch              : 
+18:44:25 INFO  ProfileMatch              :                 name: 2383
+18:44:25 INFO  ProfileMatch              :             category: Android
+18:44:25 INFO  ProfileMatch              :              version: 2383
+18:44:25 INFO  ProfileMatch              :         release-date: 21.05.2017
+18:44:25 INFO  ProfileMatch              :     lib root package: "android.support.v7.widget"
+18:44:25 INFO  ProfileMatch              : 
+18:44:25 INFO  ProfileMatch              :                 name: 2397
+18:44:25 INFO  ProfileMatch              :             category: Android
+18:44:25 INFO  ProfileMatch              :              version: 2397
+18:44:25 INFO  ProfileMatch              :         release-date: 21.05.2017
+18:44:25 INFO  ProfileMatch              :     lib root package: "android.support.v7.widget"
+18:44:25 INFO  ProfileMatch              : 
+18:44:25 INFO  ProfileMatch              :                 name: 2396
+18:44:25 INFO  ProfileMatch              :             category: Android
+18:44:25 INFO  ProfileMatch              :              version: 2396
+18:44:25 INFO  ProfileMatch              :         release-date: 21.05.2017
+18:44:25 INFO  ProfileMatch              :     lib root package: "android.support.v7.widget"
+18:44:25 INFO  ProfileMatch              : 
+18:44:25 INFO  ProfileMatch              :                 name: 2395
+18:44:25 INFO  ProfileMatch              :             category: Android
+18:44:25 INFO  ProfileMatch              :              version: 2395
+18:44:25 INFO  ProfileMatch              :         release-date: 21.05.2017
+18:44:25 INFO  ProfileMatch              :     lib root package: "android.support.v7.widget"
+18:44:25 INFO  ProfileMatch              : 
+18:44:25 INFO  ProfileMatch              :                 name: 2394
+18:44:25 INFO  ProfileMatch              :             category: Android
+18:44:25 INFO  ProfileMatch              :              version: 2394
+18:44:25 INFO  ProfileMatch              :         release-date: 21.05.2017
+18:44:25 INFO  ProfileMatch              :     lib root package: "android.support.v7.widget"
+18:44:25 INFO  ProfileMatch              : 
+18:44:25 INFO  ProfileMatch              :                 name: 2393
+18:44:25 INFO  ProfileMatch              :             category: Android
+18:44:25 INFO  ProfileMatch              :              version: 2393
+18:44:25 INFO  ProfileMatch              :         release-date: 21.05.2017
+18:44:25 INFO  ProfileMatch              :     lib root package: "android.support.v7.widget"
+18:44:25 INFO  ProfileMatch              : 
+18:44:25 INFO  ProfileMatch              :                 name: 2392
+18:44:25 INFO  ProfileMatch              :             category: Android
+18:44:25 INFO  ProfileMatch              :              version: 2392
+18:44:25 INFO  ProfileMatch              :         release-date: 21.05.2017
+18:44:25 INFO  ProfileMatch              :     lib root package: "android.support.v7.widget"
+18:44:25 INFO  ProfileMatch              : 
+18:44:25 INFO  ProfileMatch              :                 name: 2391
+18:44:25 INFO  ProfileMatch              :             category: Android
+18:44:25 INFO  ProfileMatch              :              version: 2391
+18:44:25 INFO  ProfileMatch              :         release-date: 21.05.2017
+18:44:25 INFO  ProfileMatch              :     lib root package: "android.support.v7.widget"
+18:44:25 INFO  ProfileMatch              : 
+18:44:25 INFO  ProfileMatch              :                 name: 2390
+18:44:25 INFO  ProfileMatch              :             category: Android
+18:44:25 INFO  ProfileMatch              :              version: 2390
+18:44:25 INFO  ProfileMatch              :         release-date: 21.05.2017
+18:44:25 INFO  ProfileMatch              :     lib root package: "android.support.v7.widget"
+18:44:25 INFO  ProfileMatch              : 
+18:44:25 INFO  ProfileMatch              :                 name: 2389
+18:44:25 INFO  ProfileMatch              :             category: Android
+18:44:25 INFO  ProfileMatch              :              version: 2389
+18:44:25 INFO  ProfileMatch              :         release-date: 21.05.2017
+18:44:25 INFO  ProfileMatch              :     lib root package: "android.support.v7.widget"
+18:44:25 INFO  ProfileMatch              : 
+18:44:25 INFO  ProfileMatch              :                 name: 2388
+18:44:25 INFO  ProfileMatch              :             category: Android
+18:44:25 INFO  ProfileMatch              :              version: 2388
+18:44:25 INFO  ProfileMatch              :         release-date: 21.05.2017
+18:44:25 INFO  ProfileMatch              :     lib root package: "android.support.v7.widget"
+18:44:25 INFO  ProfileMatch              : 
+18:44:25 INFO  ProfileMatch              :                 name: 2387
+18:44:25 INFO  ProfileMatch              :             category: Android
+18:44:25 INFO  ProfileMatch              :              version: 2387
+18:44:25 INFO  ProfileMatch              :         release-date: 21.05.2017
+18:44:25 INFO  ProfileMatch              :     lib root package: "android.support.v7.widget"
+18:44:25 INFO  ProfileMatch              : 
+18:44:25 INFO  ProfileMatch              :                 name: 2399
+18:44:25 INFO  ProfileMatch              :             category: Android
+18:44:25 INFO  ProfileMatch              :              version: 2399
+18:44:25 INFO  ProfileMatch              :         release-date: 21.05.2017
+18:44:25 INFO  ProfileMatch              :     lib root package: "android.support.v7.widget"
+18:44:25 INFO  ProfileMatch              : 
+18:44:25 INFO  ProfileMatch              :                 name: 2398
+18:44:25 INFO  ProfileMatch              :             category: Android
+18:44:25 INFO  ProfileMatch              :              version: 2398
+18:44:25 INFO  ProfileMatch              :         release-date: 21.05.2017
+18:44:25 INFO  ProfileMatch              :     lib root package: "android.support.v7.widget"
+18:44:25 INFO  ProfileMatch              : 
+18:44:25 INFO  ProfileMatch              :                 name: 9821
+18:44:25 INFO  ProfileMatch              :             category: Android
+18:44:25 INFO  ProfileMatch              :              version: 9821
+18:44:25 INFO  ProfileMatch              :         release-date: 21.05.2017
+18:44:25 INFO  ProfileMatch              :     lib root package: "com.twofortyfouram.locale.api"  (in app: "android.support.v4.view")
+18:44:25 INFO  ProfileMatch              : 
+18:44:25 INFO  ProfileMatch              :                 name: 9820
+18:44:25 INFO  ProfileMatch              :             category: Android
+18:44:25 INFO  ProfileMatch              :              version: 9820
+18:44:25 INFO  ProfileMatch              :         release-date: 21.05.2017
+18:44:25 INFO  ProfileMatch              :     lib root package: "com.twofortyfouram.locale.api"  (in app: "android.support.v4.view")
+18:44:25 INFO  ProfileMatch              : 
+18:44:25 INFO  ProfileMatch              :                 name: 9819
+18:44:25 INFO  ProfileMatch              :             category: Android
+18:44:25 INFO  ProfileMatch              :              version: 9819
+18:44:25 INFO  ProfileMatch              :         release-date: 21.05.2017
+18:44:25 INFO  ProfileMatch              :     lib root package: "com.twofortyfouram.locale.api"  (in app: "android.support.v4.view")
+18:44:25 INFO  ProfileMatch              : 
+18:44:25 INFO  ProfileMatch              :                 name: 2403
+18:44:25 INFO  ProfileMatch              :             category: Android
+18:44:25 INFO  ProfileMatch              :              version: 2403
+18:44:25 INFO  ProfileMatch              :         release-date: 21.05.2017
+18:44:25 INFO  ProfileMatch              :     lib root package: "android.support.v7.widget"
+18:44:25 INFO  ProfileMatch              : 
+18:44:25 INFO  ProfileMatch              :                 name: 2402
+18:44:25 INFO  ProfileMatch              :             category: Android
+18:44:25 INFO  ProfileMatch              :              version: 2402
+18:44:25 INFO  ProfileMatch              :         release-date: 21.05.2017
+18:44:25 INFO  ProfileMatch              :     lib root package: "android.support.v7.widget"
+18:44:25 INFO  ProfileMatch              : 
+18:44:25 INFO  ProfileMatch              :                 name: 2401
+18:44:25 INFO  ProfileMatch              :             category: Android
+18:44:25 INFO  ProfileMatch              :              version: 2401
+18:44:25 INFO  ProfileMatch              :         release-date: 21.05.2017
+18:44:25 INFO  ProfileMatch              :     lib root package: "android.support.v7.widget"
+18:44:25 INFO  ProfileMatch              : 
+18:44:25 INFO  ProfileMatch              :                 name: 2400
+18:44:25 INFO  ProfileMatch              :             category: Android
+18:44:25 INFO  ProfileMatch              :              version: 2400
+18:44:25 INFO  ProfileMatch              :         release-date: 21.05.2017
+18:44:25 INFO  ProfileMatch              :     lib root package: "android.support.v7.widget"
+18:44:25 INFO  ProfileMatch              : 
+18:44:26 INFO  ProfileMatch              :                 name: 3816
+18:44:26 INFO  ProfileMatch              :             category: Android
+18:44:26 INFO  ProfileMatch              :              version: 3816
+18:44:26 INFO  ProfileMatch              :         release-date: 21.05.2017
+18:44:26 INFO  ProfileMatch              :     lib root package: "com.firebase.ui"  (in app: "org.greenrobot.eventbus")
+18:44:26 INFO  ProfileMatch              : 
+18:44:26 INFO  ProfileMatch              :                 name: 3817
+18:44:26 INFO  ProfileMatch              :             category: Android
+18:44:26 INFO  ProfileMatch              :              version: 3817
+18:44:26 INFO  ProfileMatch              :         release-date: 21.05.2017
+18:44:26 INFO  ProfileMatch              :     lib root package: "com.firebase.ui"  (in app: "org.greenrobot.eventbus")
+18:44:26 INFO  ProfileMatch              : 
+18:44:26 INFO  ProfileMatch              :                 name: 2507
+18:44:26 INFO  ProfileMatch              :             category: Android
+18:44:26 INFO  ProfileMatch              :              version: 2507
+18:44:26 INFO  ProfileMatch              :         release-date: 21.05.2017
+18:44:26 INFO  ProfileMatch              :     lib root package: "android.support.v4.view.animation"
+18:44:26 INFO  ProfileMatch              : 
+18:44:26 INFO  ProfileMatch              :                 name: 8774
+18:44:26 INFO  ProfileMatch              :             category: Android
+18:44:26 INFO  ProfileMatch              :              version: 8774
+18:44:26 INFO  ProfileMatch              :         release-date: 21.05.2017
+18:44:26 INFO  ProfileMatch              :     lib root package: "com.davekoelle.alphanum"
+18:44:26 INFO  ProfileMatch              : 
+18:44:26 INFO  ProfileMatch              :                 name: 2609
+18:44:26 INFO  ProfileMatch              :             category: Android
+18:44:26 INFO  ProfileMatch              :              version: 2609
+18:44:26 INFO  ProfileMatch              :         release-date: 21.05.2017
+18:44:26 INFO  ProfileMatch              :     lib root package: "android.support.v7"
+18:44:26 INFO  ProfileMatch              : 
+18:44:26 INFO  ProfileMatch              :                 name: 2608
+18:44:26 INFO  ProfileMatch              :             category: Android
+18:44:26 INFO  ProfileMatch              :              version: 2608
+18:44:26 INFO  ProfileMatch              :         release-date: 21.05.2017
+18:44:26 INFO  ProfileMatch              :     lib root package: "android.support.v7"
+18:44:26 INFO  ProfileMatch              : 
+18:44:26 INFO  ProfileMatch              :                 name: 2611
+18:44:26 INFO  ProfileMatch              :             category: Android
+18:44:26 INFO  ProfileMatch              :              version: 2611
+18:44:26 INFO  ProfileMatch              :         release-date: 21.05.2017
+18:44:26 INFO  ProfileMatch              :     lib root package: "android.support.v7"
+18:44:26 INFO  ProfileMatch              : 
+18:44:26 INFO  ProfileMatch              :                 name: 2610
+18:44:26 INFO  ProfileMatch              :             category: Android
+18:44:26 INFO  ProfileMatch              :              version: 2610
+18:44:26 INFO  ProfileMatch              :         release-date: 21.05.2017
+18:44:26 INFO  ProfileMatch              :     lib root package: "android.support.v7"
+18:44:26 INFO  ProfileMatch              : 
+18:44:26 INFO  ProfileMatch              :                 name: 2650
+18:44:26 INFO  ProfileMatch              :             category: Android
+18:44:26 INFO  ProfileMatch              :              version: 2650
+18:44:26 INFO  ProfileMatch              :         release-date: 21.05.2017
+18:44:26 INFO  ProfileMatch              :     lib root package: "android.support.v7"
+18:44:26 INFO  ProfileMatch              : 
+18:44:26 INFO  ProfileMatch              :                 name: 2651
+18:44:26 INFO  ProfileMatch              :             category: Android
+18:44:26 INFO  ProfileMatch              :              version: 2651
+18:44:26 INFO  ProfileMatch              :         release-date: 21.05.2017
+18:44:26 INFO  ProfileMatch              :     lib root package: "android.support.v7"
+18:44:26 INFO  ProfileMatch              : 
+18:44:26 INFO  ProfileMatch              :                 name: 750
+18:44:26 INFO  ProfileMatch              :             category: Android
+18:44:26 INFO  ProfileMatch              :              version: 750
+18:44:26 INFO  ProfileMatch              :         release-date: 21.05.2017
+18:44:26 INFO  ProfileMatch              :     lib root package: "androidx.core.role"  (in app: "org.greenrobot.eventbus")
+18:44:26 INFO  ProfileMatch              : 
+18:44:26 INFO  ProfileMatch              :                 name: 920
+18:44:26 INFO  ProfileMatch              :             category: Android
+18:44:26 INFO  ProfileMatch              :              version: 920
+18:44:26 INFO  ProfileMatch              :         release-date: 21.05.2017
+18:44:26 INFO  ProfileMatch              :     lib root package: "androidx.interpolator.view.animation"  (in app: "android.support.v4.view.animation")
+18:44:26 INFO  ProfileMatch              : 
+18:44:26 INFO  ProfileMatch              :                 name: 4015
+18:44:26 INFO  ProfileMatch              :             category: Android
+18:44:26 INFO  ProfileMatch              :              version: 4015
+18:44:26 INFO  ProfileMatch              :         release-date: 21.05.2017
+18:44:26 INFO  ProfileMatch              :     lib root package: "com.anysoftkeyboard.api"  (in app: "org.greenrobot.eventbus")
+18:44:26 INFO  ProfileMatch              : 
+18:44:26 INFO  ProfileMatch              :                 name: 4016
+18:44:26 INFO  ProfileMatch              :             category: Android
+18:44:26 INFO  ProfileMatch              :              version: 4016
+18:44:26 INFO  ProfileMatch              :         release-date: 21.05.2017
+18:44:26 INFO  ProfileMatch              :     lib root package: "com.anysoftkeyboard.api"  (in app: "org.greenrobot.eventbus")
+18:44:26 INFO  ProfileMatch              : 
+18:44:26 INFO  ProfileMatch              :                 name: 4017
+18:44:26 INFO  ProfileMatch              :             category: Android
+18:44:26 INFO  ProfileMatch              :              version: 4017
+18:44:26 INFO  ProfileMatch              :         release-date: 21.05.2017
+18:44:26 INFO  ProfileMatch              :     lib root package: "com.anysoftkeyboard.api"  (in app: "org.greenrobot.eventbus")
+18:44:26 INFO  ProfileMatch              : 
+18:44:26 INFO  ProfileMatch              :                 name: 4018
+18:44:26 INFO  ProfileMatch              :             category: Android
+18:44:26 INFO  ProfileMatch              :              version: 4018
+18:44:26 INFO  ProfileMatch              :         release-date: 21.05.2017
+18:44:26 INFO  ProfileMatch              :     lib root package: "com.anysoftkeyboard.api"  (in app: "org.greenrobot.eventbus")
+18:44:26 INFO  ProfileMatch              : 
+18:44:26 INFO  ProfileMatch              :                 name: 4099
+18:44:26 INFO  ProfileMatch              :             category: Android
+18:44:26 INFO  ProfileMatch              :              version: 4099
+18:44:26 INFO  ProfileMatch              :         release-date: 21.05.2017
+18:44:26 INFO  ProfileMatch              :     lib root package: "com.github.bassaer.library"  (in app: "android.support.v7.view")
+18:44:26 INFO  ProfileMatch              : 
+18:44:27 INFO  ProfileMatch              :                 name: 4341
+18:44:27 INFO  ProfileMatch              :             category: Android
+18:44:27 INFO  ProfileMatch              :              version: 4341
+18:44:27 INFO  ProfileMatch              :         release-date: 21.05.2017
+18:44:27 INFO  ProfileMatch              :     lib root package: "tv.cjump.ndkbitmap_armv5"  (in app: "org.greenrobot.eventbus")
+18:44:27 INFO  ProfileMatch              : 
+18:44:27 INFO  ProfileMatch              :                 name: 4342
+18:44:27 INFO  ProfileMatch              :             category: Android
+18:44:27 INFO  ProfileMatch              :              version: 4342
+18:44:27 INFO  ProfileMatch              :         release-date: 21.05.2017
+18:44:27 INFO  ProfileMatch              :     lib root package: "tv.cjump.ndkbitmap_armv7a"  (in app: "org.greenrobot.eventbus")
+18:44:27 INFO  ProfileMatch              : 
+18:44:27 INFO  ProfileMatch              :                 name: 4343
+18:44:27 INFO  ProfileMatch              :             category: Android
+18:44:27 INFO  ProfileMatch              :              version: 4343
+18:44:27 INFO  ProfileMatch              :         release-date: 21.05.2017
+18:44:27 INFO  ProfileMatch              :     lib root package: "tv.cjump.ndkbitmap_x86"  (in app: "org.greenrobot.eventbus")
+18:44:27 INFO  ProfileMatch              : 
+18:44:27 INFO  ProfileMatch              :                 name: 9223
+18:44:27 INFO  ProfileMatch              :             category: Android
+18:44:27 INFO  ProfileMatch              :              version: 9223
+18:44:27 INFO  ProfileMatch              :         release-date: 21.05.2017
+18:44:27 INFO  ProfileMatch              :     lib root package: "leakcanary.internal"  (in app: "com.chibatching.kotpref.initializer")
+18:44:27 INFO  ProfileMatch              : 
+18:44:27 INFO  ProfileMatch              :                 name: 9224
+18:44:27 INFO  ProfileMatch              :             category: Android
+18:44:27 INFO  ProfileMatch              :              version: 9224
+18:44:27 INFO  ProfileMatch              :         release-date: 21.05.2017
+18:44:27 INFO  ProfileMatch              :     lib root package: "leakcanary.internal"  (in app: "com.chibatching.kotpref.initializer")
+18:44:27 INFO  ProfileMatch              : 
+18:44:27 INFO  ProfileMatch              :                 name: 9221
+18:44:27 INFO  ProfileMatch              :             category: Android
+18:44:27 INFO  ProfileMatch              :              version: 9221
+18:44:27 INFO  ProfileMatch              :         release-date: 21.05.2017
+18:44:27 INFO  ProfileMatch              :     lib root package: "leakcanary.internal"  (in app: "com.chibatching.kotpref.initializer")
+18:44:27 INFO  ProfileMatch              : 
+18:44:27 INFO  ProfileMatch              :                 name: 9225
+18:44:27 INFO  ProfileMatch              :             category: Android
+18:44:27 INFO  ProfileMatch              :              version: 9225
+18:44:27 INFO  ProfileMatch              :         release-date: 21.05.2017
+18:44:27 INFO  ProfileMatch              :     lib root package: "leakcanary.internal"  (in app: "com.chibatching.kotpref.initializer")
+18:44:27 INFO  ProfileMatch              : 
+18:44:27 INFO  ProfileMatch              :                 name: 9226
+18:44:27 INFO  ProfileMatch              :             category: Android
+18:44:27 INFO  ProfileMatch              :              version: 9226
+18:44:27 INFO  ProfileMatch              :         release-date: 21.05.2017
+18:44:27 INFO  ProfileMatch              :     lib root package: "leakcanary.internal"  (in app: "com.chibatching.kotpref.initializer")
+18:44:27 INFO  ProfileMatch              : 
+18:44:27 INFO  ProfileMatch              :                 name: 9230
+18:44:27 INFO  ProfileMatch              :             category: Android
+18:44:27 INFO  ProfileMatch              :              version: 9230
+18:44:27 INFO  ProfileMatch              :         release-date: 21.05.2017
+18:44:27 INFO  ProfileMatch              :     lib root package: "leakcanary.internal"  (in app: "com.chibatching.kotpref.initializer")
+18:44:27 INFO  ProfileMatch              : 
+18:44:27 INFO  ProfileMatch              :                 name: 9229
+18:44:27 INFO  ProfileMatch              :             category: Android
+18:44:27 INFO  ProfileMatch              :              version: 9229
+18:44:27 INFO  ProfileMatch              :         release-date: 21.05.2017
+18:44:27 INFO  ProfileMatch              :     lib root package: "leakcanary.internal"  (in app: "com.chibatching.kotpref.initializer")
+18:44:27 INFO  ProfileMatch              : 
+18:44:27 INFO  ProfileMatch              :                 name: 13198
+18:44:27 INFO  ProfileMatch              :             category: Android
+18:44:27 INFO  ProfileMatch              :              version: 13198
+18:44:27 INFO  ProfileMatch              :         release-date: 21.05.2017
+18:44:27 INFO  ProfileMatch              :     lib root package: "mozilla.components.support.rusthttp"  (in app: "android.support.v4.view")
+18:44:27 INFO  ProfileMatch              : 
+18:44:27 INFO  ProfileMatch              :                 name: 5822
+18:44:27 INFO  ProfileMatch              :             category: Android
+18:44:27 INFO  ProfileMatch              :              version: 5822
+18:44:27 INFO  ProfileMatch              :         release-date: 21.05.2017
+18:44:27 INFO  ProfileMatch              :     lib root package: "com.twofortyfouram.locale.api"  (in app: "android.support.v4.view")
+18:44:27 INFO  ProfileMatch              : 
+18:44:27 INFO  ProfileMatch              :                 name: 3304
+18:44:27 INFO  ProfileMatch              :             category: Android
+18:44:27 INFO  ProfileMatch              :              version: 3304
+18:44:27 INFO  ProfileMatch              :         release-date: 21.05.2017
+18:44:27 INFO  ProfileMatch              :     lib root package: "com.chibatching.kotpref.initializer"
+18:44:27 INFO  ProfileMatch              : 
+18:44:27 INFO  ProfileMatch              :                 name: 3301
+18:44:27 INFO  ProfileMatch              :             category: Android
+18:44:27 INFO  ProfileMatch              :              version: 3301
+18:44:27 INFO  ProfileMatch              :         release-date: 21.05.2017
+18:44:27 INFO  ProfileMatch              :     lib root package: "com.chibatching.kotpref.initializer"
+18:44:27 INFO  ProfileMatch              : 
+18:44:27 INFO  ProfileMatch              :                 name: 3300
+18:44:27 INFO  ProfileMatch              :             category: Android
+18:44:27 INFO  ProfileMatch              :              version: 3300
+18:44:27 INFO  ProfileMatch              :         release-date: 21.05.2017
+18:44:27 INFO  ProfileMatch              :     lib root package: "com.chibatching.kotpref.initializer"
+18:44:27 INFO  ProfileMatch              : 
+18:44:27 INFO  ProfileMatch              :                 name: 8350
+18:44:27 INFO  ProfileMatch              :             category: Android
+18:44:27 INFO  ProfileMatch              :              version: 8350
+18:44:27 INFO  ProfileMatch              :         release-date: 21.05.2017
+18:44:27 INFO  ProfileMatch              :     lib root package: "com.maltaisn.iconpack.defaultpack"  (in app: "com.github.salomonbrys.kodein")
+18:44:27 INFO  ProfileMatch              : 
+18:44:27 INFO  ProfileMatch              :                 name: 8349
+18:44:27 INFO  ProfileMatch              :             category: Android
+18:44:27 INFO  ProfileMatch              :              version: 8349
+18:44:27 INFO  ProfileMatch              :         release-date: 21.05.2017
+18:44:27 INFO  ProfileMatch              :     lib root package: "com.maltaisn.iconpack.mdi"  (in app: "com.github.salomonbrys.kodein")
+18:44:27 INFO  ProfileMatch              : 
+18:44:27 INFO  ProfileMatch              :                 name: 12176
+18:44:27 INFO  ProfileMatch              :             category: Android
+18:44:27 INFO  ProfileMatch              :              version: 12176
+18:44:27 INFO  ProfileMatch              :         release-date: 21.05.2017
+18:44:27 INFO  ProfileMatch              :     lib root package: "org.dashj.bls"  (in app: "org.greenrobot.eventbus")
+18:44:27 INFO  ProfileMatch              : 
+18:44:27 INFO  ProfileMatch              :                 name: 3547
+18:44:27 INFO  ProfileMatch              :             category: Android
+18:44:27 INFO  ProfileMatch              :              version: 3547
+18:44:27 INFO  ProfileMatch              :         release-date: 21.05.2017
+18:44:27 INFO  ProfileMatch              :     lib root package: "com.facebook.all"  (in app: "org.greenrobot.eventbus")
+18:44:27 INFO  ProfileMatch              : 
+18:44:27 INFO  ProfileMatch              :                 name: 12288
+18:44:27 INFO  ProfileMatch              :             category: Android
+18:44:27 INFO  ProfileMatch              :              version: 12288
+18:44:27 INFO  ProfileMatch              :         release-date: 21.05.2017
+18:44:27 INFO  ProfileMatch              :     lib root package: "org.hamcrest.library.deprecated"  (in app: "android.support.v4.view")
+18:44:27 INFO  ProfileMatch              : 
+18:44:29 INFO  LibraryIdentifier         : 
+18:44:29 INFO  LibraryIdentifier         : - Partial library matches:
+18:44:29 INFO  LibraryIdentifier         :                 name: 2331
+18:44:29 INFO  LibraryIdentifier         :             category: Android
+18:44:29 INFO  LibraryIdentifier         :              version: 2331
+18:44:29 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+18:44:29 INFO  LibraryIdentifier         :     lib root package: "android.support.v7"
+18:44:29 INFO  LibraryIdentifier         :         Partial matching results:
+18:44:29 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.90970194
+18:44:29 INFO  LibraryIdentifier         : 
+18:44:29 INFO  LibraryIdentifier         :                 name: 2330
+18:44:29 INFO  LibraryIdentifier         :             category: Android
+18:44:29 INFO  LibraryIdentifier         :              version: 2330
+18:44:29 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+18:44:29 INFO  LibraryIdentifier         :     lib root package: "android.support.v7"
+18:44:29 INFO  LibraryIdentifier         :         Partial matching results:
+18:44:29 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.9079962
+18:44:29 INFO  LibraryIdentifier         : 
+18:44:29 INFO  LibraryIdentifier         :                 name: 2328
+18:44:29 INFO  LibraryIdentifier         :             category: Android
+18:44:29 INFO  LibraryIdentifier         :              version: 2328
+18:44:29 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+18:44:29 INFO  LibraryIdentifier         :     lib root package: "android.support.v7"
+18:44:29 INFO  LibraryIdentifier         :         Partial matching results:
+18:44:29 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.906874
+18:44:29 INFO  LibraryIdentifier         : 
+18:44:29 INFO  LibraryIdentifier         :                 name: 2327
+18:44:29 INFO  LibraryIdentifier         :             category: Android
+18:44:29 INFO  LibraryIdentifier         :              version: 2327
+18:44:29 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+18:44:29 INFO  LibraryIdentifier         :     lib root package: "android.support.v7"
+18:44:29 INFO  LibraryIdentifier         :         Partial matching results:
+18:44:29 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.8528547
+18:44:29 INFO  LibraryIdentifier         : 
+18:44:29 INFO  LibraryIdentifier         :                 name: 2329
+18:44:29 INFO  LibraryIdentifier         :             category: Android
+18:44:29 INFO  LibraryIdentifier         :              version: 2329
+18:44:29 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+18:44:29 INFO  LibraryIdentifier         :     lib root package: "android.support.v7"
+18:44:29 INFO  LibraryIdentifier         :         Partial matching results:
+18:44:29 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.90858805
+18:44:29 INFO  LibraryIdentifier         : 
+18:44:29 INFO  LibraryIdentifier         :                 name: 2342
+18:44:29 INFO  LibraryIdentifier         :             category: Android
+18:44:29 INFO  LibraryIdentifier         :              version: 2342
+18:44:29 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+18:44:29 INFO  LibraryIdentifier         :     lib root package: "android.support.v7"
+18:44:29 INFO  LibraryIdentifier         :         Partial matching results:
+18:44:29 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.997549
+18:44:29 INFO  LibraryIdentifier         : 
+18:44:29 INFO  LibraryIdentifier         :                 name: 2341
+18:44:29 INFO  LibraryIdentifier         :             category: Android
+18:44:29 INFO  LibraryIdentifier         :              version: 2341
+18:44:29 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+18:44:29 INFO  LibraryIdentifier         :     lib root package: "android.support.v7"
+18:44:29 INFO  LibraryIdentifier         :         Partial matching results:
+18:44:29 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.997549
+18:44:29 INFO  LibraryIdentifier         : 
+18:44:29 INFO  LibraryIdentifier         :                 name: 2340
+18:44:29 INFO  LibraryIdentifier         :             category: Android
+18:44:29 INFO  LibraryIdentifier         :              version: 2340
+18:44:29 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+18:44:29 INFO  LibraryIdentifier         :     lib root package: "android.support.v7"
+18:44:29 INFO  LibraryIdentifier         :         Partial matching results:
+18:44:29 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.97878
+18:44:29 INFO  LibraryIdentifier         : 
+18:44:29 INFO  LibraryIdentifier         :                 name: 2339
+18:44:29 INFO  LibraryIdentifier         :             category: Android
+18:44:29 INFO  LibraryIdentifier         :              version: 2339
+18:44:29 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+18:44:29 INFO  LibraryIdentifier         :     lib root package: "android.support.v7"
+18:44:29 INFO  LibraryIdentifier         :         Partial matching results:
+18:44:29 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.97947055
+18:44:29 INFO  LibraryIdentifier         : 
+18:44:29 INFO  LibraryIdentifier         :                 name: 2338
+18:44:29 INFO  LibraryIdentifier         :             category: Android
+18:44:29 INFO  LibraryIdentifier         :              version: 2338
+18:44:29 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+18:44:29 INFO  LibraryIdentifier         :     lib root package: "android.support.v7"
+18:44:29 INFO  LibraryIdentifier         :         Partial matching results:
+18:44:29 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.9742819
+18:44:29 INFO  LibraryIdentifier         : 
+18:44:29 INFO  LibraryIdentifier         :                 name: 2337
+18:44:29 INFO  LibraryIdentifier         :             category: Android
+18:44:29 INFO  LibraryIdentifier         :              version: 2337
+18:44:29 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+18:44:29 INFO  LibraryIdentifier         :     lib root package: "android.support.v7"
+18:44:29 INFO  LibraryIdentifier         :         Partial matching results:
+18:44:29 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.9742819
+18:44:29 INFO  LibraryIdentifier         : 
+18:44:29 INFO  LibraryIdentifier         :                 name: 2336
+18:44:29 INFO  LibraryIdentifier         :             category: Android
+18:44:29 INFO  LibraryIdentifier         :              version: 2336
+18:44:29 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+18:44:29 INFO  LibraryIdentifier         :     lib root package: "android.support.v7"
+18:44:29 INFO  LibraryIdentifier         :         Partial matching results:
+18:44:29 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.9236917
+18:44:29 INFO  LibraryIdentifier         : 
+18:44:29 INFO  LibraryIdentifier         :                 name: 2335
+18:44:29 INFO  LibraryIdentifier         :             category: Android
+18:44:29 INFO  LibraryIdentifier         :              version: 2335
+18:44:29 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+18:44:29 INFO  LibraryIdentifier         :     lib root package: "android.support.v7"
+18:44:29 INFO  LibraryIdentifier         :         Partial matching results:
+18:44:29 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.9236917
+18:44:29 INFO  LibraryIdentifier         : 
+18:44:29 INFO  LibraryIdentifier         :                 name: 2334
+18:44:29 INFO  LibraryIdentifier         :             category: Android
+18:44:29 INFO  LibraryIdentifier         :              version: 2334
+18:44:29 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+18:44:29 INFO  LibraryIdentifier         :     lib root package: "android.support.v7"
+18:44:29 INFO  LibraryIdentifier         :         Partial matching results:
+18:44:29 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.92228717
+18:44:29 INFO  LibraryIdentifier         : 
+18:44:29 INFO  LibraryIdentifier         :                 name: 2333
+18:44:29 INFO  LibraryIdentifier         :             category: Android
+18:44:29 INFO  LibraryIdentifier         :              version: 2333
+18:44:29 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+18:44:29 INFO  LibraryIdentifier         :     lib root package: "android.support.v7"
+18:44:29 INFO  LibraryIdentifier         :         Partial matching results:
+18:44:29 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.916119
+18:44:29 INFO  LibraryIdentifier         : 
+18:44:29 INFO  LibraryIdentifier         :                 name: 2332
+18:44:29 INFO  LibraryIdentifier         :             category: Android
+18:44:29 INFO  LibraryIdentifier         :              version: 2332
+18:44:29 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+18:44:29 INFO  LibraryIdentifier         :     lib root package: "android.support.v7"
+18:44:29 INFO  LibraryIdentifier         :         Partial matching results:
+18:44:29 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.93199223
+18:44:29 INFO  LibraryIdentifier         : 
+18:44:29 INFO  LibraryIdentifier         :                 name: 2353
+18:44:29 INFO  LibraryIdentifier         :             category: Android
+18:44:29 INFO  LibraryIdentifier         :              version: 2353
+18:44:29 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+18:44:29 INFO  LibraryIdentifier         :     lib root package: "android.support.v7"
+18:44:29 INFO  LibraryIdentifier         :         Partial matching results:
+18:44:29 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.9221945
+18:44:29 INFO  LibraryIdentifier         : 
+18:44:29 INFO  LibraryIdentifier         :                 name: 2352
+18:44:29 INFO  LibraryIdentifier         :             category: Android
+18:44:29 INFO  LibraryIdentifier         :              version: 2352
+18:44:29 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+18:44:29 INFO  LibraryIdentifier         :     lib root package: "android.support.v7"
+18:44:29 INFO  LibraryIdentifier         :         Partial matching results:
+18:44:29 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.9221945
+18:44:29 INFO  LibraryIdentifier         : 
+18:44:29 INFO  LibraryIdentifier         :                 name: 2351
+18:44:29 INFO  LibraryIdentifier         :             category: Android
+18:44:29 INFO  LibraryIdentifier         :              version: 2351
+18:44:29 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+18:44:29 INFO  LibraryIdentifier         :     lib root package: "android.support.v7"
+18:44:29 INFO  LibraryIdentifier         :         Partial matching results:
+18:44:29 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.9221945
+18:44:29 INFO  LibraryIdentifier         : 
+18:44:29 INFO  LibraryIdentifier         :                 name: 2350
+18:44:29 INFO  LibraryIdentifier         :             category: Android
+18:44:29 INFO  LibraryIdentifier         :              version: 2350
+18:44:29 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+18:44:29 INFO  LibraryIdentifier         :     lib root package: "android.support.v7"
+18:44:29 INFO  LibraryIdentifier         :         Partial matching results:
+18:44:29 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.9221945
+18:44:29 INFO  LibraryIdentifier         : 
+18:44:29 INFO  LibraryIdentifier         :                 name: 2349
+18:44:29 INFO  LibraryIdentifier         :             category: Android
+18:44:29 INFO  LibraryIdentifier         :              version: 2349
+18:44:29 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+18:44:29 INFO  LibraryIdentifier         :     lib root package: "android.support.v7"
+18:44:29 INFO  LibraryIdentifier         :         Partial matching results:
+18:44:29 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.92757326
+18:44:29 INFO  LibraryIdentifier         : 
+18:44:29 INFO  LibraryIdentifier         :                 name: 2348
+18:44:29 INFO  LibraryIdentifier         :             category: Android
+18:44:29 INFO  LibraryIdentifier         :              version: 2348
+18:44:29 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+18:44:29 INFO  LibraryIdentifier         :     lib root package: "android.support.v7"
+18:44:29 INFO  LibraryIdentifier         :         Partial matching results:
+18:44:29 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.95041233
+18:44:29 INFO  LibraryIdentifier         : 
+18:44:29 INFO  LibraryIdentifier         :                 name: 2347
+18:44:29 INFO  LibraryIdentifier         :             category: Android
+18:44:29 INFO  LibraryIdentifier         :              version: 2347
+18:44:29 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+18:44:29 INFO  LibraryIdentifier         :     lib root package: "android.support.v7"
+18:44:29 INFO  LibraryIdentifier         :         Partial matching results:
+18:44:29 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.9836601
+18:44:29 INFO  LibraryIdentifier         : 
+18:44:29 INFO  LibraryIdentifier         :                 name: 2346
+18:44:29 INFO  LibraryIdentifier         :             category: Android
+18:44:29 INFO  LibraryIdentifier         :              version: 2346
+18:44:29 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+18:44:29 INFO  LibraryIdentifier         :     lib root package: "android.support.v7"
+18:44:29 INFO  LibraryIdentifier         :         Partial matching results:
+18:44:29 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.98551583
+18:44:29 INFO  LibraryIdentifier         : 
+18:44:29 INFO  LibraryIdentifier         :                 name: 2344
+18:44:29 INFO  LibraryIdentifier         :             category: Android
+18:44:29 INFO  LibraryIdentifier         :              version: 2344
+18:44:29 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+18:44:29 INFO  LibraryIdentifier         :     lib root package: "android.support.v7"
+18:44:29 INFO  LibraryIdentifier         :         Partial matching results:
+18:44:29 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.99930555
+18:44:29 INFO  LibraryIdentifier         : 
+18:44:29 INFO  LibraryIdentifier         :                 name: 2343
+18:44:29 INFO  LibraryIdentifier         :             category: Android
+18:44:29 INFO  LibraryIdentifier         :              version: 2343
+18:44:29 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+18:44:29 INFO  LibraryIdentifier         :     lib root package: "android.support.v7"
+18:44:29 INFO  LibraryIdentifier         :         Partial matching results:
+18:44:29 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.997549
+18:44:29 INFO  LibraryIdentifier         : 
+18:44:29 INFO  LibraryIdentifier         :                 name: 2364
+18:44:29 INFO  LibraryIdentifier         :             category: Android
+18:44:29 INFO  LibraryIdentifier         :              version: 2364
+18:44:29 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+18:44:29 INFO  LibraryIdentifier         :     lib root package: "android.support.v7"
+18:44:29 INFO  LibraryIdentifier         :         Partial matching results:
+18:44:29 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.7349535
+18:44:29 INFO  LibraryIdentifier         : 
+18:44:29 INFO  LibraryIdentifier         :                 name: 2363
+18:44:29 INFO  LibraryIdentifier         :             category: Android
+18:44:29 INFO  LibraryIdentifier         :              version: 2363
+18:44:29 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+18:44:29 INFO  LibraryIdentifier         :     lib root package: "android.support.v7"
+18:44:29 INFO  LibraryIdentifier         :         Partial matching results:
+18:44:29 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.7349535
+18:44:29 INFO  LibraryIdentifier         : 
+18:44:29 INFO  LibraryIdentifier         :                 name: 2362
+18:44:29 INFO  LibraryIdentifier         :             category: Android
+18:44:29 INFO  LibraryIdentifier         :              version: 2362
+18:44:29 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+18:44:29 INFO  LibraryIdentifier         :     lib root package: "android.support.v7"
+18:44:29 INFO  LibraryIdentifier         :         Partial matching results:
+18:44:29 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.7349535
+18:44:29 INFO  LibraryIdentifier         : 
+18:44:29 INFO  LibraryIdentifier         :                 name: 2361
+18:44:29 INFO  LibraryIdentifier         :             category: Android
+18:44:29 INFO  LibraryIdentifier         :              version: 2361
+18:44:29 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+18:44:29 INFO  LibraryIdentifier         :     lib root package: "android.support.v7"
+18:44:29 INFO  LibraryIdentifier         :         Partial matching results:
+18:44:29 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.7349535
+18:44:29 INFO  LibraryIdentifier         : 
+18:44:29 INFO  LibraryIdentifier         :                 name: 2360
+18:44:29 INFO  LibraryIdentifier         :             category: Android
+18:44:29 INFO  LibraryIdentifier         :              version: 2360
+18:44:29 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+18:44:29 INFO  LibraryIdentifier         :     lib root package: "android.support.v7"
+18:44:29 INFO  LibraryIdentifier         :         Partial matching results:
+18:44:29 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.8791514
+18:44:29 INFO  LibraryIdentifier         : 
+18:44:29 INFO  LibraryIdentifier         :                 name: 2359
+18:44:29 INFO  LibraryIdentifier         :             category: Android
+18:44:29 INFO  LibraryIdentifier         :              version: 2359
+18:44:29 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+18:44:29 INFO  LibraryIdentifier         :     lib root package: "android.support.v7"
+18:44:29 INFO  LibraryIdentifier         :         Partial matching results:
+18:44:29 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.89746314
+18:44:29 INFO  LibraryIdentifier         : 
+18:44:29 INFO  LibraryIdentifier         :                 name: 2358
+18:44:29 INFO  LibraryIdentifier         :             category: Android
+18:44:29 INFO  LibraryIdentifier         :              version: 2358
+18:44:29 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+18:44:29 INFO  LibraryIdentifier         :     lib root package: "android.support.v7"
+18:44:29 INFO  LibraryIdentifier         :         Partial matching results:
+18:44:29 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.9065816
+18:44:29 INFO  LibraryIdentifier         : 
+18:44:29 INFO  LibraryIdentifier         :                 name: 2357
+18:44:29 INFO  LibraryIdentifier         :             category: Android
+18:44:29 INFO  LibraryIdentifier         :              version: 2357
+18:44:29 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+18:44:29 INFO  LibraryIdentifier         :     lib root package: "android.support.v7"
+18:44:29 INFO  LibraryIdentifier         :         Partial matching results:
+18:44:29 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.9065816
+18:44:29 INFO  LibraryIdentifier         : 
+18:44:29 INFO  LibraryIdentifier         :                 name: 2356
+18:44:29 INFO  LibraryIdentifier         :             category: Android
+18:44:29 INFO  LibraryIdentifier         :              version: 2356
+18:44:29 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+18:44:29 INFO  LibraryIdentifier         :     lib root package: "android.support.v7"
+18:44:29 INFO  LibraryIdentifier         :         Partial matching results:
+18:44:29 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.9187688
+18:44:29 INFO  LibraryIdentifier         : 
+18:44:29 INFO  LibraryIdentifier         :                 name: 2355
+18:44:29 INFO  LibraryIdentifier         :             category: Android
+18:44:29 INFO  LibraryIdentifier         :              version: 2355
+18:44:29 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+18:44:29 INFO  LibraryIdentifier         :     lib root package: "android.support.v7"
+18:44:29 INFO  LibraryIdentifier         :         Partial matching results:
+18:44:29 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.9230048
+18:44:29 INFO  LibraryIdentifier         : 
+18:44:29 INFO  LibraryIdentifier         :                 name: 2354
+18:44:29 INFO  LibraryIdentifier         :             category: Android
+18:44:29 INFO  LibraryIdentifier         :              version: 2354
+18:44:29 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+18:44:29 INFO  LibraryIdentifier         :     lib root package: "android.support.v7"
+18:44:29 INFO  LibraryIdentifier         :         Partial matching results:
+18:44:29 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.9230048
+18:44:29 INFO  LibraryIdentifier         : 
+18:44:29 INFO  LibraryIdentifier         :                 name: 2405
+18:44:29 INFO  LibraryIdentifier         :             category: Android
+18:44:29 INFO  LibraryIdentifier         :              version: 2405
+18:44:29 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+18:44:29 INFO  LibraryIdentifier         :     lib root package: "android.support.v7.widget"
+18:44:29 INFO  LibraryIdentifier         :         Partial matching results:
+18:44:29 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.9166667
+18:44:29 INFO  LibraryIdentifier         : 
+18:44:29 INFO  LibraryIdentifier         :                 name: 2404
+18:44:29 INFO  LibraryIdentifier         :             category: Android
+18:44:29 INFO  LibraryIdentifier         :              version: 2404
+18:44:29 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+18:44:29 INFO  LibraryIdentifier         :     lib root package: "android.support.v7.widget"
+18:44:29 INFO  LibraryIdentifier         :         Partial matching results:
+18:44:29 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.9166667
+18:44:29 INFO  LibraryIdentifier         : 
+18:44:29 INFO  LibraryIdentifier         :                 name: 2407
+18:44:29 INFO  LibraryIdentifier         :             category: Android
+18:44:29 INFO  LibraryIdentifier         :              version: 2407
+18:44:29 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+18:44:29 INFO  LibraryIdentifier         :     lib root package: "android.support.v7.widget"
+18:44:29 INFO  LibraryIdentifier         :         Partial matching results:
+18:44:29 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.9166667
+18:44:29 INFO  LibraryIdentifier         : 
+18:44:29 INFO  LibraryIdentifier         :                 name: 2406
+18:44:29 INFO  LibraryIdentifier         :             category: Android
+18:44:29 INFO  LibraryIdentifier         :              version: 2406
+18:44:29 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+18:44:29 INFO  LibraryIdentifier         :     lib root package: "android.support.v7.widget"
+18:44:29 INFO  LibraryIdentifier         :         Partial matching results:
+18:44:29 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.9166667
+18:44:29 INFO  LibraryIdentifier         : 
+18:44:29 INFO  LibraryIdentifier         :                 name: 2452
+18:44:29 INFO  LibraryIdentifier         :             category: Android
+18:44:29 INFO  LibraryIdentifier         :              version: 2452
+18:44:29 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+18:44:29 INFO  LibraryIdentifier         :     lib root package: "android.support.design"
+18:44:29 INFO  LibraryIdentifier         :         Partial matching results:
+18:44:29 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.79329
+18:44:29 INFO  LibraryIdentifier         : 
+18:44:29 INFO  LibraryIdentifier         :                 name: 2451
+18:44:29 INFO  LibraryIdentifier         :             category: Android
+18:44:29 INFO  LibraryIdentifier         :              version: 2451
+18:44:29 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+18:44:29 INFO  LibraryIdentifier         :     lib root package: "android.support.design"
+18:44:29 INFO  LibraryIdentifier         :         Partial matching results:
+18:44:29 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.79329
+18:44:29 INFO  LibraryIdentifier         : 
+18:44:29 INFO  LibraryIdentifier         :                 name: 2450
+18:44:29 INFO  LibraryIdentifier         :             category: Android
+18:44:29 INFO  LibraryIdentifier         :              version: 2450
+18:44:29 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+18:44:29 INFO  LibraryIdentifier         :     lib root package: "android.support.design"
+18:44:29 INFO  LibraryIdentifier         :         Partial matching results:
+18:44:29 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.73372483
+18:44:29 INFO  LibraryIdentifier         : 
+18:44:29 INFO  LibraryIdentifier         :                 name: 2449
+18:44:29 INFO  LibraryIdentifier         :             category: Android
+18:44:29 INFO  LibraryIdentifier         :              version: 2449
+18:44:29 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+18:44:29 INFO  LibraryIdentifier         :     lib root package: "android.support.design"
+18:44:29 INFO  LibraryIdentifier         :         Partial matching results:
+18:44:29 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.73372483
+18:44:29 INFO  LibraryIdentifier         : 
+18:44:29 INFO  LibraryIdentifier         :                 name: 2448
+18:44:29 INFO  LibraryIdentifier         :             category: Android
+18:44:29 INFO  LibraryIdentifier         :              version: 2448
+18:44:29 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+18:44:29 INFO  LibraryIdentifier         :     lib root package: "android.support.design"
+18:44:29 INFO  LibraryIdentifier         :         Partial matching results:
+18:44:29 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.7296358
+18:44:29 INFO  LibraryIdentifier         : 
+18:44:29 INFO  LibraryIdentifier         :                 name: 2447
+18:44:29 INFO  LibraryIdentifier         :             category: Android
+18:44:29 INFO  LibraryIdentifier         :              version: 2447
+18:44:29 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+18:44:29 INFO  LibraryIdentifier         :     lib root package: "android.support.design"
+18:44:29 INFO  LibraryIdentifier         :         Partial matching results:
+18:44:29 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.719702
+18:44:29 INFO  LibraryIdentifier         : 
+18:44:29 INFO  LibraryIdentifier         :                 name: 2446
+18:44:29 INFO  LibraryIdentifier         :             category: Android
+18:44:29 INFO  LibraryIdentifier         :              version: 2446
+18:44:29 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+18:44:29 INFO  LibraryIdentifier         :     lib root package: "android.support.design"
+18:44:29 INFO  LibraryIdentifier         :         Partial matching results:
+18:44:29 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.7027778
+18:44:29 INFO  LibraryIdentifier         : 
+18:44:29 INFO  LibraryIdentifier         :                 name: 2445
+18:44:29 INFO  LibraryIdentifier         :             category: Android
+18:44:29 INFO  LibraryIdentifier         :              version: 2445
+18:44:29 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+18:44:29 INFO  LibraryIdentifier         :     lib root package: "android.support.design"
+18:44:29 INFO  LibraryIdentifier         :         Partial matching results:
+18:44:29 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.7027778
+18:44:29 INFO  LibraryIdentifier         : 
+18:44:29 INFO  LibraryIdentifier         :                 name: 2444
+18:44:29 INFO  LibraryIdentifier         :             category: Android
+18:44:29 INFO  LibraryIdentifier         :              version: 2444
+18:44:29 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+18:44:29 INFO  LibraryIdentifier         :     lib root package: "android.support.design"
+18:44:29 INFO  LibraryIdentifier         :         Partial matching results:
+18:44:29 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.7027778
+18:44:29 INFO  LibraryIdentifier         : 
+18:44:29 INFO  LibraryIdentifier         :                 name: 2460
+18:44:29 INFO  LibraryIdentifier         :             category: Android
+18:44:29 INFO  LibraryIdentifier         :              version: 2460
+18:44:29 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+18:44:29 INFO  LibraryIdentifier         :     lib root package: "android.support.design"
+18:44:29 INFO  LibraryIdentifier         :         Partial matching results:
+18:44:29 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.7227144
+18:44:29 INFO  LibraryIdentifier         : 
+18:44:29 INFO  LibraryIdentifier         :                 name: 2459
+18:44:29 INFO  LibraryIdentifier         :             category: Android
+18:44:29 INFO  LibraryIdentifier         :              version: 2459
+18:44:29 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+18:44:29 INFO  LibraryIdentifier         :     lib root package: "android.support.design"
+18:44:29 INFO  LibraryIdentifier         :         Partial matching results:
+18:44:29 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.7227144
+18:44:29 INFO  LibraryIdentifier         : 
+18:44:29 INFO  LibraryIdentifier         :                 name: 2458
+18:44:29 INFO  LibraryIdentifier         :             category: Android
+18:44:29 INFO  LibraryIdentifier         :              version: 2458
+18:44:29 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+18:44:29 INFO  LibraryIdentifier         :     lib root package: "android.support.design"
+18:44:29 INFO  LibraryIdentifier         :         Partial matching results:
+18:44:29 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.7227144
+18:44:29 INFO  LibraryIdentifier         : 
+18:44:29 INFO  LibraryIdentifier         :                 name: 2457
+18:44:29 INFO  LibraryIdentifier         :             category: Android
+18:44:29 INFO  LibraryIdentifier         :              version: 2457
+18:44:29 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+18:44:29 INFO  LibraryIdentifier         :     lib root package: "android.support.design"
+18:44:29 INFO  LibraryIdentifier         :         Partial matching results:
+18:44:29 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.7124233
+18:44:29 INFO  LibraryIdentifier         : 
+18:44:29 INFO  LibraryIdentifier         :                 name: 2456
+18:44:29 INFO  LibraryIdentifier         :             category: Android
+18:44:29 INFO  LibraryIdentifier         :              version: 2456
+18:44:29 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+18:44:29 INFO  LibraryIdentifier         :     lib root package: "android.support.design"
+18:44:29 INFO  LibraryIdentifier         :         Partial matching results:
+18:44:29 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.7124233
+18:44:29 INFO  LibraryIdentifier         : 
+18:44:29 INFO  LibraryIdentifier         :                 name: 2455
+18:44:29 INFO  LibraryIdentifier         :             category: Android
+18:44:29 INFO  LibraryIdentifier         :              version: 2455
+18:44:29 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+18:44:29 INFO  LibraryIdentifier         :     lib root package: "android.support.design"
+18:44:29 INFO  LibraryIdentifier         :         Partial matching results:
+18:44:29 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.7124233
+18:44:29 INFO  LibraryIdentifier         : 
+18:44:29 INFO  LibraryIdentifier         :                 name: 2454
+18:44:29 INFO  LibraryIdentifier         :             category: Android
+18:44:29 INFO  LibraryIdentifier         :              version: 2454
+18:44:29 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+18:44:29 INFO  LibraryIdentifier         :     lib root package: "android.support.design"
+18:44:29 INFO  LibraryIdentifier         :         Partial matching results:
+18:44:29 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.7117321
+18:44:29 INFO  LibraryIdentifier         : 
+18:44:29 INFO  LibraryIdentifier         :                 name: 2453
+18:44:29 INFO  LibraryIdentifier         :             category: Android
+18:44:29 INFO  LibraryIdentifier         :              version: 2453
+18:44:29 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+18:44:29 INFO  LibraryIdentifier         :     lib root package: "android.support.design"
+18:44:29 INFO  LibraryIdentifier         :         Partial matching results:
+18:44:29 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.7117321
+18:44:29 INFO  LibraryIdentifier         : 
+18:44:30 INFO  LibraryIdentifier         :                 name: 11165
+18:44:30 INFO  LibraryIdentifier         :             category: Android
+18:44:30 INFO  LibraryIdentifier         :              version: 11165
+18:44:30 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+18:44:30 INFO  LibraryIdentifier         :     lib root package: "io.sentry.android.navigation"
+18:44:30 INFO  LibraryIdentifier         :         Partial matching results:
+18:44:30 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.8333333
+18:44:30 INFO  LibraryIdentifier         : 
+18:44:30 INFO  LibraryIdentifier         :                 name: 2590
+18:44:30 INFO  LibraryIdentifier         :             category: Android
+18:44:30 INFO  LibraryIdentifier         :              version: 2590
+18:44:30 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+18:44:30 INFO  LibraryIdentifier         :     lib root package: "android.support.v14.preference"
+18:44:30 INFO  LibraryIdentifier         :         Partial matching results:
+18:44:30 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.75
+18:44:30 INFO  LibraryIdentifier         : 
+18:44:30 INFO  LibraryIdentifier         :                 name: 2589
+18:44:30 INFO  LibraryIdentifier         :             category: Android
+18:44:30 INFO  LibraryIdentifier         :              version: 2589
+18:44:30 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+18:44:30 INFO  LibraryIdentifier         :     lib root package: "android.support.v14.preference"
+18:44:30 INFO  LibraryIdentifier         :         Partial matching results:
+18:44:30 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.75
+18:44:30 INFO  LibraryIdentifier         : 
+18:44:30 INFO  LibraryIdentifier         :                 name: 2588
+18:44:30 INFO  LibraryIdentifier         :             category: Android
+18:44:30 INFO  LibraryIdentifier         :              version: 2588
+18:44:30 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+18:44:30 INFO  LibraryIdentifier         :     lib root package: "android.support.v14.preference"
+18:44:30 INFO  LibraryIdentifier         :         Partial matching results:
+18:44:30 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.75
+18:44:30 INFO  LibraryIdentifier         : 
+18:44:30 INFO  LibraryIdentifier         :                 name: 2587
+18:44:30 INFO  LibraryIdentifier         :             category: Android
+18:44:30 INFO  LibraryIdentifier         :              version: 2587
+18:44:30 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+18:44:30 INFO  LibraryIdentifier         :     lib root package: "android.support.v14.preference"
+18:44:30 INFO  LibraryIdentifier         :         Partial matching results:
+18:44:30 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.75
+18:44:30 INFO  LibraryIdentifier         : 
+18:44:30 INFO  LibraryIdentifier         :                 name: 2586
+18:44:30 INFO  LibraryIdentifier         :             category: Android
+18:44:30 INFO  LibraryIdentifier         :              version: 2586
+18:44:30 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+18:44:30 INFO  LibraryIdentifier         :     lib root package: "android.support.v14.preference"
+18:44:30 INFO  LibraryIdentifier         :         Partial matching results:
+18:44:30 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.75
+18:44:30 INFO  LibraryIdentifier         : 
+18:44:30 INFO  LibraryIdentifier         :                 name: 2585
+18:44:30 INFO  LibraryIdentifier         :             category: Android
+18:44:30 INFO  LibraryIdentifier         :              version: 2585
+18:44:30 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+18:44:30 INFO  LibraryIdentifier         :     lib root package: "android.support.v14.preference"
+18:44:30 INFO  LibraryIdentifier         :         Partial matching results:
+18:44:30 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.75
+18:44:30 INFO  LibraryIdentifier         : 
+18:44:30 INFO  LibraryIdentifier         :                 name: 8767
+18:44:30 INFO  LibraryIdentifier         :             category: Android
+18:44:30 INFO  LibraryIdentifier         :              version: 8767
+18:44:30 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+18:44:30 INFO  LibraryIdentifier         :     lib root package: "net.sf.junidecode"
+18:44:30 INFO  LibraryIdentifier         :         Partial matching results:
+18:44:30 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.989011
+18:44:30 INFO  LibraryIdentifier         : 
+18:44:30 INFO  LibraryIdentifier         :                 name: 2603
+18:44:30 INFO  LibraryIdentifier         :             category: Android
+18:44:30 INFO  LibraryIdentifier         :              version: 2603
+18:44:30 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+18:44:30 INFO  LibraryIdentifier         :     lib root package: "android.support.v7"
+18:44:30 INFO  LibraryIdentifier         :         Partial matching results:
+18:44:30 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.93333334
+18:44:30 INFO  LibraryIdentifier         : 
+18:44:30 INFO  LibraryIdentifier         :                 name: 2602
+18:44:30 INFO  LibraryIdentifier         :             category: Android
+18:44:30 INFO  LibraryIdentifier         :              version: 2602
+18:44:30 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+18:44:30 INFO  LibraryIdentifier         :     lib root package: "android.support.v7"
+18:44:30 INFO  LibraryIdentifier         :         Partial matching results:
+18:44:30 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.8604651
+18:44:30 INFO  LibraryIdentifier         : 
+18:44:30 INFO  LibraryIdentifier         :                 name: 2601
+18:44:30 INFO  LibraryIdentifier         :             category: Android
+18:44:30 INFO  LibraryIdentifier         :              version: 2601
+18:44:30 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+18:44:30 INFO  LibraryIdentifier         :     lib root package: "android.support.v7"
+18:44:30 INFO  LibraryIdentifier         :         Partial matching results:
+18:44:30 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.8604651
+18:44:30 INFO  LibraryIdentifier         : 
+18:44:30 INFO  LibraryIdentifier         :                 name: 2600
+18:44:30 INFO  LibraryIdentifier         :             category: Android
+18:44:30 INFO  LibraryIdentifier         :              version: 2600
+18:44:30 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+18:44:30 INFO  LibraryIdentifier         :     lib root package: "android.support.v7"
+18:44:30 INFO  LibraryIdentifier         :         Partial matching results:
+18:44:30 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.8604651
+18:44:30 INFO  LibraryIdentifier         : 
+18:44:30 INFO  LibraryIdentifier         :                 name: 2607
+18:44:30 INFO  LibraryIdentifier         :             category: Android
+18:44:30 INFO  LibraryIdentifier         :              version: 2607
+18:44:30 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+18:44:30 INFO  LibraryIdentifier         :     lib root package: "android.support.v7"
+18:44:30 INFO  LibraryIdentifier         :         Partial matching results:
+18:44:30 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.9880953
+18:44:30 INFO  LibraryIdentifier         : 
+18:44:30 INFO  LibraryIdentifier         :                 name: 2606
+18:44:30 INFO  LibraryIdentifier         :             category: Android
+18:44:30 INFO  LibraryIdentifier         :              version: 2606
+18:44:30 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+18:44:30 INFO  LibraryIdentifier         :     lib root package: "android.support.v7"
+18:44:30 INFO  LibraryIdentifier         :         Partial matching results:
+18:44:30 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.9880953
+18:44:30 INFO  LibraryIdentifier         : 
+18:44:30 INFO  LibraryIdentifier         :                 name: 2605
+18:44:30 INFO  LibraryIdentifier         :             category: Android
+18:44:30 INFO  LibraryIdentifier         :              version: 2605
+18:44:30 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+18:44:30 INFO  LibraryIdentifier         :     lib root package: "android.support.v7"
+18:44:30 INFO  LibraryIdentifier         :         Partial matching results:
+18:44:30 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.9880953
+18:44:30 INFO  LibraryIdentifier         : 
+18:44:30 INFO  LibraryIdentifier         :                 name: 2604
+18:44:30 INFO  LibraryIdentifier         :             category: Android
+18:44:30 INFO  LibraryIdentifier         :              version: 2604
+18:44:30 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+18:44:30 INFO  LibraryIdentifier         :     lib root package: "android.support.v7"
+18:44:30 INFO  LibraryIdentifier         :         Partial matching results:
+18:44:30 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.93333334
+18:44:30 INFO  LibraryIdentifier         : 
+18:44:30 INFO  LibraryIdentifier         :                 name: 2614
+18:44:30 INFO  LibraryIdentifier         :             category: Android
+18:44:30 INFO  LibraryIdentifier         :              version: 2614
+18:44:30 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+18:44:30 INFO  LibraryIdentifier         :     lib root package: "android.support.v7"
+18:44:30 INFO  LibraryIdentifier         :         Partial matching results:
+18:44:30 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.9747475
+18:44:30 INFO  LibraryIdentifier         : 
+18:44:30 INFO  LibraryIdentifier         :                 name: 2613
+18:44:30 INFO  LibraryIdentifier         :             category: Android
+18:44:30 INFO  LibraryIdentifier         :              version: 2613
+18:44:30 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+18:44:30 INFO  LibraryIdentifier         :     lib root package: "android.support.v7"
+18:44:30 INFO  LibraryIdentifier         :         Partial matching results:
+18:44:30 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.9747475
+18:44:30 INFO  LibraryIdentifier         : 
+18:44:30 INFO  LibraryIdentifier         :                 name: 2612
+18:44:30 INFO  LibraryIdentifier         :             category: Android
+18:44:30 INFO  LibraryIdentifier         :              version: 2612
+18:44:30 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+18:44:30 INFO  LibraryIdentifier         :     lib root package: "android.support.v7"
+18:44:30 INFO  LibraryIdentifier         :         Partial matching results:
+18:44:30 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.9747475
+18:44:30 INFO  LibraryIdentifier         : 
+18:44:30 INFO  LibraryIdentifier         :                 name: 2617
+18:44:30 INFO  LibraryIdentifier         :             category: Android
+18:44:30 INFO  LibraryIdentifier         :              version: 2617
+18:44:30 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+18:44:30 INFO  LibraryIdentifier         :     lib root package: "android.support.v7"
+18:44:30 INFO  LibraryIdentifier         :         Partial matching results:
+18:44:30 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.9747475
+18:44:30 INFO  LibraryIdentifier         : 
+18:44:30 INFO  LibraryIdentifier         :                 name: 2616
+18:44:30 INFO  LibraryIdentifier         :             category: Android
+18:44:30 INFO  LibraryIdentifier         :              version: 2616
+18:44:30 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+18:44:30 INFO  LibraryIdentifier         :     lib root package: "android.support.v7"
+18:44:30 INFO  LibraryIdentifier         :         Partial matching results:
+18:44:30 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.9747475
+18:44:30 INFO  LibraryIdentifier         : 
+18:44:30 INFO  LibraryIdentifier         :                 name: 2615
+18:44:30 INFO  LibraryIdentifier         :             category: Android
+18:44:30 INFO  LibraryIdentifier         :              version: 2615
+18:44:30 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+18:44:30 INFO  LibraryIdentifier         :     lib root package: "android.support.v7"
+18:44:30 INFO  LibraryIdentifier         :         Partial matching results:
+18:44:30 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.9747475
+18:44:30 INFO  LibraryIdentifier         : 
+18:44:30 INFO  LibraryIdentifier         :                 name: 2636
+18:44:30 INFO  LibraryIdentifier         :             category: Android
+18:44:30 INFO  LibraryIdentifier         :              version: 2636
+18:44:30 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+18:44:30 INFO  LibraryIdentifier         :     lib root package: "android.support.v7"
+18:44:30 INFO  LibraryIdentifier         :         Partial matching results:
+18:44:30 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.9358696
+18:44:30 INFO  LibraryIdentifier         : 
+18:44:30 INFO  LibraryIdentifier         :                 name: 2635
+18:44:30 INFO  LibraryIdentifier         :             category: Android
+18:44:30 INFO  LibraryIdentifier         :              version: 2635
+18:44:30 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+18:44:30 INFO  LibraryIdentifier         :     lib root package: "android.support.v7"
+18:44:30 INFO  LibraryIdentifier         :         Partial matching results:
+18:44:30 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.90912473
+18:44:30 INFO  LibraryIdentifier         : 
+18:44:30 INFO  LibraryIdentifier         :                 name: 2634
+18:44:30 INFO  LibraryIdentifier         :             category: Android
+18:44:30 INFO  LibraryIdentifier         :              version: 2634
+18:44:30 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+18:44:30 INFO  LibraryIdentifier         :     lib root package: "android.support.v7"
+18:44:30 INFO  LibraryIdentifier         :         Partial matching results:
+18:44:30 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.90912473
+18:44:30 INFO  LibraryIdentifier         : 
+18:44:30 INFO  LibraryIdentifier         :                 name: 2633
+18:44:30 INFO  LibraryIdentifier         :             category: Android
+18:44:30 INFO  LibraryIdentifier         :              version: 2633
+18:44:30 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+18:44:30 INFO  LibraryIdentifier         :     lib root package: "android.support.v7"
+18:44:30 INFO  LibraryIdentifier         :         Partial matching results:
+18:44:30 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.89000297
+18:44:30 INFO  LibraryIdentifier         : 
+18:44:30 INFO  LibraryIdentifier         :                 name: 2632
+18:44:30 INFO  LibraryIdentifier         :             category: Android
+18:44:30 INFO  LibraryIdentifier         :              version: 2632
+18:44:30 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+18:44:30 INFO  LibraryIdentifier         :     lib root package: "android.support.v7"
+18:44:30 INFO  LibraryIdentifier         :         Partial matching results:
+18:44:30 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.89000297
+18:44:30 INFO  LibraryIdentifier         : 
+18:44:30 INFO  LibraryIdentifier         :                 name: 2631
+18:44:30 INFO  LibraryIdentifier         :             category: Android
+18:44:30 INFO  LibraryIdentifier         :              version: 2631
+18:44:30 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+18:44:30 INFO  LibraryIdentifier         :     lib root package: "android.support.v7"
+18:44:30 INFO  LibraryIdentifier         :         Partial matching results:
+18:44:30 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.8000605
+18:44:30 INFO  LibraryIdentifier         : 
+18:44:30 INFO  LibraryIdentifier         :                 name: 2630
+18:44:30 INFO  LibraryIdentifier         :             category: Android
+18:44:30 INFO  LibraryIdentifier         :              version: 2630
+18:44:30 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+18:44:30 INFO  LibraryIdentifier         :     lib root package: "android.support.v7"
+18:44:30 INFO  LibraryIdentifier         :         Partial matching results:
+18:44:30 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.71098
+18:44:30 INFO  LibraryIdentifier         : 
+18:44:30 INFO  LibraryIdentifier         :                 name: 2639
+18:44:30 INFO  LibraryIdentifier         :             category: Android
+18:44:30 INFO  LibraryIdentifier         :              version: 2639
+18:44:30 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+18:44:30 INFO  LibraryIdentifier         :     lib root package: "android.support.v7"
+18:44:30 INFO  LibraryIdentifier         :         Partial matching results:
+18:44:30 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.9358696
+18:44:30 INFO  LibraryIdentifier         : 
+18:44:30 INFO  LibraryIdentifier         :                 name: 2638
+18:44:30 INFO  LibraryIdentifier         :             category: Android
+18:44:30 INFO  LibraryIdentifier         :              version: 2638
+18:44:30 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+18:44:30 INFO  LibraryIdentifier         :     lib root package: "android.support.v7"
+18:44:30 INFO  LibraryIdentifier         :         Partial matching results:
+18:44:30 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.9358696
+18:44:30 INFO  LibraryIdentifier         : 
+18:44:30 INFO  LibraryIdentifier         :                 name: 2637
+18:44:30 INFO  LibraryIdentifier         :             category: Android
+18:44:30 INFO  LibraryIdentifier         :              version: 2637
+18:44:30 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+18:44:30 INFO  LibraryIdentifier         :     lib root package: "android.support.v7"
+18:44:30 INFO  LibraryIdentifier         :         Partial matching results:
+18:44:30 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.9358696
+18:44:30 INFO  LibraryIdentifier         : 
+18:44:30 INFO  LibraryIdentifier         :                 name: 2647
+18:44:30 INFO  LibraryIdentifier         :             category: Android
+18:44:30 INFO  LibraryIdentifier         :              version: 2647
+18:44:30 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+18:44:30 INFO  LibraryIdentifier         :     lib root package: "android.support.v7"
+18:44:30 INFO  LibraryIdentifier         :         Partial matching results:
+18:44:30 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.9904762
+18:44:30 INFO  LibraryIdentifier         : 
+18:44:30 INFO  LibraryIdentifier         :                 name: 2646
+18:44:30 INFO  LibraryIdentifier         :             category: Android
+18:44:30 INFO  LibraryIdentifier         :              version: 2646
+18:44:30 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+18:44:30 INFO  LibraryIdentifier         :     lib root package: "android.support.v7"
+18:44:30 INFO  LibraryIdentifier         :         Partial matching results:
+18:44:30 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.96938777
+18:44:30 INFO  LibraryIdentifier         : 
+18:44:30 INFO  LibraryIdentifier         :                 name: 2645
+18:44:30 INFO  LibraryIdentifier         :             category: Android
+18:44:30 INFO  LibraryIdentifier         :              version: 2645
+18:44:30 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+18:44:30 INFO  LibraryIdentifier         :     lib root package: "android.support.v7"
+18:44:30 INFO  LibraryIdentifier         :         Partial matching results:
+18:44:30 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.96938777
+18:44:30 INFO  LibraryIdentifier         : 
+18:44:30 INFO  LibraryIdentifier         :                 name: 2644
+18:44:30 INFO  LibraryIdentifier         :             category: Android
+18:44:30 INFO  LibraryIdentifier         :              version: 2644
+18:44:30 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+18:44:30 INFO  LibraryIdentifier         :     lib root package: "android.support.v7"
+18:44:30 INFO  LibraryIdentifier         :         Partial matching results:
+18:44:30 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.9661458
+18:44:30 INFO  LibraryIdentifier         : 
+18:44:30 INFO  LibraryIdentifier         :                 name: 2643
+18:44:30 INFO  LibraryIdentifier         :             category: Android
+18:44:30 INFO  LibraryIdentifier         :              version: 2643
+18:44:30 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+18:44:30 INFO  LibraryIdentifier         :     lib root package: "android.support.v7"
+18:44:30 INFO  LibraryIdentifier         :         Partial matching results:
+18:44:30 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.9635417
+18:44:30 INFO  LibraryIdentifier         : 
+18:44:30 INFO  LibraryIdentifier         :                 name: 2642
+18:44:30 INFO  LibraryIdentifier         :             category: Android
+18:44:30 INFO  LibraryIdentifier         :              version: 2642
+18:44:30 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+18:44:30 INFO  LibraryIdentifier         :     lib root package: "android.support.v7"
+18:44:30 INFO  LibraryIdentifier         :         Partial matching results:
+18:44:30 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.94673914
+18:44:30 INFO  LibraryIdentifier         : 
+18:44:30 INFO  LibraryIdentifier         :                 name: 2641
+18:44:30 INFO  LibraryIdentifier         :             category: Android
+18:44:30 INFO  LibraryIdentifier         :              version: 2641
+18:44:30 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+18:44:30 INFO  LibraryIdentifier         :     lib root package: "android.support.v7"
+18:44:30 INFO  LibraryIdentifier         :         Partial matching results:
+18:44:30 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.94673914
+18:44:30 INFO  LibraryIdentifier         : 
+18:44:30 INFO  LibraryIdentifier         :                 name: 2640
+18:44:30 INFO  LibraryIdentifier         :             category: Android
+18:44:30 INFO  LibraryIdentifier         :              version: 2640
+18:44:30 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+18:44:30 INFO  LibraryIdentifier         :     lib root package: "android.support.v7"
+18:44:30 INFO  LibraryIdentifier         :         Partial matching results:
+18:44:30 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.9358696
+18:44:30 INFO  LibraryIdentifier         : 
+18:44:30 INFO  LibraryIdentifier         :                 name: 2649
+18:44:30 INFO  LibraryIdentifier         :             category: Android
+18:44:30 INFO  LibraryIdentifier         :              version: 2649
+18:44:30 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+18:44:30 INFO  LibraryIdentifier         :     lib root package: "android.support.v7"
+18:44:30 INFO  LibraryIdentifier         :         Partial matching results:
+18:44:30 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.9904762
+18:44:30 INFO  LibraryIdentifier         : 
+18:44:30 INFO  LibraryIdentifier         :                 name: 2648
+18:44:30 INFO  LibraryIdentifier         :             category: Android
+18:44:30 INFO  LibraryIdentifier         :              version: 2648
+18:44:30 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+18:44:30 INFO  LibraryIdentifier         :     lib root package: "android.support.v7"
+18:44:30 INFO  LibraryIdentifier         :         Partial matching results:
+18:44:30 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.9904762
+18:44:30 INFO  LibraryIdentifier         : 
+18:44:30 INFO  LibraryIdentifier         :                 name: 2660
+18:44:30 INFO  LibraryIdentifier         :             category: Android
+18:44:30 INFO  LibraryIdentifier         :              version: 2660
+18:44:30 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+18:44:30 INFO  LibraryIdentifier         :     lib root package: "android.support.v7"
+18:44:30 INFO  LibraryIdentifier         :         Partial matching results:
+18:44:30 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.89766085
+18:44:30 INFO  LibraryIdentifier         : 
+18:44:30 INFO  LibraryIdentifier         :                 name: 2658
+18:44:30 INFO  LibraryIdentifier         :             category: Android
+18:44:30 INFO  LibraryIdentifier         :              version: 2658
+18:44:30 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+18:44:30 INFO  LibraryIdentifier         :     lib root package: "android.support.v7"
+18:44:30 INFO  LibraryIdentifier         :         Partial matching results:
+18:44:30 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.89766085
+18:44:30 INFO  LibraryIdentifier         : 
+18:44:30 INFO  LibraryIdentifier         :                 name: 2657
+18:44:30 INFO  LibraryIdentifier         :             category: Android
+18:44:30 INFO  LibraryIdentifier         :              version: 2657
+18:44:30 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+18:44:30 INFO  LibraryIdentifier         :     lib root package: "android.support.v7"
+18:44:30 INFO  LibraryIdentifier         :         Partial matching results:
+18:44:30 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.9254386
+18:44:30 INFO  LibraryIdentifier         : 
+18:44:30 INFO  LibraryIdentifier         :                 name: 2656
+18:44:30 INFO  LibraryIdentifier         :             category: Android
+18:44:30 INFO  LibraryIdentifier         :              version: 2656
+18:44:30 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+18:44:30 INFO  LibraryIdentifier         :     lib root package: "android.support.v7"
+18:44:30 INFO  LibraryIdentifier         :         Partial matching results:
+18:44:30 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.9254386
+18:44:30 INFO  LibraryIdentifier         : 
+18:44:30 INFO  LibraryIdentifier         :                 name: 2655
+18:44:30 INFO  LibraryIdentifier         :             category: Android
+18:44:30 INFO  LibraryIdentifier         :              version: 2655
+18:44:30 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+18:44:30 INFO  LibraryIdentifier         :     lib root package: "android.support.v7"
+18:44:30 INFO  LibraryIdentifier         :         Partial matching results:
+18:44:30 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.9254386
+18:44:30 INFO  LibraryIdentifier         : 
+18:44:30 INFO  LibraryIdentifier         :                 name: 2654
+18:44:30 INFO  LibraryIdentifier         :             category: Android
+18:44:30 INFO  LibraryIdentifier         :              version: 2654
+18:44:30 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+18:44:30 INFO  LibraryIdentifier         :     lib root package: "android.support.v7"
+18:44:30 INFO  LibraryIdentifier         :         Partial matching results:
+18:44:30 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.9254386
+18:44:30 INFO  LibraryIdentifier         : 
+18:44:30 INFO  LibraryIdentifier         :                 name: 2653
+18:44:30 INFO  LibraryIdentifier         :             category: Android
+18:44:30 INFO  LibraryIdentifier         :              version: 2653
+18:44:30 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+18:44:30 INFO  LibraryIdentifier         :     lib root package: "android.support.v7"
+18:44:30 INFO  LibraryIdentifier         :         Partial matching results:
+18:44:30 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.92763156
+18:44:30 INFO  LibraryIdentifier         : 
+18:44:30 INFO  LibraryIdentifier         :                 name: 2652
+18:44:30 INFO  LibraryIdentifier         :             category: Android
+18:44:30 INFO  LibraryIdentifier         :              version: 2652
+18:44:30 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+18:44:30 INFO  LibraryIdentifier         :     lib root package: "android.support.v7"
+18:44:30 INFO  LibraryIdentifier         :         Partial matching results:
+18:44:30 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.99545455
+18:44:30 INFO  LibraryIdentifier         : 
+18:44:30 INFO  LibraryIdentifier         :                 name: 2659
+18:44:30 INFO  LibraryIdentifier         :             category: Android
+18:44:30 INFO  LibraryIdentifier         :              version: 2659
+18:44:30 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+18:44:30 INFO  LibraryIdentifier         :     lib root package: "android.support.v7"
+18:44:30 INFO  LibraryIdentifier         :         Partial matching results:
+18:44:30 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.89766085
+18:44:30 INFO  LibraryIdentifier         : 
+18:44:30 INFO  LibraryIdentifier         :                 name: 12943
+18:44:30 INFO  LibraryIdentifier         :             category: Android
+18:44:30 INFO  LibraryIdentifier         :              version: 12943
+18:44:30 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+18:44:30 INFO  LibraryIdentifier         :     lib root package: "org.kodein.di.generic"
+18:44:30 INFO  LibraryIdentifier         :         Partial matching results:
+18:44:30 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.83113456
+18:44:30 INFO  LibraryIdentifier         : 
+18:44:30 INFO  LibraryIdentifier         :                 name: 6682
+18:44:30 INFO  LibraryIdentifier         :             category: Android
+18:44:30 INFO  LibraryIdentifier         :              version: 6682
+18:44:30 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+18:44:30 INFO  LibraryIdentifier         :     lib root package: "com.google.firebase.analytics"
+18:44:30 INFO  LibraryIdentifier         :         Partial matching results:
+18:44:30 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.8
+18:44:30 INFO  LibraryIdentifier         : 
+18:44:30 INFO  LibraryIdentifier         :                 name: 5427
+18:44:30 INFO  LibraryIdentifier         :             category: Android
+18:44:30 INFO  LibraryIdentifier         :              version: 5427
+18:44:30 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+18:44:30 INFO  LibraryIdentifier         :     lib root package: "com.ray3k.tenpatch"
+18:44:30 INFO  LibraryIdentifier         :         Partial matching results:
+18:44:30 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.75
+18:44:30 INFO  LibraryIdentifier         : 
+18:44:30 INFO  LibraryIdentifier         :                 name: 4112
+18:44:30 INFO  LibraryIdentifier         :             category: Android
+18:44:30 INFO  LibraryIdentifier         :              version: 4112
+18:44:30 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+18:44:30 INFO  LibraryIdentifier         :     lib root package: "org.billthefarmer.mididriver"
+18:44:30 INFO  LibraryIdentifier         :         Partial matching results:
+18:44:30 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.8
+18:44:30 INFO  LibraryIdentifier         : 
+18:44:30 INFO  LibraryIdentifier         :                 name: 4113
+18:44:30 INFO  LibraryIdentifier         :             category: Android
+18:44:30 INFO  LibraryIdentifier         :              version: 4113
+18:44:30 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+18:44:30 INFO  LibraryIdentifier         :     lib root package: "org.billthefarmer.mididriver"
+18:44:30 INFO  LibraryIdentifier         :         Partial matching results:
+18:44:30 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.8
+18:44:30 INFO  LibraryIdentifier         : 
+18:44:31 INFO  LibraryIdentifier         :                 name: 4249
+18:44:31 INFO  LibraryIdentifier         :             category: Android
+18:44:31 INFO  LibraryIdentifier         :              version: 4249
+18:44:31 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+18:44:31 INFO  LibraryIdentifier         :     lib root package: "fr.castorflex.android.verticalviewpager"
+18:44:31 INFO  LibraryIdentifier         :         Partial matching results:
+18:44:31 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.8333333
+18:44:31 INFO  LibraryIdentifier         : 
+18:44:31 INFO  LibraryIdentifier         :                 name: 4554
+18:44:31 INFO  LibraryIdentifier         :             category: Android
+18:44:31 INFO  LibraryIdentifier         :              version: 4554
+18:44:31 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+18:44:31 INFO  LibraryIdentifier         :     lib root package: "com.crazylegend.glide"
+18:44:31 INFO  LibraryIdentifier         :         Partial matching results:
+18:44:31 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.75
+18:44:31 INFO  LibraryIdentifier         : 
+18:44:31 INFO  LibraryIdentifier         :                 name: 9706
+18:44:31 INFO  LibraryIdentifier         :             category: Android
+18:44:31 INFO  LibraryIdentifier         :              version: 9706
+18:44:31 INFO  LibraryIdentifier         :         release-date: 21.05.2017
+18:44:31 INFO  LibraryIdentifier         :     lib root package: "com.tasomaniac.android.widget"
+18:44:31 INFO  LibraryIdentifier         :         Partial matching results:
+18:44:31 INFO  LibraryIdentifier         :              - config: Hashing.md5() | Flags: no-flag | Keep: PN | Prune: MSIG   score: 0.75
+18:44:31 INFO  LibraryIdentifier         : 
+18:44:31 INFO  LibraryIdentifier         : 
+18:44:31 INFO  LibraryIdentifier         : Write app stats to JSON (dir: json)
+18:44:31 INFO  LibraryIdentifier         : App processing time: 13 sec, 246 ms

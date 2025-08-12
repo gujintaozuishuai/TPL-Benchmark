@@ -1,0 +1,7 @@
+Exception in thread "main" java.lang.RuntimeException: basic block exception: 3168
+	at cn.fudan.analysis.cfg.CFGAnalysis.linkBlock(CFGAnalysis.java:317)
+	at cn.fudan.analysis.cfg.CFGAnalysis.getBasicBlocks(CFGAnalysis.java:257)
+	at cn.fudan.libpecker.analysis.ClassWeightAnalysis.getClassBBWeight(ClassWeightAnalysis.java:28)
+	at cn.fudan.libpecker.model.LibProfile.create(LibProfile.java:46)
+	at cn.fudan.libpecker.main.ProfileBasedLibPecker.singleMain(ProfileBasedLibPecker.java:195)
+	at cn.fudan.libpecker.main.ProfileBasedLibPecker.main(ProfileBasedLibPecker.java:218)

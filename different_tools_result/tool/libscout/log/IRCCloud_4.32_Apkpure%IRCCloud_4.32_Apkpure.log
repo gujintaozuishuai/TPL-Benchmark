@@ -1,0 +1,33 @@
+16:39:25 INFO  LibraryIdentifier         : Process app: IRCCloud_4.32_Apkpure%IRCCloud_4.32_Apkpure.apk
+16:39:25 INFO  LibraryIdentifier         : = Manifest Parser =
+16:39:25 INFO  LibraryIdentifier         :         Package name: com.irccloud.android
+16:39:25 INFO  LibraryIdentifier         :         Version code: 358
+16:39:25 INFO  LibraryIdentifier         :        minSdkVersion: 22
+16:39:25 INFO  LibraryIdentifier         :     targetSdkVersion: 33
+16:39:25 INFO  LibraryIdentifier         :         SharedUserId:  - none -
+16:39:25 INFO  LibraryIdentifier         :     Library dependencies:  - none -
+16:39:25 INFO  LibraryIdentifier         : 
+16:39:25 INFO  LibraryIdentifier         : Found 12043 unique libraries in 12043 library profiles
+16:39:25 ERROR TplCLI                    : [FATAL EXCEPTION] analysis aborted: invalid LOC header (bad signature)
+16:39:25 ERROR TplCLI                    : java.util.zip.ZipException: invalid LOC header (bad signature)
+	at java.util.zip.ZipFile.read(Native Method)
+	at java.util.zip.ZipFile.access$1400(ZipFile.java:61)
+	at java.util.zip.ZipFile$ZipFileInputStream.read(ZipFile.java:740)
+	at java.util.zip.ZipFile$ZipFileInflaterInputStream.fill(ZipFile.java:440)
+	at java.util.zip.InflaterInputStream.read(InflaterInputStream.java:158)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:286)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:345)
+	at com.google.common.io.ByteStreams.read(ByteStreams.java:898)
+	at com.google.common.io.ByteStreams.readFully(ByteStreams.java:778)
+	at com.google.common.io.ByteStreams.readFully(ByteStreams.java:762)
+	at org.jf.dexlib2.util.DexUtil.verifyDexHeader(DexUtil.java:65)
+	at org.jf.dexlib2.dexbacked.ZipDexContainer.isDex(ZipDexContainer.java:162)
+	at org.jf.dexlib2.dexbacked.ZipDexContainer.getDexEntryNames(ZipDexContainer.java:87)
+	at com.ibm.wala.dalvik.util.AndroidAnalysisScope.setUpAndroidAnalysisScope(AndroidAnalysisScope.java:87)
+	at com.ibm.wala.dalvik.util.AndroidAnalysisScope.setUpAndroidAnalysisScope(AndroidAnalysisScope.java:47)
+	at de.infsec.tpl.modules.libmatch.LibraryIdentifier.createClassHierarchy(LibraryIdentifier.java:110)
+	at de.infsec.tpl.modules.libmatch.LibraryIdentifier.identifyLibraries(LibraryIdentifier.java:143)
+	at de.infsec.tpl.modules.libmatch.LibraryIdentifier.run(LibraryIdentifier.java:84)
+	at de.infsec.tpl.TplCLI.main(TplCLI.java:141)
+

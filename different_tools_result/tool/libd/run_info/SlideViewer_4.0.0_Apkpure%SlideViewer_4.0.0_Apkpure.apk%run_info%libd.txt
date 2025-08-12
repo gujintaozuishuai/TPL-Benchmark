@@ -1,0 +1,21 @@
+Dump information /home/gjt/Desktop/over_20_tpl_dataset_without_source/SlideViewer_4.0.0_Apkpure/SlideViewer_4.0.0_Apkpure.apk in ./result_libd/SlideViewer_4.0.0_Apkpure%SlideViewer_4.0.0_Apkpure.apk%decompilation
+Traceback (most recent call last):
+  File "libd_v_0.0.1.py", line 857, in <module>
+    main(apkname,outputpath,lib_info)
+  File "libd_v_0.0.1.py", line 809, in main
+    total_lib_dicts, clazz_info = funclibext(apkname, outputpath)
+  File "libd_v_0.0.1.py", line 443, in funclibext
+    apk_vm_serial = decompile(apkname, outputpath)
+  File "libd_v_0.0.1.py", line 50, in decompile
+    a = Androguard([apkname])
+  File "build/bdist.linux-x86_64/egg/androguard/core/androgen.py", line 99, in __init__
+  File "build/bdist.linux-x86_64/egg/androguard/core/androgen.py", line 113, in _analyze
+  File "build/bdist.linux-x86_64/egg/androguard/core/bytecodes/apk.py", line 207, in __init__
+  File "build/bdist.linux-x86_64/egg/androguard/core/bytecodes/apk.py", line 276, in get_files_types
+  File "/home/gjt/anaconda3/envs/libd/lib/python2.7/zipfile.py", line 958, in read
+    return self.open(name, "r", pwd).read()
+  File "/home/gjt/anaconda3/envs/libd/lib/python2.7/zipfile.py", line 653, in read
+    data = self.read1(n)
+  File "/home/gjt/anaconda3/envs/libd/lib/python2.7/zipfile.py", line 707, in read1
+    max(n - len_readbuffer, self.MIN_READ_SIZE)
+zlib.error: Error -3 while decompressing: invalid block type

@@ -1,0 +1,12 @@
+Exception in thread "main" java.lang.OutOfMemoryError: GC overhead limit exceeded
+	at java.util.ArrayList.subList(ArrayList.java:1007)
+	at java.lang.String.split(String.java:2378)
+	at java.lang.String.split(String.java:2422)
+	at cn.fudan.common.util.PackageNameUtil.packageNameLength(PackageNameUtil.java:24)
+	at cn.fudan.common.util.PackageNameUtil.packageNameDistance(PackageNameUtil.java:98)
+	at cn.fudan.libpecker.core.LibApkMapper.makePair(LibApkMapper.java:96)
+	at cn.fudan.libpecker.core.PackageMapEnumerator.enumerateAllPartitions(PackageMapEnumerator.java:83)
+	at cn.fudan.libpecker.core.PackageMapEnumerator.exhaustiveEnumerate(PackageMapEnumerator.java:48)
+	at cn.fudan.libpecker.main.ProfileBasedLibPecker.calculateMaxProbability(ProfileBasedLibPecker.java:139)
+	at cn.fudan.libpecker.main.ProfileBasedLibPecker.singleMain(ProfileBasedLibPecker.java:200)
+	at cn.fudan.libpecker.main.ProfileBasedLibPecker.main(ProfileBasedLibPecker.java:218)
